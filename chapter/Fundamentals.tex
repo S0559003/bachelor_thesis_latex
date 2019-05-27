@@ -91,7 +91,8 @@ Diese System können zum Beispiel
 
 \section{Usability}
 
-Einen besonderen Fokus soll diese Arbeit auf die Usability legen. Daher ist es wichtig zu verstehen was unter diesem Begriff zu verstehen ist und einen Überblick über einige Aspekte zu gewinnen. 
+Einen besonderen Fokus soll diese Arbeit auf die Usability legen. Daher wird in folgendem Abschnitt die Begriffsdefinition von Usablity näher beleuchtet, es werden einige 
+gängige Methoden für die nutzerzentrierte Gestaltung und Entwicklung von Systemen vorgestellt und abschließend Methden für Usability Tests und Evaluirung erleutert. 
 
 \subsection{Was ist Usability?}
 
@@ -104,12 +105,12 @@ In der Normreihe ISO 9241 welches als ein internationaler Standard,  Richtlinien
 [MichaelRichterMarkusFlückiger16; MaryBethRosson02] Usablity wird  oft als ein Qualitätskritärium für die Gestaltung der Benutzerschnittstelle verstanden. Dies ist jeodoch nicht ganz richtig.
 
 %Die Benutzbarkeit eines Systems muss im Kontext seiner Verwendung beurteilt werden.[Michael Richter, Markus Flückiger]
-Dass die Usability eines Systems nach dessen Nuzungskontext zu beurteilen ist verdeutlichen Michael Richter und Markus Flückiger an einem konkreten Beispiel.
-Die Erfassung von Kurznachrichten (SMS) mit dem Aufkommen von Mobiltelefonen.  Bevor Smartphones mit Touchdisplays verbreitet waren, hatten Mobiltelefone oft rein 
-numerische Tastaturen. Das Erfassen von Textnachrichten erfolgte über die Nutzung der numerischen Tasten. Indem zum Beispiel in kurzen Zeitabständen zwei mal in kurzen  
+Dass die Usability eines Systems nach dessen Nuzungskontext zu beurteilen ist verdeutlichen Michael Richter und Markus Flückiger an einem konkreten Beispiel für das Erfassung 
+von Kurznachrichten (SMS) mit dem Aufkommen von Mobiltelefonen.  Bevor Smartphones mit Touchdisplays verbreitet waren, hatten Mobiltelefone oft rein 
+numerische Tastaturen sodass, das Erfassen von Textnachrichten über die Nutzung der numerischen Tasten erfolgen musste. Indem zum Beispiel in kurzen Zeitabständen zwei mal
 auf die Taste "2" gedrückt wurde, wurde zu Beispiel der Buchstabe ``B`` eingegeben. Diese Eingabemethode wurde oftmals von vielen Nutzern als umständlich empfunden. 
-Jedoch konnte mit dieser Eingabemethode effizient und zufridenstellend die die Aufgabe, eine Kurznachricht zu erfassen erfüllt werden. Zudem war diese Methode einfach 
-zu erlernen und einprägsam. Somit wies diese Methode eine hohe Usablity auf. 
+Jedoch konnte auf diese Weise effizient und zufridenstellend die die Aufgabe, eine Kurznachricht zu erfassen erfüllt werden. Zudem war diese Methode einfach zu erlernen und einprägsam.
+ Somit wies diese Methode eine hohe Usablity auf. 
 
 % Usablity nicht nur User friendly
 [Nielsen94; Rex HartsonPardhaSPyla12] Oft wird Usablity auf die Eigenschaft eines Systems reduziert besonders benutzerfreundlich (en. User- friendly) zu sein. Der Begriff Usabliy umfasst jedoch mehr Aspekte. 
@@ -126,8 +127,8 @@ Spiekermann [vgl. Spiekermann 2016: 285] führt ein gutes Beispiel für ein solc
 praktischer Aspekte wie Ergonomie und trotz der effizienten und effektiven Aufgabenerfüllung ein solches System wenig Akzeptanz von den Nutzern haben kann. Beisielsweise fühlten sich 
 Passagiere unangenehm wenn der Bildshirm auf welchem die nackten Umrisse ihrer Körper zu sehen war so platziert war dass andere Passagiere es auch sehen konnten.  % Füge hier Verweis als Fußnote zu (https://www.wired.com/2013/01/tsa-abandons-nude-scanners/)
 
-Als praktische Kriterien führt er Eigenschafen wie Kosten, Kompatibilität, Zufverlässigkeit sowie Nutzbarkeit auf. Die Eigenschaft Nutzbarkeit teilt er in die Eigenschaften Nützlichkei (en. Utility) und Gebrauchstauglichkeit (en. Usability) auf.
-Unter Utility ist zu verstehen ob die Funktionalitäten eines Systems prinzipiell dazu in der Lage sind, die Aufgabe zu erfüllen wozu sie konzipiert wurden.
+Als praktische Kriterien führt er Eigenschafen wie Kosten, Kompatibilität, Zufverlässigkeit sowie Nutzbarkeit auf. Die Eigenschaft Nutzbarkeit teilt er in die Eigenschaften Nützlichkei (en. Utility) 
+und Gebrauchstauglichkeit (en. Usability) auf. Unter Utility ist zu verstehen ob die Funktionalitäten eines Systems prinzipiell dazu in der Lage sind, die Aufgabe zu erfüllen wozu sie konzipiert wurden.
 
 Die Eigenschaft Usability gliedert er in folgende fünf Teileigenschaften auf: 
 
@@ -164,28 +165,50 @@ ins Leben gerufen.  Der Begriff Usability Engineering steht für die Konzeption 
 Das Ziel von Usability Enginieering ist, messsbare Usability Ziele in den frühen Phasen des Softwareentwicklugsprozesses zu definieren und einen Rahmen zu schaffen diese 
 Ziele im laufe der Entwicklung stätig überprüfen zu können um sicherstellen zu können dass diese Ziele erreicht werden.
 
-Nielsen beschreibt in  [Nielsen94] folgende Usablity Engineering Phasen: 
+Nielsen beschreibt in [Nielsen94] folgende Phasen im Lebenszyklus von Projekten mit Software Engenieering Methoden.
+
+Kenne deine Nutzer:  
+
+Im ersten Schritt werden alle Nutzer identifiziert, die mit dem System in Berührung kommen werden. Als Nutzer sollten in diesem Schritt alle Personen 
+verstanden werden welche mit dem System oder mit Artefakten des Systems in Berührung kommen werden. Dies können Personen beinhalten welche das 
+System installieren, konfigurieren, warten, administrieren oder Endkunden oder Kunden die das System selbst nie sehen werden jedoch Ergenisse von dem System erhalten werden.  
+ 
+In einigen Fällen ist es einfacher potenzielle Nutzer von einem System zu identifizieren und deren Charakteristiken zu studieren. Zum Beispiel für ein Produkte die in einer bestimmten 
+Abteilung einesbestimmten Unternehmens eingesetzt wereden soll. Schwieriger kann es hingegen für Produkte werden welche von einer breiteren Menge von Nutzern genutzt werden soll.
+
+Es sollten Eigenschaten von Nutzern studiert werden welche für die Nutzen des Systems relevant sein könnten wie zum Bsp. Erfahrung von solchen Systemen und Enderäten, Bildungsstand, Alter. etc.
+Dieser Schritt ist wichtig um die lernfährigkeit von Nutzern besser einschätzen zu können und so Kritärien für die kompleität der Nutzeroberfläche zu bestimmen.
+
+% task analysis
+Neben den Eigenschaften, sollten auch die Zile der Nutzer studiert. Wie bewältigen die  Nutzer mit aktuell Aufgaben um diese Zile zu erreichen. Hierbei sollte beobachtet werden welche Informationen 
+die Nutzer benötigen, welche Ausnahme oder Not Situationen auftreten und wie die Nutzer in diesen Situationen handeln. Es sollte beobachtet werden ob die Nutzer das aktuell verwendete System in irgendweiner 
+weise umgehen (en. Workarounds anwenden). Zudem sollten die Begrifflichkeiten notiert werden welche der Nutzer verwendet im Bezug auf die zu lösende Aufgabe verwendet.  
+Diese können später als eine Quelle für Metapher bei der Gestaltung der Nutzeroberflähe verwendet werden. 
+
+Schließlich sollten Schwachstellen untersicht werden 
+% Schwachstellen des aktuellen problembewältigung
+
+% functional analysis
+
+% evolution of the user
+
+Deiser Schritt ist wichtig um bestimte Charakteristiken von Nutzern zu studieren die relevant für die Gestalung der Komplexität 
 
 
+Analyse bestender Produkte: 
 
-		Kenne deine Nutzer  & Alle zurünftigen Nutzer die mit dem System in Berührung kommen werden. \textbf{ Individual User Characteristics  \textfb{Task Analysis}  \textbf{Functional Analysis} \textbf{The evolution of the User}\\ 
-		\hline 
-		Analyse bestender Produkte & Beschreibung\\
-		\hline 
-		Usablity Ziele setzen & Beschreibung\\
-		\hline 
-		Paralle Gestaltung  & Beschreibung\\
-		\hline 
-		Koordinierte Gestaltung der gesamten Benutzeroberfläche & Beschreibung \\
-		\hline 
-		 Erstellung von Prototypen & Beschreibung \\
-		\hline 
-		Empitisches testen & Beschreibung \\
-		\hline 
-		Interative Gestaltung & Beschreibung \LaTeX \\
-		\hline 
-		 Erhalte Rückmeldung von Nutzern & Beschreibung \\
-		\hline 
+		Usablity Ziele setzen  Beschreibung
+
+		Paralle Gestaltung   Beschreibung
+
+		Koordinierte Gestaltung der gesamten Benutzeroberfläche  Beschreibung 
+
+		 Erstellung von Prototypen  Beschreibung 
+
+		Empitisches testen  Beschreibung 
+
+		Interative Gestaltung  Beschreibung 
+		 Erhalte Rückmeldung von Nutzern  Beschreibung 
 
 
 %User centered design
