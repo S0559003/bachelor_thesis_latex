@@ -23,7 +23,7 @@ Azuma beschreibt folgende Charakteristiken welche AR Systeme aufweisen sollten:
 \begin{enumerate}
 	\item Kombinieren Digitale und Reale Welt.
 	\item Ermöglichen Interaktionen in Echtzeit.
-	\item Informationen müssen sich 3D Raum befinden.
+	\item Informationen müssen sich 3D einen Bezug im 3D Raum haben.
 \end{enumerate}
 
 Diese Characteristiken helfen dabei den Begriff Augmented Reality besser einzugrenzen zu können. [Azuma97 ] Filme wie z. Bsp.  ``Jurassic Park`` in welchen 
@@ -53,14 +53,20 @@ Auch können Annotationen in AR verwendet werden um einzelne Bauelemente an komp
 %Wartung und Instandsetzung
 In der Wartung und Instandsetzung können Augemented Reality Anwendungen dabei helfen Instruktionen an komplexen Maschinen und Anlagen zu visualisieren welche sonst in 
 Form von Text und Bildern vorliegen. So können virtuelle Replikate über die physischen Modelle gelegt, und so Schritt für Schritt Anleitungen direkt am physichen Produkt erstellt werden. 
-Durch Animationen können diese Anleitungen mit zusätzlichen präziser gestaltet werden und zum Beispiel auch Informatinen  über die Richtung geben. 
+Durch Animationen können diese Anleitungen mit präziser gestaltet werden und zum Beispiel auch Informatinen über die Richtung geben. 
 
-Diese System können zum Beispiel    
+Diese Systeme können heute zum Beispiel Unternternehmen dabei helfen besser mit ihren Kunden zu kooparieren. In Kombination mit Internet of Things (IOT) Technologien können Unternehmen heute
+Zustandsbezogen Informationen  
 % Remote Expert systeme 
 %%TODO mach Verweis für Wartung (z. Bsp:https://www.ptc.com/-/media/Files/PDFs/Case-Studies/Howden-vuforia-studio-case-study-Feb-2019.pdf?la=en&hash=6342841E1B6470C1F313295427398606)
 % IOT Sensordaten
 
 %Grundlegende Techniken
+
+Markus Tönnis
+- Optical See-Through
+- See Through Display
+
 
 % Schwachstellen und Probleme von AR
 -  Probleme
@@ -122,7 +128,7 @@ Umständen von einem anderen Nutzer als eher lästig empfunden werden.
 % Eine Teilmenge der Systemazeptanz 
 Nielsen Unterteilt Akzeptanzkriterien für ein Systems in soziale und praktische Kriterien.
 
-Soziale bzw. ethische Akzeptanzkritärien sind solche, welche  die Nutzer von der Nutzung eines Sytems abhalten, selbst wenn praktische Akzeptanzkriterien eventuell sehr gut erfült werden. 
+Soziale bzw. ethische Akzeptanzkriterien sind solche, welche  die Nutzer von der Nutzung eines Sytems abhalten, selbst wenn praktische Akzeptanzkriterien eventuell sehr gut erfült werden. 
 Spiekermann [vgl. Spiekermann 2016: 285] führt ein gutes Beispiel für ein solches Kriterium. Sie beschreibt am Beispiel eines Körperscanners in Flughäfen, dass trotzt  Berücksichtigung vieler 
 praktischer Aspekte wie Ergonomie und trotz der effizienten und effektiven Aufgabenerfüllung ein solches System wenig Akzeptanz von den Nutzern haben kann. Beisielsweise fühlten sich 
 Passagiere unangenehm wenn der Bildshirm auf welchem die nackten Umrisse ihrer Körper zu sehen war so platziert war dass andere Passagiere es auch sehen konnten.  
@@ -155,7 +161,7 @@ Diese Kritärien sind im  ISO Norm  9241-110 als Grunsätze zur Dialoggestalung 
 	\item Lernförderlichkeit
 \end{itemize}
 
-\subsection{Usablity Methoden}
+\subsection{Usablity Engineering}
 
 [MichaelRichterMarkusFlückiger16]  Im laufe der Zeit haben sich verschiedene Fachrichtungen (wie z. Bsp: Human Computer Interaction (HCI), Human Factors, Interaction Design, Usability Engineering, 
 User centered Design (UCD), User Experience (UX) und Design Thinking)  enwickelt welche nutzerorientierte Methoden für die Entwicklung von Technologien und neuen Anwendungen verfolgen. 
@@ -170,47 +176,72 @@ Nielsen beschreibt in [Nielsen94] folgende Phasen im Lebenszyklus von Projekten 
 
 Kenne deine Nutzer:  
 
-Im ersten Schritt werden alle Nutzer identifiziert, die mit dem System in Berührung kommen werden. Als Nutzer sollten in diesem Schritt alle Personen 
-verstanden werden welche mit dem System oder mit Artefakten des Systems in Berührung kommen werden. Dies können Personen beinhalten welche das 
-System installieren, konfigurieren, warten, administrieren oder Endkunden oder Kunden die das System selbst nie sehen werden jedoch Ergenisse von dem System erhalten werden.  
- 
-In einigen Fällen ist es einfacher potenzielle Nutzer von einem System zu identifizieren und deren Charakteristiken zu studieren. Zum Beispiel für ein Produkte die in einer bestimmten 
-Abteilung einesbestimmten Unternehmens eingesetzt wereden soll. Schwieriger kann es hingegen für Produkte werden welche von einer breiteren Menge von Nutzern genutzt werden soll.
-
-Es sollten Eigenschaten von Nutzern studiert werden welche für die Nutzen des Systems relevant sein könnten wie zum Bsp. Erfahrung von solchen Systemen und Enderäten, Bildungsstand, Alter. etc.
-Dieser Schritt ist wichtig um die lernfährigkeit von Nutzern besser einschätzen zu können und so Kritärien für die kompleität der Nutzeroberfläche zu bestimmen.
+In dieser Phase der Usability Engineering werden alle Nutzer identifiziert, die mit dem System in Berührung kommen werden. Als Nutzer sollten in diesem Schritt alle Personen 
+verstanden werden welche mit dem System oder mit Artefakten des Systems in Berührung kommen werden. Dies können Personen beinhalten welche das System installieren, konfigurieren, 
+warten, administrieren oder Endkunden oder Kunden die das System selbst nie sehen werden jedoch Ergenisse von dem System erhalten werden.  In einigen Fällen ist es einfacher potenzielle 
+Nutzer von einem System zu identifizieren und deren Charakteristiken zu studieren. Zum Beispiel für ein Produkte die in einer bestimmten Abteilung einesbestimmten Unternehmens eingesetzt 
+wereden soll. Schwieriger kann es hingegen für Produkte werden welche von einer breiteren Menge von Nutzern genutzt werden soll.Es sollten Eigenschaten von Nutzern studiert werden 
+welche für die Nutzen des Systems relevant sein könnten wie zum Bsp. Erfahrung von solchen Systemen und Enderäten, Bildungsstand, Alter. etc. Dieser Schritt ist wichtig um die lernfährigkeit 
+von Nutzern besser einschätzen zu können und so Kritärien für die kompleität der Nutzeroberfläche zu bestimmen.
 
 % task analysis
-Neben den Eigenschaften, sollten auch die Zile der Nutzer studiert. Wie bewältigen die  Nutzer mit aktuell Aufgaben um diese Zile zu erreichen. Hierbei sollte beobachtet werden welche Informationen 
-die Nutzer benötigen, welche Ausnahme oder Not Situationen auftreten und wie die Nutzer in diesen Situationen handeln. Es sollte beobachtet werden ob die Nutzer das aktuell verwendete System in irgendweiner 
-weise umgehen (en. Workarounds anwenden). Zudem sollten die Begrifflichkeiten notiert werden welche der Nutzer verwendet im Bezug auf die zu lösende Aufgabe verwendet.  
-Diese können später als eine Quelle für Metapher bei der Gestaltung der Nutzeroberflähe verwendet werden. 
+Sobald die Nutzer identifiziert und dessen Eigenschaften und Bedürfnisse analysiert wurden, werden die Ziele und Aufgaben der Nutzer analysiert. 
+Wie bewältigen die  Nutzer  aktuell Aufgaben um ihre Zile zu erreichen. Hierbei sollte beobachtet werden welche Informationen die Nutzer benötigen, welche Ausnahme oder Not Situationen  
+auftreten und wie die Nutzer in diesen Situationen handeln. Es sollte beobachtet werden ob die Nutzer das aktuell verwendete System in irgendweiner  weise umgehen (en. Workarounds anwenden). 
+Zudem sollten die Begrifflichkeiten notiert werden welche der Nutzer verwendet im Bezug auf die zu lösende Aufgabe verwendet.  Diese können später als eine Quelle für Metapher bei der Gestaltung 
+der Nutzeroberflähe verwendet werden. 
 
-Schließlich sollten Schwachstellen untersucht werden. Es sollten 
-% liste mit zielen % liste mit allen informationen die benötigt werden um diese ziele zu erreichen % die Schritte die getan werden müssen und und alle beziehungen zwischen diesen schritten % liste mit allen 
+%Das ist vielleicht zu viel Detai für die Arbeit
+% liste mit zielen % liste mit allen informationen die benötigt werden um diese ziele zu erreichen % die Schritte die getan werden müssen und alle beziehungen zwischen diesen schritten % liste mit allen 
 % alle Artefakte und Berichte welche am Ende vom System erstellt werden müssen. % akzeptanz und qualitätskritärien an die erstellten artifakte %
 
 % functional analysis
+Im nächsten Schritt werden die benötigten Funktionalitäten des neuen Systems analysiert und Möglichkeiten erforscht wie diese mit dem neuen System erzielt werden können. 
+Es ist wichtig dass in diesem Schritt die Mögliche Umsetzung der Funktionalitäten sich nicht ausschlißlich an Lösungen von bereits bestehenden Systemen orientiert sondern 
+bessere geeignete Umsetzungsmöglichkeietn erkundet werden.
 
 % evolution of the user
-
-Deiser Schritt ist wichtig um bestimte Charakteristiken von Nutzern zu studieren die relevant für die Gestalung der Komplexität 
-
+Zuletzt werden in dieser Phase Möglichkeiten erforscht wie sich das Nutzungsverhalten der Nutzer in Zukunft mit der Nutzung des neuen Systems entwickeln könnte. Diser Schritt wird  
+gemacht um das neue System flexibel genug getalten und so mögliche neue zukünftige Anforderungen umsezten zu können.
 
 Analyse bestender Produkte: 
 
-		Usablity Ziele setzen  Beschreibung
+In dieser Phase werden bestehende Produkte analysiert. Diese können für die Konzeption des neuen Systems als Prototopen dienen. Da bestehende Syteme vollständig 
+umgesetzte Funktionalitäteten beinhalten und in deren Entwicklung meistens viel Aufwand investiert wurde. Aus diesem Grund sind Nutzer Tests mit bestehenden Sytemen 
+viel realistischer da die Nutzer können. 
+Diese Systeme können heuristisch evaluiert werden, es können Nutzer Studien an bestehenden Sytemen durchgeführt werden
+oder es kann eine vergleichende Analyse durgeführt werden falls mehrere Systeme zur Verfügung stehen. 
+Auf Basis der in der Phase "Kenne deiner Nutzer" gewonnenen Informationenm, wird in dieser Phase wird analysiert wie gut die  Funktionalitäten und Interaktionstechniken bestehender 
+Systeme die Nutzer bei der Umsetzung ihrer Aufgaben unterstützen. Das Lesen von technischen Produktrezesionen kann in dieser Phase auch hilfreiche Informationen über bestehende 
+Systeme geben. 
 
-		Paralle Gestaltung   Beschreibung
+Usablity Ziele setzen 
 
-		Koordinierte Gestaltung der gesamten Benutzeroberfläche  Beschreibung 
+Beschreibung
 
-		 Erstellung von Prototypen  Beschreibung 
+Paralle Gestaltung   
 
-		Empitisches testen  Beschreibung 
+Beschreibung
 
-		Interative Gestaltung  Beschreibung 
-		 Erhalte Rückmeldung von Nutzern  Beschreibung 
+Koordinierte Gestaltung der gesamten Benutzeroberfläche  
+
+Beschreibung 
+
+Erstellung von Prototypen  
+
+Beschreibung 
+
+Empitisches testen 
+
+ Beschreibung 
+
+Interative Gestaltung  
+
+Beschreibung 
+
+Erhalte Rückmeldung von Nutzern  
+
+Beschreibung 
 
 
 %User centered design
