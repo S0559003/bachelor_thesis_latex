@@ -41,33 +41,36 @@ eingerahmte, real existierende Objekt oder die Kamera selbst sich bewegt, verän
 von virtuellen Objekten in die physische Welt, Hinweise zu geben und Details zu zeigen die er mit seinen Sinnen sonst nicht unmittelbar wahnehmen könnte. Die Informationen die in die physische 
 Welt hinzugefügt werden sollen den Menschen bei der Verrichtung von Aufgaben in der physischen Welt unterstützen.
 
-% Anwendungsfelder von AR
+% Anwendungsfelder von AR % Besonders passend für diese Arbeit sind Annotationen und Warung und Reperatur. Da diese sich besonders mit Interaktionen an Realen Objekten, meist Produkte befassen.
 Azuma fasst in [Azuma97]  Forschungen zu AR in sechs Anwendungsgebiete zusammen. Zur Visualisierung von Medizindaten, in der Wartung 
-und Instandsetzung, Annotationen, für die Wegfindung für Roboter und für die Navigation von Militärflugzeugen. 
-% Besonders passend für diese Arbeit sind Annotationen und Warung und Reperatur. Da diese sich besonders mit Interaktionen an Realen Objekten, meist Produkte befassen.
-
-% Annotatinen
-Beispielsweise können Annotatinen verwendet werden um Informationen über den Inhalt von Regalen einzublenden während ein Nutzer durch ein Bibliothek läuft. % Füge hier vielleicht noch ein Beispiel dazu ein % Füge hier Verweis auf ein Artike als Fußnotel hinzu
+und Instandsetzung, Annotationen, für die Wegfindung für Roboter und für die Navigation von Militärflugzeugen. Beispielsweise können Annotatinen 
+verwendet werden um Informationen über den Inhalt von Regalen einzublenden während ein Nutzer durch ein Bibliothek läuft. % Füge hier vielleicht noch ein Beispiel dazu ein % Füge hier Verweis auf ein Artike als Fußnotel hinzu
 Auch können Annotationen in AR verwendet werden um einzelne Bauelemente an komplexen Bauteiteilen zu identifizieren und Informationen über diese zu geben. 
-
-%Wartung und Instandsetzung
 In der Wartung und Instandsetzung können Augemented Reality Anwendungen dabei helfen Instruktionen an komplexen Maschinen und Anlagen zu visualisieren welche sonst in 
 Form von Text und Bildern vorliegen. So können virtuelle Replikate über die physischen Modelle gelegt, und so Schritt für Schritt Anleitungen direkt am physichen Produkt erstellt werden. 
 Durch Animationen können diese Anleitungen mit präziser gestaltet werden und zum Beispiel auch Informatinen über die Richtung geben. 
 
-Diese Systeme können heute zum Beispiel Unternternehmen dabei helfen besser mit ihren Kunden zu kooparieren. In Kombination mit Internet of Things (IOT) Technologien können Unternehmen heute
-zustandsbezogene Informationen zu Ihren Systemen bei Endkunden abrufen proaktiv Ihre Kunden auf notwendige Wartungen aufmerksam zu machen und Wartungsanleitungen direkt an den Anlagen zu zeigen.
-%%TODO mach Verweis für Wartung (z. Bsp:https://www.ptc.com/-/media/Files/PDFs/Case-Studies/Howden-vuforia-studio-case-study-Feb-2019.pdf?la=en&hash=6342841E1B6470C1F313295427398606)
+Diese Systeme können heute zum Beispiel Unternternehmen dabei helfen besser mit ihren Kunden zu kooparieren. In Kombination mit der Technologie Internet of Things (IOT)  können Unternehmen,
+zustandsbezogene Informationen zu Ihren Systemen bei Endkunden abrufen und proaktiv Ihre Kunden auf notwendige Wartungen aufmerksam zu machen. Wartungsanleitungen können dann direkt 
+an den Analgen angezeigt werden.%TODO mach Verweis für Wartung (z. Bsp:https://www.ptc.com/-/media/Files/PDFs/Case-Studies/Howden-vuforia-studio-case-study-Feb-2019.pdf?la=en&hash=6342841E1B6470C1F313295427398606)
 
 %Grundlegende Techniken
-[Tönnis2010] Für die technische Umsetzung von Augmented Reality gibt es aktuel zwei Techniken. 
-Markus Tönnis
-- Optical See-Through
-- See Through Display
+% file:///C:/Users/alibe/Desktop/papers/MarcusTönnis_einblicke_in_augmented_reality.pdf Seite 32
+[Tönnis2010] Für die Überlagerung der realen Welt mit virtuellen Objekten eignen sich aktuell zwei Display Techniken,  Optical See-Through und Video See-Through. 
+Bei Optical See-Through kann der Nutzer direkt in die reale Welt blicken und computer generierte Bilder werden auf ein halbdurchlässiges Spiegel eingeblendet (dieses wird als Combiner bezeichnet).
+Diese Technik hat den Vorteil dass der Nutzer einen direkten Blick auf die reale Welt hat. Der Nachteil ist jedoch dass die reale Welt nicht zeitgleich mit virtuellen Objekten überlagert werden kann. 
+Dadurch dass die Berechnung für die Positionsbestimmung und das Rendern der virtuellen Objekte Zeit in Anspruch nimmt, werden diese mit einer kleinen Verzögerung angezeigt. Dies kann auch 
+wenn es nur sich nur um einige Milisekunden handelt zu einem so genannten Schwimmefekt führen (en. lag). Mit der See Through Display Technik, wird die reale Welt dem Nutzer als ein Video 
+gezeigt und mit virtuellen Objekten überlagert. Der Vorteil dieser Technik liegt darin, dass die Darstellung der realen Welt um die Zeit verzögert werden kann die benötigt wird um die virtuellen Objekte 
+richtig zu positionieren und rendern. Dadurch werden die Nachteile der Optical-See-Through Technik kompensiert. Dass die reale Welt dem Nutzer verzögert angezeigt wird bringt jedoch den Nachteil 
+dass Positionsänderunen von physischen im realen Welt befindenden Objekten oder die Änderung der Perspektive falls sich der Nutzer selbst bewegt verhzögert angezeigt wird. Zudem wird mit 
+dieser Technik je nach Auflösung der Kamera die reale Welt mit verringerter Qualität angezeigt.
 
+[SchmalstiegHöllerer16 Seite 368] Vor allem bei der Kommunikation mit anderen Personen können diese Nachteile zu Problemen führen. 
+% Vorteil: die Reale Welt kann um die Zeit verzögert dargestellt werden wie das Computersystem für die Positionsbestimmung und das Rendern der virtuellen Objekte benötig. Dadurch werden die Nachteile des Optical-See-Through kompensiert und es kommt zu keinem lag.
 
-% Schwachstellen und Probleme von AR
--  Probleme
+% Nachteile: 
+%Wenn sich der Nutzer oder reale Objekte im Sichtfeld des Nutzers bewegen kommt werden diese verzögert dargestellt. % Je nach Auflösung kann es zu schlechterer Qalität kommen.
 
 \section{Mixed Reality}
 
@@ -157,6 +160,8 @@ Im ISO Norm  9241-110 sind diese Kritärien, als Grunsätze zur Dialoggestalung 
 	\item Lernförderlichkeit
 \end{itemize}
 
+% Warum ist es wichtig?
+
 %TODO: Folgerung für diese Arbeit!!!
 
 \subsection{Usablity Engineering}
@@ -224,6 +229,10 @@ Prototypen:
 
 % Vertikale/ Horizontale
 
+%Warum? Vorteile?
+
+% Prototyping für 3D oberflächen?
+
 \subsection{Personas, Szenarien und Use Cases}
 
 % Personas
@@ -234,6 +243,7 @@ Prototypen:
 
 \subsection{Usablity Tests und Evaluirung}
 
+\section{Kommunikation}
 
 \section{Open Innovation}
 
