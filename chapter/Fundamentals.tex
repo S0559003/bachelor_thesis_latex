@@ -26,18 +26,25 @@ Azuma beschreibt folgende Charakteristiken welche AR Systeme aufweisen sollten:
 	\item Informationen müssen sich 3D einen Bezug im 3D Raum haben.
 \end{enumerate}
 
-Diese Characteristiken helfen dabei den Begriff Augmented Reality besser einzugrenzen zu können. [Azuma97 ] Filme wie z. Bsp.  ``Jurassic Park`` in welchen 
-virtuelle Objekte in die reale 3D Szene eingefügt werden, erwecken den Eindruk dass diese Objekte Teil der realen Szene sind, jedoch kann mit diesen Objekten nicht in Echtzeit interagiert werden.
+Diese Characteristiken helfen dabei den Begriff Augmented Reality besser einzugrenzen zu können. 
+[Azuma97 ] Filme wie z. Bsp.  ``Jurassic Park`` in welchen virtuelle Objekte in die reale 3D Szene eingefügt werden, erwecken den Eindruk dass diese Objekte Teil der realen Szene sind, jedoch kann mit diesen 
+Objekten nicht in Echtzeit interagiert werden. [Tönnis2010] In Filmen werden die virtuellen Objekte in eine zuvor augezeichnete Aufnahme eingefügt. In AR werden diese in ein live Video eingefügt. Es steht für die Bearbeitung der einzelnen 
+Bilder für die Überlagerung mit den virtuellen objekten in Filmen eine größere Zeit zur Verfügung.
 
 Ein anderes Beispiel ist im Vorschaufenster von Digitalkameras zu sehen. Oft blenden Digitalkameras im Vorschaubild, Informationen zum Ladezustand der Batterie, Aktivierung des Bilitzes und weitere 
-Informationen bezüglich den aktuellen Einstellungen des Kameras ein. Diese Informationen überlagern zwar die realen Objekte in der Szene, befinden sich jedoch nicht im drei dimensionalen Raum. 
-Der elektronishe Sucher hingegen welches Objekte (z. Bsp. Gesichter) erkennt und einrahmt befindet sich im 3D raum, und es sind Interaktionen in Echtzeit möglich. Indem sich das vom virtuellen  Object 
+Informationen bezüglich den aktuellen Einstellungen des Kameras ein. Diese Informationen überlagern zwar die realen Objekte in der Szene, haben jedoch keinen Bezug zu den im 3D Raum befindenden Objekte. 
+Der elektronishe Sucher hingegen welches Objekte (z. Bsp. Gesichter) erkennt hat ein Bezug zu den Objekten im 3D Raum. Zudem sind Interaktionen in Echtzeit möglich indem sich das vom virtuellen  Object 
 eingerahmte, real existierende Objekt oder die Kamera selbst sich bewegt, verändert sich auch die Position des virtuellen Objektes. 
 
-[Füge hier Bild von Kamera mit Sucher und Einstellungen etc. ein]
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{resources/fundamentals/example_camera_screen_ar}
+	\caption{Beispiel CNN Arhcitektur \cite{typical_cnn_img}}
+	\label{img:cnn_example_network}
+\end{figure}
 
 % Motivation
-[Azuma97] Durch das kombinieren von vitueller und physischer Welt erweitert Augumented Reality die Wahrnehmung des Menschen. Die Motivation von AR ist, den Menschen durch das Einfügen
+[Azuma97] Durch das kombinieren von vitueller und physischer Welt, erweitert Augumented Reality die Wahrnehmung des Menschen. Die Motivation von AR ist, den Menschen durch das Einfügen
 von virtuellen Objekten in die physische Welt, Hinweise zu geben und Details zu zeigen die er mit seinen Sinnen sonst nicht unmittelbar wahnehmen könnte. Die Informationen die in die physische 
 Welt hinzugefügt werden sollen den Menschen bei der Verrichtung von Aufgaben in der physischen Welt unterstützen.
 
@@ -45,9 +52,9 @@ Welt hinzugefügt werden sollen den Menschen bei der Verrichtung von Aufgaben in
 Azuma fasst in [Azuma97]  Forschungen zu AR in sechs Anwendungsgebiete zusammen. Zur Visualisierung von Medizindaten, in der Wartung 
 und Instandsetzung, Annotationen, für die Wegfindung für Roboter und für die Navigation von Militärflugzeugen. Beispielsweise können Annotatinen 
 verwendet werden um Informationen über den Inhalt von Regalen einzublenden während ein Nutzer durch ein Bibliothek läuft. % Füge hier vielleicht noch ein Beispiel dazu ein % Füge hier Verweis auf ein Artike als Fußnotel hinzu
-Auch können Annotationen in AR verwendet werden um einzelne Bauelemente an komplexen Bauteiteilen zu identifizieren und Informationen über diese zu geben. 
+Auch können Annotationen in AR verwendet werden um einzelne Bauelemente an komplexen Bauteiteilen zu identifizieren und Informationen über diese zu anzuzeigen. 
 In der Wartung und Instandsetzung können Augemented Reality Anwendungen dabei helfen Instruktionen an komplexen Maschinen und Anlagen zu visualisieren welche sonst in 
-Form von Text und Bildern vorliegen. So können virtuelle Replikate über die physischen Modelle gelegt, und so Schritt für Schritt Anleitungen direkt am physichen Produkt erstellt werden. 
+Form von Text und Bildern vorliegen. So können virtuelle Replikate über die physischen Modelle gelegt, und so Schritt für Schritt Anleitungen direkt am physichen Produkt angezeigt werden. 
 Durch Animationen können diese Anleitungen mit präziser gestaltet werden und zum Beispiel auch Informatinen über die Richtung geben. 
 
 Diese Systeme können heute zum Beispiel Unternternehmen dabei helfen besser mit ihren Kunden zu kooparieren. In Kombination mit der Technologie Internet of Things (IOT)  können Unternehmen,
@@ -67,10 +74,6 @@ dass Positionsänderunen von physischen im realen Welt befindenden Objekten oder
 dieser Technik je nach Auflösung der Kamera die reale Welt mit verringerter Qualität angezeigt.
 
 [SchmalstiegHöllerer16 Seite 368] Vor allem bei der Kommunikation mit anderen Personen können diese Nachteile zu Problemen führen. 
-% Vorteil: die Reale Welt kann um die Zeit verzögert dargestellt werden wie das Computersystem für die Positionsbestimmung und das Rendern der virtuellen Objekte benötig. Dadurch werden die Nachteile des Optical-See-Through kompensiert und es kommt zu keinem lag.
-
-% Nachteile: 
-%Wenn sich der Nutzer oder reale Objekte im Sichtfeld des Nutzers bewegen kommt werden diese verzögert dargestellt. % Je nach Auflösung kann es zu schlechterer Qalität kommen.
 
 \section{Mixed Reality}
 
@@ -95,6 +98,36 @@ dieser Technik je nach Auflösung der Kamera die reale Welt mit verringerter Qua
 % Begriffserklärung von Markerlosen Traking 
 
 % Anwendungsfelder von Markerlosen Traking
+
+\section{Computerunterstützte Kommunikation}
+% Ziel der Nutzer mit Nutzung des Systems wird sein eine Design Idee anderen Personen zu kommunizieren. 
+
+[SchmalstiegHöllerer16 Seite 362] In der computerunterstützten kooperativen Arbeit (en. Computer-supported cooperative work (CSCW)) ist eine 2 x 2 Karegorisierung in Synchrone oder Asychrone und Co-located oder Remome sehr verbreitet. 
+Hierbei wird nach der zeitlichen (Synchron/ Asynchron) und nach der räumlichen (Co-located/ Remote ) Dimension der Kommunikation unterschieden. Betrachtet man die zeitliche Dimension, können mehrere Nutzer zur gleichen Zeit miteinander kommunizieren
+oder aber zur unterschiedlicher Zeit (also unabhäting voneinander) kommunizieren. In der räumlichen Dimension können Nutzer entweder am gleichen Ort miteinander kommunizieren oder entfernt voneinander sein. 
+
+\begin{table}[htbp]
+\caption{Kategorisierung Computer unterstützter Cooperationssysteme in Bezug zu AR}
+	\begin{center}
+		\begin{tabular}{|l|ll|}
+		\hline
+		 & \textbf{Co-located} & \textbf{Remote}\\
+		\hline
+		\textbf{Synchronous} &  AR shared space & AR telepresence \\
+		\textbf{Asynchronus} & AR annotating/ browsing (in-situ) & Generic sharing\\
+		\hline
+		\end{tabular}
+	\end{center}
+	\label{tab:categorycscw}
+\end{table}
+
+[Rodden seite 20]
+% [Rodden seite 24] Co-authoring systems aim to support some of the most fundamental parts of cooperation by supporting the negotiation processes % for commenting %multiple users working on % [Rodden seite 24]store and forward and real-time communication systems.
+
+[SchmalstiegHöllerer16 Seite 362] Asychronous AR is less frequently utilized. The most important use case in this category is the annotation of a physical environment by one user and later in situ browsing or editing of the annotations by another user.
+You might think of this application as a sort of virtual graffiti. 
+
+The general model adopted by these systems is that of asynchronous co-operation with each user working independently on a portion of the document. Reviews and comments are added to the document by annotating sections of the document. 
 
 \section{Usability}
 
@@ -242,8 +275,6 @@ Prototypen:
 % Use Cases
 
 \subsection{Usablity Tests und Evaluirung}
-
-\section{Kommunikation}
 
 \section{Open Innovation}
 
