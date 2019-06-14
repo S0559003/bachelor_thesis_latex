@@ -2,39 +2,31 @@
 
 Dieses Kapitel gibt eine  
 
-\section{Virtual Reality} 
-
-% Definition und Begriffseingrenzung von VR
-Als Virtual Reality (z. dt. virtuelle Realität) werden 
-
-% Anwendungsfelder von VR
-
-% Schwachstellen und Probleme von VR
+% AR, Traking Methoden, Situative Visualisierung, Kommunikation, Usability Usability Engenieering als Methode,Open Innovation 
 
 \section{Augmented Reality}
 
 %Definition und Begriffseingrenzung  von AR
 Abzugrenzen von VR  ist Augmented Reality (AR). [SchmalstiegHöllerer16] Im Gegensatz zu virtuellen Realität wo Benutzer vollständig in virtuelle Umgebungen eintauchen,
-ist das Ziel bei AR, Informationen direkt in die physiche Ubgebung des Benutzers einzufügen. So soll der Eindruck erweckt werden, dass diese Informationen
-Teil der wirklichen Welt sind. % Als Fußnote anmerken: Informationen müssen hierbei nicht nur auf visuelle Informationen beschränkt sein, sondern es kann sich dabei auch um auditive, haptische, gustative oder auch olfaktorisch Informationen sein.
+ist das Ziel von AR, Informationen direkt in die physiche Ubgebung des Benutzers einzufügen. So soll der Eindruck erweckt werden, dass diese Informationen Teil der wirklichen Welt sind. % Als Fußnote anmerken: Informationen müssen hierbei nicht nur auf visuelle Informationen beschränkt sein, sondern es kann sich dabei auch um auditive, haptische, gustative oder auch olfaktorisch Informationen sein.
 [Azuma 1997] Während in VR, Benutzer von der Äußeren Umgebung nichts mitbekommen, wird mit AR Systeme die wirkliche Umebung des Benutzers, mit vitruellen Objekten überlagert. 
-Azuma beschreibt folgende Charakteristiken welche AR Systeme aufweisen sollten: 
+Azuma beschreibt folgende Charakteristiken für AR Systeme: 
 
 \begin{enumerate}
 	\item Kombinieren Digitale und Reale Welt.
 	\item Ermöglichen Interaktionen in Echtzeit.
-	\item Informationen müssen sich 3D einen Bezug im 3D Raum haben.
+	\item Informationen haben einen Bezug zum 3D Raum.
 \end{enumerate}
 
-Diese Characteristiken helfen dabei den Begriff Augmented Reality besser einzugrenzen zu können. 
-[Azuma97 ] Filme wie z. Bsp.  ``Jurassic Park`` in welchen virtuelle Objekte in die reale 3D Szene eingefügt werden, erwecken den Eindruk dass diese Objekte Teil der realen Szene sind, jedoch kann mit diesen 
-Objekten nicht in Echtzeit interagiert werden. [Tönnis2010] In Filmen werden die virtuellen Objekte in eine zuvor augezeichnete Aufnahme eingefügt. In AR werden diese in ein live Video eingefügt. Es steht für die Bearbeitung der einzelnen 
-Bilder für die Überlagerung mit den virtuellen objekten in Filmen eine größere Zeit zur Verfügung.
+Diese Characteristiken helfen dabei den Begriff Augmented Reality besser einzugrenzen zu können. [Azuma97 ] Filme wie z. Bsp.  ``Jurassic Park`` in welchen virtuelle Objekte in die reale 3D Szene eingefügt werden, 
+erwecken den Eindruk dass diese Objekte Teil der realen Szene sind, jedoch kann mit diesen Objekten nicht in Echtzeit interagiert werden. [Tönnis2010] In Filmen werden die virtuellen Objekte in eine zuvor augezeichnete 
+Aufnahme eingefügt. In AR werden diese in ein live Video eingefügt. In Filmen steht für das Einfügen von digitalen Informationen in die reale Szene eine viel größere Zeit zur Verfügung. In AR muss dies in einer Zeit kleiner 
+als 
 
 Ein anderes Beispiel ist im Vorschaufenster von Digitalkameras zu sehen. Oft blenden Digitalkameras im Vorschaubild, Informationen zum Ladezustand der Batterie, Aktivierung des Bilitzes und weitere 
-Informationen bezüglich den aktuellen Einstellungen des Kameras ein. Diese Informationen überlagern zwar die realen Objekte in der Szene, haben jedoch keinen Bezug zu den im 3D Raum befindenden Objekte. 
-Der elektronishe Sucher hingegen welches Objekte (z. Bsp. Gesichter) erkennt hat ein Bezug zu den Objekten im 3D Raum. Zudem sind Interaktionen in Echtzeit möglich indem sich das vom virtuellen  Object 
-eingerahmte, real existierende Objekt oder die Kamera selbst sich bewegt, verändert sich auch die Position des virtuellen Objektes. 
+Informationen bezüglich den aktuellen Einstellungen. Diese Informationen überlagern zwar die realen Objekte in der Szene, haben jedoch keinen Bezug zu den im 3D Raum befindenden Objekte. 
+Der elektronishe Sucher hingegen welches Objekte (z. Bsp. Gesichter) erkennt und in einem virtuellen Rahmen einrahmt, hat ein Bezug zu den Objekten im 3D Raum. Zudem sind Interaktionen in Echtzeit möglich.  
+Bewegt sich das vom virtuellen Rahmen,  eingerahmte reale Objekt, oder die Kamera selbst, verändert sich auch die Position des virtuellen Rahmens. 
 
 \begin{figure}[H]
 	\centering
@@ -45,8 +37,8 @@ eingerahmte, real existierende Objekt oder die Kamera selbst sich bewegt, verän
 
 % Motivation
 [Azuma97] Durch das kombinieren von vitueller und physischer Welt, erweitert Augumented Reality die Wahrnehmung des Menschen. Die Motivation von AR ist, den Menschen durch das Einfügen
-von virtuellen Objekten in die physische Welt, Hinweise zu geben und Details zu zeigen die er mit seinen Sinnen sonst nicht unmittelbar wahnehmen könnte. Die Informationen die in die physische 
-Welt hinzugefügt werden sollen den Menschen bei der Verrichtung von Aufgaben in der physischen Welt unterstützen.
+von digitaler Informationen in die physische Welt, Hinweise zu geben und Details zu zeigen die er mit seinen Sinnen sonst nicht unmittelbar wahnehmen könnte. Die Informationen sollen den Menschen 
+bei der Verrichtung ihrer Aufgaben in der physischen Welt unterstützen.
 
 % Anwendungsfelder von AR % Besonders passend für diese Arbeit sind Annotationen und Warung und Reperatur. Da diese sich besonders mit Interaktionen an Realen Objekten, meist Produkte befassen.
 Azuma fasst in [Azuma97]  Forschungen zu AR in sechs Anwendungsgebiete zusammen. Zur Visualisierung von Medizindaten, in der Wartung 
@@ -71,15 +63,8 @@ wenn es nur sich nur um einige Milisekunden handelt zu einem so genannten Schwim
 gezeigt und mit virtuellen Objekten überlagert. Der Vorteil dieser Technik liegt darin, dass die Darstellung der realen Welt um die Zeit verzögert werden kann die benötigt wird um die virtuellen Objekte 
 richtig zu positionieren und rendern. Dadurch werden die Nachteile der Optical-See-Through Technik kompensiert. Dass die reale Welt dem Nutzer verzögert angezeigt wird bringt jedoch den Nachteil 
 dass Positionsänderunen von physischen im realen Welt befindenden Objekten oder die Änderung der Perspektive falls sich der Nutzer selbst bewegt verhzögert angezeigt wird. Zudem wird mit 
-dieser Technik je nach Auflösung der Kamera die reale Welt mit verringerter Qualität angezeigt.
-
-[SchmalstiegHöllerer16 Seite 368] Vor allem bei der Kommunikation mit anderen Personen können diese Nachteile zu Problemen führen. 
-
-\section{Mixed Reality}
-
-% Definition von MR
-
-% Anwendungsfelder MR
+dieser Technik je nach Auflösung der Kamera die reale Welt mit verringerter Qualität angezeigt. [SchmalstiegHöllerer16 Seite 368] Vor allem bei der Kommunikation mit anderen Personen können diese 
+Nachteile zu Problemen führen. 
 
 \section{Objekterkennung und- Verfolgung}
 
@@ -99,10 +84,64 @@ dieser Technik je nach Auflösung der Kamera die reale Welt mit verringerter Qua
 
 % Anwendungsfelder von Markerlosen Traking
 
-\section{Computerunterstützte Kommunikation}
-% Ziel der Nutzer mit Nutzung des Systems wird sein eine Design Idee anderen Personen zu kommunizieren. 
+\section{Situated Visualization}
 
-[SchmalstiegHöllerer16 Seite 362] In der computerunterstützten kooperativen Arbeit (en. Computer-supported cooperative work (CSCW)) ist eine 2 x 2 Karegorisierung in Synchrone oder Asychrone und Co-located oder Remome sehr verbreitet. 
+Das zu konzipierende System sollte durch den Einsatz von Augmented Reality Rückemeldungen zum Design von Produkten und das explorieren dieser Rückemeldungen ermöglichen. Damit dies gut gelingt 
+ist ein gutes Verständnis von Situated Visualization und teilweise auch von Situated Analytics notwendig. 
+
+[SchmalstiegHöllerer16 Seite 239] Ein großer Vorteil von Augmented und Mixed Reality Nutzeroberflächen ist,  dessen Fähigkeit, situationsrelevante Informationen bezüglich einer Aufgabe oder Anwender anzeigen zu können. 
+Es ist jedoch nicht sehr davon abhängig welche Informationen in welcher Form in AR angezeigt werden um diesen Voreil von AR ausschöpfen zu können. Situated Visualization befasst sich damit wie Computer generierte Grafiken 
+in die reale Szene eingefügt und angemessen presäntiert werden. 
+
+
+https://link.springer.com/content/pdf/10.1007%2F978-3-030-01388-2.pdf
+refers to data representations that are related to and portrayed in their physical environment. Sensemaking is achieved through the combination of the visualization and the relationship of that visualization to the immediate physical environment
+% Embedded Visualizations seite 205 (Seite 210 ist sehr interessant. Beispiel mit SterilAnzug und Nutzerfeedback).  Seite 220 embedded vs. situated.
+
+\begin{table}[htbp]
+\caption{Situatedness vs. Analytic Level}
+	\begin{center}
+		\begin{tabular}{|l|ll|}
+		\hline
+		\textbf{Situatedness}& \textbf{Analytic Level Low} & \textbf{Analytic Level High}\\
+		\hline
+		\textbf{High } & Situation Awareness & Situated Analytics \\
+		\textbf{Low} & Information Displays/ Ambient Displays & Visual Analytics/ Traditional Analytics \\
+		\hline
+		\end{tabular}
+	\end{center}
+	\label{tab:categorycscw}
+\end{table}
+
+
+% welche Informationen? % The power of AR as a novel user interfae paradigm derives in large part from its ablity to display information that is relaevant to a situation, task or user. 
+%To sucessfully comunicate the desired information, it must be put in an appropriate visual form. This is done through the application of suitable visualizwation techniques. 
+
+% Information seeking mantra nach Shneiderman
+
+% Falls die die Informationsmenge zu groß oder zu Komplex wird beschreiben Daniel A. Keim et. al: visual analytics mantra
+%Neven A. M. ElSayed et. all %  Situated Analytics has four primary elements: situated information, abstract information, augmented reality interaction, and analytical interaction
+
+%Herrausforderungen: Unordnung duruch zu viele Daten (Überlagerung). Generell auch bei anderen visualisierungen. Durch limitierter Platz bei AR manchmal besonders verschlimmert. %Registrierungsfehler führen zur falschen platzierung von visualisierungen. 
+% Störende\ Ungünstige Visualisierung. Auch wenn Registrierung theoretisch ganz fehlerfrei funtionieren würde, ungünstig sein und die Fähigkeit des Nutzers wichtige Informationen von nicht relevanten Informationen. 
+
+% In folgendem werden Techniken für die Bewältigung dieser Herrausforderungen vorgestellt. 
+
+Data Overlay 
+
+% la
+
+% Labeling und Annotationen
+
+
+% 
+
+
+\section{Computerunterstützte Kollaboration}
+
+% Ziel des zu entwickelnden Systems, ist die erfolgreiche Kommunikation von Design Ideen durch den Endkunden. Kommunikation erfordert Kollaboration von Teilnehmern? Kunde <-> Kunde, Kunde <-> Hersteller zum Beispiel.  %Dazu schauen wir uns die computergestützte Collaboration näher an.
+
+[SchmalstiegHöllerer16 Seite 362] In der computerunterstützten kooperativen Arbeit (en. Computer-supported cooperative work (CSCW)) ist eine Karegorisierung in Synchrone oder Asychrone und Co-located oder Remome sehr verbreitet. 
 Hierbei wird nach der zeitlichen (Synchron/ Asynchron) und nach der räumlichen (Co-located/ Remote ) Dimension der Kommunikation unterschieden. Betrachtet man die zeitliche Dimension, können mehrere Nutzer zur gleichen Zeit miteinander kommunizieren
 oder aber zur unterschiedlicher Zeit (also unabhäting voneinander) kommunizieren. In der räumlichen Dimension können Nutzer entweder am gleichen Ort miteinander kommunizieren oder entfernt voneinander sein. 
 
@@ -121,16 +160,25 @@ oder aber zur unterschiedlicher Zeit (also unabhäting voneinander) kommuniziere
 	\label{tab:categorycscw}
 \end{table}
 
+AR annotation\ browsing (in-situ). % laut Schmalstig ung Höllerer welche dieses Model von Rodden,  im Kontext von AR Anwendungen beschreiben, vergleichbar wie Graffitti.  
+
 [Rodden seite 20]
-% [Rodden seite 24] Co-authoring systems aim to support some of the most fundamental parts of cooperation by supporting the negotiation processes % for commenting %multiple users working on % [Rodden seite 24]store and forward and real-time communication systems.
+% [Rodden seite 24] Co-authoring systems aim to support some of the most fundamental parts of cooperation by supporting the negotiation processes % for commenting %multiple users working on % [Rodden seite 24]store and forward and real-time communication systems. %notwendigkeit für unterscheidung zwischen private, public oder direkte nachrichten 
+The general model adopted by these systems is that of asynchronous co-operation with each user working independently on a portion of the document. Reviews and comments are added to the document by annotating sections of the document. 
 
 [SchmalstiegHöllerer16 Seite 362] Asychronous AR is less frequently utilized. The most important use case in this category is the annotation of a physical environment by one user and later in situ browsing or editing of the annotations by another user.
 You might think of this application as a sort of virtual graffiti. 
 
-The general model adopted by these systems is that of asynchronous co-operation with each user working independently on a portion of the document. Reviews and comments are added to the document by annotating sections of the document. 
+
+% Immersive analytics seite 239
+
+However, distributed asynchronous collaboration involves capturing input from people at different times and different placesandsocanprovidesomeuniquebenefits.Forexample,Benbunan-Fichet al. found that asynchronous collaboration can produce broader discussions and more complete reports from group discussions than their face-to-face counterparts [9]. Other benefits include enabling people to contribute whenever they have time to provide input [104], they can work on the part of the problem that they feel most qualified to address [129], and can combine information from a variety of sources [52].
+
 
 \section{Usability}
 
+% Ziel der Arbeit ist ein Weg zu finden um effektiv und effizient Produktdesignbeschreibungen an Produkten zu zeigen mit einsatz von Augmented Realiy und verschiedene Techniken zu 
+%vergleichen. Dafür muss ein besonderer Fokus auf die Usablity gelegt werden. Daher hier usability...
 Einen besonderen Fokus soll diese Arbeit auf die Usability legen. Daher wird in folgendem Abschnitt die Begriffsdefinition von Usablity näher beleuchtet, es werden einige 
 gängige Methoden für die nutzerzentrierte Gestaltung und Entwicklung von Systemen vorgestellt und abschließend Methden für Usability Tests und Evaluirung erleutert. 
 
@@ -221,15 +269,10 @@ welche für die Nutzen des Systems relevant sein könnten wie zum Bsp. Erfahrung
 von Nutzern besser einschätzen zu können und so Kritärien für die kompleität der Nutzeroberfläche zu bestimmen.
 
 % task analysis
-Sobald die Nutzer identifiziert und dessen Eigenschaften und Bedürfnisse analysiert wurden, werden die Ziele und Aufgaben der Nutzer analysiert. 
-Wie bewältigen die  Nutzer  aktuell Aufgaben um ihre Zile zu erreichen. Hierbei sollte beobachtet werden welche Informationen die Nutzer benötigen, welche Ausnahme oder Not Situationen  
-auftreten und wie die Nutzer in diesen Situationen handeln. Es sollte beobachtet werden ob die Nutzer das aktuell verwendete System in irgendweiner  weise umgehen (en. Workarounds anwenden). 
-Zudem sollten die Begrifflichkeiten notiert werden welche der Nutzer verwendet im Bezug auf die zu lösende Aufgabe verwendet.  Diese können später als eine Quelle für Metapher bei der Gestaltung 
-der Nutzeroberflähe verwendet werden. 
-
-%Das ist vielleicht zu viel Detai für die Arbeit
-% liste mit zielen % liste mit allen informationen die benötigt werden um diese ziele zu erreichen % die Schritte die getan werden müssen und alle beziehungen zwischen diesen schritten % liste mit allen 
-% alle Artefakte und Berichte welche am Ende vom System erstellt werden müssen. % akzeptanz und qualitätskritärien an die erstellten artifakte %
+Sobald die Nutzer identifiziert und dessen Eigenschaften und Bedürfnisse analysiert wurden, werden die Ziele und Aufgaben der Nutzer analysiert. Wie bewältigen die  Nutzer  aktuell Aufgaben um 
+ihre Zile zu erreichen. Hierbei sollte beobachtet werden welche Informationen die Nutzer benötigen, welche Ausnahme oder Not Situationen  auftreten und wie die Nutzer in diesen Situationen handeln. 
+Es sollte beobachtet werden ob die Nutzer das aktuell verwendete System in irgendweiner  weise umgehen (en. Workarounds anwenden). Zudem sollten die Begrifflichkeiten notiert werden welche der 
+Nutzer verwendet im Bezug auf die zu lösende Aufgabe verwendet.  Diese können später als eine Quelle für Metapher bei der Gestaltung der Nutzeroberflähe verwendet werden. 
 
 % functional analysis
 Im nächsten Schritt werden die benötigten Funktionalitäten des neuen Systems analysiert und Möglichkeiten erforscht wie diese mit dem neuen System erzielt werden können. 
