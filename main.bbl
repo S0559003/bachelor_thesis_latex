@@ -19,34 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
-    \entry{Azuma.1997}{unpublished}{}
-      \name{author}{1}{}{%
-        {{hash=65a33080a179a3a436c552a32d1f64f0}{%
-           family={Azuma},
-           familyi={A\bibinitperiod},
-           given={Ronald\bibnamedelima T.},
-           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{65a33080a179a3a436c552a32d1f64f0}
-      \strng{fullhash}{65a33080a179a3a436c552a32d1f64f0}
-      \strng{bibnamehash}{65a33080a179a3a436c552a32d1f64f0}
-      \strng{authorbibnamehash}{65a33080a179a3a436c552a32d1f64f0}
-      \strng{authornamehash}{65a33080a179a3a436c552a32d1f64f0}
-      \strng{authorfullhash}{65a33080a179a3a436c552a32d1f64f0}
-      \field{labelalpha}{Azu97}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{A Survey of Augmented Reality}}
-      \field{year}{1997}
-      \verb{urlraw}
-      \verb https://www.cs.unc.edu/{~}azuma/ARpresence.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.cs.unc.edu/%7B~%7Dazuma/ARpresence.pdf
-      \endverb
-    \endentry
     \entry{RexHartson2012}{book}{}
       \name{author}{2}{}{%
         {{hash=7038e484ba646807a95513c987f23c8d}{%
@@ -76,6 +48,51 @@
       \field{year}{2012}
       \field{pages}{937}
       \range{pages}{1}
+    \endentry
+    \entry{Lebeck2018}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=790a78010e4ae594bca416fbb0d25406}{%
+           family={Lebeck},
+           familyi={L\bibinitperiod},
+           given={Kiron},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2b30ca2bcd7b5c02174aabb9251729f5}{%
+           family={Ruth},
+           familyi={R\bibinitperiod},
+           given={Kimberly},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ac531ee83558be0e3798db153ad74d17}{%
+           family={Kohno},
+           familyi={K\bibinitperiod},
+           given={Tadayoshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1f8f5a22b3eba624c1912040accfd0e9}{%
+           family={Roesner},
+           familyi={R\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bd4adc1b9719c3e49afd8181a03d2d5}
+      \strng{fullhash}{76d1678ece5d3ac01818ac2b3b5b0e87}
+      \strng{bibnamehash}{6bd4adc1b9719c3e49afd8181a03d2d5}
+      \strng{authorbibnamehash}{6bd4adc1b9719c3e49afd8181a03d2d5}
+      \strng{authornamehash}{6bd4adc1b9719c3e49afd8181a03d2d5}
+      \strng{authorfullhash}{76d1678ece5d3ac01818ac2b3b5b0e87}
+      \field{labelalpha}{Leb18}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Towards Security and Privacy for Multi-User Augmented Reality: Foundations with End Users}}
+      \field{year}{2018}
+      \field{pages}{17}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://homes.cs.washington.edu/{~}kklebeck/lebeck-sp18.pdf
+      \endverb
+      \verb{url}
+      \verb https://homes.cs.washington.edu/%7B~%7Dkklebeck/lebeck-sp18.pdf
+      \endverb
     \endentry
     \entry{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015}{inproceedings}{}
       \name{author}{4}{}{%
@@ -257,6 +274,46 @@
       \verb https://books.google.de/books?hl=de%7B%5C&%7Dlr=%7B%5C&%7Did=sRPg0IYhYFYC%7B%5C&%7Doi=fnd%7B%5C&%7Dpg=PP2%7B%5C&%7Ddq=usability+engineering%7B%5C&%7Dots=mHJu6hTEKM%7B%5C&%7Dsig=s2jBLnfM3jymlx7SmONhjV3%7B%5C_%7Dlj0%7B%5C#%7Dv=onepage%7B%5C&%7Dq=usability%20engineering%7B%5C&%7Df=false
       \endverb
     \endentry
+    \entry{Roesner2013}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=1f8f5a22b3eba624c1912040accfd0e9}{%
+           family={Roesner},
+           familyi={R\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4c294306c965ac51c58ac13997c26f46}{%
+           family={Tadayoshi},
+           familyi={T\bibinitperiod},
+           given={Kohno},
+           giveni={K\bibinitperiod}}}%
+        {{hash=53107919d48a5b006886d8ec45fffd3a}{%
+           family={Molnar},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c45cec78312db3d070cfc730c5236648}
+      \strng{fullhash}{c45cec78312db3d070cfc730c5236648}
+      \strng{bibnamehash}{c45cec78312db3d070cfc730c5236648}
+      \strng{authorbibnamehash}{c45cec78312db3d070cfc730c5236648}
+      \strng{authornamehash}{c45cec78312db3d070cfc730c5236648}
+      \strng{authorfullhash}{c45cec78312db3d070cfc730c5236648}
+      \field{labelalpha}{RTM13}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Security and Privacy for Augmented Reality Systems}}
+      \field{year}{2013}
+      \field{pages}{10}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://ar-sec.cs.washington.edu/files/arsec-cacm2014-preprint.pdf
+      \endverb
+      \verb{url}
+      \verb https://ar-sec.cs.washington.edu/files/arsec-cacm2014-preprint.pdf
+      \endverb
+    \endentry
     \entry{Spiekermann2016}{book}{}
       \name{author}{1}{}{%
         {{hash=3614df420ccf19ac12253cad47ec0901}{%
@@ -311,6 +368,51 @@
       \field{year}{2016}
       \field{pages}{496}
       \range{pages}{1}
+    \endentry
+    \entry{Templeman2012}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=92bfb217331bd6f1bc801978ef9f32fa}{%
+           family={Templeman},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c640effd8ae1d24f475de64979642704}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Zahid},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ad088a3a3d223a5587599809f39cd1f7}{%
+           family={Crandall},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2008f56893801c92e383a56385fcd3af}{%
+           family={Kapadia},
+           familyi={K\bibinitperiod},
+           given={Apu},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{24d8cc2735a2690e869dd39904d2d248}
+      \strng{fullhash}{5cd19f66fecab817b6a1e73525988305}
+      \strng{bibnamehash}{24d8cc2735a2690e869dd39904d2d248}
+      \strng{authorbibnamehash}{24d8cc2735a2690e869dd39904d2d248}
+      \strng{authornamehash}{24d8cc2735a2690e869dd39904d2d248}
+      \strng{authorfullhash}{5cd19f66fecab817b6a1e73525988305}
+      \field{labelalpha}{Tem12}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PlaceRaider: Virtual Theft in Physical Spaces with Smartphones}}
+      \field{year}{2012}
+      \field{pages}{21}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/1209.5982.pdf
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/1209.5982.pdf
+      \endverb
     \endentry
     \entry{Tonnis2010}{book}{}
       \name{author}{1}{}{%
@@ -377,6 +479,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Azuma.1997}
   \missing{Beispiel Dititalkamera}
   \missing{Illustration Visualisierungen}
   \missing{MichaelRichter2016; MaryBethRossonJohnM.CarrollDianeD.Cerra2002}
