@@ -1,22 +1,23 @@
-[1] Config.pm:304> INFO - This is Biber 2.12
-[1] Config.pm:307> INFO - Logfile is 'main.blg'
-[141] biber-MSWIN64:315> INFO - === 
-[277] Biber.pm:371> INFO - Reading 'main.bcf'
-[701] Biber.pm:889> INFO - Found 19 citekeys in bib section 0
-[760] Biber.pm:4093> INFO - Processing section 0
-[836] Biber.pm:4254> INFO - Looking for bibtex format file 'references/references.bib' for section 0
-[859] bibtex.pm:1523> INFO - LaTeX decoding ...
-[981] bibtex.pm:1340> INFO - Found BibTeX data source 'references/references.bib'
-[1498] Utils.pm:193> WARN - I didn't find a database entry for 'Azuma.1997' (section 0)
-[1499] Utils.pm:193> WARN - I didn't find a database entry for 'Beispiel Dititalkamera' (section 0)
-[1500] Utils.pm:193> WARN - I didn't find a database entry for 'example_situated_visualization_concept' (section 0)
-[1500] Utils.pm:193> WARN - I didn't find a database entry for 'example_embedded_visualization_concept' (section 0)
-[1500] Utils.pm:193> WARN - I didn't find a database entry for 'Illustration Visualisierungen' (section 0)
-[1501] Utils.pm:193> WARN - I didn't find a database entry for 'MichaelRichter2016; MaryBethRossonJohnM.CarrollDianeD.Cerra2002' (section 0)
-[1603] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1604] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1604] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
-[1604] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
-[1684] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1711] bbl.pm:739> INFO - Output to main.bbl
-[1727] Biber.pm:110> INFO - WARNINGS: 6
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[29] biber-MSWIN64:315> INFO - === 
+[63] Biber.pm:371> INFO - Reading 'main.bcf'
+[152] Biber.pm:889> INFO - Found 20 citekeys in bib section 0
+[164] Biber.pm:4093> INFO - Processing section 0
+[177] Biber.pm:4254> INFO - Looking for bibtex format file 'references/references.bib' for section 0
+[180] bibtex.pm:1523> INFO - LaTeX decoding ...
+[199] bibtex.pm:1340> INFO - Found BibTeX data source 'references/references.bib'
+[277] Utils.pm:193> WARN - I didn't find a database entry for 'Azuma.1997' (section 0)
+[277] Utils.pm:193> WARN - I didn't find a database entry for 'Beispiel Dititalkamera' (section 0)
+[277] Utils.pm:193> WARN - I didn't find a database entry for 'example_situated_visualization_concept' (section 0)
+[277] Utils.pm:193> WARN - I didn't find a database entry for 'example_embedded_visualization_concept' (section 0)
+[277] Utils.pm:193> WARN - I didn't find a database entry for 'Illustration Visualisierungen' (section 0)
+[278] Utils.pm:193> WARN - I didn't find a database entry for 'MichaelRichter2016; MaryBethRossonJohnM.CarrollDianeD.Cerra2002' (section 0)
+[278] Utils.pm:193> WARN - I didn't find a database entry for 'system sketch' (section 0)
+[297] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[297] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[297] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[297] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[313] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[318] bbl.pm:739> INFO - Output to main.bbl
+[318] Biber.pm:110> INFO - WARNINGS: 7
