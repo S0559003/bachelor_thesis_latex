@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  22 AUG 2019 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  24 AUG 2019 22:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -1689,7 +1689,50 @@ readarray: bounds checking OFF
 \boxbottom@sep=\skip124
 ) (C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
-))
+)) (C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/latex/tabu\tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box101
+\sift@deathcycles=\count515
+\@vwid@loff=\dimen312
+\@vwid@roff=\dimen313
+)
+\c@taburow=\count516
+\tabu@nbcols=\count517
+\tabu@cnt=\count518
+\tabu@Xcol=\count519
+\tabu@alloc=\count520
+\tabu@nested=\count521
+\tabu@target=\dimen314
+\tabu@spreadtarget=\dimen315
+\tabu@naturalX=\dimen316
+\tabucolX=\dimen317
+\tabu@Xsum=\dimen318
+\extrarowdepth=\dimen319
+\abovetabulinesep=\dimen320
+\belowtabulinesep=\dimen321
+\tabustrutrule=\dimen322
+\tabu@thebody=\toks61
+\tabu@footnotes=\toks62
+\tabu@box=\box102
+\tabu@arstrutbox=\box103
+\tabu@hleads=\box104
+\tabu@vleads=\box105
+\tabu@cellskip=\skip125
+)
+(C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen323
+\c@nlinenum=\count522
+\TeXr@lab=\toks63
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\flafter.sty"
+Package: flafter 2018/11/28 v1.4d Standard LaTeX floats after reference (FMi)
+Applying: [2015/01/01] float order in 2-column on input line 49.
+Already applied: [0000/00/00] float order in 2-column on input line 151.
+)
 \@input{titles/titleGraduation.aux}
 \openout2 = `titles/titleGraduation.aux'.
 
@@ -1699,14 +1742,12 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 
 
 Writing index file main.idx
-(glossary_and_acronyms.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
-
 (C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/latex/biblatex/lbx\ngerman.lbx
 File: ngerman.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
@@ -1721,29 +1762,26 @@ Package biblatex Info: ... file 'german.lbx' found.
 (C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/latex/biblatex/lbx\german.lbx
 File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 ))
-(main.aux (chapter/Prologue.aux) (chapter/Abstract.aux)
-
-LaTeX Warning: Label `tab:categorycscw' multiply defined.
-
-)
+(main.aux (chapter/Prologue.aux) (chapter/Abstract.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 27.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 29.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1792,7 +1830,7 @@ Package caption Info: subfigure package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 27.
+LaTeX Info: Redefining \microtypecontext on input line 29.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1807,22 +1845,22 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\c@lstlisting=\count515
-Package scrhack Info: undefining \float@addtolists on input line 27.
+\c@lstlisting=\count523
+Package scrhack Info: undefining \float@addtolists on input line 29.
 
 (C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count516
-\scratchdimen=\dimen312
-\scratchbox=\box101
-\nofMPsegments=\count517
-\nofMParguments=\count518
-\everyMPshowfont=\toks61
-\MPscratchCnt=\count519
-\MPscratchDim=\dimen313
-\MPnumerator=\count520
-\makeMPintoPDFobject=\count521
-\everyMPtoPDFconversion=\toks62
+\scratchcounter=\count524
+\scratchdimen=\dimen324
+\scratchbox=\box106
+\nofMPsegments=\count525
+\nofMParguments=\count526
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count527
+\MPscratchDim=\dimen325
+\MPnumerator=\count528
+\makeMPintoPDFobject=\count529
+\everyMPtoPDFconversion=\toks65
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1837,8 +1875,8 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box102
-Package hyperref Info: Link coloring OFF on input line 27.
+\AtBeginShipoutBox=\box107
+Package hyperref Info: Link coloring OFF on input line 29.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1846,11 +1884,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count522
+\c@section@level=\count530
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (main.out) (main.out)
 \@outlinefile=\write6
@@ -1862,7 +1900,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           You can avoid loading `bookmark' with KOMA-Script option
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message with `\usepackage{bookmark}'
-(scrbook)           before \begin{document} on input line 27.
+(scrbook)           before \begin{document} on input line 29.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -1872,7 +1910,7 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 164.
-\BKM@id=\count523
+\BKM@id=\count531
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
@@ -1889,52 +1927,9 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Beispiel Dititalkamera
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Illustration Visualisierungen
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                MichaelRichter2016; MaryBethRossonJohnM.CarrollDianeD
-.Cerra2002
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                example_embedded_visualization_concept
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                example_situated_visualization_concept
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                system sketch
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
+Package biblatex Info: Reference section=0 on input line 29.
+Package biblatex Info: Reference segment=0 on input line 29.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1970,36 +1965,36 @@ Package biblatex Info: Reference segment=0 on input line 27.
 <resources/htw/logo.jpg, id=6, 114.9093pt x 68.4156pt>
 File: resources/htw/logo.jpg Graphic file (type jpg)
 <use resources/htw/logo.jpg>
-Package pdftex.def Info: resources/htw/logo.jpg  used on input line 30.
+Package pdftex.def Info: resources/htw/logo.jpg  used on input line 32.
 (pdftex.def)             Requested size: 227.62206pt x 135.52591pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 32.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 30.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 32.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 32.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 30.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 32.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 30.
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+(Font)              <6> on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2007,7 +2002,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2053,18 +2048,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 36
+Package tocbasic Info: character protrusion at toc deactivated on input line 38
 .
  (main.toc [2
 
 
 
 
-] [3])
+])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [4] (chapter/Introduction.tex
+ [3] (chapter/Introduction.tex
 chapter 1.
 [1
 
@@ -2082,167 +2077,170 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ]
-<resources/fundamentals/example_camera_screen_ar.jpeg, id=185, 1606.0pt x 1204.
+<resources/fundamentals/example_camera_screen_ar.jpeg, id=164, 1606.0pt x 1204.
 5pt>
 File: resources/fundamentals/example_camera_screen_ar.jpeg Graphic file (type j
 pg)
 <use resources/fundamentals/example_camera_screen_ar.jpeg>
 Package pdftex.def Info: resources/fundamentals/example_camera_screen_ar.jpeg  
-used on input line 37.
+used on input line 36.
 (pdftex.def)             Requested size: 227.62206pt x 170.70569pt.
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-  [][][]\T1/lmr/m/n/10 (+10) https://www.ptc.com/-/media/Files/PDFs/Case-Studie
-s/Howden-vuforia-studio-case-study-Feb-
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+  [][][]\T1/lmr/m/n/10 (+10) Fallstudie zur An-wen-dung von AR in War-tung von 
+In-dus-trie-an-la-gen:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+ \T1/lmr/m/n/10 (+10) https://www.ptc.com/-/media/Files/PDFs/Case-Studies/Howde
+n-vuforia-studio-case-study-Feb-
  []
 
 [5 <./resources/fundamentals/example_camera_screen_ar.jpeg>] [6]
 <resources/fundamentals/situated_visualization/spacially_situated_visualization
-_model.png, id=212, 355.3275pt x 314.67563pt>
+_model.png, id=191, 355.3275pt x 314.67563pt>
 File: resources/fundamentals/situated_visualization/spacially_situated_visualiz
 ation_model.png Graphic file (type png)
 <use resources/fundamentals/situated_visualization/spacially_situated_visualiza
 tion_model.png>
 Package pdftex.def Info: resources/fundamentals/situated_visualization/spaciall
-y_situated_visualization_model.png  used on input line 107.
+y_situated_visualization_model.png  used on input line 106.
 (pdftex.def)             Requested size: 227.62206pt x 201.58377pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
-[][][]|\T1/lmr/m/n/12 (+10) Kon-zep-tio-nel-les Mo-del zu SSpatially-Situated
- []
-
-[7 <./resources/fundamentals/situated_visualization/spacially_situated_visualiz
-ation_model.png>]
+ [7 <./resources/fundamentals/situated_visualization/spacially_situated_visuali
+zation_model.png>]
 <resources/fundamentals/situated_visualization/embedded_visualization.png, id=2
-29, 334.24875pt x 310.15875pt>
+10, 334.24875pt x 310.15875pt>
 File: resources/fundamentals/situated_visualization/embedded_visualization.png 
 Graphic file (type png)
 <use resources/fundamentals/situated_visualization/embedded_visualization.png>
 Package pdftex.def Info: resources/fundamentals/situated_visualization/embedded
-_visualization.png  used on input line 139.
+_visualization.png  used on input line 138.
 (pdftex.def)             Requested size: 227.62206pt x 211.22224pt.
-
-Overfull \hbox (29.52238pt too wide) in paragraph at lines 140--140
-[][][]|\T1/lmr/m/n/12 (-10) Ein-ge-bet-te-te Vi-sua-li-sie-rung [[]]| 
- []
-
-[8]
+ [8]
 <resources/fundamentals/situated_visualization/Illustration_situated_embedded_v
-isualization.png, id=239, 579.66562pt x 286.06876pt>
+isualization.png, id=219, 579.66562pt x 286.06876pt>
 File: resources/fundamentals/situated_visualization/Illustration_situated_embed
 ded_visualization.png Graphic file (type png)
 <use resources/fundamentals/situated_visualization/Illustration_situated_embedd
 ed_visualization.png>
 Package pdftex.def Info: resources/fundamentals/situated_visualization/Illustra
-tion_situated_embedded_visualization.png  used on input line 157.
+tion_situated_embedded_visualization.png  used on input line 156.
 (pdftex.def)             Requested size: 227.62206pt x 112.33025pt.
  [9 <./resources/fundamentals/situated_visualization/embedded_visualization.png
 >] [10 <./resources/fundamentals/situated_visualization/Illustration_situated_e
-mbedded_visualization.png>] [11] [12] [13]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 316.
+mbedded_visualization.png>] [11] [12] [13] [14]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 313.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 316.
- [14]
-Overfull \hbox (10.23744pt too wide) in paragraph at lines 327--327
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 313.
+
+Overfull \hbox (10.23744pt too wide) in paragraph at lines 324--324
   [][][]\T1/lmr/m/n/10 (-10) Beispiele für Auf-ga-ben-an-ge-mes-sen-heit ab Sei
 -te 5: https://www.medien.ifi.lmu.de/lehre/ss16/id/ISO_9241-
  []
 
-[15] [16] [17]) [18] (chapter/Analysis.tex
+[15] [16] [17]
+<resources/fundamentals/hor_ver_prototypes.png, id=308, 683.55376pt x 286.06876
+pt>
+File: resources/fundamentals/hor_ver_prototypes.png Graphic file (type png)
+<use resources/fundamentals/hor_ver_prototypes.png>
+Package pdftex.def Info: resources/fundamentals/hor_ver_prototypes.png  used on
+ input line 398.
+(pdftex.def)             Requested size: 364.19667pt x 152.41888pt.
+ [18] [19 <./resources/fundamentals/hor_ver_prototypes.png>])
+[20] (chapter/Analysis.tex
 chapter 3.
 
-Overfull \hbox (43.2381pt too wide) in paragraph at lines 18--19
+Overfull \hbox (43.2381pt too wide) in paragraph at lines 17--18
 \T1/lmr/m/n/12 (-10) https://library.vuforia.com/content/vuforia-library/en/art
 icles/Solution/model-targets-supported-
  []
 
-) [19
+) [21
 
 
 
 ] (chapter/Conception.tex
 chapter 4.
-[20
+[22
 
 
 
 ]
-<resources/conception/skizze_gesamtsystem.png, id=334, 1755.55875pt x 826.58812
+<resources/conception/skizze_gesamtsystem.png, id=338, 1755.55875pt x 826.58812
 pt>
 File: resources/conception/skizze_gesamtsystem.png Graphic file (type png)
 <use resources/conception/skizze_gesamtsystem.png>
 Package pdftex.def Info: resources/conception/skizze_gesamtsystem.png  used on 
-input line 29.
+input line 26.
 (pdftex.def)             Requested size: 455.24411pt x 214.34027pt.
- [21 <./resources/conception/skizze_gesamtsystem.png>] [22]) [23] [24]
-(chapter/Implementation.tex
+ [23 <./resources/conception/skizze_gesamtsystem.png>] [24] [25] [26])
+[27] (chapter/Implementation.tex
 chapter 5.
-) [25
+) [28
 
 
 
 ] (chapter/Evaluation.tex
 chapter 6.
-) [26
+<resources/evaluation/diagrammittel_vergleich_liste_annotation.png, id=369, 591
+.71063pt x 310.91156pt>
+File: resources/evaluation/diagrammittel_vergleich_liste_annotation.png Graphic
+ file (type png)
+<use resources/evaluation/diagrammittel_vergleich_liste_annotation.png>
+Package pdftex.def Info: resources/evaluation/diagrammittel_vergleich_liste_ann
+otation.png  used on input line 17.
+(pdftex.def)             Requested size: 455.24411pt x 239.21286pt.
+[29
 
 
 
 ]
-Overfull \vbox (140.93704pt too high) has occurred while \output is active []
+Overfull \vbox (16.0655pt too high) has occurred while \output is active []
 
 
-[27] (chapter/Conclusion.tex
+[30 <./resources/evaluation/diagrammittel_vergleich_liste_annotation.png>])
+[31] (chapter/Conclusion.tex
 chapter 7.
-) [28
+) [32
 
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 48
+Package tocbasic Info: character protrusion at lof deactivated on input line 50
 .
- (main.lof
-Overfull \hbox (160.62991pt too wide) in paragraph at lines 10--10
- [][] [][]\T1/lmr/m/n/12 (-10) Konzeptionelles Mo-del zu SSpatially-Situated Vi
-sualization"[[]][] [][]  
- []
-
-
-Overfull \hbox (12.8567pt too wide) in paragraph at lines 12--12
- [][] [][]\T1/lmr/m/n/12 (-10) Eingebettete Vi-sua-li-sie-rung [[]][] [][]  
- []
-
-)
+ (main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [29
+ [33
 
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 50
+Package tocbasic Info: character protrusion at lot deactivated on input line 52
 .
  (main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [30
+ [34
 
 
 
 ]
-Package tocbasic Info: character protrusion at lol deactivated on input line 52
+Package tocbasic Info: character protrusion at lol deactivated on input line 54
 .
  (main.lol)
 \tf@lol=\write10
 \openout10 = `main.lol'.
 
- [31
+ [35
 
 
 
@@ -2252,15 +2250,14 @@ runsystem(makeindex -s indexstyle.ist main.idx)...executed (allowed).
 
 No file main.ind.
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]
-. Rerun may be required (or you may have forgotten to use commands like \gls) o
-n input line 56.
+Package glossaries Warning: \makenoidxglossaries is required to make \printnoid
+xglossary[type={main}] work on input line 58.
 
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 69.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 71.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2268,7 +2265,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [32
+ [36
 
 
 
@@ -2277,28 +2274,28 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-Overfull \hbox (6.25243pt too wide) in paragraph at lines 69--69
+Overfull \hbox (6.25243pt too wide) in paragraph at lines 71--71
 []\T1/lmr/m/n/12 (-10) Marcus Tön-nis. \T1/lmr/m/it/12 (-10) Aug-men-ted Rea-li
 -ty Ein-blick-ein-die-Er-wei-ter-te-Rea-li-tät\T1/lmr/m/n/12 (-10) . 2010, S. 1
 99.
  []
 
-[33]
+[37]
 
-Package biblatex Warning: Keyword 'online' not found on input line 70.
-
-
-LaTeX Warning: Empty bibliography on input line 70.
+Package biblatex Warning: Keyword 'online' not found on input line 72.
 
 
-Package biblatex Warning: Keyword 'image' not found on input line 71.
+LaTeX Warning: Empty bibliography on input line 72.
 
 
-LaTeX Warning: Empty bibliography on input line 71.
+Package biblatex Warning: Keyword 'image' not found on input line 73.
+
+
+LaTeX Warning: Empty bibliography on input line 73.
 
 (chapter/Anhang.tex
 chapter A.
-) (erklaerungen/Eigenstaendigkeitserklaerung_bachelorthesis.tex [34
+) (erklaerungen/Eigenstaendigkeitserklaerung_bachelorthesis.tex [38
 
 
 
@@ -2306,53 +2303,43 @@ chapter A.
 
 ]
 chapter without number
-) [35
+) [39
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (main.aux (chapter/Prologue.aux) (chapter/Abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48860 strings out of 492895
- 932274 string characters out of 3133479
- 1587157 words of memory out of 3000000
- 51752 multiletter control sequences out of 15000+200000
+ 49670 strings out of 492895
+ 943899 string characters out of 3133479
+ 1634083 words of memory out of 3000000
+ 52555 multiletter control sequences out of 15000+200000
  607596 words of font info for 114 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 68i,20n,89p,9104b,3664s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.11} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.16} has been referenced but does not exist
-, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcs
-c10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
-2.pfb>
-Output written on main.pdf (40 pages, 1275058 bytes).
+ 68i,21n,81p,9104b,3391s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+csc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmt
+t12.pfb>
+Output written on main.pdf (43 pages, 1309171 bytes).
 PDF statistics:
- 702 PDF objects out of 1000 (max. 8388607)
- 139 named destinations out of 1000 (max. 500000)
- 25635 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 25581 words of extra memory for PDF output out of 29859 (max. 10000000)
 

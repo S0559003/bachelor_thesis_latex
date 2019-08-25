@@ -19,36 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
-    \entry{RexHartson2012}{book}{}
-      \name{author}{2}{}{%
-        {{hash=7038e484ba646807a95513c987f23c8d}{%
-           family={Hartson},
-           familyi={H\bibinitperiod},
-           given={Rex},
-           giveni={R\bibinitperiod}}}%
-        {{hash=d755f061ba19ab6d2cfded59931b2084}{%
-           family={{S. Payla}},
-           familyi={S\bibinitperiod},
-           given={Pardha},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{b6901a7258d4156b3f5c6196386438c0}
-      \strng{fullhash}{b6901a7258d4156b3f5c6196386438c0}
-      \strng{bibnamehash}{b6901a7258d4156b3f5c6196386438c0}
-      \strng{authorbibnamehash}{b6901a7258d4156b3f5c6196386438c0}
-      \strng{authornamehash}{b6901a7258d4156b3f5c6196386438c0}
-      \strng{authorfullhash}{b6901a7258d4156b3f5c6196386438c0}
-      \field{labelalpha}{HS12}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0-12-385241-0}
-      \field{title}{{The UX Book}}
-      \field{year}{2012}
-      \field{pages}{937}
-      \range{pages}{1}
-    \endentry
     \entry{Lebeck2018}{unpublished}{}
       \name{author}{4}{}{%
         {{hash=790a78010e4ae594bca416fbb0d25406}{%
@@ -314,31 +284,6 @@
       \verb https://ar-sec.cs.washington.edu/files/arsec-cacm2014-preprint.pdf
       \endverb
     \endentry
-    \entry{Spiekermann2016}{book}{}
-      \name{author}{1}{}{%
-        {{hash=3614df420ccf19ac12253cad47ec0901}{%
-           family={Spiekermann},
-           familyi={S\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{3614df420ccf19ac12253cad47ec0901}
-      \strng{fullhash}{3614df420ccf19ac12253cad47ec0901}
-      \strng{bibnamehash}{3614df420ccf19ac12253cad47ec0901}
-      \strng{authorbibnamehash}{3614df420ccf19ac12253cad47ec0901}
-      \strng{authornamehash}{3614df420ccf19ac12253cad47ec0901}
-      \strng{authorfullhash}{3614df420ccf19ac12253cad47ec0901}
-      \field{labelalpha}{Spi16}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-1-4822-2635-5}
-      \field{title}{{Ethical IT Innovation}}
-      \field{year}{2016}
-      \field{pages}{257}
-      \range{pages}{1}
-    \endentry
     \entry{DieterSchmalstieg2016}{book}{}
       \name{author}{2}{}{%
         {{hash=b31d42dd4ba4466eb4b996d6e714dc68}{%
@@ -480,12 +425,6 @@
     \endentry
   \enddatalist
   \missing{Azuma.1997}
-  \missing{Beispiel Dititalkamera}
-  \missing{Illustration Visualisierungen}
-  \missing{MichaelRichter2016; MaryBethRossonJohnM.CarrollDianeD.Cerra2002}
-  \missing{example_embedded_visualization_concept}
-  \missing{example_situated_visualization_concept}
-  \missing{system sketch}
 \endrefsection
 \endinput
 
