@@ -1,20 +1,20 @@
 \chapter{Grundlagen} \label{CapterFundamentals}
 
-Dieses Kapitel gibt einen Überblick über die in dieser Arbeit verwendete Terminologien und führt Grundlagen zu Technologien und Techniken ein welche die Basis für dieser Arbeit bilden. 
+Dieses Kapitel gibt einen Überblick über die in dieser Arbeit verwendete Terminologien und führt Grundlagen zu Technologien und Techniken ein, welche die Basis für dieser Arbeit bilden. 
 
-Nach Erläuterung Definition von Augmented Reality, werden unterschiedliche Ansätze für die Objekterkennung und Verfolgung vorgestellt.  
+Nach Erläuterung der Definition von Augmented Reality, werden unterschiedliche Ansätze für die Objekterkennung und Verfolgung vorgestellt.  
 Diese sind ein essenzieller Bestandteil der Augmented Reality Technologie. Es wird die Definition von Situated Visualization erläutert 
-und Visualisierungstechniken für die Darstellung von Daten im Kontext zur physischen Welt (z. Bsp. Gegenstände, Person, Aufgabe) nahe gebracht. 
+und unterschiedliche Darstellungsformen für die Visualisierung von Daten im Kontext zur physischen Welt (z. Bsp. Gegenstände, Person, Aufgabe) nahe gebracht. 
 Abschließend wird die Definition von Usability erläutert und ein Einblick in Usability Engineering gegeben, welches eine etablierte Vorgehensweise für die 
 Gestaltung und Entwicklung von Systemen mit hohen Usability Anforderungen ist. 
 
 \section{Augmented Reality}
 
 %Definition und Begriffseingrenzung  von AR
-Augmented Reality (zu dt. Erweiterte Realität, kurz AR) steht für die Überlagerung der realen Welt mit digitalen Informationen. \cite{Azuma.1997,DieterSchmalstieg2016} Im Gegensatz zu, virtuellen Realität, wo Benutzer vollständig in virtuelle Umgebungen eintauchen,
+Augmented Reality (zu dt. Erweiterte Realität, kurz \gls{ar}) steht für die Überlagerung der realen Welt mit digitalen Informationen. \cite{Azuma1997,DieterSchmalstieg2016} Im Gegensatz zur, Virtual Reality (z. dt. Virtuelle Realität, kurz VR), wo Benutzer vollständig in virtuelle Umgebungen eintauchen,
 ist das Ziel von AR, Informationen direkt in die physische Umgebung des Benutzers einzufügen. So soll der Eindruck entstehen, dass diese Informationen Teil der realen Welt sind. \footnote{Nach Definition von Azuma  müssen Informationen hierbei nicht nur auf visuelle Informationen beschränkt sein, 
-sondern können auch auditive, haptische, gustative (Geschmack) oder auch olfaktorische (Geruch) umfassen.} \cite{Azuma.1997} Während in VR Benutzer von der äußeren Umgebung nichts mitbekommen, wird in AR die reale Umgebung des Benutzers, mit virtuellen 
-Objekten überlagert. Azuma beschreibt in \cite{Azuma.1997}, folgende Charakteristiken für Augmented Reality: 
+sondern können auch auditive, haptische, gustative (Geschmack) oder auch olfaktorische (Geruch) Informationen umfassen.} \cite{Azuma1997} Während in VR Benutzer von der äußeren Umgebung nichts mitbekommen, wird in AR die reale Umgebung des Benutzers, mit virtuellen 
+Objekten überlagert. Azuma beschreibt in \cite{Azuma1997}, folgende Charakteristiken für Augmented Reality: 
 
 \begin{enumerate}
 	\item Kombinieren reale und virtuelle Welt (Combines real and virtual).
@@ -22,13 +22,13 @@ Objekten überlagert. Azuma beschreibt in \cite{Azuma.1997}, folgende Charakteri
 	\item Informationen (reale und virtuelle) haben einen Bezug im dreidimensionalen Raum. (Registered in 3-D)
 \end{enumerate}
 
-Diese Charakteristiken helfen dabei Augmented Reality besser zu verstehen und technologisch einzuordnen. \cite{Azuma.1997} Filme, wie z. Bsp. ``Jurassic Park``, in welchen virtuelle Objekte in die reale Szene eingefügt werden, erwecken zwar den Eindruck, dass diese Objekte, Teil der realen Szene sind, jedoch kann mit diesen Objekten nicht in Echtzeit interagiert werden. \cite{Tonnis2010} In Filmen werden die virtuellen Objekte in eine zuvor aufgezeichnete Aufnahme eingefügt. 
-In der AR Technologie werden hingegen virtuelle Objekte live in ein Video eingefügt. Dies bedeutet, dass in  Filmen für das Einfügen von digitalen Informationen in die reale Szene beliebig große Zeitspanne zur Verfügung steht. 
-In AR muss dies in wenigen Millisekunden geschehen. Die neue Position und Ausrichtung des virtuellen Objektes in live Szene muss innerhalb einer Zeitspanne von zwei Frames bestimmt werden.
+Diese Charakteristiken helfen dabei Augmented Reality besser zu verstehen und technologisch einzuordnen. \cite{Azuma1997} Filme, wie z. Bsp. ``Jurassic Park``, in welchem virtuelle Objekte in die reale Szene eingefügt werden, erwecken zwar den Eindruck, dass diese Objekte, Teil der realen Szene sind, jedoch kann mit diesen Objekten nicht in Echtzeit interagiert werden. \cite{Tonnis2010} In Filmen werden die virtuellen Objekte in eine zuvor aufgezeichnete Aufnahme eingefügt. 
+In der AR Technologie werden hingegen virtuelle Objekte live in ein Video eingefügt. Dies bedeutet, dass in  Filmen für das Einfügen von digitalen Informationen in die reale Szene, eine beliebig große Zeitspanne zur Verfügung steht. 
+In AR muss dies in wenigen Millisekunden geschehen. Die neue Position und Ausrichtung des virtuellen Objektes in der live Szene muss innerhalb einer Zeitspanne von zwei Frames bestimmt werden.
 
-Ein anderes Beispiel für AR ist in Live-Ansichten von Digitalkameras zu finden, welche das aufzunehmende Bild als Vorschau anzeigen. Oft blenden Digitalkameras Informationen zu den aktuellen Einstellungen der Kamera sowie den 
+Ein anderes Beispiel für AR ist in Live-Ansichten von Digitalkameras zu finden, welche das aufzunehmende Bild als Vorschau anzeigen. Oft blenden diese Informationen zu den aktuellen Einstellungen der Kamera sowie den 
 Ladezustand der Batterie im Vorschaubild ein (Siehe Abbildung \ref{img:ar_camera_example}). Diese Informationen überlagern zwar die reale Szene, haben jedoch keinen Bezug zum dreidimensionalen Raum. 
-Der elektronische Sucher hingegen welches Objekte (z. Bsp. Gesichter) erkennt und in einem virtuellen Rahmen einrahmt, hat ein Bezug zu den Objekten im 3D Raum. 
+Der elektronische Sucher hingegen, welcher, Objekte (z. Bsp. Gesichter) erkennt und in einem virtuellen Rahmen einrahmt, hat einen Bezug zu den Objekten im 3D Raum. 
 Zudem sind Interaktionen in Echtzeit möglich. Bewegt sich das vom virtuellen Rahmen, eingerahmte reale Objekt, oder die Kamera selbst, verändert sich auch die Position des virtuellen Objektes. 
 
 \begin{figure}
@@ -39,33 +39,33 @@ Zudem sind Interaktionen in Echtzeit möglich. Bewegt sich das vom virtuellen Ra
 \end{figure}
 
 % Motivation
-\cite{Azuma.1997} Durch das Kombinieren von virtueller und physischer Welt, erweitert Augumented Reality die Wahrnehmung des Menschen. Die Motivation von AR ist, dem Menschen durch das Einfügen
-von digitalen Informationen in die physische Welt, Hinweise zu geben und Details zu zeigen, die sonst nicht unmittelbar wahrnehmen könnte. Diese Informationen sollen den Menschen 
+\cite{Azuma1997} Durch das Kombinieren von virtueller und physischer Welt, erweitert Augumented Reality die Wahrnehmung des Menschen. Die Motivation von AR ist, dem Menschen durch das Einfügen
+von digitalen Informationen in die physische Welt Hinweise zu geben und Details zu zeigen, die er sonst nicht unmittelbar wahrnehmbar wären. Diese Informationen sollen den Menschen 
 bei der Verrichtung ihrer Aufgaben in der physischen Welt unterstützen.
 
 % Anwendungsfelder von AR % Besonders passend für diese Arbeit sind Annotationen und Warung und Reperatur. Da diese sich besonders mit Interaktionen an Realen Objekten, meist Produkte befassen.
-Azuma fasst in \cite{Azuma.1997}, Forschungen zu AR in sechs Anwendungsgebiete zusammen: Zur Visualisierung von Medizindaten, in der Wartung 
+Azuma fasst in \cite{Azuma1997} Forschungen zu AR in sechs Anwendungsgebiete zusammen: Zur Visualisierung von Medizindaten, in der Wartung 
 und Instandsetzung, Annotationen, für die Wegfindung in der Robotik und für die Navigation von Militärflugzeugen. Beispielsweise können Annotationen 
 verwendet werden, um Informationen über den Inhalt von Regalen einzublenden, während ein Nutzer durch eine Bibliothek läuft und nach bestimmten Büchern sucht. % Füge hier vielleicht noch ein Beispiel dazu ein % Füge hier Verweis auf ein Artike als Fußnotel hinzu
 Auch können Annotationen in AR verwendet werden, um einzelne Bauelemente an komplexen Bauteilteilen zu identifizieren und Informationen über diese zu visualisieren. 
-In der Wartung und Instandsetzung können Augemented Reality Anwendungen dabei helfen, Instruktionen an komplexen Maschinen und Anlagen zu visualisieren, welche sonst in 
+In der Wartung und Instandsetzung können Augmented Reality Anwendungen dabei helfen, Instruktionen an komplexen Maschinen und Anlagen zu visualisieren, welche sonst in 
 Form von Text und Bildern vorliegen. So können virtuelle Replikate über die physischen Modelle gelegt und, zum Beispiel, Schritt für Schritt Anleitungen direkt am physischen Produkt visualisiert werden. 
 Durch Animationen können diese Anleitungen präziser gestaltet werden und zum Beispiel auch Informationen über die Richtung geben. 
 
-Diese Systeme können heute zum Beispiel Unterunternehmen dabei helfen, besser mit ihren Kunden zu kooperieren. In Kombination mit der Technologie Internet of Things (IOT) können Unternehmen,
-zustands-bezogene Informationen zu Ihren Systemen bei Endkunden abrufen und proaktiv Ihre Kunden auf notwendige Wartungen am physischen System, aufmerksam machen. Wartungsanleitungen können dann direkt 
-an den Analgen angezeigt werden, sodass Endkunden diese selbständig durchführen können.\footnote{Fallstudie zur Anwendung von AR in Wartung von Industrieanlagen: https://www.ptc.com/-/media/Files/PDFs/Case-Studies/Howden-vuforia-studio-case-study-Feb-2019.pdf?la=en\&hash=6342841E1B6470C1F313295427398606 [letzter Zugriff: 25.06.2019]}
+Diese Systeme können heute zum Beispiel Unternehmen dabei helfen, besser mit ihren Kunden zu kooperieren. In Kombination mit der Technologie Internet of Things (IOT) können Unternehmen,
+zustands-bezogene Informationen zu Ihren Systemen bei Endkunden abrufen und proaktiv ihre Kunden auf notwendige Wartungen am physischen System, aufmerksam machen. Wartungsanleitungen können dann direkt 
+an den Anlagen angezeigt werden, sodass Endkunden diese selbständig durchführen können.\footnote{Fallstudie zur Anwendung von AR in Wartung von Industrieanlagen: https://www.ptc.com/-/media/Files/PDFs/Case-Studies/Howden-vuforia-studio-case-study-Feb-2019.pdf?la=en\&hash=6342841E1B6470C1F313295427398606 [letzter Zugriff: 25.06.2019]}
 
 %Grundlegende Techniken
 \cite[S.~32]{Tonnis2010} Für die Überlagerung der realen Welt mit virtuellen Objekten eignen sich nach heutigem Stand der Technik zwei Display Techniken, nämlich Optical See-Through und Video See-Through. 
-Bei Optical See-Through kann der Nutzer direkt in die reale Welt blicken, wobei Computer generierte Bilder auf ein halbdurchlässiges Spiegel eingeblendet werden (dieses wird als Combiner bezeichnet).
+Bei Optical See-Through kann der Nutzer direkt in die reale Welt blicken, wobei computergenerierte Bilder auf einen halbdurchlässigen Spiegel eingeblendet werden (dieses wird als Combiner bezeichnet).
 Diese Technik hat den Vorteil, dass der Nutzer einen direkten Blick auf die reale Welt hat. Der Nachteil ist jedoch, dass die reale Welt nicht zeitgleich mit virtuellen Objekten überlagert werden kann. 
 Dadurch, dass die Berechnung der Positionsbestimmung und das Rendern der virtuellen Objekte Zeit in Anspruch nimmt, werden diese mit einer kleinen Verzögerung angezeigt. Dies kann, auch 
 wenn es sich nur um einige Millisekunden handelt, zu einem so genannten Schwimmeffekt führen (en. Lag). Mit der See Through Display Technik, wird die reale Welt dem Nutzer als ein Video 
 angezeigt und mit virtuellen Objekten überlagert. Der Vorteil dieser Technik liegt darin, dass die Darstellung der realen Welt um die Zeit verzögert werden kann, die benötigt wird, um die virtuellen Objekte 
-richtig zu positionieren und rendern. Dadurch werden die Nachteile der Optical-See-Through Technik kompensiert. Dass die reale Welt dem Nutzer verzögert angezeigt wird bringt jedoch den Nachteil, 
-dass Positionsänderungen von physischen im realen Welt befindenden Objekten oder die Änderung der Perspektive, falls sich der Nutzer selbst bewegt, verzögert angezeigt werden. Zudem wird mit 
-dieser Technik je nach Auflösung der Kamera die reale Welt mit verringerter Qualität angezeigt.
+richtig zu positionieren und zu rendern. Dadurch werden die Nachteile der Optical-See-Through Technik kompensiert. Dass die reale Welt dem Nutzer verzögert angezeigt wird bringt jedoch den Nachteil mit sich, 
+dass Positionsänderungen physischen, sich in der realen Welt befindenden Objekten oder die Änderung der Perspektive, falls sich der Nutzer selbst bewegt, verzögert angezeigt werden. Zudem wird mit 
+dieser Technik, je nach Auflösung der Kamera die reale Welt, mit verringerter Qualität angezeigt.
 
 \section{Objekterkennung und- Verfolgung}
 
@@ -73,13 +73,13 @@ dieser Technik je nach Auflösung der Kamera die reale Welt mit verringerter Qua
 
 % Geschichte und Entwicklung
 
-\subsection{Markerbasiertes Tracking}
+\textbf{Markerbasiertes Tracking}
 
 % Begriffserklärung von Marker Trakting
 
 % Anwendungsfelder von Marker Traking
 
-\subsection{Markerloses Tracking}
+\textbf{Markerloses Tracking}
 
 % Begriffserklärung von Markerlosen Traking 
 
@@ -87,46 +87,47 @@ dieser Technik je nach Auflösung der Kamera die reale Welt mit verringerter Qua
 
 
 \section{Situated Visualization}
-\subsection{(Situated Visualization) - Definition}
+\subsection{Situated Visualization - Definition}
+
 
 Das zu konzipierende System soll durch den Einsatz von Augmented Reality, die Abgabe von Feedbacks zu Produkten und deren Darstellung auf den Produkten bzw. Produktteilen ermöglichen. 
 Als eine besondere Form von Visualisierung beschäftigt sich das Feld Situated Visualization mit der Visualisierung von Daten im Kontext zu physischen Objekten. 
 
 \cite[S.~239]{DieterSchmalstieg2016} Ein großer Vorteil von Augmented Reality Nutzeroberflächen ist dessen Fähigkeit, Situation, Aufgaben oder Nutzer-relevante Informationen in 
 der realen Umgebung des Nutzers anzeigen zu können. Diesen Vorteil zunutze zu machen ist jedoch sehr davon abhängig, welche Informationen in AR, in welcher Form dargestellt werden. 
-Das Feld Situated Visualization befasst sich mit der richtigen Präsentation von computergenerierten Grafiken in der realen Szene von physischen Gegenständen oder Personen. \cite[S.~188]{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015} Situated Visualization ist die Präsentation von Daten, welche in Bezug zur physischen Umgebung stehen. 
+Das Feld Situated Visualization befasst sich mit der richtigen Präsentation von computergenerierten Grafiken in der realen Szene von physischen Gegenständen oder Personen. \cite[S.~188]{Marriott2018} Situated Visualization ist die Präsentation von Daten, welche in Bezug zur physischen Umgebung stehen. 
 Die Bedeutungsbestimmung wird durch die Kombination von Visualisierung und dessen Beziehung zu der unmittelbaren Umgebung erreicht. \cite[S.~240]{DieterSchmalstieg2016} Abzugrenzen von 
 Situated Visualization, sind Visualisierungen welche zwar im 3D Raum präsentiert werden, jedoch keinen Bezug zu einem im dreidimensionalen Raum befindlichen Objekt, Person oder Aufgabe haben.
 
-\cite[S.~192]{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015} \cite[S.~2]{WesleyWillettYvonneJansen} stellen das in Abbildung \ref{img:situated_visualization_concept} dargestellte konzeptionelle Modell 
+\cite[S.~192]{Marriott2018} \cite[S.~2]{Willett2017} stellen das in Abbildung \ref{img:situated_visualization_concept} dargestellte konzeptionelle Modell 
 zur Situated Visualization vor.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{resources/fundamentals/situated_visualization/spacially_situated_visualization_model.png}
-	\caption{Konzeptionelles Model zu Situated Visualization Quelle: \cite[S.~192]{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015}}
+	\caption{Konzeptionelles Model zu Situated Visualization Quelle: \cite[S.~192]{Marriott2018}}
 	\label{img:situated_visualization_concept}
 \end{figure}
 
 % spacially situated visualization
 Dieses Modell (siehe Abbildung \ref{img:situated_visualization_concept}) erweitert die konventionelle Visualisierung der logischen Welt (Abbildung \ref{img:situated_visualization_concept} oberer Abschnitt) um die der physischen Welt (Abbildung \ref{img:situated_visualization_concept} unterer Abschnitt). 
-Die durchgängig dargestellten Pfeile (Abbildung \ref{img:situated_visualization_concept} (a), (b), (c) und (e)) zeigen den Informationsfluss zwischen den einzelnen Komponenten, die gestichelten Pfeile (Abbildung \ref{img:situated_visualization_concept} (d) und (f)) die konzeptionellen Beziehungen. Der Informationsfluss beginnt bei den Rohdaten in der oberen linken Ecke der Darstellung. Die Rohdaten durchlaufen den Visualisierungs-Pipeline und werden in ein vom Menschen besser interpretierbare visuelle Form umgewandelt (Abbildung \ref{img:situated_visualization_concept} (a -> b)). Die Verbindung zwischen logischer und physischer Welt wird mithilfe zweier Beziehungen hergestellt (b und d). 
+Die durchgängig dargestellten Pfeile (Abbildung \ref{img:situated_visualization_concept} (a), (b), (c) und (e)) zeigen den Informationsfluss zwischen den einzelnen Komponenten, die gestichelten Pfeile (Abbildung \ref{img:situated_visualization_concept} (d) und (f)) die konzeptionellen Beziehungen. Der Informationsfluss beginnt bei den Rohdaten in der oberen linken Ecke der Darstellung. Die Rohdaten durchlaufen den \gls{visualisierungspipeline} und werden in ein vom Menschen besser interpretierbare visuelle Form umgewandelt (Abbildung \ref{img:situated_visualization_concept} (a $\rightarrow$ b)). Die Verbindung zwischen logischer und physischer Welt wird mithilfe zweier Beziehungen hergestellt (b und d). 
 Die physische Präsentation der Daten (Abbildung \ref{img:situated_visualization_concept} (b)) stellt die Präsentation der Daten in visueller Form in der Realen Welt dar. 
 Dies könnte zum Beispiel eine Visualisierung in Form einer Annotation sein, welches der Betrachter durch eine Datenbrille auf einem physischen Gegenstand sieht, eine Auflistung von Daten welches 
-auf dem  Display eines Smartphones oder Tablett angezeigt wird oder ein Preisschild welches in ausgedruckter Form an ein physisches Gegenstand angebracht wurde.
+auf dem  Display eines Smartphones oder Tablett angezeigt wird oder ein Preisschild welches in ausgedruckter Form an ein physisches Gegenstand angebracht ist.
 
-Die zweite Beziehung besteht zwischen Rohdaten und physischen Referenten . Diese Beziehung ist konzeptionell, da Datensätze sich auf mehrere unterschiedliche Referenten beziehen können. 
-Der Grad, in wieweit der physische Referent und die physische Präsentation gleichzeitig wahrgenommen werden können hängt von der räumlichen Distanz zwischen diesen beiden ab. 
+Die zweite Beziehung besteht zwischen Rohdaten und physischen Referenten. Diese Beziehung ist konzeptionell, da Datensätze sich auf mehrere unterschiedliche Referenten beziehen können. 
+Der Grad, in wieweit der physische Referent und die physische Präsentation gleichzeitig wahrgenommen werden können hängt von der räumlichen Distanz zwischen diesen beiden ab (Abbildung \ref{img:situated_visualization_concept} (f)). 
 
 Der Betrachter könnte die Daten mithilfe von Augmented Reality, auf dem physischen Referenten betrachten. Der Betrachter könnte vor dem physischen Referenten stehen und die Daten zu dem Referenten auf
 dem Bildschirm seines Smartphones betrachten. Der Betrachter könnte aber auch räumlich entfernt vom physischen Referenten sein, sodass er diesen nicht sehen kann und die Daten auf einem Ausgabegerät 
 wie einem Computerbildschirm betrachten. 
 
 %Physically- vs. Perceptually-Situated Visualizations 
-\cite[S.~194]{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015} Da Distanzen jedoch relativ zu Größe von Objekten wahrgenommen werden, kann die physische und die wahrgenommene Distanz zwischen dem Physischen Referenten und der Physischen Präsentation stark voneinander abweichen. Wenn beide Objekte zum Beispiel nur wenige cm groß sind, kann ein Abstand von einem Meter sehr groß erscheinen, während der gleich Abstand für ein sehr großes Objekt, wie zum Beispiel ein Berg in einer Landschaftsansicht, zum Beispiel sehr klein erscheint. 
+\cite[S.~194]{Marriott2018} Da Distanzen jedoch relativ zu Größe von Objekten wahrgenommen werden, kann die physische und die wahrgenommene Distanz zwischen dem Physischen Referenten und der Physischen Präsentation stark voneinander abweichen. Wenn beide Objekte zum Beispiel nur wenige cm groß sind, kann ein Abstand von einem Meter sehr groß erscheinen, während der gleich Abstand für ein sehr großes Objekt, wie zum Beispiel ein Berg in einer Landschaftsansicht, zum Beispiel sehr klein erscheint. 
 
 %Zeitlich distanz (temporal)
-\cite{WesleyWillettYvonneJansen} Neben der räumlichen Distanz muss auch die zeitliche Distanz zwischen dem aktuellen Zustand des Physischen Referenten und die der physischen Präsentation hinsichtlich dessen 
+\cite{Willett2017} Neben der räumlichen Distanz muss auch die zeitliche Distanz zwischen dem aktuellen Zustand des Physischen Referenten und die der physischen Präsentation hinsichtlich dessen 
 Aktualität betrachtet werden. 
 Die zeitliche Distanz ist die zeitliche Abweichung zwischen den Daten die dem aktuellen Zustand des physischen Referenten entspricht, und den Daten welche in der Physischen Präsentation visualisiert werden.
 Werden beispielsweise Temperaturwerte die ein Temperatursensor an einem physischen Objekt anzeigt betrachtet und es wird der aktuell gemessene Wert angezeigt gibt es keine zeitliche Distanz. Wird jedoch ein
@@ -136,18 +137,18 @@ historischer Wert angezeigt oder eine Vorhersage, kann die zeitliche Distanz sta
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{resources/fundamentals/situated_visualization/embedded_visualization.png}
-	\caption{Embedded und Nicht-Embedded Situated Visualisierungen}
+	\caption{Embedded und Nicht-Embedded Situated Visualisierungen. \cite[S.~195]{Marriott2018}}
 	\label{img:embedded_visualization}
 \end{figure}
 
-\cite[S.~195]{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015} Embedded Visualization stellen eine besondere Art von Situated Visualization dar, welche sehr stark in die physische Umgebung integriert sind. 
+\cite[S.~195]{Marriott2018} Embedded Visualization stellen eine besondere Art von Situated Visualization dar, welche sehr stark in die physische Umgebung integriert sind. 
 
-Abbildung \ref{img:embedded_visualization} zeigt eingebettete und nicht eingebettete (Situated) Visualisierungen. [Kim Marriott et. al Seite 202] Ist ein Objekt aus mehreren Einzelteilen 
+Abbildung \ref{img:embedded_visualization} zeigt eingebettete und nicht eingebettete (Situated) Visualisierungen. \cite[S.~202]{Marriott2018} Ist ein Objekt aus mehreren Einzelteilen 
 zusammengesetzt und die Daten zu den Einzelteilen, werden in einer Visualisierung in der Nähe des Objektes dargestellt, gilt die Visualisierung als Situated, jedoch nicht als Embedded (Abbildung \ref{img:embedded_visualization} (a)).
-Werden die Daten zu den Einzelteilen, jeweils in der Nähe der jeweiligen Einzelteilen dargestellt, gilt die Visualisierung als Embedded (Abbildung \ref{img:embedded_visualization} (b)). Ist ein, Einzelteil jedoch nur einmal in einem Produkt vorhanden (zum Beispiel ein Motor in einem Auto), gilt die Visualisierung zu diesem Einzelteil nicht als Embedded. 
+Werden die Daten zu den Einzelteilen, jeweils in der unmittelbaren Nähe der jeweiligen Einzelteilen dargestellt, gilt die Visualisierung als Embedded (Abbildung \ref{img:embedded_visualization} (b)). Ist ein, Einzelteil jedoch nur einmal in einem Produkt vorhanden (zum Beispiel ein Motor in einem Auto), gilt die Visualisierung zu diesem Einzelteil nicht als Embedded. 
 
 Embedded Visualization geht davon aus, dass mehrere Teil-Visualisierungen zu den jeweiligen physischen Referenten entsprechen. Befinden sich in einem Haus beispielsweise mehrere Steckdosen und der Stromverbrauch 
-für jede Steckdose wird jeweils in der Nähe der jeweiligen Steckdose visualisiert, gilt die Visualisierung als Embedded. Gibt es in dem Haus jedoch nur eine Steckdose, gilt die Visualisierung nicht mehr als
+für jede Steckdose wird jeweils in der unmittelbaren Nähe der jeweiligen Steckdose visualisiert, gilt die Visualisierung als Embedded. Gibt es in dem Haus jedoch nur eine Steckdose, gilt die Visualisierung nicht mehr als
 Embedded.
 
 \vspace{15mm} 
@@ -158,7 +159,7 @@ Embedded.
 	\label{img:Illustration_situated_embedded_visualization}
 \end{figure}
 
-Mit Hilfe der Illustration in Abbildung \ref{img:Illustration_situated_embedded_visualization} zeigen \cite{WesleyWillettYvonneJansen} am Beispiel von Produkten, 
+Mit Hilfe der Illustration in Abbildung \ref{img:Illustration_situated_embedded_visualization} zeigen \cite{Willett2017} am Beispiel von Produkten, 
 welche in einem Supermarkt in einem Regalen platziert sind, die Eigenschaften unterschiedlicher Visualisierungen und die damit verbundenen Vor- und Nachteile der jeweiligen Visualisierungsform. 
 
 Der Vorteil von Non-Situated Visualisierungen (Abbildung \ref{img:Illustration_situated_embedded_visualization} ganz links) ist, dass diese flexibler hinsichtlich Standort 
@@ -174,29 +175,81 @@ zwischen Lage und Ausrichtung der Produkte bzw. Produktteile und den visualisier
 der Betrachter räumlich nahe am Produkt befindet und die Visualisierung auf einem mobilen Endgerät anzeigt wird.
 
 Embedded Visualization ermöglichen dem Betrachter, die Visualisierung der Daten unmittelbar an den jeweiligen Produkten bzw. Produktteilen zu betrachten ohne den Blick von diesen abwenden zu müssen. 
-Dies bringt den Vorteil dass der Betrachter während er die Visualisierung betrachtet, seinen Blick nicht vom Produkt bzw. Produktteil abwenden muss und Informationen zur direkten Umgebung des Produktes bzw. Produktteiles wahrnehmen kann. Diese Form der Visualisierung erfordert dass sich der Betrachter vor den entsprechenden Produktteilen befindet und Ausgabetechniken verwendet werden, welche die Informationen unmittelbar an den 
-Produktteilen anzeigen (z. Bsp. AR).
+Dies bringt den Vorteil dass der Betrachter während er die Visualisierung betrachtet, seinen Blick nicht vom Produkt bzw. Produktteil abwenden muss und Informationen zur direkten Umgebung des Produktes bzw. Produktteiles wahrnehmen kann. Diese Form der Visualisierung erfordert dass sich der Betrachter vor den entsprechenden Produktteilen befindet und Ausgabetechniken verwendet werden, welche die Informationen unmittelbar in der Nähe der 
+Produktteile anzeigen (z. Bsp. mit AR).
 
-Am Beispiel von (Abbildung \ref{img:Illustration_situated_embedded_visualization} zweite von rechts) ist dem möglich Betrachter Informationen zur unmittelbaren Umgebung der Produkte (zum Beispiel eine zu schwache Beleuchtung, einen unangenehm riechenden Geruch, ein Windzug, usw.) wahrzunehmen, während er die Visualisierung (welches ihm zum Beispiel zeigen könnte dass der Umsatz für diese Produkte während der vergangenen Monate zurück gegangen ist) zu diesen Produkten unmittelbar an den Produkten betrachtet.  
+Am Beispiel von (Abbildung \ref{img:Illustration_situated_embedded_visualization} zweite von rechts) wird dem Betrachter ermöglicht, Informationen zur unmittelbaren Umgebung der Produkte (zum Beispiel eine zu schwache Beleuchtung, einen unangenehm riechenden Geruch, ein Windzug, usw.) wahrzunehmen, während er die Visualisierung (welches ihm zum Beispiel zeigen könnte dass der Umsatz für diese Produkte während der vergangenen Monate zurück gegangen ist) zu diesen Produkten unmittelbar an den Produkten betrachtet.  
 
 %Facsimiles
-\cite{WesleyWillettYvonneJansen}Eine Möglichkeit, um Daten im Kontext zu physischen Objekten zu visualisieren, ist auch über die Verwendung von so genannten Faksimiles möglich. Diese sind detailgetreue, skalierbare Nachbildungen von Objekten, oder eine Instanz eines Objektes, welche durch eine Klasse oder ein Modell klar definiert ist. Ein Faksimile wird für gewöhnlich verwendet, falls die Visualisierung am echten physischen Referenten schwierig bis unmöglich ist: Dies ist der Fall, wenn zum Beispiel sehr klein (z.Bsp. Atome), sehr groß (z Bsp. ein Flussverlauf) zu weit entfernt (z. Bsp: auf einem anderen Planeten) oder sehr fragil bzw. wertvoll sind (z. Bsp. ein Gemälde). 
-In solchen Begebenheiten kann die Nutzung von Faksimiles die räumliche Distanz zum betrachtenden Objekt reduzieren und es damit zugänglicher machen. Ein Faksimile kann wenn diese mit ausreichender detailgetreue nachgebildet ist wie der eigentlichen physische Referent betrachtet werden. Die Nutzung von Faksimiles verringert jedoch, die Möglichkeit für den Betrachter, den eigentlichen Referenten zu verändern oder wichtige Details zu betrachten. Dies kann durch den Einsatz von Telepräsenz\footnote{Telepräsenz ist eine Form von Videokonferenz und beschreibt die Möglichkeit, virtuell an entfernten Orten Präsent zu sein. Siehe: https://www.itwissen.info/Telepraesenz-telepresence.html [Zuletzt aufgerufen am: 28.06.2018]} werden. 
+\cite{Willett2017}Eine Möglichkeit, um Daten im Kontext zu physischen Objekten zu visualisieren, ist auch über die Verwendung von so genannten Faksimiles möglich. Diese sind detailgetreue, skalierbare Nachbildungen von Objekten, oder eine Instanz eines Objektes, welche durch eine Klasse oder ein Modell klar definiert ist. Ein Faksimile wird für gewöhnlich verwendet, falls die Visualisierung am echten physischen Referenten schwierig bis unmöglich ist. Dies ist der Fall, wenn die physischen Referenten: Sehr klein (z.Bsp. Atome), sehr groß (z Bsp. ein Flussverlauf) zu weit entfernt (z. Bsp: auf einem anderen Planeten) oder sehr fragil bzw. wertvoll sind (z. Bsp. ein Gemälde). 
+In solchen Begebenheiten kann die Nutzung von Faksimiles die räumliche Distanz zum betrachtenden Objekt reduzieren und es damit zugänglicher machen. Ein Faksimile kann wenn diese mit ausreichender detailgetreue nachgebildet ist wie der eigentlichen physische Referent betrachtet werden. Die Nutzung von Faksimiles verringert jedoch, die Möglichkeit für den Betrachter, den eigentlichen Referenten zu verändern oder wichtige Details zu betrachten. Dies kann durch den Einsatz von Telepräsenz \footnote{Telepräsenz ist eine Form von Videokonferenz und beschreibt die Möglichkeit, virtuell an entfernten Orten Präsent zu sein. Siehe: https://www.itwissen.info/Telepraesenz-telepresence.html [Zuletzt aufgerufen am: 28.06.2018]} kompensiert werden. 
 
-\subsection{(Situated Visualization) - Techniken und Herausforderungen}
 
-Situated Visualization 
-%Herrausforderungen: Unordnung duruch zu viele Daten (Überlagerung). Generell auch bei anderen visualisierungen. Durch limitierter Platz bei AR manchmal besonders verschlimmert. %Registrierungsfehler führen zur falschen platzierung von visualisierungen. 
+\subsection{Situated Visualization - Techniken und Herausforderungen}
 
-% Störende\ Ungünstige Visualisierung. Auch wenn Registrierung theoretisch ganz fehlerfrei funtionieren würde, ungünstig sein und die Fähigkeit des Nutzers wichtige Informationen von nicht relevanten Informationen. 
+Im folgenden Abschnitt wird ein Überblick über die Herausforderungen für die Darstellung von Daten im Kontext zu realen Objekten 
+gegeben und Techniken für die Bewältigung dieser Herausforderungen vorgestellt.
 
-% In folgendem werden Techniken für die Bewältigung dieser Herrausforderungen vorgestellt. 
+\cite{DieterSchmalstieg2016} Bei der Darstellung von Informationen im Kontext zu realen Objekten stellen sich folgende Herausforderungen:
 
-Data Overlay 
+\begin{itemize}
+	\item Überladene Darstellung (Unübersichtlichkeit)
+	\item Fehler in der Registrierung (Objekterkennung und Verfolgung)
+	\item Visuelle Interferenzen
+\end{itemize}
 
-% la
+\textbf{Überladene Darstellung (Unübersichtlichkeit):}
 
-% Labeling und Annotationen
+\cite[S.~241]{DieterSchmalstieg2016} Situated Visualization steht vor den gleichen Herausforderungen welche auch bei traditionellen Visualisierungen auftreten. 
+\textbf{Überladene Darstellung (Unübersichtlichkeit)}: 'Wird eine große Menge an Informationen dargestellt, kann dies dies schnell zu einer überladenen Darstellung führen, welches dem Betrachter, einen Einblick 
+über die dargestellten Daten zu gewinnen erschwert. Da die Darstellung der Daten in AR Anwendungen, auf die Fläche der real existierenden Objekte begrenzt ist, 
+wird diese Herausforderung besonders verschärft. Es eignen sich hierfür zwei Lösungsansätze: Die Datenmenge kann durch Filterung der Daten reduziert werden. 
+Dafür kann das ``Information seeking mantra`` von Shneiderman \cite{Shneiderman1996} angewendet werden. 
+Bei diesem Konzeopt, wird dem Nutzer zunächst ein Überblick über die gesamte Datenmenge gegeben. Dem Nutzer wird die Möglichkeit gegeben, in bestimmte Bereiche der Daten hineinzuzoomen, Teile der Daten 
+welche nicht von Interesse sind auszublenden und einige Teile der Daten auszuwählen zu welchen mehr Details angezeigt werden sollen. 
+
+Beispielsweise kann dies in AR Anwendungen angewendet werden in welcher Annotationen zu Objekten aus der realen Welt visualisiert werden. 
+Abbildung (\ref{img:annotation_clutter}) zeigt ein Beispiel in welcher dem Nutzer, Informationen zu Bücher in einer Bibliothek al Annotationen angezeigt werden. Auf (Abbildung \ref{img:annotation_clutter} links) werden 
+alle Annotationen zu Büchern welche der Suche des Nutzers entsprechen dargestellt. (Abbildung \ref{img:annotation_clutter} rechts) werden Annotationen zu Bücher mit ähnlichen Eigenschaften gruppiert dargestellt. 
+Der Nutzer kann auf eine Gruppe klicken um die Annotationen welche in einer Gruppen zusammengefasst dargestellt sind, zu entfalten. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{resources/fundamentals/annotations_clutter.png}
+	\caption{Annotationen zu Büchern in einer Bibliothek. Quelle: \cite[S.~1]{Tatzgern2016}}
+	\label{img:annotation_clutter}
+\end{figure}
+
+Werden virtuelle Darstellungen nahe an realen Objekten platziert, können diese wichtige Details aus der realen Welt sowie andere virtuelle Informationen verdecken. 
+Verschiedene Arbeiten beschäftigen sich mit der Behandlung von Verdeckung (\cite{Grasset2012}, \cite{Bell2001}).
+
+In dieser Arbeit wird das Problem der Überladenen Darstellung, bei der Implementierung des Prototypen nur dahingehend behandelt dass der Vorgang für die Erstellung von 
+Feedbacks durch die Darstellung vorhandener Feedbacks auf dem Produkt nicht beeinträchtigt wird. 
+
+% data overload wird nicht in der implementierung des prototypen behandelt, muss jedoch unbedingt für die Gestaltung und Konzeption des Gesamtsystems beachtet werden. 
+\textbf{Fehler in der Objekterkennung und Verfolgung:} Visualisierungen in AR müssen einen Bezug zu der Objekten aus der realen Umgebung herstellen. Fehler
+in der Objekterkennung und Verfolgungen führen zur ungenauen Ausrichtung der Visualisierung.% \cite[S.~88]{Tonnis2010} Auch wenn sich 
+
+Dies erfordert die Einführung von Fehlerbehandlung. \cite[S.~243]{DieterSchmalstieg2016} Um dem Nutzer zum Beispiel zu ermöglichen die den Kontext Darstellung trotz einer fehlerhaften 
+Registrierung zu verstehen, können die Umrisse des Referenzen dargestellt werden.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{resources/fundamentals/missallignement.png}
+	\caption{Links: Durch die Fehlerhafte Registrierung wird der virtuelle Inhalt falsch platziert. Rechts: Durch die zusätzliche Darstellung der Umrisse des Objektes wird der Kontext wieder richtig hergestellt. Quelle: \cite[S.~243]{DieterSchmalstieg2016}}
+	\label{img:missallignement}
+\end{figure}
+
+SDKs bieten die Möglichkeit, Informationen zum aktuellen Zustand der Objekterkennung abzurufen (z. Bsp. ob das Objekt aus der realen Welt gefunden wurde und die Objektverfolgung im Gange ist, ob das Objekt verloren wurde und daher nicht weiter verfolgt werden kann, ob zu wenig Bildmerkmale gefunden werden und die Objekterkennung bald verloren gehen kann). 
+Diese Informationen können genutzt werden um auf Fehler zu reagieren und zum Beispiel dem Nutzer entsprechende Anleitungen zur weiteren Bedienung zu geben.
+
+\textbf{Visuelle Interferenz:}
+\cite[S.~243]{DieterSchmalstieg2016} Visualisierungen heben relevante Daten hervor und lenken die Aufmerksamkeit des Nutzers zu diesen Informationen. In Situated Visualization 
+wird die Aufmerksamkeit des Nutzers auf relevante Teile aus der realen Welt, der aktuellen Szene gelenkt. Eine Herausforderung dabei stellt, dass irrelevante Aspekte der realen Welt 
+keinen störenden Einfluss haben. \cite{Kalkofen2007} stellen Techniken vor Teile aus der realen Umgebung in den Fokus zu rücken während andere den Kontext dazu herstellen. 
+
+In AR stellt sich die Herausforderung, dass Visualisierungen sich auf Änderungen der realen Szene anpassen müssen. Dies kann zum Beispiel die Änderung der Lichtverhältnisse sowie die 
+Änderungen des Hintergrundes sein. \cite{Gabbard} Die Änderung des Hintergrundes wie Farbe, Textur, Beleuchtung haben zum Beispiel einen signifikanten Einfluss auf die Lesbarkeit von Texten.   
 
 \section{Computerunterstützte Kollaboration}
 
@@ -221,10 +274,10 @@ gibt Aussage darüber, ob sich die Nutzer während der Kommunikation am gleichen
 Bei dieser Form von Kollaboration können eine Teilmenge der Nutzer sich am gleichen Ort befinden, während ein anderer Teil entfernt, 
 also (Remote), mittels Telepräsenz an der Kommunikation teilnehmen. 
 
-Schmalstieg und Höllerer \cite{DieterSchmalstieg2016} beschreiben auf Grundlage dieser Unterteilung mögliche 
+Schmalstieg und Höllerer \cite[S.~362]{DieterSchmalstieg2016} beschreiben auf Grundlage dieser Unterteilung mögliche 
 Anwendungsgebiete für AR Systeme (Siehe Tabelle \ref{tab:categorycscw}).
 
-\cite{DieterSchmalstieg2016} In Co-Located und synchronen Anwendungsszenarien (z. Bsp. eine Besprechung in einem Besprechungsraum), können 
+\cite[S.~362]{DieterSchmalstieg2016} In Co-Located und synchronen Anwendungsszenarien (z. Bsp. eine Besprechung in einem Besprechungsraum), können 
 Augmented Reality Anwendungen, die Nutzern dabei unterstützen, Informationen im gemeinsamen Raum zu betrachten zu manipulieren und zu diskutieren. 
 
 In Remote und synchronen Szenarien können AR-Systeme es ermöglichen dass ein Nutzer (Nutzer 1), einem anderen Nutzer (Nutzer 2 welcher räumlich getrennt von Nutzer 1 befindet), 
@@ -283,7 +336,7 @@ Nach der Implementierung eines digitalen Prototypen, soll im Rahmen einer Nutzer
 Daher wird in diesem Abschnitt, die Definition von Usability näher betrachtet. Anschließend wird ein Einblick in Usability Engineering gegeben welches eine etablierte Herangehensweise für
 die Gestaltung und Entwicklung von Systemen mit hohen Usability Anforderungen ist. 
 
-\subsection{(Usability) - Definition} \label{UsaDef}
+\subsection{Usability - Definition} \label{UsaDef}
 
 % Begiffserklärung von Usability
 In der Normreihe ISO 9241 welches als ein internationaler Standard, Richtlinien für die Gestaltung von Mensch-Computer-Interaktionen beschreibt, wird im ISO Norm 9241-11,  Usability (zu dt. Benutzbarkeit) wie folgt definiert:
@@ -291,14 +344,14 @@ In der Normreihe ISO 9241 welches als ein internationaler Standard, Richtlinien 
 ``\textit{Das Ausmaß, in dem ein Produkt durch bestimmte Benutzer in einem bestimmten Nutzungskontext genutzt werden kann um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen.}``
 
 %Die Benutzbarkeit eines Systems muss im Kontext seiner Verwendung beurteilt werden.[Michael Richter, Markus Flückiger]
-Dass die Usability eines Systems nach dessen Nutzungskontext zu bewerten ist verdeutlichen \cite{MichaelRichter2016} an einem konkreten Beispiel für die Erfassung 
+Dass die Usability eines Systems nach dessen Nutzungskontext zu bewerten ist verdeutlichen \cite[S.~10]{MichaelRichter2016} an einem konkreten Beispiel für die Erfassung 
 von Kurznachrichten (SMS) mit dem Aufkommen von Mobiltelefonen. Bevor Smartphones mit Touch-Displays verbreitet waren, hatten Mobiltelefone oft rein numerische Tastaturen sodass, das Erfassen 
 von Textnachrichten über die Nutzung der numerischen Tasten erfolgen musste. Indem zum Beispiel in kurzen Zeitabständen zwei mal auf die Taste ``2`` gedrückt wurde, wurde zu Beispiel der Buchstabe 
 ``B`` eingegeben. Diese Eingabemethode wurde oftmals von vielen Nutzern als umständlich empfunden. Jedoch konnte auf diese Weise effizient und zufriedenstellend die Aufgabe, eine Kurznachricht 
 zu erfassen erfüllt werden. Zudem war diese Methode einfach zu erlernen und einprägsam. Somit wies dieser Ansatz für den damaligen Stand der Technik eine hohe Usability auf. 
 
 % Eine Teilmenge der Systemazeptanz 
-Nielsen stellt \cite{Nielsen1994} Akzeptanzkriterien für ein Systeme vor und stellt Usability als eine Teilmenge die dieser Kriterien vor.
+Nielsen stellt in \cite[S.~25]{Nielsen1994} Akzeptanzkriterien für ein Systeme vor und stellt Usability als eine Teilmenge die dieser Kriterien vor.
 Akzeptanzkriterien unterteilt er in soziale und praktische Kriterien.
 
 Soziale bzw. ethische Akzeptanzkriterien sind solche, welche die Nutzer von der Nutzung eines Systems abhalten, auch wenn praktische Akzeptanzkriterien sehr gut erfüllt werden. 
@@ -317,6 +370,7 @@ Die Eigenschaft Benutzbarkeit gliedert Nielsen in folgende fünf Teileigenschaft
 	\item Subjektive Zufriedenstellung (Das System sollte angenehm zu nutzen sein. So dass Nutzer auch subjektiv zufriedengestellt werden während sie das System nutzen.)
 \end{itemize}
 
+\begin{comment}
 %7 Kritärien nach ISO 9241 Teil 110 - ASSEFIL) 
 Im ISO Norm  9241-110 sind diese Kriterien, als Grundsätze zur Dialoggestaltung wie folgt aufgeführt:
 
@@ -329,10 +383,11 @@ Im ISO Norm  9241-110 sind diese Kriterien, als Grundsätze zur Dialoggestaltung
 	\item Individualisierbarkeit
 	\item Lernförderlichkeit
 \end{itemize}
+\end{comment}
 
-\subsection{Usablity Engineering}
+\subsection{Usability Engineering}
 
-\cite{MichaelRichter2016} Im laufe der Zeit haben sich verschiedene Fachrichtungen (wie z. Bsp: Human Computer Interaction (HCI), Human Factors, Interaction Design, Usability Engineering, 
+\cite[S.~7]{MichaelRichter2016} Im laufe der Zeit haben sich verschiedene Fachrichtungen (wie z. Bsp: Human Computer Interaction (HCI), Human Factors, Interaction Design, Usability Engineering, 
 User centered Design (UCD), User Experience (UX) und Design Thinking) entwickelt welche nutzenorientierte Methoden für die Entwicklung von Technologien und neuen Anwendungen verfolgen. 
 
 % Usablity Engineering
@@ -341,7 +396,7 @@ Der Begriff Usability Engineering steht für die Konzeption, die Techniken für 
 messbare Usability Ziele in den frühen Phasen des Softwareentwicklungsprozesses zu definieren und einen Rahmen zu schaffen diese Ziele im laufe der Entwicklung stetig überprüfen zu können 
 um sicherstellen zu können dass diese erreicht werden.
 
-Nielsen beschreibt in \cite{Nielsen1994} Phasen den Entwurf und Entwicklung von Software Projekte mit der Anwendung von Usability Engineering Methoden durchlaufen. 
+Nielsen beschreibt in \cite[S.~72]{Nielsen1994} Phasen den Entwurf und Entwicklung von Software Projekte mit der Anwendung von Usability Engineering Methoden durchlaufen. 
 Im folgenden werden einige dieser Phasen zusammenfassend erläutert: 
 
 \vspace{5mm}
@@ -425,8 +480,10 @@ Nutzer können nicht mit Daten interagieren (Einschränkung horizontale Prototyp
 
 \subsection{Personas}
 
-% Personas
+\section{Zusammenfassung}
 
+% AR %Objekterkennung %Situated Visualization % Was zu beachten? %Computer unterstützte Kollaboration %Usability\Engineering 
+% Einleiten in Analyse: SDKs, Annotationen als Embeedded Darestellung + Zeigen und Auswählen. 
 
 
 

@@ -19,8 +19,330 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
-    \entry{Lebeck2018}{unpublished}{}
+    \entry{Azuma1997}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=65a33080a179a3a436c552a32d1f64f0}{%
+           family={Azuma},
+           familyi={A\bibinitperiod},
+           given={Ronald\bibnamedelima T},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{65a33080a179a3a436c552a32d1f64f0}
+      \strng{fullhash}{65a33080a179a3a436c552a32d1f64f0}
+      \strng{bibnamehash}{65a33080a179a3a436c552a32d1f64f0}
+      \strng{authorbibnamehash}{65a33080a179a3a436c552a32d1f64f0}
+      \strng{authornamehash}{65a33080a179a3a436c552a32d1f64f0}
+      \strng{authorfullhash}{65a33080a179a3a436c552a32d1f64f0}
+      \field{labelalpha}{Azu97}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper surveys the field of Augmented Reality, in which 3-D virtual objects are integrated into a 3-D real environment in real time. It describes the medical, manufacturing, visualization, path planning, entertainment and military applications that have been explored. This paper describes the characteristics of Augmented Reality systems, including a detailed discussion of the tradeoffs between optical and video blending approaches. Registration and sensing errors are two of the biggest problems in building effective Augmented Reality systems, so this paper summarizes current efforts to overcome these problems. Future directions and areas requiring further research are discussed. This survey provides a starting point for anyone interested in researching or using Augmented Reality.}
+      \field{booktitle}{Presence: Teleoperators and Virtual Environments}
+      \field{title}{{A Survey of Augmented Reality}}
+      \field{volume}{6}
+      \field{year}{1997}
+      \field{pages}{355\bibrangedash 385}
+      \range{pages}{31}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Azuma - 1997 - A Survey of Augmented Reality.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.cs.unc.edu/$\sim$azumaW:
+      \endverb
+      \verb{url}
+      \verb http://www.cs.unc.edu/$%5Csim$azumaW:
+      \endverb
+    \endentry
+    \entry{Bell2001}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=643607ae36721b528d734f0fe9552e4a}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={Blaine},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4b3462cefe1c5b2c7537ae21555c665a}{%
+           family={Feiner},
+           familyi={F\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=87d241cbdec119bfe30a226d31854498}{%
+           family={Hsllerer},
+           familyi={H\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ddde7c837760691788c86af845a0909}
+      \strng{fullhash}{1ddde7c837760691788c86af845a0909}
+      \strng{bibnamehash}{1ddde7c837760691788c86af845a0909}
+      \strng{authorbibnamehash}{1ddde7c837760691788c86af845a0909}
+      \strng{authornamehash}{1ddde7c837760691788c86af845a0909}
+      \strng{authorfullhash}{1ddde7c837760691788c86af845a0909}
+      \field{labelalpha}{BFH01}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We describe a view-management component for interactive 3D user interfaces. By view management, we mean maintaining visual constraints on the projections of objects on the view plane, such as locating related objects near each other, or preventing objects from occluding each other. Our view-management component accomplishes this by modifying selected object properties, including position, size, and transparency, which are tagged to indicate their constraints. For example, some objects may have geometric properties that are determined entirely by a physical simulation and which cannot be modified, while other objects may be annotations whose position and size are flexible. We introduce algorithms that use upright rectangular extents to represent on the view plane a dynamic and efficient approximation of the occupied space containing the projections of visible portions of 3D objects, as well as the unoccupied space in which objects can be placed to Pen$\sim$ission to make digital or hard copies of all o1" part of this work for personal o1" classroom use is granted without tee provided that copies arc not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, to republish, to post on servers or to redistribute to lists, requires prior specific pemaission and/or a fee. UISI' 01 Orlando FLA Copyright ACM 2001 1-58113-438-x/01/l 1...$5.00 avoid occlusion. Layout decisions from previous frames are taken into account to reduce visual discontinuities. We present augmented reality and virtual reality examples to which we have applied our approach, including a dynamically labeled and annotated environment.}
+      \field{title}{{View Management for Virtual and Augmented Reality}}
+      \field{year}{2001}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Bell, Feiner, Hsllerer - 2001 - View Management for Virtual and Augmented Reality.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/citation.cfm?id=502363
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/citation.cfm?id=502363
+      \endverb
+      \keyw{136 [Computer Graphics] Methodology and Techniques,137 [Computer Graphics] Three-Dimensional Graphics,CR Categories and Subject Descriptors: H51 [Inform,H52 [Information Interfaces and Presentation] User,Screen design,and virtual realities,annotation,augmented,augmented reality,environment management,labeling,virtual environments,wearable computing}
+    \endentry
+    \entry{Brandenburg2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=c86b64340f6d69b64b8c28cc9014ce49}{%
+           family={Brandenburg},
+           familyi={B\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universit{ä}t Berlin}%
+      }
+      \strng{namehash}{c86b64340f6d69b64b8c28cc9014ce49}
+      \strng{fullhash}{c86b64340f6d69b64b8c28cc9014ce49}
+      \strng{bibnamehash}{c86b64340f6d69b64b8c28cc9014ce49}
+      \strng{authorbibnamehash}{c86b64340f6d69b64b8c28cc9014ce49}
+      \strng{authornamehash}{c86b64340f6d69b64b8c28cc9014ce49}
+      \strng{authorfullhash}{c86b64340f6d69b64b8c28cc9014ce49}
+      \field{labelalpha}{Bra19}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Gestaltungsrichtlinien f{ü}r die Visualisierung von Produktinformationen in der virtuellen Umgebung CAVE zur Unterst{ü}tzung von Design Review Teams}}
+      \field{type}{Dissertation}
+      \field{year}{2019}
+      \field{pages}{231}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C\:/Users/alioi/OneDrive/Desktop/Dissertation_Brandenburg_2019.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gabbard}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=d132a03e3445af4baab47fa29469bd3e}{%
+           family={Gabbard},
+           familyi={G\bibinitperiod},
+           given={Joseph\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=76c964a2477177796323d9386602e6c0}{%
+           family={{Edward Swan}},
+           familyi={E\bibinitperiod},
+           given={J\bibnamedelima II},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{76f0e86d6d943fb432d123859189b629}
+      \strng{fullhash}{76f0e86d6d943fb432d123859189b629}
+      \strng{bibnamehash}{76f0e86d6d943fb432d123859189b629}
+      \strng{authorbibnamehash}{76f0e86d6d943fb432d123859189b629}
+      \strng{authornamehash}{76f0e86d6d943fb432d123859189b629}
+      \strng{authorfullhash}{76f0e86d6d943fb432d123859189b629}
+      \field{labelalpha}{GE08}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A major challenge, and thus opportunity, in the field of human-computer interaction and specifically usability engineering is designing effective user interfaces for emerging technologies that have no established design guidelines or interaction metaphors or introduce completely new ways for users to perceive and interact with technology and the world around them. Clearly, augmented reality is one such emerging technology. We propose a usability engineering approach that employs user-based studies to inform design, by iteratively inserting a series of user-based studies into a traditional usability engineering lifecycle to better inform initial user interface designs. We present an exemplar user-based study conducted to gain insight into how users perceive text in outdoor augmented reality settings and to derive implications for design in outdoor augmented reality. We also describe "lessons learned" from our experiences conducting user-based studies as part of the design process.}
+      \field{title}{{Usability Engineering for Augmented Reality: Employing User-based Studies to Inform Design}}
+      \field{year}{2008}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Gabbard, Edward Swan - Unknown - Usability Engineering for Augmented Reality Employing User-based Studies to Inform Design.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.424.308&rep=rep1&type=pdf
+      \endverb
+      \verb{url}
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.424.308&rep=rep1&type=pdf
+      \endverb
+      \keyw{Augmented,Evaluation / Methodology,H51: Multimedia Information Systems-Artificial,Index Terms-H52: User Interfaces-Ergonomics,Screen Design,Style Guides,and Virtual Realities}
+    \endentry
+    \entry{Grasset2012}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=5ffbb53fda83183a35a0fda528af08fe}{%
+           family={Grasset},
+           familyi={G\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b14ab5f66d5567c3df51a9f32e8b5aa7}{%
+           family={Langlotz},
+           familyi={L\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7fff406aaf42d6f94c421b2446185efd}{%
+           family={Kalkofen},
+           familyi={K\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5cbd14f0803c5bcabc218ffb9e8cfa05}{%
+           family={Tatzgern},
+           familyi={T\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b4602cdfe949fe303bc52d984f319508}{%
+           family={Schmalstieg{¶}},
+           familyi={S\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{61a3ae7cc5688eb5ebdf4e79f5fec7b8}
+      \strng{fullhash}{cfdf42ac75381c7609be23b9913be0c2}
+      \strng{bibnamehash}{61a3ae7cc5688eb5ebdf4e79f5fec7b8}
+      \strng{authorbibnamehash}{61a3ae7cc5688eb5ebdf4e79f5fec7b8}
+      \strng{authornamehash}{61a3ae7cc5688eb5ebdf4e79f5fec7b8}
+      \strng{authorfullhash}{cfdf42ac75381c7609be23b9913be0c2}
+      \field{labelalpha}{Gra12}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{IEEE Xplore Full-Text PDF:}}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6402555
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6402555
+      \endverb
+    \endentry
+    \entry{Kirschner2011}{report}{}
       \name{author}{4}{}{%
+        {{hash=f65e3354b881b7ef6327c10b0ddc9add}{%
+           family={Kirschner},
+           familyi={K\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=32108204a5d2d02f163e00220d669d8e}{%
+           family={Kain},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=98c55f204f1145f40874feb5062c8e2b}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=42b5fd0b7e31007f8c523c23e6213ca4}{%
+           family={Lindemann},
+           familyi={L\bibinitperiod},
+           given={Udo},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3bb7067758774ad75bf6e5ff40cb958}
+      \strng{fullhash}{c1bff0ecaab77ad062687c1f6a655d3d}
+      \strng{bibnamehash}{b3bb7067758774ad75bf6e5ff40cb958}
+      \strng{authorbibnamehash}{b3bb7067758774ad75bf6e5ff40cb958}
+      \strng{authornamehash}{b3bb7067758774ad75bf6e5ff40cb958}
+      \strng{authorfullhash}{c1bff0ecaab77ad062687c1f6a655d3d}
+      \field{labelalpha}{Kir11}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{iman solutions GmbH, Munich Despite the widely accepted and proven benefits of open innovation methods, companies apply them infrequently in their own product development processes. In order to find reasons for this apparently contradiction, we conducted 34 interviews with project directors and a literature study. Thus, we identified ten common obstacles for customer integration. On this basis, we derived a new open innovation method to get over these hurdles. The core idea of the presented crowd sourcing method is a product picture based access to a comment management database by the product user. To illuminate the method, we present an implementation together with its internal data structure for a better understanding. This tool is then validated in an experiment with n=48 users. The results indicate that the picture based approach of the method generates valuable results that can contribute to product development.}
+      \field{booktitle}{INTERNATIONAL CONFERENCE ON ENGINEERING DESIGN}
+      \field{title}{{IMMERSIVE PRODUCT IMPROVEMENT IPI _ FIRST EMPIRICAL RESULTS OF A NEW METHOD}}
+      \field{type}{techreport}
+      \field{year}{2011}
+      \field{pages}{11\bibrangedash 15}
+      \range{pages}{5}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kirschner et al. - 2011 - IMMERSIVE PRODUCT IMPROVEMENT IPI _ FIRST EMPIRICAL RESULTS OF A NEW METHOD.pdf:pdf
+      \endverb
+      \keyw{customer integration,design method,open innovation,product improvement}
+    \endentry
+    \entry{Kirschner2012}{report}{}
+      \name{author}{1}{}{%
+        {{hash=14b9082788cb6b2b2fee7c740c4060f3}{%
+           family={Kirschner},
+           familyi={K\bibinitperiod},
+           given={Rafael\bibnamedelima Johannes},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{14b9082788cb6b2b2fee7c740c4060f3}
+      \strng{fullhash}{14b9082788cb6b2b2fee7c740c4060f3}
+      \strng{bibnamehash}{14b9082788cb6b2b2fee7c740c4060f3}
+      \strng{authorbibnamehash}{14b9082788cb6b2b2fee7c740c4060f3}
+      \strng{authornamehash}{14b9082788cb6b2b2fee7c740c4060f3}
+      \strng{authorfullhash}{14b9082788cb6b2b2fee7c740c4060f3}
+      \field{labelalpha}{Kir12}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Methodische Offene Produktentwicklung}}
+      \field{type}{techreport}
+      \field{year}{2012}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kirschner - Unknown - Methodische Offene Produktentwicklung.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://mediatum.ub.tum.de/doc/1094898/1094898.pdf
+      \endverb
+      \verb{url}
+      \verb https://mediatum.ub.tum.de/doc/1094898/1094898.pdf
+      \endverb
+    \endentry
+    \entry{Kalkofen2007}{book}{}
+      \name{author}{3}{}{%
+        {{hash=7fff406aaf42d6f94c421b2446185efd}{%
+           family={Kalkofen},
+           familyi={K\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b171b7c96dca208e26bfc7a09fe49708}{%
+           family={Mendezt},
+           familyi={M\bibinitperiod},
+           given={Erick},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e4970fe4e124a92afea86042ec757f13}{%
+           family={Schmalstiegt},
+           familyi={S\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba1ce1fcdbdc36cb2a7ea3a2a97840e4}
+      \strng{fullhash}{ba1ce1fcdbdc36cb2a7ea3a2a97840e4}
+      \strng{bibnamehash}{ba1ce1fcdbdc36cb2a7ea3a2a97840e4}
+      \strng{authorbibnamehash}{ba1ce1fcdbdc36cb2a7ea3a2a97840e4}
+      \strng{authornamehash}{ba1ce1fcdbdc36cb2a7ea3a2a97840e4}
+      \strng{authorfullhash}{ba1ce1fcdbdc36cb2a7ea3a2a97840e4}
+      \field{labelalpha}{KMS07}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Figure 1 An example of an enhanced augmentation. Focus objects (in red) are not only overlaid on top of the video image, but they are partially occluded by key features from context objects. This provides object occlusion with key features of occluding objects. A second level context (yellow seats) further helps an understanding of the scene. Edges in this image are enhanced considering occlusions with other objects. This helps us to better control the depth complexity of the scene ABSTRACT In this article we present interactive Focus and Context (F+C) visualizations for Augmented Reality (AR) applications. We demonstrate how F+C visualizations are used to affect the user's perception of hidden objects by presenting contextual information in the area of augmentation. We carefully overlay synthetic data on top of the real world imagery by taking into account the information that is about to be occluded. Furthermore, we present operations to control the amount of augmented information. Additionally, we developed an interaction tool, based on the Magic Lens technique, which allows for interactive separation of focus from context. We integrated our work into a rendering framework developed on top of the Studierstube Augmented Reality system. We finally show examples to demonstrate how our work benefits AR.}
+      \field{isbn}{9781424417506}
+      \field{title}{{Interactive Focus and Context Visualization for Augmented Reality}}
+      \field{year}{2007}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kalkofen, Mendezt, Schmalstiegt - Unknown - Interactive Focus and Context Visualization for Augmented Reality.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.cs.tufts.edu/comp/250VIS/papers/AR-FC-VIS.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.cs.tufts.edu/comp/250VIS/papers/AR-FC-VIS.pdf
+      \endverb
+      \keyw{136 [Methodology and Techniques]: Interaction tech,Categories H5 1 [Multimedia Information Systems]:,E13 [Data Structures]: Graphs and Networks,Graphics data structures and data types Keywords O,H52 [User Interfaces]: Style guides,and virtual realities,augmented,interaction techniques for MR/AR,mediated and diminished reality,real-time rendering}
+    \endentry
+    \entry{Lebeck2018}{unpublished}{}
+      \name{author}{5}{}{%
         {{hash=790a78010e4ae594bca416fbb0d25406}{%
            family={Lebeck},
            familyi={L\bibinitperiod},
@@ -41,27 +363,92 @@
            familyi={R\bibinitperiod},
            given={Franziska},
            giveni={F\bibinitperiod}}}%
+        {{hash=6df4438bdd483502e1ce98c4cacca9ac}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Paul\bibnamedelima G},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
       \strng{namehash}{6bd4adc1b9719c3e49afd8181a03d2d5}
-      \strng{fullhash}{76d1678ece5d3ac01818ac2b3b5b0e87}
+      \strng{fullhash}{d4b8adba51ab9397617ab97892793672}
       \strng{bibnamehash}{6bd4adc1b9719c3e49afd8181a03d2d5}
       \strng{authorbibnamehash}{6bd4adc1b9719c3e49afd8181a03d2d5}
       \strng{authornamehash}{6bd4adc1b9719c3e49afd8181a03d2d5}
-      \strng{authorfullhash}{76d1678ece5d3ac01818ac2b3b5b0e87}
+      \strng{authorfullhash}{d4b8adba51ab9397617ab97892793672}
       \field{labelalpha}{Leb18}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{Immersive augmented reality (AR) technologies are becoming a reality. Prior works have identified security and privacy risks raised by these technologies, primarily considering individual users or AR devices. However, we make two key observations: (1) users will not always use AR in isolation, but also in ecosystems of other users, and (2) since immersive AR devices have only recently become available, the risks of AR have been largely hypothetical to date. To provide a foundation for understanding and addressing the security and privacy challenges of emerging AR technologies, grounded in the experiences of real users, we conduct a qualitative lab study with an immersive AR headset, the Microsoft HoloLens. We conduct our study in pairs-22 participants across 11 pairs-wherein participants engage in paired and individual (but physically co-located) HoloLens activities. Through semi-structured interviews, we explore participants' security, privacy, and other concerns, raising key findings. For example, we find that despite the HoloLens's limitations, participants were easily immersed, treating virtual objects as real (e.g., stepping around them for fear of tripping). We also uncover numerous security, privacy, and safety concerns unique to AR (e.g., deceptive virtual objects misleading users about the real world), and a need for access control among users to manage shared physical spaces and virtual content embedded in those spaces. Our findings give us the opportunity to identify broader lessons and key challenges to inform the design of emerging single-and multiuser AR technologies.}
       \field{title}{{Towards Security and Privacy for Multi-User Augmented Reality: Foundations with End Users}}
       \field{year}{2018}
-      \field{pages}{17}
-      \range{pages}{1}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Lebeck et al. - 2018 - Towards Security and Privacy for Multi-User Augmented Reality Foundations with End Users.pdf:pdf
+      \endverb
       \verb{urlraw}
-      \verb https://homes.cs.washington.edu/{~}kklebeck/lebeck-sp18.pdf
+      \verb https://ar-sec.cs.washington.edu
       \endverb
       \verb{url}
-      \verb https://homes.cs.washington.edu/%7B~%7Dkklebeck/lebeck-sp18.pdf
+      \verb https://ar-sec.cs.washington.edu
+      \endverb
+    \endentry
+    \entry{Marriott2018}{book}{}
+      \name{author}{7}{}{%
+        {{hash=b7b9c8a15ea42930441d87944068bfe8}{%
+           family={Marriott},
+           familyi={M\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+        {{hash=cde02a993414a7acfe23ddf46f7548a3}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={Falk},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a473967e184afaba21c74d154be67f89}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={{·}\bibnamedelima Karsten},
+           giveni={·\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c33d664b540343c25a17d3945914d496}{%
+           family={Riche},
+           familyi={R\bibinitperiod},
+           given={Nathalie\bibnamedelima Henry},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fb1d1a7836829d9b4e4911f7409aeb04}{%
+           family={Itoh},
+           familyi={I\bibinitperiod},
+           given={Takayuki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=dfd8d46efe53918c4bab79ba6fbed371}{%
+           family={Stuerzlinger},
+           familyi={S\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=bb1fc2967df4dde7ea66d33031ad234d}{%
+           family={(Eds.)},
+           familyi={(\bibinitperiod},
+           given={Bruce\bibnamedelimb H.\bibnamedelimi Thomas},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98a035018b253fd91bb5af84f6e755f6}
+      \strng{fullhash}{4ca0d00e6c9b20d3918c4bbad1a9bd48}
+      \strng{bibnamehash}{98a035018b253fd91bb5af84f6e755f6}
+      \strng{authorbibnamehash}{98a035018b253fd91bb5af84f6e755f6}
+      \strng{authornamehash}{98a035018b253fd91bb5af84f6e755f6}
+      \strng{authorfullhash}{4ca0d00e6c9b20d3918c4bbad1a9bd48}
+      \field{labelalpha}{Mar18}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-030-01387-5}
+      \field{title}{{Immersive Analytics}}
+      \field{year}{2018}
+      \field{pages}{366}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C\:/Users/alioi/OneDrive/Desktop/2018_Book_ImmersiveAnalytics.pdf:pdf
       \endverb
     \endentry
     \entry{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015}{inproceedings}{}
@@ -104,10 +491,10 @@
       \field{pages}{2}
       \range{pages}{1}
       \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp={\&}arnumber=7223352{\&}tag=1
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7223352&tag=1
       \endverb
       \verb{url}
-      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=%7B%5C&%7Darnumber=7223352%7B%5C&%7Dtag=1
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7223352&tag=1
       \endverb
     \endentry
     \entry{Nielsen1994}{book}{}
@@ -124,21 +511,21 @@
       \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
       \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
       \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
-      \field{labelalpha}{Nie94}
+      \field{labelalpha}{Nie93}
       \field{sortinit}{N}
       \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{0125184069}
       \field{title}{{Usability Engineering}}
-      \field{year}{1994}
+      \field{year}{1993}
       \field{pages}{362}
       \range{pages}{1}
       \verb{urlraw}
-      \verb https://books.google.de/books?hl=de{\&}lr={\&}id=DBOowF7LqIQC{\&}oi=fnd{\&}pg=PP1{\&}dq=usability{\&}ots=Bl5aUOFUCN{\&}sig=8apn{\_}0ZCNfu{\_}NhbGpjnUGKTgyjY{\#}v=onepage{\&}q=usability{\&}f=false
+      \verb https://books.google.de/books?hl=de&lr=&id=DBOowF7LqIQC&oi=fnd&pg=PP1&dq=usability&ots=Bl5aUOFUCN&sig=8apn_0ZCNfu_NhbGpjnUGKTgyjY#v=onepage&q=usability&f=false
       \endverb
       \verb{url}
-      \verb https://books.google.de/books?hl=de%7B%5C&%7Dlr=%7B%5C&%7Did=DBOowF7LqIQC%7B%5C&%7Doi=fnd%7B%5C&%7Dpg=PP1%7B%5C&%7Ddq=usability%7B%5C&%7Dots=Bl5aUOFUCN%7B%5C&%7Dsig=8apn%7B%5C_%7D0ZCNfu%7B%5C_%7DNhbGpjnUGKTgyjY%7B%5C#%7Dv=onepage%7B%5C&%7Dq=usability%7B%5C&%7Df=false
+      \verb https://books.google.de/books?hl=de&lr=&id=DBOowF7LqIQC&oi=fnd&pg=PP1&dq=usability&ots=Bl5aUOFUCN&sig=8apn_0ZCNfu_NhbGpjnUGKTgyjY#v=onepage&q=usability&f=false
       \endverb
     \endentry
     \entry{MichaelRichter2016}{book}{}
@@ -165,10 +552,53 @@
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-49827-9}
       \field{title}{{Usability und UX kompakt Produkte f{ü}r Menschen}}
       \field{year}{2016}
       \field{pages}{219}
       \range{pages}{1}
+    \endentry
+    \entry{Roesner2013}{report}{}
+      \name{author}{3}{}{%
+        {{hash=1f8f5a22b3eba624c1912040accfd0e9}{%
+           family={Roesner},
+           familyi={R\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ac531ee83558be0e3798db153ad74d17}{%
+           family={Kohno},
+           familyi={K\bibinitperiod},
+           given={Tadayoshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=53107919d48a5b006886d8ec45fffd3a}{%
+           family={Molnar},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7be3d8332e95a066fda0c5e38cb13e77}
+      \strng{fullhash}{7be3d8332e95a066fda0c5e38cb13e77}
+      \strng{bibnamehash}{7be3d8332e95a066fda0c5e38cb13e77}
+      \strng{authorbibnamehash}{7be3d8332e95a066fda0c5e38cb13e77}
+      \strng{authornamehash}{7be3d8332e95a066fda0c5e38cb13e77}
+      \strng{authorfullhash}{7be3d8332e95a066fda0c5e38cb13e77}
+      \field{labelalpha}{RKM13}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Security and Privacy for Augmented Reality Systems}}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Roesner, Kohno, Molnar - Unknown - Security and Privacy for Augmented Reality Systems.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.flickr.com/photos/neven/5269418871/
+      \endverb
+      \verb{url}
+      \verb http://www.flickr.com/photos/neven/5269418871/
+      \endverb
     \endentry
     \entry{Rodden1992}{unpublished}{}
       \name{author}{1}{}{%
@@ -194,10 +624,10 @@
       \field{pages}{33}
       \range{pages}{1}
       \verb{urlraw}
-      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.39.8704{\&}rep=rep1{\&}type=pdf
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.39.8704&rep=rep1&type=pdf
       \endverb
       \verb{url}
-      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.39.8704%7B%5C&%7Drep=rep1%7B%5C&%7Dtype=pdf
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.39.8704&rep=rep1&type=pdf
       \endverb
     \endentry
     \entry{MaryBethRossonJohnM.CarrollDianeD.Cerra2002}{book}{}
@@ -237,52 +667,6 @@
       \field{isbn}{1-55860-712.9}
       \field{title}{{Usability Engineering: Scenario-Based Development of Human-Computer}}
       \field{year}{2002}
-      \verb{urlraw}
-      \verb https://books.google.de/books?hl=de{\&}lr={\&}id=sRPg0IYhYFYC{\&}oi=fnd{\&}pg=PP2{\&}dq=usability+engineering{\&}ots=mHJu6hTEKM{\&}sig=s2jBLnfM3jymlx7SmONhjV3{\_}lj0{\#}v=onepage{\&}q=usability engineering{\&}f=false
-      \endverb
-      \verb{url}
-      \verb https://books.google.de/books?hl=de%7B%5C&%7Dlr=%7B%5C&%7Did=sRPg0IYhYFYC%7B%5C&%7Doi=fnd%7B%5C&%7Dpg=PP2%7B%5C&%7Ddq=usability+engineering%7B%5C&%7Dots=mHJu6hTEKM%7B%5C&%7Dsig=s2jBLnfM3jymlx7SmONhjV3%7B%5C_%7Dlj0%7B%5C#%7Dv=onepage%7B%5C&%7Dq=usability%20engineering%7B%5C&%7Df=false
-      \endverb
-    \endentry
-    \entry{Roesner2013}{unpublished}{}
-      \name{author}{3}{}{%
-        {{hash=1f8f5a22b3eba624c1912040accfd0e9}{%
-           family={Roesner},
-           familyi={R\bibinitperiod},
-           given={Franziska},
-           giveni={F\bibinitperiod}}}%
-        {{hash=4c294306c965ac51c58ac13997c26f46}{%
-           family={Tadayoshi},
-           familyi={T\bibinitperiod},
-           given={Kohno},
-           giveni={K\bibinitperiod}}}%
-        {{hash=53107919d48a5b006886d8ec45fffd3a}{%
-           family={Molnar},
-           familyi={M\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{c45cec78312db3d070cfc730c5236648}
-      \strng{fullhash}{c45cec78312db3d070cfc730c5236648}
-      \strng{bibnamehash}{c45cec78312db3d070cfc730c5236648}
-      \strng{authorbibnamehash}{c45cec78312db3d070cfc730c5236648}
-      \strng{authornamehash}{c45cec78312db3d070cfc730c5236648}
-      \strng{authorfullhash}{c45cec78312db3d070cfc730c5236648}
-      \field{labelalpha}{RTM13}
-      \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Security and Privacy for Augmented Reality Systems}}
-      \field{year}{2013}
-      \field{pages}{10}
-      \range{pages}{1}
-      \verb{urlraw}
-      \verb https://ar-sec.cs.washington.edu/files/arsec-cacm2014-preprint.pdf
-      \endverb
-      \verb{url}
-      \verb https://ar-sec.cs.washington.edu/files/arsec-cacm2014-preprint.pdf
-      \endverb
     \endentry
     \entry{DieterSchmalstieg2016}{book}{}
       \name{author}{2}{}{%
@@ -291,30 +675,117 @@
            familyi={S\bibinitperiod},
            given={Dieter},
            giveni={D\bibinitperiod}}}%
-        {{hash=65ff6f1dc08b1d7cdc5d3932428d4c1c}{%
-           family={Tobias},
-           familyi={T\bibinitperiod},
-           given={H{ö}llerer},
-           giveni={H\bibinitperiod}}}%
+        {{hash=22f545ecadaedf548ce1942093a0a225}{%
+           family={H{ö}llerer},
+           familyi={H\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{72008de0d8acd4df4c0367d6bf702590}
-      \strng{fullhash}{72008de0d8acd4df4c0367d6bf702590}
-      \strng{bibnamehash}{72008de0d8acd4df4c0367d6bf702590}
-      \strng{authorbibnamehash}{72008de0d8acd4df4c0367d6bf702590}
-      \strng{authornamehash}{72008de0d8acd4df4c0367d6bf702590}
-      \strng{authorfullhash}{72008de0d8acd4df4c0367d6bf702590}
-      \field{labelalpha}{ST16}
+      \strng{namehash}{22cbf4da0da85fe6025b1860552299f4}
+      \strng{fullhash}{22cbf4da0da85fe6025b1860552299f4}
+      \strng{bibnamehash}{22cbf4da0da85fe6025b1860552299f4}
+      \strng{authorbibnamehash}{22cbf4da0da85fe6025b1860552299f4}
+      \strng{authornamehash}{22cbf4da0da85fe6025b1860552299f4}
+      \strng{authorfullhash}{22cbf4da0da85fe6025b1860552299f4}
+      \field{labelalpha}{SH16}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-321-88357-5}
-      \field{title}{{Augmented reality: principles and practice}}
+      \field{title}{{Augmented Reality: Principles and practice}}
       \field{year}{2016}
       \field{pages}{496}
       \range{pages}{1}
     \endentry
-    \entry{Templeman2012}{unpublished}{}
+    \entry{Shneiderman1996}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=39afccc0f55ae7821df79ffd677c90b0}{%
+           family={Shneiderman},
+           familyi={S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{fullhash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{bibnamehash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{authorbibnamehash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{authornamehash}{39afccc0f55ae7821df79ffd677c90b0}
+      \strng{authorfullhash}{39afccc0f55ae7821df79ffd677c90b0}
+      \field{labelalpha}{Shn96}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations}}
+      \field{year}{1996}
+      \field{pages}{8}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.cs.umd.edu/$\sim$ben/papers/Shneiderman1996eyes.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cs.umd.edu/$%5Csim$ben/papers/Shneiderman1996eyes.pdf
+      \endverb
+    \endentry
+    \entry{Tatzgern2016}{unpublished}{}
+      \name{author}{6}{}{%
+        {{hash=5cbd14f0803c5bcabc218ffb9e8cfa05}{%
+           family={Tatzgern},
+           familyi={T\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0eacb97c8bcc21c936f49674ff5cca36}{%
+           family={Orso},
+           familyi={O\bibinitperiod},
+           given={Valeria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7fff406aaf42d6f94c421b2446185efd}{%
+           family={Kalkofen},
+           familyi={K\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b06f167157a7433db4612655e3a728ee}{%
+           family={Jacucci},
+           familyi={J\bibinitperiod},
+           given={Giulio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bef80887fa627d3d9ee707949342ba53}{%
+           family={Gamberini},
+           familyi={G\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b31d42dd4ba4466eb4b996d6e714dc68}{%
+           family={Schmalstieg},
+           familyi={S\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c9873e0e5f8ad24ea761509aadce14a}
+      \strng{fullhash}{85e89e3a398c6d9a4fa6f675405d23c2}
+      \strng{bibnamehash}{3c9873e0e5f8ad24ea761509aadce14a}
+      \strng{authorbibnamehash}{3c9873e0e5f8ad24ea761509aadce14a}
+      \strng{authornamehash}{3c9873e0e5f8ad24ea761509aadce14a}
+      \strng{authorfullhash}{85e89e3a398c6d9a4fa6f675405d23c2}
+      \field{labelalpha}{Tat16}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Figure 1: (a) A user looking for a book to read can use the glyph visualization to compare items and identify interesting books. However, finding the real world location of books is difficult because of the clutter. (b) With an adaptive information density display, the user has a better overview of relevant books. ABSTRACT Augmented Reality (AR) browsers show geo-referenced data in the current view of a user. When the amount of data grows too large, the display quickly becomes cluttered. Clustering items by spatial and semantic attributes can temporarily alleviate the issue, but is not effective against an increasing amount of data. We present an adaptive information density display for AR that balances the amount of presented information against the potential clutter created by placing items on the screen. We use hierarchical clustering to create a level-of-detail structure, in which nodes closer to the root encompass groups of items, while the leaf nodes contain single items. Our method selects items and groups from different levels of this hierarchy based on user-defined preferences and on the amount of visual clutter caused by placing these items. The number of presented items is adapted during user interaction to avoid clutter. We compare our interface to a conventional AR browser interface in a qualitative user study. Users clearly preferred our interface, because it provided a better overview of the data and allowed for easier comparison. In a second study, we evaluated the effect of different degrees of clustering on search and recall tasks. Users generally made fewer errors, when using our interface for a search task, which indicates that the reduced clutter allowed them to stay focused on finding the relevant items.}
+      \field{title}{{Adaptive Information Density for Augmented Reality Displays}}
+      \field{year}{2016}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Tatzgern et al. - Unknown - Adaptive Information Density for Augmented Reality Displays.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://help.here.com/de/wp8/citylens
+      \endverb
+      \verb{url}
+      \verb https://help.here.com/de/wp8/citylens
+      \endverb
+    \endentry
+    \entry{Templeman2012}{report}{}
       \name{author}{4}{}{%
         {{hash=92bfb217331bd6f1bc801978ef9f32fa}{%
            family={Templeman},
@@ -348,15 +819,16 @@
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{As smartphones become more pervasive, they are increasingly targeted by malware. At the same time, each new generation of smartphone features increasingly powerful onboard sensor suites. A new strain of 'sensor malware' has been developing that leverages these sensors to steal information from the physical environment-e.g., researchers have recently demonstrated how malware can 'listen' for spoken credit card numbers through the microphone, or 'feel' keystroke vibrations using the accelerometer. Yet the possibilities of what malware can 'see' through a camera have been understudied. This paper introduces a novel 'visual malware' called PlaceRaider, which allows remote attackers to engage in remote reconnaissance and what we call "virtual theft." Through completely opportunistic use of the phone's camera and other sensors, PlaceRaider constructs rich, three dimensional models of indoor environments. Remote burglars can thus 'download' the physical space, study the environment carefully, and steal virtual objects from the environment (such as financial documents, information on computer monitors, and personally identifiable information). Through two human subject studies we demonstrate the effectiveness of using mobile devices as powerful surveillance and virtual theft platforms, and we suggest several possible defenses against visual malware.}
+      \field{eprinttype}{arXiv}
       \field{title}{{PlaceRaider: Virtual Theft in Physical Spaces with Smartphones}}
+      \field{type}{techreport}
       \field{year}{2012}
-      \field{pages}{21}
-      \range{pages}{1}
-      \verb{urlraw}
-      \verb https://arxiv.org/pdf/1209.5982.pdf
+      \verb{eprint}
+      \verb 1209.5982v1
       \endverb
-      \verb{url}
-      \verb https://arxiv.org/pdf/1209.5982.pdf
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Templeman et al. - 2012 - PlaceRaider Virtual Theft in Physical Spaces with Smartphones.pdf:pdf
       \endverb
     \endentry
     \entry{Tonnis2010}{book}{}
@@ -379,12 +851,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-642-14178-2}
-      \field{title}{{Augmented Reality EinblickeindieErweiterteRealit{ä}t}}
+      \field{title}{{Augmented Reality Einblicke in die Erweiterte Realit{ä}t}}
       \field{year}{2010}
       \field{pages}{199}
       \range{pages}{1}
+      \verb{file}
+      \verb :C\:/Users/alioi/OneDrive/Desktop/T{\"{o}}nnis_2010_Book_Einbilicke_in_Augmented_Reality.pdf:pdf
+      \endverb
     \endentry
-    \entry{WesleyWillettYvonneJansen}{unpublished}{}
+    \entry{Willett2017}{unpublished}{}
       \name{author}{3}{}{%
         {{hash=8b6f6f0f6921ea301bc7656da499e2e2}{%
            family={Willett},
@@ -408,23 +883,20 @@
       \strng{authorbibnamehash}{bcad18d09a7248e563eced72416f4091}
       \strng{authornamehash}{bcad18d09a7248e563eced72416f4091}
       \strng{authorfullhash}{bcad18d09a7248e563eced72416f4091}
-      \field{labelalpha}{WJD}
+      \field{labelalpha}{WJD17}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{Fig. 1. Examples of embedded data representations 1 : (a) dye-based flow visualization on a 1/48 scale airplane model, (b) Yelp's Monocle application uses a mobile phone to display business ratings in front of the establishments, (c) concept image of an augmented reality visualization of urban wind flow [42], (d) a visualization of wifi signal strength made with a moving LED rod and long exposure photography, (e) MRI overlay for joint arthrography [13], and (f) a concept image of a drone swarm visualizing crop health [51]. Abstract-We introduce embedded data representations, the use of visual and physical representations of data that are deeply integrated with the physical spaces, objects, and entities to which the data refers. Technologies like lightweight wireless displays, mixed reality hardware, and autonomous vehicles are making it increasingly easier to display data in-context. While researchers and artists have already begun to create embedded data representations, the benefits, trade-offs, and even the language necessary to describe and compare these approaches remain unexplored. In this paper, we formalize the notion of physical data referents-the real-world entities and spaces to which data corresponds-and examine the relationship between referents and the visual and physical representations of their data. We differentiate situated representations, which display data in proximity to data referents, and embedded representations, which display data so that it spatially coincides with data referents. Drawing on examples from visualiza-tion, ubiquitous computing, and art, we explore the role of spatial indirection, scale, and interaction for embedded representations. We also examine the tradeoffs between non-situated, situated, and embedded data displays, including both visualizations and phys-icalizations. Based on our observations, we identify a variety of design challenges for embedded data representation, and suggest opportunities for future research and applications.}
       \field{title}{{Embedded Data Representations}}
-      \field{pages}{10}
-      \range{pages}{1}
-      \verb{urlraw}
-      \verb http://yvonnejansen.me/articles/VIS2016 - Embedded Data Representations.pdf
+      \field{year}{2017}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Willett, Jansen, Dragicevic - Unknown - Embedded Data Representations.pdf:pdf
       \endverb
-      \verb{url}
-      \verb http://yvonnejansen.me/articles/VIS2016%20-%20Embedded%20Data%20Representations.pdf
-      \endverb
+      \keyw{Index Terms-Information visualization,ambient displays,augmented reality,data physicalization,ubiquitous computing}
     \endentry
   \enddatalist
-  \missing{Azuma.1997}
 \endrefsection
 \endinput
 

@@ -18,13 +18,13 @@ Bei Interessengruppen in welchen Nutzer von bestimmten Produkten, sich räumlich
 haben die Nutzer die Möglichkeit Ihre Ideen genauer zu beschreiben. 
 Bei solchen Treffen haben die Nutzer die Möglichkeit mit Bezugnahme auf die Stellen am Produkt und dem Kontext ihrer Umgebung Feedback zum Produkt zu geben. Das Problem bei dieser Art der Rückmeldungen ist jedoch dessen eingrenzte Reichweite. Zudem werden Inhalte welche in solchen Treffen diskutiert wurden oft nicht ausreichend dokumentiert.  
 
-Auf Basis der im Kapitel \ref{CapterFundamentals} behandelten Grundlagen und der Nutzungskontextanalyse wurde eine erste Skizze des Gesamtsystems entworfen in welcher, 
-Funktionale wie Nicht-Funktionale Anforderungen an das zu konzipierende System skizziert wird (siehe Abbildung \ref{img:sysstem_sketch}).
+Auf Basis der im Kapitel \ref{CapterFundamentals} behandelten Grundlagen und der Nutzungskontextanalyse wurde eine abstrakte Skizze des Gesamtsystems (Abbildung \ref{img:sysstem_sketch}) entworfen in welcher, 
+Funktionale wie Nicht-Funktionale Anforderungen an das zu konzipierende System dargestellt werden:
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\textwidth]{resources/conception/skizze_gesamtsystem.png}
-	\caption{Skizze des Gesamtsystems als erster Entwurf \\Quelle: Eigene Darstellung}
+	\caption{Abstrakte Skizze des Gesamtsystems \\Quelle: Eigene Darstellung}
 	\label{img:sysstem_sketch}
 \end{figure}
 
@@ -32,22 +32,26 @@ Dieses Skizze sollte die Projektidee begreifbarer machen und als grobe Orientier
 
 \section{Anforderungsanalyse}
 
-Die Anforderungsanalyse wurde im Rahmen eines Kreativ Workshops durchgeführt. Ziel des Workshops war es Die Nutzer für das zu konzipierende System zu identifizieren und deren Eigenschaften und Bedürfnisse 
-zu analysieren. 
+Als Grundlage für die Anforderungsanalyse wurde wurde ein Kreativ Workshops durchgeführt. Das Ziel des Workshops war, die im Abschnitt \ref{UsaEng} beschriebenen Phasen des Usability Engineering Lifecycle 
+umzusetzen.   
 
 % Vorbereitung
-Das Workshop fand am dritten Juli, am Fraunhofer IPK in Berlin statt. Zur Vorbereitung wurde in einem zuvor für diesen Workshop gebuchten, Besprechungsraum, einzelne Stationen \footnote{z.Bsp.: Aufstellung eines Pinnwand für die Erstellung eines Affinitätsdiagrammes, Abbildungen von Personen für die Erstellung von Personas usw.} für die am Workshop durchzuführenden Aktivitäten vorbereitet. 
+Das Workshop fand am dritten Juli, am Fraunhofer IPK in Berlin statt. Am Workshop nahmen fünf Teilnehmer teil. %Füge noch Informationen zu den Teilenehmer hinzu.
+
+
+Zur Vorbereitung wurde in einem zuvor für diesen Workshop gebuchten, Besprechungsraum, einzelne Stationen für die am Workshop durchzuführenden Aktivitäten vorbereitet.\footnote{z.Bsp.: Aufstellung eines Pinnwand für die Erstellung eines Affinitätsdiagrammes, Abbildungen von Personen für die Erstellung von Personas usw.} 
 Zunächst wurden die Teilnehmer begrüßt und für die Teilnahme am Workshop bedankt. Anschließend wurde der Anlass und der Ablauf des Workshop vorgestellt. 
 
 %Durchführung
 Mit Hilfe einer kurzen PowerPoint Präsentation wurde die Projektidee vorgestellt und anhand der groben Skizze des zu konzipierenden Systems (Abbildung \ref{img:sysstem_sketch}) verdeutlicht. 
-Anschließend fand eine Frage- Antwort Runde statt, welches die Möglichkeit gab, Rückfragen zu stellen und somit sicherzustellen, dass die Projektidee von allen Teilnehmer gleichermaßen verstanden wurde. 
+Anschließend fand eine Frage- Antwort Runde statt, welches die Möglichkeit gab, Rückfragen zu stellen. Somit sollte sichergestellt werden, dass die Projektidee von allen Teilnehmer gleichermaßen 
+verstanden wurde. 
 
-Nach der Vorstellung der Projektidee fand ein Brainstorming statt, dessen Ergebnis in ein Affinitätsdiagramm festgehalten wurden. 
-Im gewöhnlichen Vorgang für die Erstellung von Affinitätsdiagramme, schreiben Teilnehmer Ideen auf Kärtchen, welche zunächst unsortiert auf ein Pinnwand geheftet werden. 
-Anschließend werden die Ideen, gemeinsam besprochen und in Gruppen bzw. Untergruppen sortiert. In dem stattgefundenen Workshop wurden die Gruppen jedoch im voraus vorgegeben. 
+Nach Vorstellung der Projektidee fand ein Brainstorming statt, dessen Ergebnis in ein Affinitätsdiagramm festgehalten wurden. Dieses diente als Grundlage für die Erstellung von Nutzerprofilen. 
+\footnote{Im gewöhnlichen Vorgang für die Erstellung von Affinitätsdiagramme, schreiben Teilnehmer Ideen auf Kärtchen, welche zunächst unsortiert auf ein Pinnwand geheftet werden. 
+Anschließend werden die Ideen, gemeinsam besprochen und in Gruppen bzw. Untergruppen sortiert. In dem stattgefundenen Workshop wurden diese Gruppen jedoch im voraus vorgegeben.}
 
-Es sollten Ideen für die Beantwortung folgender Fragen gesammelt werden: 
+Es sollten Ideen für die Beantwortung folgender Fragen zusammengetragen werden: 
 
 \begin{itemize}
 	\item Wer sind die Nutzer? (Rolle, Erfahrungsstand,  Lebensstil/ Lebenskontext)
@@ -56,36 +60,81 @@ Es sollten Ideen für die Beantwortung folgender Fragen gesammelt werden:
 	\item Wo liegen die Schmerzpunkte mit aktuellen Lösungstretarien?
 \end{itemize}\label{list:AffiDiagramm}
 
-Den Teilnehmern wurde 15 Mintuten Zeit für ein Brainstorming gegeben, indem Ideen zu den, oben genannten Fragen, auf Kärtchen aufschreiben wurden.
-Folgende Ideen sind in dabei entstanden (Eine Abbildung des entstandenen Affinitätsdiagramm befindet sich im Anhang [Referenz darauf]): 
+Den Teilnehmern wurde 15 Minuten Zeit gegeben, indem Ideen zu den, oben genannten Fragen, auf Kärtchen aufgeschrieben wurden.
+Folgende Ideen sind dabei entstanden welche im nächsten Schritt als Orientierung für die Erstellung von Personas dienten\footnote{Eine Abbildung des entstandenen Affinitätsdiagramm befindet sich im Anhang [Referenz darauf]}: 
 
-\vspace{5mm}
-\textbf{Nutzer: } 
+\vspace{2mm}
+\textit{Wer sind die Nutzer:} 
 Technik Nerd, Produkt Entwickler, Werbeagentur, Unzufriedene, Unerfahrene, Gewerbliche Nutzer/ Laborpersonal, Endkunde, Qualitätsprüfung eines Produkts (Vorgesetzter), Lagerpersonal
 
-\vspace{5mm}
-\textbf{Aktuelle Problemlösungsstrategien} 
+\vspace{2mm}
+\textit{Aktuelle Problemlösungsstrategien:} 
 Email, Chat, Web-Portale, Telefonsupport, Vergleich von Käuferbewertungen
 
-\vspace{5mm}
-\textbf{Ziele der Nutzer: } 
+\vspace{2mm}
+\textit{Ziele der Nutzer: } 
 Nächstes Produkt sollte besser sein, Eigenes Design, Fehleranfälligkeit beseitigen, Informationen vor dem Kauf, Hilfreiche Bewertungen finden und verstehen, Ersatzteile beschaffen, Lösungen aus dem Nutzerkreis bereitstellen, Infos in Form: Kurzer Beschreibungen/ Kontakt Informationen des Verantwortlichen, Anleitungen, Reklamation Technischer Dokumentationen (Montageanleitung)
 
-\vspace{5mm}
-\textbf{Pain-Points: } 
-Komplizierte Beschreibung der Umgebung/ Use Case, Zustand der Bearbeitung unbekannt, Fehlerbehebung meines Produktes, Produkt wird nicht wie vorgesehen (geplant) genutzt und funktioniert daher nicht richtig (Vorstellung eines möglichen neuen Anwendungsfalles), Lange Wartezeiten auf Antwort, Bessere Kommunikation zwischen Abteilungen
+\vspace{2mm}
+\textit{Wo liegen die Schmerzpunkte: } 
+Komplizierte Beschreibung der Umgebung/ Use-Case, Zustand der Bearbeitung unbekannt, Fehlerbehebung meines Produktes, Produkt wird nicht wie vorgesehen (geplant) genutzt und funktioniert daher nicht richtig (Vorstellung eines möglichen neuen Anwendungsfalles), Lange Wartezeiten auf Antwort, Bessere Kommunikation zwischen Abteilungen
 
+\textbf{Personas}:
 %Durchführung %Aufbau / Einleitung / Affinitätsdiagram / Personas / Szenarien
+Auf Grundlage der im Affinitätsdiagramm festgehaltenen Ideen, wurden im nächsten Schritt, Personas erstellt. Diese repräsentieren, stellvertretend die Ziele der Nutzer des zu konzipierenden Systems. 
+Es wurden zuvor ausgedruckte Bilder von Personen unterschiedlicher Alter und Geschlecht, welche jeweils in Szene dargestellt sind die Ausschluss über ihr aktuelles Lebenskontext ausgelegt. 
+Gemeinsam mit allen Teilnehmern wurden dann Bilder ausgewählt welche möglichst unterschiedliche, dennoch realistische Nutzer für das zu konzipierende System darstellen könnten. 
 
-%Personas Tabelle
+Es sind dabei fünf unterschiedliche Personas entstanden (Tabelle \ref{tab:personas}, Vollständige Beschreibung der Personas befindet sich im Anhang \ref{anhangA}). Die Personas, Felix, Timo und Svenja sind für die Implementierung des Prototypen besonders bedeutsam. 
+Diese Personas werden das System nutzen um Feedbacks zu erstellen, zu bearbeiten und zu löschen. Die Personas Magitta und Flo dienen dazu um ein Verständnis für das zu 
+konzipierende Gesamtsystem aufzubauen in welchem sich der Prototyp einfügen soll\footnote{Die ausgearbeitete Version der Personas befindet sich im Anhang \ref{anhangA}}: 
 
-%Name/ Alter / Rolle /Aktuelle Problemlösung / Pain Points
+\begin{table}[htbp]
+	\caption{Zusammenfassung der Personas}
+		\begin{tabular}{|l|l|l|}
+			\hline
+			 \textbf{Name} & \textbf{Rolle}& \textbf{Ziele und Bedürfnisse}\\
+			\hline
+			\textbf{Timo} &  Produktentwickler & \makecell[l]{*Oft sind komplizierte Anwendungsfälle schwer zu beschreiben.\\ *Produktbezogenen Beschreibungen werden\\ oft von anderen nicht verstanden.} \\
+			\hline
+			\textbf{Svenja} & Auszubildende & * Möchte dass es besonders einfach und unkompliziert benutzbar ist.\\
+			\hline
+			\textbf{Felix} & Zahnarzt &  \makecell[l]{* Möchte dass seine Laborgeräte \\einwandfrei funktionieren.\\ * Möchte bei technischen Problemen schnelle\\ * Rückmeldung vom Hersteller. \\Qualität der Produkte\\ haben einen Einfluss auf sein Betrieb.} \\
+			\hline
+			\textbf{Magitta} & Produktmanagerin & \makecell[l]{* Möchte die Produkte\\ ihres Unternehmens zu verbessern.\\ * Wo liegen die Schwächen? Wo die Stärken?}\\
+			\hline
+			\textbf{Flo} & Daten Analyst & \makecell[l]{* Möchte aus Daten Wissen generieren.\\ * Möchte über eine Schnittstelle präzise\\ Kundenfeedbacks zu Produkten erheben\\ um aus diesen Erkenntnisse zu generieren} \\\\
+			\hline
+		\end{tabular}
+	\label{tab:personas}
+\end{table}
 
-% User Stories
+\textbf{Szenarien}:
+
+Basierend auf den entworfenen Personas, wurden Ist-Szenarien beschrieben (Siehe Anhang: \ref{anhangA}). Mit diesen wurden aktuelle Problemlösungsstrategien der Personas Timo, Felix und Svenja im jeweiligen 
+Anwendungskontext beschrieben. Dabei wurden besonders die Schmerzpunkte mit aktuellen Lösungstretarien betont. 
+
+% Ist Szenarien: Vorgang für Zeigen und Auswählen im Ist Szenario von Persona Felix detailiert beschrieben. 
+
+%Die Ist Szenarien beschreiben, in welchem Kontext, unter welchen Bedingungen die Anwendung verwendet wird (Siehe \ref{Usablityeng} Abschnitt Prototypen und Szenarien). Hierbei ist der Vorgang für das 
+das Auswählen der Produktteile bzw. Stelle am Produkt 
+%Beinhaltet beschreibungen für Funktionen welche nicht im Prototypen beinhaltet sein werden, jedoch um ein Verständniss aufzubauen wie sich der Prototpy in ein Gesamtsystem mit diesen Funktionen einfügen könnte. 
+
+% Funktionen welche in den Szanrien beschribeen werden jedoch nicht teil des Prototypen sein werden: 
+
+%Anmeldevorgang ist wird nicht im Prototypen enthalen sein. 
+% Produkt auswähelen auch nicht. 
+%Feedbacks von anderen Nutzern wird auch nicht enhalten sein. 
+%Es wird auch keine Informationen an den Hersteller versendet. 
 
 
-\textbf{User Stories}
 
+
+[...Daraus hab ich dann die Ist-Szenarien geschrieben...]
+
+\textbf{User Stories}:
+
+Auf Grundlage der Soll-Szenarien, wurden im nächsten Schritt User Stories beschrieben welche im Prototypen implementiert werden sollten: 
 
 %\begin{center}
 	\begin{table}[H]
@@ -167,15 +216,63 @@ Komplizierte Beschreibung der Umgebung/ Use Case, Zustand der Bearbeitung unbeka
 \end{table}
 %\end{center}
 
-%	20 &  \makecell{Geschäftskunde \\ (gewerblich \\ nutzender \\ Endkunde)}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{Text text text  \\ text text text text text} &  \makecell{Text text text  \\ text text text text text} \\
-%\hline
-
-
 \section{Entwurf}
 
-\subsection{Szeanrien}
+Im folgenden Abschnitt wird der erste Entwurf des zu entwickelnden Prototypen beschrieben. Es wird zunächst ein Papierprototyp vorgestellt welches einen ersten Entwurf der Benutzeroberfläche darstellt. 
+Anschließend werden die Systemkomponenten, die Entitätentypen für die zu speichernden Informationen, sowie der erste Entwurf der Klassendiagramme vorgestellt.  
+
 \subsection{Low-Fidelity-Prototyp}
-\subsection{Konzeptioneller Entwurf und Klassendiagramme}
+
+Die in der Anforderungsanalyse erstellten Ist-Szenarien wurden genutzt um aus diesen Papiertpro
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{resources/conception/lowfi_startbildschirm.jpg}
+	\caption{Startbildschirm der Anwendung. \\Quelle: Eigene Darstellung}
+	\label{img:sysstem_sketch}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{resources/conception/lowfi_browseOnProduct.jpg}
+	\caption{Startbildschirm der Anwendung. \\Quelle: Eigene Darstellung}
+	\label{img:sysstem_sketch}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{resources/conception/lowfi_create.jpg}
+	\caption{Startbildschirm der Anwendung. \\Quelle: Eigene Darstellung}
+	\label{img:sysstem_sketch}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{resources/conception/lowfi_edit_delete.jpg}
+	\caption{Startbildschirm der Anwendung. \\Quelle: Eigene Darstellung}
+	\label{img:sysstem_sketch}
+\end{figure}
+
+\autoref{tab:example} 
+\begin{figure}[H]
+	\label{tab:example}
+	\centering
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{resources/conception/lowfi_form.jpg}
+		\captionof{figure}{A figure}
+		\label{fig:test1}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{resources/conception/lowfi_list.jpg}
+		\captionof{figure}{Another figure}
+		\label{fig:test2}
+	\end{minipage}
+\end{figure}
+
+\subsection{Konzeptioneller Entwurf}
 
 Systemkomponente
 
