@@ -1,35 +1,35 @@
 \chapter{Grundlagen} \label{CapterFundamentals}
 
-Dieses Kapitel gibt einen Überblick über die in dieser Arbeit verwendete Terminologien und führt Grundlagen zu Technologien und Techniken ein, welche die Basis für dieser Arbeit bilden. 
+Dieses Kapitel gibt einen Überblick über die in dieser Arbeit verwendeten Terminologien und führt Grundlagen zu Technologien und Techniken ein, welche die Basis für diese, Arbeit bilden. 
 
-Nach Erläuterung der Definition von Augmented Reality, werden unterschiedliche Ansätze für die Objekterkennung und Verfolgung vorgestellt.  
-Diese sind ein essenzieller Bestandteil der Augmented Reality Technologie. Es wird die Definition von Situated Visualization erläutert 
-und unterschiedliche Darstellungsformen für die Visualisierung von Daten im Kontext zur physischen Welt (z. Bsp. Gegenstände, Person, Aufgabe) nahe gebracht. 
-Abschließend wird die Definition von Usability erläutert und ein Einblick in Usability Engineering gegeben, welches eine etablierte Vorgehensweise für die 
+Nach der Definition von Augmented Reality werden unterschiedliche Ansätze für die Objekterkennung und -erfolgung vorgestellt.  
+Diese sind ein essenzieller Bestandteil der Augmented-Reality-Technologie. Es wird die Definition von Situated Visualization erläutert 
+und unterschiedliche Darstellungsformen für die Visualisierung von Daten im Kontext zur physischen Welt (z. B. Gegenstände, Person, Aufgabe) nahe gebracht. 
+Abschließend wird die Begriffsdefinition von Usability erläutert und ein Einblick in Usability Engineering gegeben, welches eine etablierte Vorgehensweise für die 
 Gestaltung und Entwicklung von Systemen mit hohen Usability Anforderungen ist. 
 
 \section{Augmented Reality}
 
 %Definition und Begriffseingrenzung  von AR
-Augmented Reality (zu dt. Erweiterte Realität, kurz \gls{ar}) steht für die Überlagerung der realen Welt mit digitalen Informationen. \cite{Azuma1997,DieterSchmalstieg2016} Im Gegensatz zur, Virtual Reality (z. dt. Virtuelle Realität, kurz VR), wo Benutzer vollständig in virtuelle Umgebungen eintauchen,
+Augmented Reality (zu dt. Erweiterte Realität, kurz \gls{ar}) steht für die Überlagerung der realen Welt mit digitalen Informationen. \cite{Azuma1997,DieterSchmalstieg2016} Im Gegensatz zur Virtual Reality (z. dt. Virtuelle Realität, kurz VR), wo Benutzer vollständig in virtuelle Umgebungen eintauchen,
 ist das Ziel von AR, Informationen direkt in die physische Umgebung des Benutzers einzufügen. So soll der Eindruck entstehen, dass diese Informationen Teil der realen Welt sind. \footnote{Nach Definition von Azuma  müssen Informationen hierbei nicht nur auf visuelle Informationen beschränkt sein, 
-sondern können auch auditive, haptische, gustative (Geschmack) oder auch olfaktorische (Geruch) Informationen umfassen.} \cite{Azuma1997} Während in VR Benutzer von der äußeren Umgebung nichts mitbekommen, wird in AR die reale Umgebung des Benutzers, mit virtuellen 
+sondern können auch auditive, haptische, gustative (Geschmack) oder auch olfaktorische (Geruch) Informationen umfassen.} \cite{Azuma1997} Während in VR (kurz für Virtual Reality, dt. Virtuelle Realität) Benutzer von der äußeren Umgebung nichts mitbekommen, wird in AR die reale Umgebung des Benutzers mit virtuellen 
 Objekten überlagert. Azuma beschreibt in \cite{Azuma1997}, folgende Charakteristiken für Augmented Reality: 
 
 \begin{enumerate}
-	\item Kombinieren reale und virtuelle Welt (Combines real and virtual).
-	\item Ermöglichen Interaktionen in Echtzeit. (Interactive in real time)
+	\item Kombiniert reale und virtuelle Welt (Combines real and virtual).
+	\item Ermöglicht Interaktionen in Echtzeit. (Interactive in real time)
 	\item Informationen (reale und virtuelle) haben einen Bezug im dreidimensionalen Raum. (Registered in 3-D)
 \end{enumerate}
 
-Diese Charakteristiken helfen dabei Augmented Reality besser zu verstehen und technologisch einzuordnen. \cite{Azuma1997} Filme, wie z. Bsp. ``Jurassic Park``, in welchem virtuelle Objekte in die reale Szene eingefügt werden, erwecken zwar den Eindruck, dass diese Objekte, Teil der realen Szene sind, jedoch kann mit diesen Objekten nicht in Echtzeit interagiert werden. \cite{Tonnis2010} In Filmen werden die virtuellen Objekte in eine zuvor aufgezeichnete Aufnahme eingefügt. 
-In der AR Technologie werden hingegen virtuelle Objekte live in ein Video eingefügt. Dies bedeutet, dass in  Filmen für das Einfügen von digitalen Informationen in die reale Szene, eine beliebig große Zeitspanne zur Verfügung steht. 
-In AR muss dies in wenigen Millisekunden geschehen. Die neue Position und Ausrichtung des virtuellen Objektes in der live Szene muss innerhalb einer Zeitspanne von zwei Frames bestimmt werden.
+Diese Charakteristiken helfen dabei Augmented Reality besser zu verstehen und technologisch einzuordnen. \cite{Azuma1997} Filme, wie z. B. ``Jurassic Park``, in welchem virtuelle Objekte in die reale Szene eingefügt werden, erwecken zwar den Eindruck, dass diese Objekte Teil der realen Szene sind, jedoch kann mit diesen Objekten nicht in Echtzeit interagiert werden. \cite{Tonnis2010} In Filmen werden die virtuellen Objekte in eine zuvor aufgezeichnete Aufnahme eingefügt. 
+In der AR Technologie hingegen werden virtuelle Objekte live in ein Video eingefügt. Dies bedeutet, dass in  Filmen für das Einfügen von digitalen Informationen in die reale Szene, eine beliebig große Zeitspanne zur Verfügung steht. 
+In AR muss dies in wenigen Millisekunden geschehen. Die neue Position und Ausrichtung des virtuellen Objektes in die live Szene muss innerhalb einer Zeitspanne von zwei Frames bestimmt werden.
 
 Ein anderes Beispiel für AR ist in Live-Ansichten von Digitalkameras zu finden, welche das aufzunehmende Bild als Vorschau anzeigen. Oft blenden diese Informationen zu den aktuellen Einstellungen der Kamera sowie den 
 Ladezustand der Batterie im Vorschaubild ein (Siehe Abbildung \ref{img:ar_camera_example}). Diese Informationen überlagern zwar die reale Szene, haben jedoch keinen Bezug zum dreidimensionalen Raum. 
-Der elektronische Sucher hingegen, welcher, Objekte (z. Bsp. Gesichter) erkennt und in einem virtuellen Rahmen einrahmt, hat einen Bezug zu den Objekten im 3D Raum. 
-Zudem sind Interaktionen in Echtzeit möglich. Bewegt sich das vom virtuellen Rahmen, eingerahmte reale Objekt, oder die Kamera selbst, verändert sich auch die Position des virtuellen Objektes. 
+Der elektronische Sucher hingegen, welcher, Objekte (z. B. Gesichter) erkennt und in einem virtuellen Rahmen einrahmt, hat einen Bezug zu den Objekten im 3D Raum. 
+Zudem sind Interaktionen in Echtzeit möglich. Bewegt sich das vom virtuellen Rahmen eingerahmte reale Objekt oder die Kamera selbst, verändert sich auch die Position des virtuellen Objektes. 
 
 \begin{figure}
 	\centering
@@ -39,7 +39,7 @@ Zudem sind Interaktionen in Echtzeit möglich. Bewegt sich das vom virtuellen Ra
 \end{figure}
 
 % Motivation
-\cite{Azuma1997} Durch das Kombinieren von virtueller und physischer Welt, erweitert Augumented Reality die Wahrnehmung des Menschen. Die Motivation von AR ist, dem Menschen durch das Einfügen
+\cite{Azuma1997} Durch das Kombinieren von virtueller und physischer Welt erweitert Augmented Reality die Wahrnehmung des Menschen. Die Motivation von AR ist, dem Menschen durch das Einfügen
 von digitalen Informationen in die physische Welt Hinweise zu geben und Details zu zeigen, die er sonst nicht unmittelbar wahrnehmbar wären. Diese Informationen sollen den Menschen 
 bei der Verrichtung ihrer Aufgaben in der physischen Welt unterstützen.
 
@@ -49,11 +49,11 @@ und Instandsetzung, Annotationen, für die Wegfindung in der Robotik und für di
 verwendet werden, um Informationen über den Inhalt von Regalen einzublenden, während ein Nutzer durch eine Bibliothek läuft und nach bestimmten Büchern sucht. % Füge hier vielleicht noch ein Beispiel dazu ein % Füge hier Verweis auf ein Artike als Fußnotel hinzu
 Auch können Annotationen in AR verwendet werden, um einzelne Bauelemente an komplexen Bauteilteilen zu identifizieren und Informationen über diese zu visualisieren. 
 In der Wartung und Instandsetzung können Augmented Reality Anwendungen dabei helfen, Instruktionen an komplexen Maschinen und Anlagen zu visualisieren, welche sonst in 
-Form von Text und Bildern vorliegen. So können virtuelle Replikate über die physischen Modelle gelegt und, zum Beispiel, Schritt für Schritt Anleitungen direkt am physischen Produkt visualisiert werden. 
+Form von Text und Bildern vorliegen. So können beispielsweise virtuelle Replikate über die physischen Modelle gelegt und, Schritt für Schritt Anleitungen direkt am physischen Produkt visualisiert werden. 
 Durch Animationen können diese Anleitungen präziser gestaltet werden und zum Beispiel auch Informationen über die Richtung geben. 
 
-Diese Systeme können heute zum Beispiel Unternehmen dabei helfen, besser mit ihren Kunden zu kooperieren. In Kombination mit der Technologie Internet of Things (IOT) können Unternehmen,
-zustands-bezogene Informationen zu Ihren Systemen bei Endkunden abrufen und proaktiv ihre Kunden auf notwendige Wartungen am physischen System, aufmerksam machen. Wartungsanleitungen können dann direkt 
+Diese Systeme können heute zum Beispiel Unternehmen dabei helfen, besser mit ihren Kunden zu kooperieren. In Kombination mit der Technologie Internet of Things (IOT) können Unternehmen
+zustands-bezogene Informationen zu Ihren Systemen bei Endkunden abrufen und proaktiv ihre Kunden auf notwendige Wartungen am physischen System aufmerksam machen. Wartungsanleitungen können dann direkt 
 an den Anlagen angezeigt werden, sodass Endkunden diese selbständig durchführen können.\footnote{Fallstudie zur Anwendung von AR in Wartung von Industrieanlagen: https://www.ptc.com/-/media/Files/PDFs/Case-Studies/Howden-vuforia-studio-case-study-Feb-2019.pdf?la=en\&hash=6342841E1B6470C1F313295427398606 [letzter Zugriff: 25.06.2019]}
 
 %Grundlegende Techniken
@@ -61,43 +61,110 @@ an den Anlagen angezeigt werden, sodass Endkunden diese selbständig durchführe
 Bei Optical See-Through kann der Nutzer direkt in die reale Welt blicken, wobei computergenerierte Bilder auf einen halbdurchlässigen Spiegel eingeblendet werden (dieses wird als Combiner bezeichnet).
 Diese Technik hat den Vorteil, dass der Nutzer einen direkten Blick auf die reale Welt hat. Der Nachteil ist jedoch, dass die reale Welt nicht zeitgleich mit virtuellen Objekten überlagert werden kann. 
 Dadurch, dass die Berechnung der Positionsbestimmung und das Rendern der virtuellen Objekte Zeit in Anspruch nimmt, werden diese mit einer kleinen Verzögerung angezeigt. Dies kann, auch 
-wenn es sich nur um einige Millisekunden handelt, zu einem so genannten Schwimmeffekt führen (en. Lag). Mit der See Through Display Technik, wird die reale Welt dem Nutzer als ein Video 
+wenn es sich nur um einige Millisekunden handelt, zu einem so genannten Schwimmeffekt führen (en. Lag). Mit der See Through Display Technik wird die reale Welt dem Nutzer als ein Video 
 angezeigt und mit virtuellen Objekten überlagert. Der Vorteil dieser Technik liegt darin, dass die Darstellung der realen Welt um die Zeit verzögert werden kann, die benötigt wird, um die virtuellen Objekte 
-richtig zu positionieren und zu rendern. Dadurch werden die Nachteile der Optical-See-Through Technik kompensiert. Dass die reale Welt dem Nutzer verzögert angezeigt wird bringt jedoch den Nachteil mit sich, 
-dass Positionsänderungen physischen, sich in der realen Welt befindenden Objekten oder die Änderung der Perspektive, falls sich der Nutzer selbst bewegt, verzögert angezeigt werden. Zudem wird mit 
+richtig zu positionieren und zu rendern. Dadurch werden die Nachteile der Optical-See-Through Technik kompensiert. Dass die reale Welt dem Nutzer verzögert angezeigt wird, bringt jedoch den Nachteil mit sich, 
+dass Positionsänderungen physischen, sich in der physischen, sich in der realen Welt befindenden Objekten oder die Änderung der Perspektive, falls sich der Nutzer selbst bewegt, verzögert angezeigt werden. Zudem wird mit 
 dieser Technik, je nach Auflösung der Kamera die reale Welt, mit verringerter Qualität angezeigt.
 
-\section{Objekterkennung und- Verfolgung}
+\section{Objekterkennung und -verfolgung}
 
 % Definition von Objekterkennung und Verfolgung
+\cite[S.~85]{DieterSchmalstieg2016}Objekterkennung und- Verfolgung beschreibt den Vorgang für die kontinuierliche Bestimmung der Lage und Ausrichtung einer Entität im drei dimensionalen Raum. 
+Entitäten können hierbei der Kopf des Nutzers, Augen, ein AR Gerät wie z. B. die Kamera oder ein physisches Objekt in der Umgebung des Nutzers sein. 
+Im folgenden werden drei Begriffe erläutert welche oft im Zusammenhang mit Objekterkennung und Verfolgung verwendet werden:
+ 
+\textit{Kallibrierung (engl. Calibration):} Der Vorgang für den Vergleich von Messungen zweier Sensor Geräten wie z. B. eine Kamera. Wobei die Messungen eines Sensors einen Richtwert darstellen gegen die, die
+Messungen eines anderen (zu kalibrierenden) Gerätes überprüft und angepasst werden. Durch die Kalibrierung werden Parameter bestimmt durch welche Messwerte des zu kalibrierenden Gerätes einer bekannten 
+Maßstab (en. Scale) angepasst werden. 
 
-% Geschichte und Entwicklung
+\textit{Verfolgung (engl. Tracking)}: Beschreibt die kontinuierliche Abtastung bzw. Messung der Umgebung. Dies wird benötigt für die dynamische Registrierung von Objekten im drei dimensionalen Raum. 
 
-\textbf{Markerbasiertes Tracking}
+\textit{Registrierung (engl. Registration:)} Anpassung der Koordinatensysteme der virtuellen und realen Objekte. Für die Schaffung eines gemeinsamen Koordinatensystems wird die Kalibrierung des AR Systems 
+ausgeführt. Dieser Vorgang wird als statische Registrierung bezeichnet (engl. Static registration) und geschieht zu einem Zeitpunkt wo sich der Nutzer bzw. die Kamera nicht bewegt. Bewegt sich der 
+Nutzer bzw. die Kamera wird dynamisches Tracking eingesetzt. 
 
-% Begriffserklärung von Marker Trakting
+Abbildung \ref{img:komponentsoftracking} veranschaulicht das Zusammenwirken dieser drei Komponente:
 
-% Anwendungsfelder von Marker Traking
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{resources/fundamentals/Tracking.png}
+	\caption{Komponente für Objekterkennung und Verfolgung in AR Quelle: In Anlehnung an \cite[S.~86]{DieterSchmalstieg2016}}
+	\label{img:komponentsoftracking}
+\end{figure}
 
-\textbf{Markerloses Tracking}
+In AR wird für das Tracking der Umgebung unterschiedliche Sensoren verwendet. Dabei wird zwischen nicht visuellen Sensoren sowie visuellen bzw. optischen Sensoren  unterschieden. 
 
-% Begriffserklärung von Markerlosen Traking 
+\textit{Nicht visuelle Sensoren:}  
 
-% Anwendungsfelder von Markerlosen Traking
+\textit{GPS (kurz für Global Positioning System):} Mit GPS wird die Positionsbestimmung ermittelt indem Signale an mehrere Satelliten übertragen werden. Die Position des mobilen Endgerätes durch Trilateration zu berechnen ist 
+möglich wenn Signale von vier oder mehr Satelliten deren aktuelle Postion im Erdumlaufbahn bekannt sind empfangen werden. Die Genauigkeit dieser Messung variiert stark zwischen 1m bis 100m je nach Anzahl verfügbarer Satelliten. 
+\cite[S.~2]{Arora2017}\cite[S.~100]{DieterSchmalstieg2016}Diese Messmethode eignet sich für Positionsbestimmung in Innenräumen nicht besonders gut, da Signale an den Wänden reflektiert werden. 
+Höhere Genauigkeit kann mit  DGPS ( kuzr für Differential Global Positioning System) erzielt werden. Die Messwerte werden durch die zusätzliche Übertragung eines Signales welches Korrekturwerte beinhalten, von den Satelliten an eine Basisstation auf der Erde verbessert. \\
 
+\textit{Drahtlose Netze:}\cite[S.~101]{DieterSchmalstieg2016} Netzwerkinfrastrukturen wie WLAN (kurz für Wireless Local Area Network), Bluetooth und Beacons sowie Signale von Mobilfunksendemasten können genutzt werden um die Position des mobilen Endgerätes zu bestimmen. 
+Da GPS, WLAN sowie Mobilfunk auf mobilen Endgeräten in der Regel zur gleichen Zeit verfügbar sind, werden meist Informationen dieser drei Sensoren kombiniert eingesetzt um die Abdeckung, Geschwindigkeit sowie die
+Genauigkeit der Positionsbestimmung zu verbessern. 
+
+\textit{Magnetometer:}\cite[S.~102]{DieterSchmalstieg2016} Mit dem Magnetometer wird die Ausrichtung des mobilen Endgerätes relativ zum magnetischen Norden ermittelt. 
+
+\textit{Gyroskop: } Der Gyroskop liefert Informationen über die Rotation des mobilen Endgerätes. 
+
+\textit{Beschleunigungsmesser (engl. Linear Accelerometer)}:\cite[S.~104]{DieterSchmalstieg2016} Mit Hilfe des Accelerometer kann relativ zu einer Ausgangsposition die aktuelle Position ermittelt werden. Zudem kann in Kombination mit einem Magnetometer
+die Rotation sowie die Position ermittelt werden. 
+
+\textit{Optische\ Visuelle Sensoren:}\\
+
+Zu den visuellen Sensoren in mobilen Endgeräten zählt die Kamera. Dieses liefert Bildinformationen. Nach aktuellem Stand der Technik besitzen einige Smartphones auch bereits Kameras welche Informationen über die Tiefe liefern. Diese Informationen werden in Computer Vision Algorithmen für das Tracking und das Registrieren von virtuellen Objekten in die reale Welt genutzt. Mit mobilen Endgeräten wird eine Kombination aus nicht visuellen und visuellen Sensoren verwendet um ein optimales Tracking zu ermöglichen.
+
+% Oft wird eine Kombination von nicht visuellen sowie visuellen Sensoren eingesetzt um optimale Ergebnisse zu erzielen. 
+
+Die optischen Trackingverfahren unterteilen sich in \textit{Modellbasierte} und \textit{Modellfreies} Trackingverfahren unterteilen. 
+
+Bei Modellbasierten Trackingverfahren wird vor dem Tracking für die Registrierung, ein Modell festgelegt welches erkannt werden soll um virtuelle Objekte relativ zum festgelegten Modell zu platzieren. 
+Hierbei kann ein Modell ein Marker oder ein Bild mit einzigartigen Bildmerkmalen aus der natürlichen Umgebung des Nutzers (engl. Natural Features) sein. 
+
+Marker sind für das Tracking erstellte (quadratische oder kreisförmige) Bilder oder Barcodes. Diese sind mit besonders ausfälligen und kontrastreichen Mustern gestaltet. Alternativ zu Markern können Bilder aus der natürlichen Umgebung des Nutzers verwendet werden.\cite{Cukovic2015} Bei diesen Verfahren werden Algorithmen verwendet wie zum Beispiel SIFT \footnote{Scale-invariant feature transform}, SURF \footnote{(Scale Invariant Feature Transform} oder Ferns um einzigartige Bildmerkmale aus Video während dem Tracking und dem vorher festgelegten Bild zu vergleichen.
+
+Neben Bilder können bei modellbasierten Trackingverfahren auch dreidimensionale CAD Modelle von physischen Objekten verwendet werden. \cite{Lowney2016} Wie auf Abbildung \ref{img:modellbased_categories} zu sehen ist, lassen sich Methoden für das Tracking von 3D Modellen in zwei Kategorien unterteilen. In rekursives Tracking sowie in Tracking by Detection. Bei Recursiven Tracking Verfahren wird die vorherige Pose \footnote{Position und Ausrichtung des Modells} genutzt um die neue Pose abzuschätzen. Tracking bei Detection Verfahren sind in der Lage die neue Pose des Modells zu berechnen, ohne die vorherige Pose zu kennen. Aufgrund ihrer ihre rekursiven 
+Funktionsweise benötigen Recursive Tracking Methoden jedoch weniger Rechenleistung als Tracking by Detection Methoden. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{resources/fundamentals/model_based_tracking_taxonomies.png}
+	\caption{Kategorien der modellbasierten Tracking Verfahren mit Verwendung von CAD Modellen. Quelle: \cite[S.~86]{Lowney2016}}
+	\label{img:modellbased_categories}
+\end{figure} 
+
+Modellfreie Tracking Methoden benötigen keine vorher festgelegten Modelle zum platzieren der virtuellen Objekte in die reale Umgebung. \cite[S.~106]{DieterSchmalstieg2016} Das Modell wird während dem Trackingvorgang 
+erstellt. Dadurch dass im Voraus kein Modell für das Tracking erstellt werden muss, sind modellfreie Trackingmethoden flexibler in der Nutzung. Da die Modelle ausgehend vom Startpunkt während dem Trackinvorgang 
+erstellt werden, kann die zu realen Objekten in der Umgebung relative Ausrichtung der virtuelle Objekte nur spontan (zur Laufzeit) bestimmt werden. 
+
+Mit einigen Frameworks können modellfreie wie modellbasierte Verfahren kombiniert werden. So kann mit einer modellbasierten Verfahren die Ausrichtung der virtuellen Objekte, relativ zu einer vorher festgelegten Modell festgelegt werden. Mithilfe von modellfreies Tracking kann das Tracking aufrecht erhalten werden auch wenn die Kamera, das Modell welches für das modellbasierte Verfahren festgelegt wurde, nicht oder nur teilweise im Sichtfeld hat. 
+
+Zu den modellfreien Methoden zählt das PTAM Verfahren (kurz für  Parallel Tracking and Mapping), welches an das aus der Robotik stammende Verfahren SLAM (kurz für Simultaneous Localization and Mapping) angelent ist. \cite{Klein2007} Mit PTAM wird während des Trackings eine Karte der Umgebung des Nutzers aus einzigartigen Bildpunkten erstellt. Bei diesem Verfahren werden zwei sepearte Threads \footnote{Leichtgewichtiges Prozess womit Programmteile parallel oder pseudoparallel nebenläufig ausgeführt werden können.} eingesetzt. Ein Thread übernimmt die Aufgabe des Trackings. Dieser läuft wird schnell ausgeführt (mit z. B. 30 Hz). Ein zweiter Thread wird für für das Mapping eingesetzt. Dieser wird langsamer ausgeführt und ist mit dem Tracking Thread über sogenannte Keyframes verbunden. Keyframes sind Bilder aus dem Video. Neue Keyframes werden aufgenommen wenn sich das aktuelle Videobild stark von den vorhandenen Keyframes unterscheidet. Ein weiter Kriterium für die Aufnahme eines neuen Keyrames ist, dass dieses eine bestimmte Qualität vorweisen muss (z. B. nicht durch zu starke Bewegung verschwommen ist). Diese Methode eignet sich besonders gut für natürliche bzw. schnelle Kamerabewegungen.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{resources/fundamentals/tracking_technicken.png}
+	\caption{Überblick unterschiedlicher Trackingverfahren für Innen und Außenbereiche. Quelle: \cite{Arora2017}}
+	\label{img:overviewTrackingMethods}
+\end{figure}
+
+Abbildung \ref{img:overviewTrackingMethods} zeigt ein Überblick über Trackingverfahren und macht eine grobe Einordnung für die Eignung hinsichtlich Innen und Außenbereichen.
 
 \section{Situated Visualization}
 \subsection{Situated Visualization - Definition}
 
 
-Das zu konzipierende System soll durch den Einsatz von Augmented Reality, die Abgabe von Feedbacks zu Produkten und deren Darstellung auf den Produkten bzw. Produktteilen ermöglichen. 
+Das zu konzipierende System soll durch den Einsatz von Augmented Reality die Abgabe von Feedbacks zu Produkten und deren Darstellung auf den Produkten bzw. Produktteilen ermöglichen. 
 Als eine besondere Form von Visualisierung beschäftigt sich das Feld Situated Visualization mit der Visualisierung von Daten im Kontext zu physischen Objekten. 
 
-\cite[S.~239]{DieterSchmalstieg2016} Ein großer Vorteil von Augmented Reality Nutzeroberflächen ist dessen Fähigkeit, Situation, Aufgaben oder Nutzer-relevante Informationen in 
-der realen Umgebung des Nutzers anzeigen zu können. Diesen Vorteil zunutze zu machen ist jedoch sehr davon abhängig, welche Informationen in AR, in welcher Form dargestellt werden. 
-Das Feld Situated Visualization befasst sich mit der richtigen Präsentation von computergenerierten Grafiken in der realen Szene von physischen Gegenständen oder Personen. \cite[S.~188]{Marriott2018} Situated Visualization ist die Präsentation von Daten, welche in Bezug zur physischen Umgebung stehen. 
-Die Bedeutungsbestimmung wird durch die Kombination von Visualisierung und dessen Beziehung zu der unmittelbaren Umgebung erreicht. \cite[S.~240]{DieterSchmalstieg2016} Abzugrenzen von 
-Situated Visualization, sind Visualisierungen welche zwar im 3D Raum präsentiert werden, jedoch keinen Bezug zu einem im dreidimensionalen Raum befindlichen Objekt, Person oder Aufgabe haben.
+\cite[S.~239]{DieterSchmalstieg2016} Ein großer Vorteil von Augmented Reality Nutzeroberflächen ist deren Fähigkeit, Situation, Aufgaben oder Nutzer-relevante Informationen in 
+der realen Umgebung des Nutzers anzeigen zu können. Diesen Vorteil zunutze zu machen ist jedoch stark davon abhängig, welche Informationen in welcher Form in AR dargestellt werden.
+Situated Visualization befasst sich mit der richtigen Präsentation von computergenerierten
+Grafiken von physischen Gegenständen oder Personen in der realen Szene. \cite[S.~188]{Marriott2018} Die Bedeutungsbestimmung wird durch die Kombination von Visualisierung und deren 
+Beziehung zu der unmittelbaren Umgebung erreicht. \cite[S.~240]{DieterSchmalstieg2016} Abzugrenzen von Situated Visualization sind Visualisierungen, welche zwar im 3D Raum präsentiert werden, jedoch keinen Bezug zu einem im dreidimensionalen Raum befindlichen Objekt, Person oder Aufgabe haben.
 
 \cite[S.~192]{Marriott2018} \cite[S.~2]{Willett2017} stellen das in Abbildung \ref{img:situated_visualization_concept} dargestellte konzeptionelle Modell 
 zur Situated Visualization vor.
@@ -105,21 +172,21 @@ zur Situated Visualization vor.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{resources/fundamentals/situated_visualization/spacially_situated_visualization_model.png}
-	\caption{Konzeptionelles Model zu Situated Visualization Quelle: \cite[S.~192]{Marriott2018}}
+	\caption{Konzeptionelles Model zu Situated Visualization. Quelle: \cite[S.~192]{Marriott2018}}
 	\label{img:situated_visualization_concept}
 \end{figure}
 
 % spacially situated visualization
 Dieses Modell (siehe Abbildung \ref{img:situated_visualization_concept}) erweitert die konventionelle Visualisierung der logischen Welt (Abbildung \ref{img:situated_visualization_concept} oberer Abschnitt) um die der physischen Welt (Abbildung \ref{img:situated_visualization_concept} unterer Abschnitt). 
-Die durchgängig dargestellten Pfeile (Abbildung \ref{img:situated_visualization_concept} (a), (b), (c) und (e)) zeigen den Informationsfluss zwischen den einzelnen Komponenten, die gestichelten Pfeile (Abbildung \ref{img:situated_visualization_concept} (d) und (f)) die konzeptionellen Beziehungen. Der Informationsfluss beginnt bei den Rohdaten in der oberen linken Ecke der Darstellung. Die Rohdaten durchlaufen den \gls{visualisierungspipeline} und werden in ein vom Menschen besser interpretierbare visuelle Form umgewandelt (Abbildung \ref{img:situated_visualization_concept} (a $\rightarrow$ b)). Die Verbindung zwischen logischer und physischer Welt wird mithilfe zweier Beziehungen hergestellt (b und d). 
-Die physische Präsentation der Daten (Abbildung \ref{img:situated_visualization_concept} (b)) stellt die Präsentation der Daten in visueller Form in der Realen Welt dar. 
-Dies könnte zum Beispiel eine Visualisierung in Form einer Annotation sein, welches der Betrachter durch eine Datenbrille auf einem physischen Gegenstand sieht, eine Auflistung von Daten welches 
-auf dem  Display eines Smartphones oder Tablett angezeigt wird oder ein Preisschild welches in ausgedruckter Form an ein physisches Gegenstand angebracht ist.
+Die durchgängig dargestellten Pfeile (Abbildung \ref{img:situated_visualization_concept} (a), (b), (c) und (e)) zeigen den Informationsfluss zwischen den einzelnen Komponenten, die gestichelten Pfeile (Abbildung \ref{img:situated_visualization_concept} (d) und (f)) die konzeptionellen Beziehungen. Der Informationsfluss beginnt bei den Rohdaten in der oberen linken Ecke der Darstellung. Die Rohdaten durchlaufen die \gls{visualisierungspipeline} und werden in eine vom Menschen besser interpretierbare visuelle Form umgewandelt (Abbildung \ref{img:situated_visualization_concept} (Abbildung \ref{img:situated_visualization_concept} a $\rightarrow$ b)). Die Verbindung zwischen logischer und physischer Welt wird mithilfe zweier Beziehungen hergestellt (b und d). 
+Die physische Präsentation der Daten (Abbildung \ref{img:situated_visualization_concept} (b)) stellt die Präsentation der Daten in visueller Form in der realen Welt dar. 
+Dies könnte zum Beispiel eine Visualisierung in Form einer Annotation sein, welche der Betrachter durch eine Datenbrille auf einem physischen Gegenstand sieht. Es könnte eine Auflistung von Daten, welches 
+auf dem  Display eines Smartphones oder Tablet angezeigt wird oder ein Preisschild, welches in ausgedruckter Form an einen physisches Gegenstand angebracht ist.
 
-Die zweite Beziehung besteht zwischen Rohdaten und physischen Referenten. Diese Beziehung ist konzeptionell, da Datensätze sich auf mehrere unterschiedliche Referenten beziehen können. 
-Der Grad, in wieweit der physische Referent und die physische Präsentation gleichzeitig wahrgenommen werden können hängt von der räumlichen Distanz zwischen diesen beiden ab (Abbildung \ref{img:situated_visualization_concept} (f)). 
+Die zweite Beziehung besteht zwischen Rohdaten und physischen Referenten. Diese Beziehung ist ein Konzept, da Datensätze sich auf mehrere unterschiedliche Referenten beziehen können. 
+Der Grad, inwieweit der physische Referent und die physische Präsentation gleichzeitig wahrgenommen werden können, hängt von der räumlichen Distanz zwischen diesen beiden ab (Abbildung \ref{img:situated_visualization_concept} (f)). 
 
-Der Betrachter könnte die Daten mithilfe von Augmented Reality, auf dem physischen Referenten betrachten. Der Betrachter könnte vor dem physischen Referenten stehen und die Daten zu dem Referenten auf
+Der Betrachter könnte die Daten mithilfe von Augmented Reality auf dem physischen Referenten betrachten. Der Betrachter könnte vor dem physischen Referenten stehen und die Daten zu dem Referenten auf
 dem Bildschirm seines Smartphones betrachten. Der Betrachter könnte aber auch räumlich entfernt vom physischen Referenten sein, sodass er diesen nicht sehen kann und die Daten auf einem Ausgabegerät 
 wie einem Computerbildschirm betrachten. 
 
@@ -176,12 +243,12 @@ der Betrachter räumlich nahe am Produkt befindet und die Visualisierung auf ein
 
 Embedded Visualization ermöglichen dem Betrachter, die Visualisierung der Daten unmittelbar an den jeweiligen Produkten bzw. Produktteilen zu betrachten ohne den Blick von diesen abwenden zu müssen. 
 Dies bringt den Vorteil dass der Betrachter während er die Visualisierung betrachtet, seinen Blick nicht vom Produkt bzw. Produktteil abwenden muss und Informationen zur direkten Umgebung des Produktes bzw. Produktteiles wahrnehmen kann. Diese Form der Visualisierung erfordert dass sich der Betrachter vor den entsprechenden Produktteilen befindet und Ausgabetechniken verwendet werden, welche die Informationen unmittelbar in der Nähe der 
-Produktteile anzeigen (z. Bsp. mit AR).
+Produktteile anzeigen (z. B. mit AR).
 
 Am Beispiel von (Abbildung \ref{img:Illustration_situated_embedded_visualization} zweite von rechts) wird dem Betrachter ermöglicht, Informationen zur unmittelbaren Umgebung der Produkte (zum Beispiel eine zu schwache Beleuchtung, einen unangenehm riechenden Geruch, ein Windzug, usw.) wahrzunehmen, während er die Visualisierung (welches ihm zum Beispiel zeigen könnte dass der Umsatz für diese Produkte während der vergangenen Monate zurück gegangen ist) zu diesen Produkten unmittelbar an den Produkten betrachtet.  
 
 %Facsimiles
-\cite{Willett2017}Eine Möglichkeit, um Daten im Kontext zu physischen Objekten zu visualisieren, ist auch über die Verwendung von so genannten Faksimiles möglich. Diese sind detailgetreue, skalierbare Nachbildungen von Objekten, oder eine Instanz eines Objektes, welche durch eine Klasse oder ein Modell klar definiert ist. Ein Faksimile wird für gewöhnlich verwendet, falls die Visualisierung am echten physischen Referenten schwierig bis unmöglich ist. Dies ist der Fall, wenn die physischen Referenten: Sehr klein (z.Bsp. Atome), sehr groß (z Bsp. ein Flussverlauf) zu weit entfernt (z. Bsp: auf einem anderen Planeten) oder sehr fragil bzw. wertvoll sind (z. Bsp. ein Gemälde). 
+\cite{Willett2017}Eine Möglichkeit, um Daten im Kontext zu physischen Objekten zu visualisieren, ist auch über die Verwendung von so genannten Faksimiles möglich. Diese sind detailgetreue, skalierbare Nachbildungen von Objekten, oder eine Instanz eines Objektes, welche durch eine Klasse oder ein Modell klar definiert ist. Ein Faksimile wird für gewöhnlich verwendet, falls die Visualisierung am echten physischen Referenten schwierig bis unmöglich ist. Dies ist der Fall, wenn die physischen Referenten: Sehr klein (z.Bsp. Atome), sehr groß (z Bsp. ein Flussverlauf) zu weit entfernt (z. Bsp: auf einem anderen Planeten) oder sehr fragil bzw. wertvoll sind (z. B. ein Gemälde). 
 In solchen Begebenheiten kann die Nutzung von Faksimiles die räumliche Distanz zum betrachtenden Objekt reduzieren und es damit zugänglicher machen. Ein Faksimile kann wenn diese mit ausreichender detailgetreue nachgebildet ist wie der eigentlichen physische Referent betrachtet werden. Die Nutzung von Faksimiles verringert jedoch, die Möglichkeit für den Betrachter, den eigentlichen Referenten zu verändern oder wichtige Details zu betrachten. Dies kann durch den Einsatz von Telepräsenz \footnote{Telepräsenz ist eine Form von Videokonferenz und beschreibt die Möglichkeit, virtuell an entfernten Orten Präsent zu sein. Siehe: https://www.itwissen.info/Telepraesenz-telepresence.html [Zuletzt aufgerufen am: 28.06.2018]} kompensiert werden. 
 
 
@@ -215,7 +282,7 @@ Der Nutzer kann auf eine Gruppe klicken um die Annotationen welche in einer Grup
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{resources/fundamentals/annotations_clutter.png}
+	\includegraphics[width=1.0\textwidth]{resources/fundamentals/annotations_clutter.png}
 	\caption{Annotationen zu Büchern in einer Bibliothek. Quelle: \cite[S.~1]{Tatzgern2016}}
 	\label{img:annotation_clutter}
 \end{figure}
@@ -235,12 +302,12 @@ Registrierung zu verstehen, können die Umrisse des Referenzen dargestellt werde
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{resources/fundamentals/missallignement.png}
+	\includegraphics[width=0.7\textwidth]{resources/fundamentals/missallignement.png}
 	\caption{Links: Durch die Fehlerhafte Registrierung wird der virtuelle Inhalt falsch platziert. Rechts: Durch die zusätzliche Darstellung der Umrisse des Objektes wird der Kontext wieder richtig hergestellt. Quelle: \cite[S.~243]{DieterSchmalstieg2016}}
 	\label{img:missallignement}
 \end{figure}
 
-SDKs bieten die Möglichkeit, Informationen zum aktuellen Zustand der Objekterkennung abzurufen (z. Bsp. ob das Objekt aus der realen Welt gefunden wurde und die Objektverfolgung im Gange ist, ob das Objekt verloren wurde und daher nicht weiter verfolgt werden kann, ob zu wenig Bildmerkmale gefunden werden und die Objekterkennung bald verloren gehen kann). 
+SDKs bieten die Möglichkeit, Informationen zum aktuellen Zustand der Objekterkennung abzurufen (z. B. ob das Objekt aus der realen Welt gefunden wurde und die Objektverfolgung im Gange ist, ob das Objekt verloren wurde und daher nicht weiter verfolgt werden kann, ob zu wenig Bildmerkmale gefunden werden und die Objekterkennung bald verloren gehen kann). 
 Diese Informationen können genutzt werden um auf Fehler zu reagieren und zum Beispiel dem Nutzer entsprechende Anleitungen zur weiteren Bedienung zu geben.
 
 \textbf{Visuelle Interferenz:}
@@ -277,11 +344,11 @@ also (Remote), mittels Telepräsenz an der Kommunikation teilnehmen.
 Schmalstieg und Höllerer \cite[S.~362]{DieterSchmalstieg2016} beschreiben auf Grundlage dieser Unterteilung mögliche 
 Anwendungsgebiete für AR Systeme (Siehe Tabelle \ref{tab:categorycscw}).
 
-\cite[S.~362]{DieterSchmalstieg2016} In Co-Located und synchronen Anwendungsszenarien (z. Bsp. eine Besprechung in einem Besprechungsraum), können 
+\cite[S.~362]{DieterSchmalstieg2016} In Co-Located und synchronen Anwendungsszenarien (z. B. eine Besprechung in einem Besprechungsraum), können 
 Augmented Reality Anwendungen, die Nutzern dabei unterstützen, Informationen im gemeinsamen Raum zu betrachten zu manipulieren und zu diskutieren. 
 
 In Remote und synchronen Szenarien können AR-Systeme es ermöglichen dass ein Nutzer (Nutzer 1), einem anderen Nutzer (Nutzer 2 welcher räumlich getrennt von Nutzer 1 befindet), 
-Informationen über dessen reale Umgebung zu zeigen kann (z. Bsp. Installations- oder Reparatur-Anleitungen). \footnote{Ein AR App der Firma PTC welches Nutzern über eine synchronen Kommunikation, Informationen in die Umgebung des jeweils anderen einzublenden: https://www.ptc.com/de/news/2017/vuforia-chalk [Zuletzt aufgerufen am 21.08.2019]} 
+Informationen über dessen reale Umgebung zu zeigen kann (z. B. Installations- oder Reparatur-Anleitungen). \footnote{Ein AR App der Firma PTC welches Nutzern über eine synchronen Kommunikation, Informationen in die Umgebung des jeweils anderen einzublenden: https://www.ptc.com/de/news/2017/vuforia-chalk [Zuletzt aufgerufen am 21.08.2019]} 
 
 \begin{table}[htbp]
 \caption{Kategorisierung Computer unterstützter Kooperationssysteme mit Bezug zu AR. \\Quelle: \cite[S.~362]{DieterSchmalstieg2016}}
@@ -356,7 +423,7 @@ Akzeptanzkriterien unterteilt er in soziale und praktische Kriterien.
 
 Soziale bzw. ethische Akzeptanzkriterien sind solche, welche die Nutzer von der Nutzung eines Systems abhalten, auch wenn praktische Akzeptanzkriterien sehr gut erfüllt werden. 
 
-Um die gewünschte Funktionalität zu ermöglichen, werden mit Augmented Reality Anwendungen viele Informationen über die Umgebung des Nutzers erhoben.\cite[S.~3]{Roesner2013} Es wird auf die Kamera, gegebenenfalls auf den Lautsprecher sowie verschiedene Sensoren wie z. Bsp. den Gyroskop, Accelerometer usw. zugegriffen. Dies birgt Risiken dass diese Daten missbräuchlich genutzt, gestohlen und die Privatspähehe von Nutzern verletzt werden können. \cite[S.~9]{Templeman2012} Die Studie PlaceRaider beweist, dass mithilfe von Kamera und Sensordaten eines Smartphones die Umgebung des Nutzers detailliert genug rekonstruiert werden kann, um sensible Informationen wie z. Bsp. Kontodaten auf einem Kontoauszug ablesen zu können. \cite{Roesner2013,Lebeck2018} stellen weitere Risiken für die Beeinträchtigung der Privatsphäre von Nutzern vor welche als soziale Akzeptanzkriterien bei der Gestaltung von Augmented Reality Systemen beachtetet werden sollten. 
+Um die gewünschte Funktionalität zu ermöglichen, werden mit Augmented Reality Anwendungen viele Informationen über die Umgebung des Nutzers erhoben.\cite[S.~3]{Roesner2013} Es wird auf die Kamera, gegebenenfalls auf den Lautsprecher sowie verschiedene Sensoren wie z. B. den Gyroskop, Accelerometer usw. zugegriffen. Dies birgt Risiken dass diese Daten missbräuchlich genutzt, gestohlen und die Privatspähehe von Nutzern verletzt werden können. \cite[S.~9]{Templeman2012} Die Studie PlaceRaider beweist, dass mithilfe von Kamera und Sensordaten eines Smartphones die Umgebung des Nutzers detailliert genug rekonstruiert werden kann, um sensible Informationen wie z. B. Kontodaten auf einem Kontoauszug ablesen zu können. \cite{Roesner2013,Lebeck2018} stellen weitere Risiken für die Beeinträchtigung der Privatsphäre von Nutzern vor welche als soziale Akzeptanzkriterien bei der Gestaltung von Augmented Reality Systemen beachtetet werden sollten. 
 
 Unter den praktischen Kriterien sowie Usability (zu dt. Benutzbarkeit) auf. Die Eigenschaft Benutzbarkeit gliedert er in die Eigenschaften Nützlichkeit (en. Utility) und Gebrauchstauglichkeit (en. Usability) auf. Unter Utility (zu dt. Nützlichkeit) ist zu verstehen ob ein System mit den Funktionalitäten die es bereitstellt in der Lage ist, die Aufgabe zu erfüllen wozu sie konzipiert wurde.
 
@@ -385,7 +452,7 @@ Im ISO Norm  9241-110 sind diese Kriterien, als Grundsätze zur Dialoggestaltung
 \end{itemize}
 \end{comment}
 
-\subsection{Usability Engineering}
+\subsection{Usability Engineering}\label{UsaEng}
 
 \cite[S.~7]{MichaelRichter2016} Im laufe der Zeit haben sich verschiedene Fachrichtungen (wie z. Bsp: Human Computer Interaction (HCI), Human Factors, Interaction Design, Usability Engineering, 
 User centered Design (UCD), User Experience (UX) und Design Thinking) entwickelt welche nutzenorientierte Methoden für die Entwicklung von Technologien und neuen Anwendungen verfolgen. 
@@ -396,14 +463,13 @@ Der Begriff Usability Engineering steht für die Konzeption, die Techniken für 
 messbare Usability Ziele in den frühen Phasen des Softwareentwicklungsprozesses zu definieren und einen Rahmen zu schaffen diese Ziele im laufe der Entwicklung stetig überprüfen zu können 
 um sicherstellen zu können dass diese erreicht werden.
 
-Nielsen beschreibt in \cite[S.~72]{Nielsen1994} Phasen den Entwurf und Entwicklung von Software Projekte mit der Anwendung von Usability Engineering Methoden durchlaufen. 
-Im folgenden werden einige dieser Phasen zusammenfassend erläutert: 
+Mayhew \cite{Mayhew1999} und Nielsen \cite{Nielsen1994} stellen Prozessmodelle für Usablity Engeneering Projekte vor und benennen diese als ``The Usability Engineering Lifecycle``. Mayhew macht in der von ihr vorgestellten Model eine Unterteilung in drei Phasen welche weitere Schritte beinhalten. Nielsen hingegen gliedert sein Model in elf Schritte. Im folgenden werden fünf 
+dieser Schritte, genauer betrachtet: 
 
 \vspace{5mm}
 \textbf{Benutzerprofile}\label{userprofile}  
  
-\cite[S.~73]{Nielsen1994} In dieser Phase der Usability Engineering werden alle Nutzer identifiziert, die mit dem zukünftigem System in Berührung kommen werden. Als Nutzer werden Personen verstanden welche mit dem System oder mit Artefakten die durch Systems entstehen in Berührung kommen werden. Dies kann Personen beinhalten welche das System installieren, konfigurieren, warten, administrieren sowie Endnutzer
-des Systems oder aber auch Personen die das System selbst nicht nutzen jedoch Ergebnisse die durch das System entstehen erhalten werden. In einigen Fällen, ist es einfacher potenzielle Nutzer eines neuen  Systems zu identifizieren und deren Charakteristiken zu analysieren. Dies ist der Fall wenn Produkte für eine ganz bestimme Nutzergruppe vorgesehen sind. 
+\cite[S.~73]{Nielsen1994} In diesem Schritt werden alle Nutzer identifiziert, die mit dem zukünftigem System in Berührung kommen werden. Als Nutzer werden Personen verstanden welche mit dem System oder mit Artefakten die durch das Systems entstehen in Berührung kommen werden. Dies kann Personen beinhalten welche das System installieren, konfigurieren, warten, administrieren sowie Endnutzer des Systems. In einigen Fällen, ist es einfacher potenzielle Nutzer eines neuen  Systems zu identifizieren und deren Charakteristiken zu analysieren. Dies ist der Fall wenn Produkte für eine ganz bestimme Nutzergruppe vorgesehen sind. 
 Zum Beispiel für Produkte welche in einer bestimmten Abteilung eines Unternehmens in Einsatz kommen sollen. Schwieriger ist die Analyse von Nutzern hingegen für Produkte welche von einer breiteren Menge von Nutzern genutzt werden sollen. 
 
 Folgende Informationen sollten über die Nutzer erhoben und analysiert werden: Der Erfahrungsstand des Nutzers (z Bsp. in Verwendung von solchen Systemen und Endgeräten), Bildungsstand, Alter des Nutzers, Arbeitsumgebung, Lebensumstände, usw. Dieser Schritt ist wichtig um die Lernfähigkeit von Nutzern besser einschätzen zu können und so Kriterien für die Komplexität der Nutzeroberfläche zu bestimmen.
@@ -416,28 +482,28 @@ Es sollte beobachtet werden ob die Nutzer das aktuell verwendete System in irgen
 Terminologien festgehalten werden. Diese können später als eine Quelle für Metapher bei der Gestaltung der neun Nutzeroberfläche verwendet werden. 
 
 % functional analysis TODO: Füge Referenz mit seitenzahl hinzu
-\cite[S.~77]{Nielsen1994} Im nächsten Schritt werden die benötigten Funktionalitäten des neuen Systems analysiert und Möglichkeiten erforscht wie diese mit dem neuen System erzielt werden können. 
+\cite[S.~77]{Nielsen1994} Als nächstes werden in diesem Schritt die benötigten Funktionalitäten des neuen Systems analysiert und Möglichkeiten erforscht wie diese mit dem neuen System erzielt werden können. 
 Es ist wichtig dass in diesem Schritt die Mögliche Umsetzung der Funktionalitäten sich nicht ausschließlich an Lösungen von bereits bestehenden Systemen orientiert sondern 
 bessere geeignete Umsetzungsmöglichkeiten erkundet werden.
 
 % evolution of the user TODO: Füge Referenz mit seitenzahl hinzu
-\cite[S.~78]{Nielsen1994} Zuletzt werden in dieser Phase Möglichkeiten erforscht wie sich das Nutzungsverhalten der Nutzer über die Zeit, mit der Nutzung des neuen Systems entwickeln könnte. Dieser Schritt wird  
+\cite[S.~78]{Nielsen1994} Zuletzt werden Möglichkeiten erforscht wie sich das Nutzungsverhalten der Nutzer über die Zeit, mit der Nutzung des neuen Systems entwickeln könnte. Dieser Schritt wird  
 benötigt um das neue System flexibel genug und offen für neue Anforderungen gestalten zu können. 
 
 \vspace{5mm} 
 \textbf{Analyse bestehender Produkte} 
  
-\cite[S.~78]{Nielsen1994} In dieser Phase werden bestehende Produkte mit ähnlichem Aufgabenfeld analysiert. Diese können für die Konzeption des neuen Systems als Prototypen dienen. 
+\cite[S.~78]{Nielsen1994} In diesem Schritt werden bestehende Produkte mit ähnlichem Aufgabenfeld analysiert. Diese können für die Konzeption des neuen Systems als Prototypen dienen. 
 Da bestehende Systeme vollständig umgesetzte Funktionalitäten beinhalten, können diese einfach getestet werden.    
 Diese Systeme können heuristisch evaluiert werden, es können Nutzer Studien durchgeführt werden oder es kann eine vergleichende Analyse durchgeführt werden falls mehrere Systeme zur 
-Verfügung stehen. Auf Basis der Informationen die, in der Phase ``Benutzerprofile`` zusammengetragen wurden, wird in dieser Phase analysiert wie gut die Funktionalitäten und Interaktionstechniken 
-bestehender Systeme die Nutzer bei der Umsetzung ihrer Aufgaben unterstützen. Zusätzlich können technischen Produktrezessionen in dieser Phase auch hilfreiche Informationen über bestehende Systeme geben. 
-Da nicht alle Aufgaben bereits eine Software Lösung existiert, schließt Nielsen in dieser Phase die Betrachtung von Lösungen welche nicht aus dem Software bzw. Computer Bereich stammen ein. 
+Verfügung stehen. Auf Basis der Informationen welche, im Schritt ``Benutzerprofile`` zusammengetragen wurden, wird in diesem Schritt des Usablity Engineering Lifecycle, analysiert wie gut die Funktionalitäten und Interaktionstechniken 
+bestehender Systeme die Nutzer bei der Umsetzung ihrer Aufgaben unterstützen. Zusätzlich können technischen Produktrezessionen, hilfreiche Informationen über bestehende Systeme geben. 
+Da nicht alle Aufgaben bereits eine Software Lösung existiert, schließt Nielsen die Betrachtung von Lösungen welche nicht aus dem Software bzw. Computer Bereich stammen mit ein. 
 
 \vspace{5mm} 
 \textbf{Usability-Ziele festlegen} 
 
-Wie im Abschnitt \ref{UsaDef} beschrieben, setzt sich die Usability eines Systems nicht nur aus einer Eigenschaft zusammen sondern gliedert sich in mehrerer Teileigenschaften wie Erlernbarkeit, Fehlertoleranz usw. \cite[S.~79]{Nielsen1994} Oft ist es nicht möglich alle Usability Kriterien mit gleicher Gewichtung zu priorisieren. In dieser Phase werden auf Grundlage der erstellten Benutzerprofile sowie der Aufgabenanalyse, Prioritäten für die einzelnen Usability Eigenschaften definiert. 
+Wie im Abschnitt \ref{UsaDef} beschrieben, setzt sich die Usability eines Systems nicht nur aus einer Eigenschaft zusammen sondern gliedert sich in mehrerer Teileigenschaften wie Erlernbarkeit, Fehlertoleranz usw. \cite[S.~79]{Nielsen1994} Oft ist es nicht möglich alle Usability Kriterien mit gleicher Gewichtung zu priorisieren. In diesem Schritt werden auf Grundlage der erstellten Benutzerprofile sowie der Aufgabenanalyse, Prioritäten für die einzelnen Usability Eigenschaften definiert. 
 
 Dafür werden die Usability Eigenschafen operationalisiert und in messbaren Zielen ausgedrückt. Meistens werden Messintervalle für angestrebte Werte, für minimal zu erreichende Werte und theoretisch optimale Werte definiert. Als minimal zu erreichende Werte sind, gelten der Regel Werte welche aktuell mit dem System erreicht werden kann. Usability Ziele für neue Versionen von bestehenden Systemen oder für Systeme für welche vergleichbare andere Systeme existieren, festzulegen ist deutlich einfacher als für neue Systeme wozu keine Vergleichswerte vorliegen. Ein Vorgehen für solche Systeme ist, einige mit dem System zu lösende Aufgaben zu definieren und mehrere Usability Spezialisten nach realistischen Werten zu fragen welche erzielt werden könnten.
 
@@ -475,8 +541,8 @@ Nutzer können nicht mit Daten interagieren (Einschränkung horizontale Prototyp
 	\item um ein bestimmtes Ergebnis zu erzielen
 \end{itemize}
 
- \cite[S.~101]{Nielsen1994} Aus Szenarien können, wenn diese ausreichend detailliert gestaltet Nutzertests verwendet werden. Beispielsweise können auf Basis von Szenarien Papierprototypen erstellt werden 
- und diese von Nutzern getestet werden um Aufgaben zu lösen. 
+ \cite[S.~101]{Nielsen1994} Aus Szenarien können, wenn diese ausreichend detailliert gestaltet sind für Nutzertests verwendet werden. Beispielsweise können auf Basis von Szenarien Papierprototypen erstellt werden 
+ und diese von Nutzern getestet um Aufgaben zu lösen. 
 
 \subsection{Personas}
 

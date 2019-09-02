@@ -19,6 +19,44 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{Arora2017}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=716c2e4f56d74a698904294a4633f3af}{%
+           family={Arora},
+           familyi={A\bibinitperiod},
+           given={Bhavna},
+           giveni={B\bibinitperiod}}}%
+        {{hash=957de51f1ee39063c931711bdbb33562}{%
+           family={Parkar},
+           familyi={P\bibinitperiod},
+           given={Nida},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a161355bfdea59485c2a3ae6f923d23e}
+      \strng{fullhash}{a161355bfdea59485c2a3ae6f923d23e}
+      \strng{bibnamehash}{a161355bfdea59485c2a3ae6f923d23e}
+      \strng{authorbibnamehash}{a161355bfdea59485c2a3ae6f923d23e}
+      \strng{authornamehash}{a161355bfdea59485c2a3ae6f923d23e}
+      \strng{authorfullhash}{a161355bfdea59485c2a3ae6f923d23e}
+      \field{labelalpha}{AP17}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Augmented reality has been an interesting area of research for the last two decades or so. This paper presents a brief overview of the recent literature on tracking methods used in Augmented Reality applications, both for indoor and outdoor environments.}
+      \field{title}{{Augmented Reality: Tracking Methods Archita Dad}}
+      \field{year}{2017}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Arora, Parkar - Unknown - Augmented Reality Tracking Methods Archita Dad.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb www.ijert.org
+      \endverb
+      \verb{url}
+      \verb www.ijert.org
+      \endverb
+      \keyw{Augmented reality,Indoor,Outdoor,tracking}
+    \endentry
     \entry{Azuma1997}{unpublished}{}
       \name{author}{1}{}{%
         {{hash=65a33080a179a3a436c552a32d1f64f0}{%
@@ -109,6 +147,9 @@
       \list{institution}{1}{%
         {Technische Universit{ä}t Berlin}%
       }
+      \list{publisher}{1}{%
+        {Fraunhofer Verlag}%
+      }
       \strng{namehash}{c86b64340f6d69b64b8c28cc9014ce49}
       \strng{fullhash}{c86b64340f6d69b64b8c28cc9014ce49}
       \strng{bibnamehash}{c86b64340f6d69b64b8c28cc9014ce49}
@@ -128,6 +169,59 @@
       \verb{file}
       \verb :C\:/Users/alioi/OneDrive/Desktop/Dissertation_Brandenburg_2019.pdf:pdf
       \endverb
+    \endentry
+    \entry{Cukovic2015}{unpublished}{}
+      \name{author}{6}{}{%
+        {{hash=7cf253ba89914db24da810a354d355a3}{%
+           family={{Ć}ukovi{ć}},
+           familyi={Ć\bibinitperiod},
+           given={Sa{š}a},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5297ed7522a51eb38c1f2aa1a091a5c6}{%
+           family={Gattullo},
+           familyi={G\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a7a4e005c46686db78059a693e565b61}{%
+           family={Pankratz},
+           familyi={P\bibinitperiod},
+           given={Frieder},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5d3b1db905f43df5a3170c89db40ee9c}{%
+           family={Deved{ž}i{ć}},
+           familyi={D\bibinitperiod},
+           given={Goran},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e2af8f9ca6d86b1d241c548d689f946c}{%
+           family={Carrabba},
+           familyi={C\bibinitperiod},
+           given={Ernesto},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7a08b2be0eeb972f69ad5c199822bdec}{%
+           family={Baizid},
+           familyi={B\bibinitperiod},
+           given={Khelifa},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{f60f6fb544899bfcf9a85f2735486670}
+      \strng{fullhash}{ae177286a1f7ef98000041ba5e43fa81}
+      \strng{bibnamehash}{f60f6fb544899bfcf9a85f2735486670}
+      \strng{authorbibnamehash}{f60f6fb544899bfcf9a85f2735486670}
+      \strng{authornamehash}{f60f6fb544899bfcf9a85f2735486670}
+      \strng{authorfullhash}{ae177286a1f7ef98000041ba5e43fa81}
+      \field{labelalpha}{Ćuk15}
+      \field{sortinit}{Ć}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper we present novel methods and algorithms for augmenting a foot 3D model in real-time. By overlaying reconstructed anatomical contents onto user's field of view via an augmented reality visualization platform, the virtual Biomedical Computer Aid Design (BioCAD) objects, appear geo-referenced to the real environment, help physicians and/or students to improve the overall image of the bone condition and anatomical structures of patients. Moreover, we explain the principle of marker and markerless Augmented Reality (AR) and interactive integration of virtual objects in the actual scene by development of a PC and mobile AR applications. In particular, this should be a powerful tool to understand the complex 3D nature and structure of 3D foot bones, joints and assemblies.}
+      \field{isbn}{9781941968062}
+      \field{title}{{Marker Based vs. Natural Feature Tracking Augmented Reality Visualization of the 3D Foot Phantom}}
+      \field{year}{2015}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/{\'{C}}ukovi{\'{c}} et al. - Unknown - Marker Based vs. Natural Feature Tracking Augmented Reality Visualization of the 3D Foot Phantom.pdf:pdf
+      \endverb
+      \keyw{Android,Augmented Reality,BioCAD,CT Reconstruction,DICOM,Foot 3D Model}
     \endentry
     \entry{Gabbard}{unpublished}{}
       \name{author}{2}{}{%
@@ -219,7 +313,7 @@
       \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6402555
       \endverb
     \endentry
-    \entry{Kirschner2011}{report}{}
+    \entry{Kirschner2011}{thesis}{}
       \name{author}{4}{}{%
         {{hash=f65e3354b881b7ef6327c10b0ddc9add}{%
            family={Kirschner},
@@ -256,7 +350,7 @@
       \field{abstract}{iman solutions GmbH, Munich Despite the widely accepted and proven benefits of open innovation methods, companies apply them infrequently in their own product development processes. In order to find reasons for this apparently contradiction, we conducted 34 interviews with project directors and a literature study. Thus, we identified ten common obstacles for customer integration. On this basis, we derived a new open innovation method to get over these hurdles. The core idea of the presented crowd sourcing method is a product picture based access to a comment management database by the product user. To illuminate the method, we present an implementation together with its internal data structure for a better understanding. This tool is then validated in an experiment with n=48 users. The results indicate that the picture based approach of the method generates valuable results that can contribute to product development.}
       \field{booktitle}{INTERNATIONAL CONFERENCE ON ENGINEERING DESIGN}
       \field{title}{{IMMERSIVE PRODUCT IMPROVEMENT IPI _ FIRST EMPIRICAL RESULTS OF A NEW METHOD}}
-      \field{type}{techreport}
+      \field{type}{phdthesis}
       \field{year}{2011}
       \field{pages}{11\bibrangedash 15}
       \range{pages}{5}
@@ -265,7 +359,7 @@
       \endverb
       \keyw{customer integration,design method,open innovation,product improvement}
     \endentry
-    \entry{Kirschner2012}{report}{}
+    \entry{Kirschner2012}{thesis}{}
       \name{author}{1}{}{%
         {{hash=14b9082788cb6b2b2fee7c740c4060f3}{%
            family={Kirschner},
@@ -285,7 +379,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Methodische Offene Produktentwicklung}}
-      \field{type}{techreport}
+      \field{type}{phdthesis}
       \field{year}{2012}
       \verb{file}
       \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kirschner - Unknown - Methodische Offene Produktentwicklung.pdf:pdf
@@ -295,6 +389,37 @@
       \endverb
       \verb{url}
       \verb https://mediatum.ub.tum.de/doc/1094898/1094898.pdf
+      \endverb
+    \endentry
+    \entry{Klein2007}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=248eafdb112ac245226abb96a4f482dc}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e41252b683e5c16ba97e25f372694a43}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{87636f88cf67e95591e71e8efc85fb5d}
+      \strng{fullhash}{87636f88cf67e95591e71e8efc85fb5d}
+      \strng{bibnamehash}{87636f88cf67e95591e71e8efc85fb5d}
+      \strng{authorbibnamehash}{87636f88cf67e95591e71e8efc85fb5d}
+      \strng{authornamehash}{87636f88cf67e95591e71e8efc85fb5d}
+      \strng{authorfullhash}{87636f88cf67e95591e71e8efc85fb5d}
+      \field{labelalpha}{KM07}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a method of estimating camera pose in an unknown scene. While this has previously been attempted by adapting SLAM algorithms developed for robotic exploration, we propose a system specifically designed to track a hand-held camera in a small AR workspace. We propose to split tracking and mapping into two separate tasks, processed in parallel threads on a dual-core computer: one thread deals with the task of robustly tracking erratic hand-held motion, while the other produces a 3D map of point features from previously observed video frames. This allows the use of computationally expensive batch optimisation techniques not usually associated with real-time operation: The result is a system that produces detailed maps with thousands of landmarks which can be tracked at frame-rate, with an accuracy and robustness rivalling that of state-of-the-art model-based systems.}
+      \field{title}{{Parallel Tracking and Mapping for Small AR Workspaces}}
+      \field{year}{2007}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Klein, Murray - Unknown - Parallel Tracking and Mapping for Small AR Workspaces.pdf:pdf
       \endverb
     \endentry
     \entry{Kalkofen2007}{book}{}
@@ -393,6 +518,37 @@
       \verb https://ar-sec.cs.washington.edu
       \endverb
     \endentry
+    \entry{Lowney2016}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=5e2eeb50f9117513ccc4512d275efef1}{%
+           family={Lowney},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d29859ca02d83fbeb61a6aa861584b39}{%
+           family={Raj},
+           familyi={R\bibinitperiod},
+           given={Abhilash\bibnamedelima Sunder},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{da965706461de32069bc8e61241c9205}
+      \strng{fullhash}{da965706461de32069bc8e61241c9205}
+      \strng{bibnamehash}{da965706461de32069bc8e61241c9205}
+      \strng{authorbibnamehash}{da965706461de32069bc8e61241c9205}
+      \strng{authornamehash}{da965706461de32069bc8e61241c9205}
+      \strng{authorfullhash}{da965706461de32069bc8e61241c9205}
+      \field{labelalpha}{LR16}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper we describe our methods for implementing real-time edge based tracking on an Android tablet. We implement a basic tracking algorithm, chosen for both its simplicity and speed.. The performance of our system was evaluated and its advantages and flaws have been pointed out. Suggestions for further improvement are made.}
+      \field{title}{{Model Based Tracking for Augmented Reality on Mobile Devices}}
+      \field{year}{2016}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Lowney, Raj - 2016 - Model Based Tracking for Augmented Reality on Mobile Devices.pdf:pdf
+      \endverb
+    \endentry
     \entry{Marriott2018}{book}{}
       \name{author}{7}{}{%
         {{hash=b7b9c8a15ea42930441d87944068bfe8}{%
@@ -450,6 +606,29 @@
       \verb{file}
       \verb :C\:/Users/alioi/OneDrive/Desktop/2018_Book_ImmersiveAnalytics.pdf:pdf
       \endverb
+    \endentry
+    \entry{Mayhew1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=aacb381c5440561435ac139d09e5b3da}{%
+           family={Mayhew},
+           familyi={M\bibinitperiod},
+           given={Deborah\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{aacb381c5440561435ac139d09e5b3da}
+      \strng{fullhash}{aacb381c5440561435ac139d09e5b3da}
+      \strng{bibnamehash}{aacb381c5440561435ac139d09e5b3da}
+      \strng{authorbibnamehash}{aacb381c5440561435ac139d09e5b3da}
+      \strng{authornamehash}{aacb381c5440561435ac139d09e5b3da}
+      \strng{authorfullhash}{aacb381c5440561435ac139d09e5b3da}
+      \field{labelalpha}{May99}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1-55860-561-4}
+      \field{title}{{The usability engineering lifecycle}}
+      \field{year}{1999}
     \endentry
     \entry{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015}{inproceedings}{}
       \name{author}{4}{}{%
@@ -526,6 +705,40 @@
       \endverb
       \verb{url}
       \verb https://books.google.de/books?hl=de&lr=&id=DBOowF7LqIQC&oi=fnd&pg=PP1&dq=usability&ots=Bl5aUOFUCN&sig=8apn_0ZCNfu_NhbGpjnUGKTgyjY#v=onepage&q=usability&f=false
+      \endverb
+    \endentry
+    \entry{Poth2017}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=aa0485ad717b342143a95eae8f19fb90}{%
+           family={Poth},
+           familyi={P\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa0485ad717b342143a95eae8f19fb90}
+      \strng{fullhash}{aa0485ad717b342143a95eae8f19fb90}
+      \strng{bibnamehash}{aa0485ad717b342143a95eae8f19fb90}
+      \strng{authorbibnamehash}{aa0485ad717b342143a95eae8f19fb90}
+      \strng{authornamehash}{aa0485ad717b342143a95eae8f19fb90}
+      \strng{authorfullhash}{aa0485ad717b342143a95eae8f19fb90}
+      \field{labelalpha}{Pot17}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Evaluierung von Augmented Reality Frameworks anhand einer AR-Anwendung im IoT-Bereich}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.13140/RG.2.2.34331.16168
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Poth - Unknown - Evaluierung von Augmented Reality Frameworks anhand einer AR-Anwendung im IoT-Bereich.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/319406434
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/319406434
       \endverb
     \endentry
     \entry{MichaelRichter2016}{book}{}
@@ -659,14 +872,14 @@
       \strng{authorbibnamehash}{548977f8e7eddf47b467d7fb8adbd68d}
       \strng{authornamehash}{548977f8e7eddf47b467d7fb8adbd68d}
       \strng{authorfullhash}{e018acd9a26610886032e7899260b218}
-      \field{labelalpha}{Ros02}
+      \field{labelalpha}{Ros01}
       \field{sortinit}{R}
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{1-55860-712.9}
       \field{title}{{Usability Engineering: Scenario-Based Development of Human-Computer}}
-      \field{year}{2002}
+      \field{year}{2001}
     \endentry
     \entry{DieterSchmalstieg2016}{book}{}
       \name{author}{2}{}{%

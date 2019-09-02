@@ -16,14 +16,15 @@ Feedbacks häufen.
 
 Bei Interessengruppen in welchen Nutzer von bestimmten Produkten, sich räumlich zusammentreffen um Erfahrungen auszutauschen wie z.Bsp. zu Hausaltprodukten, Modellflugzeugen, VR Headsets usw., 
 haben die Nutzer die Möglichkeit Ihre Ideen genauer zu beschreiben. 
-Bei solchen Treffen haben die Nutzer die Möglichkeit mit Bezugnahme auf die Stellen am Produkt und dem Kontext ihrer Umgebung Feedback zum Produkt zu geben. Das Problem bei dieser Art der Rückmeldungen ist jedoch dessen eingrenzte Reichweite. Zudem werden Inhalte welche in solchen Treffen diskutiert wurden oft nicht ausreichend dokumentiert.  
+Bei solchen Treffen haben die Nutzer die Möglichkeit mit Bezugnahme auf die Stellen am Produkt und dem Kontext ihrer Umgebung Feedback zum Produkt zu geben. 
+Das Problem bei dieser Art der Feedback ist jedoch dessen eingrenzte Reichweite. Zudem werden Inhalte welche in solchen Treffen diskutiert wurden oft nicht ausreichend dokumentiert.  
 
 Auf Basis der im Kapitel \ref{CapterFundamentals} behandelten Grundlagen und der Nutzungskontextanalyse wurde eine abstrakte Skizze des Gesamtsystems (Abbildung \ref{img:sysstem_sketch}) entworfen in welcher, 
 Funktionale wie Nicht-Funktionale Anforderungen an das zu konzipierende System dargestellt werden:
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.0\textwidth]{resources/conception/skizze_gesamtsystem.png}
+	\includegraphics[width=1.0\textwidth]{resources/conception/SystemSkizze.png}
 	\caption{Abstrakte Skizze des Gesamtsystems \\Quelle: Eigene Darstellung}
 	\label{img:sysstem_sketch}
 \end{figure}
@@ -32,35 +33,33 @@ Dieses Skizze sollte die Projektidee begreifbarer machen und als grobe Orientier
 
 \section{Anforderungsanalyse}
 
-Als Grundlage für die Anforderungsanalyse wurde wurde ein Kreativ Workshops durchgeführt. Das Ziel des Workshops war, die im Abschnitt \ref{UsaEng} beschriebenen Phasen des Usability Engineering Lifecycle 
-umzusetzen.   
+Als Grundlage für die Anforderungsanalyse wurde ein Kreativ Workshops durchgeführt. Das Ziel dieses Workshops war, die im Kapitel \ref{CapterFundamentals} Abschnitt \ref{UsaEng} beschriebenen Schritte des Usability Engineering Lifecycle nach Nielsen umzusetzen.   
 
 % Vorbereitung
-Das Workshop fand am dritten Juli, am Fraunhofer IPK in Berlin statt. Am Workshop nahmen fünf Teilnehmer teil. %Füge noch Informationen zu den Teilenehmer hinzu.
+Das Workshop fand, am Fraunhofer IPK in Berlin statt und es nahmen fünf Teilnehmer teil. %Füge noch Informationen zu den Teilenehmer hinzu.
 
-
-Zur Vorbereitung wurde in einem zuvor für diesen Workshop gebuchten, Besprechungsraum, einzelne Stationen für die am Workshop durchzuführenden Aktivitäten vorbereitet.\footnote{z.Bsp.: Aufstellung eines Pinnwand für die Erstellung eines Affinitätsdiagrammes, Abbildungen von Personen für die Erstellung von Personas usw.} 
-Zunächst wurden die Teilnehmer begrüßt und für die Teilnahme am Workshop bedankt. Anschließend wurde der Anlass und der Ablauf des Workshop vorgestellt. 
+Zur Vorbereitung wurde in einem zuvor für diesen Workshop gebuchten, Besprechungsraum, einzelne Stationen für die am Workshop durchzuführenden Aktivitäten vorbereitet.\footnote{z.Bsp.: Aufstellung eines Pinnwand für die Erstellung eines Affinitätsdiagramms, Abbildungen von Personen für die Erstellung von Personas usw.} Zunächst wurden die Teilnehmer begrüßt und für deren Teilnahme am Workshop bedankt. 
+Anschließend wurde der Anlass und der Ablauf des Workshop vorgestellt. 
 
 %Durchführung
-Mit Hilfe einer kurzen PowerPoint Präsentation wurde die Projektidee vorgestellt und anhand der groben Skizze des zu konzipierenden Systems (Abbildung \ref{img:sysstem_sketch}) verdeutlicht. 
-Anschließend fand eine Frage- Antwort Runde statt, welches die Möglichkeit gab, Rückfragen zu stellen. Somit sollte sichergestellt werden, dass die Projektidee von allen Teilnehmer gleichermaßen 
-verstanden wurde. 
+Mit Hilfe einer kurzen Präsentation wurde die Projektidee vorgestellt und anhand einer groben Skizze des zu konzipierenden Systems (Abbildung \ref{img:sysstem_sketch}) verdeutlicht. 
+Anschließend fand eine Frage- Antwort Runde statt, welches den Teilnehmern die Möglichkeit gab, Rückfragen zu stellen. Somit sollte sichergestellt werden, dass die Projektidee von 
+allen Teilnehmer verstanden wurde. 
 
-Nach Vorstellung der Projektidee fand ein Brainstorming statt, dessen Ergebnis in ein Affinitätsdiagramm festgehalten wurden. Dieses diente als Grundlage für die Erstellung von Nutzerprofilen. 
+Nach Vorstellung der Projektidee fand ein Brainstorming statt, dessen Ergebnis in einer Affinitätsdiagramm festgehalten wurden. Dieses diente als Grundlage für die Erstellung von Nutzerprofilen. 
 \footnote{Im gewöhnlichen Vorgang für die Erstellung von Affinitätsdiagramme, schreiben Teilnehmer Ideen auf Kärtchen, welche zunächst unsortiert auf ein Pinnwand geheftet werden. 
 Anschließend werden die Ideen, gemeinsam besprochen und in Gruppen bzw. Untergruppen sortiert. In dem stattgefundenen Workshop wurden diese Gruppen jedoch im voraus vorgegeben.}
 
 Es sollten Ideen für die Beantwortung folgender Fragen zusammengetragen werden: 
 
 \begin{itemize}
-	\item Wer sind die Nutzer? (Rolle, Erfahrungsstand,  Lebensstil/ Lebenskontext)
+	\item Wer sind die Nutzer (Rolle, Erfahrungsstand,  Lebensstil/ Lebenskontext)?
 	\item Was sind aktuelle Problemlösungsstrategien der Nutzer?
 	\item Was sind die Ziele der Nutzer?
 	\item Wo liegen die Schmerzpunkte mit aktuellen Lösungstretarien?
 \end{itemize}\label{list:AffiDiagramm}
 
-Den Teilnehmern wurde 15 Minuten Zeit gegeben, indem Ideen zu den, oben genannten Fragen, auf Kärtchen aufgeschrieben wurden.
+Es wurde eine Zeitbegrenzung von 15 Minuten Zeit vorgegeben, innerhalb welcher Ideen zu den, oben genannten Fragen, auf Kärtchen aufgeschrieben wurde.
 Folgende Ideen sind dabei entstanden welche im nächsten Schritt als Orientierung für die Erstellung von Personas dienten\footnote{Eine Abbildung des entstandenen Affinitätsdiagramm befindet sich im Anhang [Referenz darauf]}: 
 
 \vspace{2mm}
@@ -81,13 +80,18 @@ Komplizierte Beschreibung der Umgebung/ Use-Case, Zustand der Bearbeitung unbeka
 
 \textbf{Personas}:
 %Durchführung %Aufbau / Einleitung / Affinitätsdiagram / Personas / Szenarien
-Auf Grundlage der im Affinitätsdiagramm festgehaltenen Ideen, wurden im nächsten Schritt, Personas erstellt. Diese repräsentieren, stellvertretend die Ziele der Nutzer des zu konzipierenden Systems. 
-Es wurden zuvor ausgedruckte Bilder von Personen unterschiedlicher Alter und Geschlecht, welche jeweils in Szene dargestellt sind die Ausschluss über ihr aktuelles Lebenskontext ausgelegt. 
-Gemeinsam mit allen Teilnehmern wurden dann Bilder ausgewählt welche möglichst unterschiedliche, dennoch realistische Nutzer für das zu konzipierende System darstellen könnten. 
+Im nächsten Schritt wurden auf Grundlage der im  Affinitätsdiagramm festgehaltenen Stichpunkte, Personas erstellt. Diese repräsentieren, stellvertretend die Ziele der 
+Nutzer des zu konzipierenden Systems. 
 
-Es sind dabei fünf unterschiedliche Personas entstanden (Tabelle \ref{tab:personas}, Vollständige Beschreibung der Personas befindet sich im Anhang \ref{anhangA}). Die Personas, Felix, Timo und Svenja sind für die Implementierung des Prototypen besonders bedeutsam. 
-Diese Personas werden das System nutzen um Feedbacks zu erstellen, zu bearbeiten und zu löschen. Die Personas Magitta und Flo dienen dazu um ein Verständnis für das zu 
-konzipierende Gesamtsystem aufzubauen in welchem sich der Prototyp einfügen soll\footnote{Die ausgearbeitete Version der Personas befindet sich im Anhang \ref{anhangA}}: 
+Es wurden zuvor Bilder von Personen unterschiedlicher Alter und Geschlecht auf dem Boden ausgelegt. Die Bilder zeigten die Personen in jeweils unterschiedlichen Situationen 
+sodass möglichst individuelle Eigenschaften ausgemacht werden konnten. Es fand eine kurze Diskussion statt indem, Abbildungen von Personen ausgewählt wurden welche, realistische 
+Nutzer für das zu konzipierende System darstellen. Anschließend wurden den Personas fiktive Naben gegeben und die Begriffe aus dem Affinitätsdiagramm in gemeinsamer 
+Abstimmung den einzelnen Personen zugeordnet. 
+
+Auf diese weise entstanden fünf unterschiedliche Personas (Tabelle \ref{tab:personas}, Eine vollständige Beschreibung der Personas befindet sich im Anhang \ref{anhangA}). 
+Die Personas, Felix, Timo und Svenja sind für die Implementierung des Prototypen besonders bedeutsam. Diese Personas werden das System nutzen um Feedbacks zu erstellen, 
+zu bearbeiten und zu löschen. Die Personas Magitta und Flo dienen dazu um ein Verständnis für das zu konzipierende Gesamtsystem aufzubauen in welchem sich der Prototyp 
+einfügen soll\footnote{Die ausgearbeitete Version der Personas befindet sich im Anhang \ref{anhangA}}: 
 
 \begin{table}[htbp]
 	\caption{Zusammenfassung der Personas}
@@ -97,13 +101,13 @@ konzipierende Gesamtsystem aufzubauen in welchem sich der Prototyp einfügen sol
 			\hline
 			\textbf{Timo} &  Produktentwickler & \makecell[l]{*Oft sind komplizierte Anwendungsfälle schwer zu beschreiben.\\ *Produktbezogenen Beschreibungen werden\\ oft von anderen nicht verstanden.} \\
 			\hline
-			\textbf{Svenja} & Auszubildende & * Möchte dass es besonders einfach und unkompliziert benutzbar ist.\\
+			\textbf{Svenja} & Auszubildende & * \makecell[l]{Möchte dass es besonders einfach und unkompliziert benutzbar ist.}\\
 			\hline
 			\textbf{Felix} & Zahnarzt &  \makecell[l]{* Möchte dass seine Laborgeräte \\einwandfrei funktionieren.\\ * Möchte bei technischen Problemen schnelle\\ * Rückmeldung vom Hersteller. \\Qualität der Produkte\\ haben einen Einfluss auf sein Betrieb.} \\
 			\hline
 			\textbf{Magitta} & Produktmanagerin & \makecell[l]{* Möchte die Produkte\\ ihres Unternehmens zu verbessern.\\ * Wo liegen die Schwächen? Wo die Stärken?}\\
 			\hline
-			\textbf{Flo} & Daten Analyst & \makecell[l]{* Möchte aus Daten Wissen generieren.\\ * Möchte über eine Schnittstelle präzise\\ Kundenfeedbacks zu Produkten erheben\\ um aus diesen Erkenntnisse zu generieren} \\\\
+			\textbf{Flo} & Daten Analyst & \makecell[l]{* Möchte aus Daten Wissen generieren.\\ * Möchte über eine Schnittstelle präzise\\ Kundenfeedbacks zu Produkten erheben\\ um aus diesen Erkenntnisse zu generieren}\\ 
 			\hline
 		\end{tabular}
 	\label{tab:personas}
@@ -111,146 +115,142 @@ konzipierende Gesamtsystem aufzubauen in welchem sich der Prototyp einfügen sol
 
 \textbf{Szenarien}:
 
-Basierend auf den entworfenen Personas, wurden Ist-Szenarien beschrieben (Siehe Anhang: \ref{anhangA}). Mit diesen wurden aktuelle Problemlösungsstrategien der Personas Timo, Felix und Svenja im jeweiligen 
-Anwendungskontext beschrieben. Dabei wurden besonders die Schmerzpunkte mit aktuellen Lösungstretarien betont. 
+Basierend auf den entworfenen Personas, wurden im nächsten Schritt Ist-Szenarien beschrieben (Siehe Anhang: \ref{anhangA} Abschnitt Ist-Szenarien). Mit diesen wurden aktuelle Problemlösungsstrategien der Personas Timo, Felix und Svenja im jeweiligen Anwendungskontext beschrieben. Dabei wurden besonders die Schmerzpunkte der aktuellen Lösungstretarien betont. Die Ist-Szenarien wurden hinsichtlich mögliche Verbesserungen mit einer neuen Lösung analysiert. Im weiteren Schritt wurden dann Soll-Szenarien entwickelt (Siehe Anhang \ref{anhangA} Abschnitt Soll-Szenarien). 
 
-% Ist Szenarien: Vorgang für Zeigen und Auswählen im Ist Szenario von Persona Felix detailiert beschrieben. 
+Die Soll-Szenarien beschreiben, in welchem Kontext sowie unter welchen Bedingungen die Anwendung verwendet wird. Die beschriebenen Soll-Szenarien beinhalten Beschreibungen für Funktionen welche nicht 
+im Prototypen enthalten sein werden. Diese dienen dazu um ein Verständnis dafür aufzubauen zu können, wie sich der Prototyp in eine Gesamtsystem mit diesen Funktionen einfügen könnte. 
 
-%Die Ist Szenarien beschreiben, in welchem Kontext, unter welchen Bedingungen die Anwendung verwendet wird (Siehe \ref{Usablityeng} Abschnitt Prototypen und Szenarien). Hierbei ist der Vorgang für das 
-das Auswählen der Produktteile bzw. Stelle am Produkt 
-%Beinhaltet beschreibungen für Funktionen welche nicht im Prototypen beinhaltet sein werden, jedoch um ein Verständniss aufzubauen wie sich der Prototpy in ein Gesamtsystem mit diesen Funktionen einfügen könnte. 
+Funktionen welche in den Ist-Szenarien beschrieben werden jedoch nicht Teil des Prototypen sein werden: 
 
-% Funktionen welche in den Szanrien beschribeen werden jedoch nicht teil des Prototypen sein werden: 
+\begin{itemize}
+\item{Anmeldevorgang} 
+\item{Produktauswahl} 
+\item{Feedbacks von anderen Nutzern auf dem Produkt sehen}
+\item{Versand von Informationen an den Hersteller}
+\end{itemize}
 
-%Anmeldevorgang ist wird nicht im Prototypen enthalen sein. 
-% Produkt auswähelen auch nicht. 
-%Feedbacks von anderen Nutzern wird auch nicht enhalten sein. 
-%Es wird auch keine Informationen an den Hersteller versendet. 
-
-
-
-
-[...Daraus hab ich dann die Ist-Szenarien geschrieben...]
+%Svenja. Praktisch, schnell. 
+%Felix Vorgang zum Auswählen eines teils + Wunsch äußern dass Rückmeldung vom Hersteller erwünscht ist.
+%Timo Kategorien zum Auswählen
 
 \textbf{User Stories}:
 
-Auf Grundlage der Soll-Szenarien, wurden im nächsten Schritt User Stories beschrieben welche im Prototypen implementiert werden sollten: 
+Auf Grundlage der Soll-Szenarien, wurden im nächsten Schritt User Stories beschrieben welche im Prototypen implementiert werden: 
 
 %\begin{center}
-	\begin{table}[H]
+	\begin{table}[htbp]
 	\caption{User Stories}
 	\resizebox{\textwidth}{!}{
 	\begin{tabular}{ | c | c | c |c |c |}
 		\hline
 		\thead{Nr.} & \thead{Als} & \thead{abgeleitet \\ aus \\ Persona} &	\thead{möchte ich} & \thead{damit} \\
 		\hline
-		10 &  \makecell{Endkunde} & \makecell{Timo} & \makecell{neue Anwendungsfälle \\direkt am Produkt-Teil\\ beschreiben können} &  \makecell{ich bei meiner Beschreibung\\ implizit einen Bezug\\
-			zu einer bestimmten\\ Stelle am Produkt\\ herstellen kann} \\
+		10 &  \makecell{Endkunde} & \makecell{Timo} & \makecell{neue Anwendungsfälle \\direkt am Produktteil\\ beschreiben können} &  \makecell{ich bei meiner Beschreibung\\ implizit ein Bezug\\
+			zu einer bestimmten\\ Stelle am Produkt\\ herstellen kann.} \\
 		\hline
-		20 &  \makecell{Endkunde} & \makecell{Timo} & \makecell{Ergänzende Anleitungen direkt\\ am Produkt am Produkt Teil\\ oder Stellen ansehen können} &  \makecell{ich mir ergänzende Bemerkungen \\und Anleitungen
-			direkt an der \\ betreffenden Stelle ansehen kann
+		20 &  \makecell{Endkunde} & \makecell{Timo} & \makecell{Ergänzende Anleitungen direkt\\ am  Produktteil\\ oder Stellen ansehen können} &  \makecell{ich mir ergänzende Bemerkungen \\und Anleitungen
+			direkt an der \\ betreffenden Stelle ansehen kann.
 } \\
 		\hline
-		30 &  \makecell{Endkunde} & \makecell{Timo} & \makecell{Anleitungen zu spezifischen\\ Stellen am Produkt \\beschreiben können} &  \makecell{mir die Bezugnahme zur \\ betreffenden Stelle
+		30 &  \makecell{Endkunde} & \makecell{Timo} & \makecell{Anleitungen zu spezifischen\\ Stellen am Produkt \\beschreiben können} &  \makecell{mir die Bezugnahme zu der\\ betreffenden Stelle
 			am Produkt\\ erleichtert wird und meine \\Anleitungen
-			besser von anderen \\verstanden werden} \\
+			verständlicher \\für andere werden.} \\
 		\hline
 		31 &  \makecell{Endkunde)}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{ein bestimmtes Teil an einem\\
 			physischen Produkt auswählen\\
 			können
 } &  \makecell{ich bezugnehmend auf das ausgewählte\\ Teil
-			Aktionen ausführen kann.\\ (z. Bsp.: eine
+			Aktionen ausführen kann.\\ (z. B.: eine
 			Rückmeldung abgeben)}\\
 		\hline
-		32 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{eine von mir abgegebene\\
-			Rückmeldung auswählen können} &  \makecell{damit ich diese Rückmeldung oder den\\
-			Bezugspunkt auf dem physischen Produkt auf das\\
-			sich die Rückmeldung bezieht verändern oder\\
+		32 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{eine von mir abgegebenes\\
+			Feedback auswählen können,} &  \makecell{damit ich dieses Feedback oder den\\
 			löschen kann}\\
 		\hline
 		33 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{die Beschreibung auf einer von mir\\
-			abgegebenen Rückmeldung verändern\\
-			können.} &  \makecell{ich eine Nachträgliche Korrektur oder Ergänzung\\
+			abgegebenes Feedback verändern\\
+			können} &  \makecell{ich eine Nachträgliche Korrektur oder Ergänzung\\
 			vornehmen zu kann.
 }\\
 		\hline
-		34 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{den Bezugspunkt (Produkt-Teil oder\\
+		34 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{den Bezugspunkt (Produktteil oder\\
 			bestimmte Stelle auf einem\\
-			Produkt-Teil) auf die ein von mir\\
-			erstellte Rückmeldung sich bezieht\\
-			verändern können.
+			Produktteil) auf die, ein von mir\\
+			erstelltes Feedback sich bezieht\\
+			ändern können
 } &  \makecell{ich eine Nachträgliche Korrektur oder Ergänzung\\
 			vornehmen zu kann.
 }\\
 		\hline
-		35 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{eine von mir erstellte Rückmeldung\\
+		35 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{ein von mir erstelltes Feedback\\
 			löschen können} &  \makecell{ich eine obsolete, redundante oder versehentlich\\
-			erstellte Rückmeldung wieder entfernen kann}\\
+			erstellte Rückmeldung wieder entfernen kann.}\\
 		\hline
 		40 &  \makecell{Endkunde}  & \makecell{Svenja} & \makecell{schnell und unkompliziert\\
-			Feedbacks zu Produkt Teile od. Stellen\\
+			Feedbacks zu Teile od. Stellen am Produkt\\
 			abgeben können.} &  \makecell{ich auch Feedbacks beiläufig abgeben kann.}\\
 		\hline	
-		50 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{möchte ich Bewertungen zu einem\\
-			Produkt, am Produkt ansehen können} &  \makecell{ich mich vor dem Kauf eines Produktes genauer\\
-			erkundigen kann und mir vor allem für mich\\
-			wichtigen stellen am Produkt besser beurteilen\\
+		50 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{Bewertungen zu ein\\
+			Produkt, an der Betreffenden Stelle am\\ Produkt ansehen können} &  \makecell{ich mich vor dem Kauf eines Produktes genauer\\
+			erkundigen kann, und mir vor allem, die für mich
+			wichtigen stellen am \\Produkt besser beurteilen
 			kann
 }\\
 		\hline	
-		60 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{möchte ich Kontaktinformationen zu\\
+		60 &  \makecell{Endkunde}  & \makecell{Svenja, \\ Timo, \\ Felix} & \makecell{Kontaktinformationen zu\\
 			Verantwortlichen Personen sehen\\
 			können.} &  \makecell{ich direkt Kontakt zu dieser Person aufnehmen\\
 			kann.}\\
 		\hline	
-		70 &  \makecell{Endkunde}  & \makecell{Timo} & \makecell{möchte ich den Wunsch äußern\\
+		70 &  \makecell{Geschäftskunde\\(gewerblich\\nutzender\\Endkunde)}  & \makecell{Felix} & \makecell{möchte ich den Wunsch äußern\\
 			können, dass der Hersteller über mein\\
 			Feedback informiert wird} &  \makecell{ich sichergehen kann dass mein Feedback\\
 			zeitnah vom Hersteller wahrgenommen wird}\\
 		\hline	
-		80 &  \makecell{Endkunde}  & \makecell{Timo} & \makecell{möchte ich bei Abgabe eines Feedbacks,\\ den
-			Einfluss auf mein Geschäft\\
-			beschreiben können} &  \makecell{damit ich dem Hersteller des Produktes\\ ein besseres Verständnis über den Ausmaßes ermöglichen\\ kann und dieser den im Feedback beschriebenen\\ Sachverhalt entsprechend beurteilen und priorisieren kann }\\
+		80 &  \makecell{Geschäftskunde\\(gewerblich\\nutzender\\Endkunde)}  & \makecell{Felix} & \makecell{bei Abgabe eines Feedback,\\ den
+			Einfluss auf mein Geschäft\\ oder Anwendungsfall \\
+			beschreiben können} &  \makecell{ich dem Hersteller des Produktes\\ ein besseres Verständnis über den Ausmaß ermöglichen\\ kann und dieser den im Feedback\\ entsprechend beurteilen und priorisieren kann }\\
 		\hline	
 \end{tabular}}
+	\label{tab:userstories}	
 \end{table}
 %\end{center}
 
 \section{Entwurf}
 
-Im folgenden Abschnitt wird der erste Entwurf des zu entwickelnden Prototypen beschrieben. Es wird zunächst ein Papierprototyp vorgestellt welches einen ersten Entwurf der Benutzeroberfläche darstellt. 
-Anschließend werden die Systemkomponenten, die Entitätentypen für die zu speichernden Informationen, sowie der erste Entwurf der Klassendiagramme vorgestellt.  
+Im folgenden Abschnitt wird der erste Entwurf des zu entwickelnden Prototypen beschrieben. Es wird zunächst ein Papierprototyp vorgestellt welches einen Entwurf der Benutzeroberfläche darstellte. 
+Anschließend werden die Systemkomponenten vorgestellt. Es werden die zu speichernden Daten als ein Entitätentyp definiert sowie die Klassendiagramme für den digitalen Prototypen entworfen.  
 
 \subsection{Low-Fidelity-Prototyp}
 
-Die in der Anforderungsanalyse erstellten Ist-Szenarien wurden genutzt um aus diesen Papiertpro
-
+Die in der Anforderungsanalyse erstellten Ist-Szenarien sowie die festgelegten User Stories wurden als Orientierung für die Gestaltung des Papierprototypen verwendet. 
+%Es wurden Techniken 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{resources/conception/lowfi_startbildschirm.jpg}
-	\caption{Startbildschirm der Anwendung. \\Quelle: Eigene Darstellung}
+	\caption{Papierprototyp - Startbildschirm  \\Quelle: Eigene Darstellung}
 	\label{img:sysstem_sketch}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{resources/conception/lowfi_browseOnProduct.jpg}
-	\caption{Startbildschirm der Anwendung. \\Quelle: Eigene Darstellung}
+	\caption{Papierprototyp - Ansicht zum Suchen und Finden von Feedbacks auf dem Produkt. \\Quelle: Eigene Darstellung}
 	\label{img:sysstem_sketch}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{resources/conception/lowfi_create.jpg}
-	\caption{Startbildschirm der Anwendung. \\Quelle: Eigene Darstellung}
+	\caption{Papierprototyp - Auswahl von Produktteil für die Erstellung eines neuen Feedback \\Quelle: Eigene Darstellung}
 	\label{img:sysstem_sketch}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{resources/conception/lowfi_edit_delete.jpg}
-	\caption{Startbildschirm der Anwendung. \\Quelle: Eigene Darstellung}
+	\caption{Papierprototyp - Auswahl von Feedback auf dem Produkt für die Bearbeitung bzw. Löschung. \\Quelle: Eigene Darstellung}
 	\label{img:sysstem_sketch}
 \end{figure}
 
@@ -261,20 +261,21 @@ Die in der Anforderungsanalyse erstellten Ist-Szenarien wurden genutzt um aus di
 	\begin{minipage}{.5\textwidth}
 		\centering
 		\includegraphics[width=.8\linewidth]{resources/conception/lowfi_form.jpg}
-		\captionof{figure}{A figure}
+		\captionof{figure}{Papierprototyp - Eingabeformular für die \\Erstellung eines neuen Feedback.\\Quelle: Eigene Darstellung}
 		\label{fig:test1}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
 		\includegraphics[width=.8\linewidth]{resources/conception/lowfi_list.jpg}
-		\captionof{figure}{Another figure}
+		\captionof{figure}{Papierprototyp - Listenansicht aller Feedback für die Bearbeitung bzw. Löschung.\\Quelle: Eigene Darstellung}
 		\label{fig:test2}
 	\end{minipage}
 \end{figure}
 
 \subsection{Konzeptioneller Entwurf}
 
-Systemkomponente
+
+
 
 Entity Relationship Diagramm (ERM)
 
