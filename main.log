@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  2 SEP 2019 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  3 SEP 2019 10:22
 entering extended mode
 **./main.tex
 (main.tex
@@ -2191,61 +2191,61 @@ y_situated_visualization_model.png  used on input line 174.
  [9 <./resources/fundamentals/tracking_technicken.png>] [10 <./resources/fundam
 entals/situated_visualization/spacially_situated_visualization_model.png>]
 <resources/fundamentals/situated_visualization/embedded_visualization.png, id=2
-71, 334.24875pt x 310.15875pt>
+72, 334.24875pt x 310.15875pt>
 File: resources/fundamentals/situated_visualization/embedded_visualization.png 
 Graphic file (type png)
 <use resources/fundamentals/situated_visualization/embedded_visualization.png>
 Package pdftex.def Info: resources/fundamentals/situated_visualization/embedded
-_visualization.png  used on input line 206.
+_visualization.png  used on input line 207.
 (pdftex.def)             Requested size: 227.62206pt x 211.22224pt.
 <resources/fundamentals/situated_visualization/Illustration_situated_embedded_v
-isualization.png, id=279, 579.66562pt x 286.06876pt>
+isualization.png, id=280, 579.66562pt x 286.06876pt>
 File: resources/fundamentals/situated_visualization/Illustration_situated_embed
 ded_visualization.png Graphic file (type png)
 <use resources/fundamentals/situated_visualization/Illustration_situated_embedd
 ed_visualization.png>
 Package pdftex.def Info: resources/fundamentals/situated_visualization/Illustra
-tion_situated_embedded_visualization.png  used on input line 224.
+tion_situated_embedded_visualization.png  used on input line 225.
 (pdftex.def)             Requested size: 227.62206pt x 112.33025pt.
  [11 <./resources/fundamentals/situated_visualization/embedded_visualization.pn
 g>] [12 <./resources/fundamentals/situated_visualization/Illustration_situated_
 embedded_visualization.png>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 263.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 264.
 
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 263.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 264.
  [13]
-<resources/fundamentals/annotations_clutter.png, id=309, 805.50937pt x 229.6078
+<resources/fundamentals/annotations_clutter.png, id=310, 805.50937pt x 229.6078
 2pt>
 File: resources/fundamentals/annotations_clutter.png Graphic file (type png)
 <use resources/fundamentals/annotations_clutter.png>
 Package pdftex.def Info: resources/fundamentals/annotations_clutter.png  used o
-n input line 285.
+n input line 286.
 (pdftex.def)             Requested size: 455.24411pt x 129.76369pt.
-<resources/fundamentals/missallignement.png, id=315, 507.39563pt x 191.21437pt>
+<resources/fundamentals/missallignement.png, id=316, 507.39563pt x 191.21437pt>
 
 File: resources/fundamentals/missallignement.png Graphic file (type png)
 <use resources/fundamentals/missallignement.png>
 Package pdftex.def Info: resources/fundamentals/missallignement.png  used on in
-put line 305.
+put line 306.
 (pdftex.def)             Requested size: 318.66948pt x 120.09514pt.
 
 [14 <./resources/fundamentals/annotations_clutter.png>] [15 <./resources/fundam
 entals/missallignement.png>] [16] [17] [18] [19]
-<resources/fundamentals/hor_ver_prototypes.png, id=392, 683.55376pt x 286.06876
+<resources/fundamentals/hor_ver_prototypes.png, id=395, 683.55376pt x 286.06876
 pt>
 File: resources/fundamentals/hor_ver_prototypes.png Graphic file (type png)
 <use resources/fundamentals/hor_ver_prototypes.png>
 Package pdftex.def Info: resources/fundamentals/hor_ver_prototypes.png  used on
- input line 519.
+ input line 523.
 (pdftex.def)             Requested size: 364.19667pt x 152.41888pt.
  [20 <./resources/fundamentals/hor_ver_prototypes.png>]) [21] (chapter/Analysis
 .tex
 chapter 3.
-<resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png, id=410, 129
+<resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png, id=413, 129
 3.33188pt x 545.03625pt>
 File: resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png Graphic
  file (type png)
@@ -2258,7 +2258,7 @@ Ansicht.png  used on input line 38.
 
 
 ]
-<resources/analyse/IPI_Objektzentriert.png, id=419, 1318.9275pt x 511.9125pt>
+<resources/analyse/IPI_Objektzentriert.png, id=422, 1318.9275pt x 511.9125pt>
 File: resources/analyse/IPI_Objektzentriert.png Graphic file (type png)
 <use resources/analyse/IPI_Objektzentriert.png>
 Package pdftex.def Info: resources/analyse/IPI_Objektzentriert.png  used on inp
@@ -2267,7 +2267,7 @@ ut line 45.
 ) [23 <./resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png> <./
 resources/analyse/IPI_Objektzentriert.png>] (chapter/Conception.tex
 chapter 4.
-<resources/conception/SystemSkizze.png, id=432, 1004.75375pt x 556.0775pt>
+<resources/conception/SystemSkizze.png, id=435, 1004.75375pt x 556.0775pt>
 File: resources/conception/SystemSkizze.png Graphic file (type png)
 <use resources/conception/SystemSkizze.png>
 Package pdftex.def Info: resources/conception/SystemSkizze.png  used on input l
@@ -2287,7 +2287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--216
 [][]
  []
 
-<resources/conception/lowfi_startbildschirm.jpg, id=470, 3111.625pt x 1433.355p
+<resources/conception/lowfi_startbildschirm.jpg, id=473, 3111.625pt x 1433.355p
 t>
 File: resources/conception/lowfi_startbildschirm.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_startbildschirm.jpg>
@@ -2295,20 +2295,20 @@ Package pdftex.def Info: resources/conception/lowfi_startbildschirm.jpg  used o
 n input line 231.
 (pdftex.def)             Requested size: 318.66948pt x 146.77768pt.
 [28]
-<resources/conception/lowfi_browseOnProduct.jpg, id=476, 3553.275pt x 1606.0pt>
+<resources/conception/lowfi_browseOnProduct.jpg, id=479, 3553.275pt x 1606.0pt>
 
 File: resources/conception/lowfi_browseOnProduct.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_browseOnProduct.jpg>
 Package pdftex.def Info: resources/conception/lowfi_browseOnProduct.jpg  used o
 n input line 238.
 (pdftex.def)             Requested size: 318.66948pt x 144.01915pt.
-<resources/conception/lowfi_create.jpg, id=477, 3420.78pt x 1618.045pt>
+<resources/conception/lowfi_create.jpg, id=480, 3420.78pt x 1618.045pt>
 File: resources/conception/lowfi_create.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_create.jpg>
 Package pdftex.def Info: resources/conception/lowfi_create.jpg  used on input l
 ine 245.
 (pdftex.def)             Requested size: 318.66948pt x 150.72845pt.
-<resources/conception/lowfi_edit_delete.jpg, id=478, 3621.53pt x 1638.12pt>
+<resources/conception/lowfi_edit_delete.jpg, id=481, 3621.53pt x 1638.12pt>
 File: resources/conception/lowfi_edit_delete.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_edit_delete.jpg>
 Package pdftex.def Info: resources/conception/lowfi_edit_delete.jpg  used on in
@@ -2317,19 +2317,19 @@ put line 252.
  [29 <./resources/conception/lowfi_startbildschirm.jpg> <./resources/conception
 /lowfi_browseOnProduct.jpg> <./resources/conception/lowfi_create.jpg>]
 
-Package caption Warning: \label without proper reference on input line 261.
+Package caption Warning: \label without proper reference on input line 259.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `tab:example' on page 30 undefined on input line 257.
 
-<resources/conception/lowfi_form.jpg, id=487, 1838.87pt x 3717.89pt>
+<resources/conception/lowfi_form.jpg, id=490, 1838.87pt x 3717.89pt>
 File: resources/conception/lowfi_form.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_form.jpg>
 Package pdftex.def Info: resources/conception/lowfi_form.jpg  used on input lin
 e 263.
 (pdftex.def)             Requested size: 182.09833pt x 368.1233pt.
-<resources/conception/lowfi_list.jpg, id=488, 1887.05pt x 3565.32pt>
+<resources/conception/lowfi_list.jpg, id=491, 1887.05pt x 3565.32pt>
 File: resources/conception/lowfi_list.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_list.jpg>
 Package pdftex.def Info: resources/conception/lowfi_list.jpg  used on input lin
@@ -2345,7 +2345,7 @@ chapter 5.
 
 ] (chapter/Evaluation.tex
 chapter 6.
-<resources/evaluation/diagrammittel_vergleich_liste_annotation.png, id=502, 591
+<resources/evaluation/diagrammittel_vergleich_liste_annotation.png, id=505, 591
 .71063pt x 310.91156pt>
 File: resources/evaluation/diagrammittel_vergleich_liste_annotation.png Graphic
  file (type png)
@@ -2458,13 +2458,13 @@ LaTeX Warning: Empty bibliography on input line 74.
 
 (chapter/Anhang.tex
 chapter A.
-<resources/anhang/Affinitaetsdiagramm.png, id=620, 552.56438pt x 546.54187pt>
+<resources/anhang/Affinitaetsdiagramm.png, id=623, 552.56438pt x 546.54187pt>
 File: resources/anhang/Affinitaetsdiagramm.png Graphic file (type png)
 <use resources/anhang/Affinitaetsdiagramm.png>
 Package pdftex.def Info: resources/anhang/Affinitaetsdiagramm.png  used on inpu
 t line 9.
 (pdftex.def)             Requested size: 227.62206pt x 225.1344pt.
-<resources/anhang/Personas.pdf, id=621, 598.235pt x 846.16125pt>
+<resources/anhang/Personas.pdf, id=624, 598.235pt x 846.16125pt>
 File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf>
 Package pdftex.def Info: resources/anhang/Personas.pdf  used on input line 14.
@@ -2473,7 +2473,7 @@ File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf>
 Package pdftex.def Info: resources/anhang/Personas.pdf  used on input line 14.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
-<resources/anhang/Personas.pdf, id=624, page=1, 598.235pt x 846.16125pt>
+<resources/anhang/Personas.pdf, id=627, page=1, 598.235pt x 846.16125pt>
 File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf, page 1>
 Package pdftex.def Info: resources/anhang/Personas.pdf , page1 used on input li
@@ -2507,7 +2507,7 @@ Package pdftex.def Info: resources/anhang/Personas.pdf , page1 used on input li
 ne 14.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [44 <./resources/anhang/Personas.pdf>]
-<resources/anhang/Personas.pdf, id=652, page=2, 598.235pt x 846.16125pt>
+<resources/anhang/Personas.pdf, id=655, page=2, 598.235pt x 846.16125pt>
 File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf, page 2>
 Package pdftex.def Info: resources/anhang/Personas.pdf , page2 used on input li
@@ -2524,7 +2524,7 @@ Package pdftex.def Info: resources/anhang/Personas.pdf , page2 used on input li
 ne 14.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [45 <./resources/anhang/Personas.pdf>]
-<resources/anhang/Personas.pdf, id=666, page=3, 598.235pt x 846.16125pt>
+<resources/anhang/Personas.pdf, id=669, page=3, 598.235pt x 846.16125pt>
 File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf, page 3>
 Package pdftex.def Info: resources/anhang/Personas.pdf , page3 used on input li
@@ -2545,7 +2545,7 @@ ne 14.
 pdfTeX warning: pdflatex.exe (file ./resources/anhang/Demografischer_Fragebogen
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<resources/anhang/Demografischer_Fragebogen.pdf, id=684, 614.295pt x 794.97pt>
+<resources/anhang/Demografischer_Fragebogen.pdf, id=687, 614.295pt x 794.97pt>
 File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 <use resources/anhang/Demografischer_Fragebogen.pdf>
 Package pdftex.def Info: resources/anhang/Demografischer_Fragebogen.pdf  used o
@@ -2571,7 +2571,7 @@ d
 pdfTeX warning: pdflatex.exe (file ./resources/anhang/Demografischer_Fragebogen
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<resources/anhang/Demografischer_Fragebogen.pdf, id=687, page=1, 614.295pt x 79
+<resources/anhang/Demografischer_Fragebogen.pdf, id=690, page=1, 614.295pt x 79
 4.97pt>
 File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 <use resources/anhang/Demografischer_Fragebogen.pdf, page 1>
@@ -2604,7 +2604,7 @@ Package pdftex.def Info: resources/anhang/Demografischer_Fragebogen.pdf , page1
 pdfTeX warning: pdflatex.exe (file ./resources/anhang/Demografischer_Fragebogen
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<resources/anhang/Demografischer_Fragebogen.pdf, id=722, page=2, 614.295pt x 79
+<resources/anhang/Demografischer_Fragebogen.pdf, id=725, page=2, 614.295pt x 79
 4.97pt>
 File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 <use resources/anhang/Demografischer_Fragebogen.pdf, page 2>
@@ -2647,11 +2647,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51018 strings out of 492895
- 971604 string characters out of 3133479
+ 51021 strings out of 492895
+ 971634 string characters out of 3133479
  1651782 words of memory out of 3000000
  53807 multiletter control sequences out of 15000+200000
- 603115 words of font info for 109 fonts, out of 3000000 for 9000
+ 603199 words of font info for 110 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  68i,21n,81p,9104b,3401s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{cite.0@Kirschner2012} has been referenced but doe
@@ -2684,9 +2684,9 @@ X 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/lm/lmro10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx
 10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (57 pages, 11614515 bytes).
+Output written on main.pdf (57 pages, 11615605 bytes).
 PDF statistics:
- 972 PDF objects out of 1000 (max. 8388607)
- 181 named destinations out of 1000 (max. 500000)
+ 975 PDF objects out of 1000 (max. 8388607)
+ 182 named destinations out of 1000 (max. 500000)
  25170 words of extra memory for PDF output out of 29859 (max. 10000000)
 
