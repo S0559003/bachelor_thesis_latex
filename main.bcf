@@ -2077,12 +2077,19 @@
     <bcf:citekey order="78">Nielsen1994</bcf:citekey>
     <bcf:citekey order="79">Nielsen1994</bcf:citekey>
     <bcf:citekey order="80">Nielsen1994</bcf:citekey>
-    <bcf:citekey order="81">Poth2017</bcf:citekey>
-    <bcf:citekey order="82">Brandenburg2019</bcf:citekey>
-    <bcf:citekey order="83">Kirschner2011</bcf:citekey>
-    <bcf:citekey order="84">Kirschner2011</bcf:citekey>
-    <bcf:citekey order="85">Kirschner2012</bcf:citekey>
-    <bcf:citekey order="86">Kirschner2012</bcf:citekey>
+    <bcf:citekey order="81">Brandenburg2019</bcf:citekey>
+    <bcf:citekey order="82">Ortega2016</bcf:citekey>
+    <bcf:citekey order="83">Ortega2016</bcf:citekey>
+    <bcf:citekey order="84">Bowman2011</bcf:citekey>
+    <bcf:citekey order="85">Vincent2013</bcf:citekey>
+    <bcf:citekey order="86">Vincent2013</bcf:citekey>
+    <bcf:citekey order="87">Vincent2014</bcf:citekey>
+    <bcf:citekey order="88">Vincent2014</bcf:citekey>
+    <bcf:citekey order="89">Kirschner2011</bcf:citekey>
+    <bcf:citekey order="90">Kirschner2011</bcf:citekey>
+    <bcf:citekey order="91">Kirschner2012</bcf:citekey>
+    <bcf:citekey order="92">Kirschner2012</bcf:citekey>
+    <bcf:citekey order="93">MichaelRichter2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

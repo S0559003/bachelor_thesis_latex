@@ -136,6 +136,44 @@
       \endverb
       \keyw{136 [Computer Graphics] Methodology and Techniques,137 [Computer Graphics] Three-Dimensional Graphics,CR Categories and Subject Descriptors: H51 [Inform,H52 [Information Interfaces and Presentation] User,Screen design,and virtual realities,annotation,augmented,augmented reality,environment management,labeling,virtual environments,wearable computing}
     \endentry
+    \entry{Bowman2011}{book}{}
+      \name{author}{4}{}{%
+        {{hash=d6d01578713510a28160c14a89006a6b}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Doug\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=067abff605f0b5123c324d8b90564570}{%
+           family={Kruijff},
+           familyi={K\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fb835686dcbcde1394a6469d06bf19fd}{%
+           family={{LaViola JR.}},
+           familyi={L\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e1b6c7b998ff4368f042c24f7c1b6350}{%
+           family={Poupyrev},
+           familyi={P\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a11f3b8db81d0420bf99d4d8a085e74}
+      \strng{fullhash}{dc0362fd9a695c34062165d27b59a9f6}
+      \strng{bibnamehash}{6a11f3b8db81d0420bf99d4d8a085e74}
+      \strng{authorbibnamehash}{6a11f3b8db81d0420bf99d4d8a085e74}
+      \strng{authornamehash}{6a11f3b8db81d0420bf99d4d8a085e74}
+      \strng{authorfullhash}{dc0362fd9a695c34062165d27b59a9f6}
+      \field{labelalpha}{Bow11}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-201-75867-9}
+      \field{title}{{3D User Interfaces Theory and Practice}}
+      \field{year}{2011}
+    \endentry
     \entry{Brandenburg2019}{thesis}{}
       \name{author}{1}{}{%
         {{hash=c86b64340f6d69b64b8c28cc9014ce49}{%
@@ -707,39 +745,53 @@
       \verb https://books.google.de/books?hl=de&lr=&id=DBOowF7LqIQC&oi=fnd&pg=PP1&dq=usability&ots=Bl5aUOFUCN&sig=8apn_0ZCNfu_NhbGpjnUGKTgyjY#v=onepage&q=usability&f=false
       \endverb
     \endentry
-    \entry{Poth2017}{unpublished}{}
-      \name{author}{1}{}{%
-        {{hash=aa0485ad717b342143a95eae8f19fb90}{%
-           family={Poth},
-           familyi={P\bibinitperiod},
-           given={Anna},
+    \entry{Ortega2016}{book}{}
+      \name{author}{5}{}{%
+        {{hash=c99755bae587190c79d95e319e20f8a1}{%
+           family={Ortega},
+           familyi={O\bibinitperiod},
+           given={Francisco\bibnamedelima R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f51b86bbce0f4dc3657349c6078027b3}{%
+           family={Rishe},
+           familyi={R\bibinitperiod},
+           given={Napthali},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2803d4dfe91f48d94acf84e40555f0b9}{%
+           family={Abyarjoo},
+           familyi={A\bibinitperiod},
+           given={Fatemeh},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b4185c99e634aa848d68be805e8b7a7a}{%
+           family={Adjouadi},
+           familyi={A\bibinitperiod},
+           given={Malek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1e17c2c3b03c8140ae3c4471bdad7d82}{%
+           family={Barreto},
+           familyi={B\bibinitperiod},
+           given={Armando},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{aa0485ad717b342143a95eae8f19fb90}
-      \strng{fullhash}{aa0485ad717b342143a95eae8f19fb90}
-      \strng{bibnamehash}{aa0485ad717b342143a95eae8f19fb90}
-      \strng{authorbibnamehash}{aa0485ad717b342143a95eae8f19fb90}
-      \strng{authornamehash}{aa0485ad717b342143a95eae8f19fb90}
-      \strng{authorfullhash}{aa0485ad717b342143a95eae8f19fb90}
-      \field{labelalpha}{Pot17}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{155c9040cb9fe05b9d395f1aba8daf95}
+      \strng{fullhash}{da4a3d3357ca59e8f50492a687089f9d}
+      \strng{bibnamehash}{155c9040cb9fe05b9d395f1aba8daf95}
+      \strng{authorbibnamehash}{155c9040cb9fe05b9d395f1aba8daf95}
+      \strng{authornamehash}{155c9040cb9fe05b9d395f1aba8daf95}
+      \strng{authorfullhash}{da4a3d3357ca59e8f50492a687089f9d}
+      \field{labelalpha}{Ort16}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Evaluierung von Augmented Reality Frameworks anhand einer AR-Anwendung im IoT-Bereich}}
-      \field{year}{2017}
-      \verb{doi}
-      \verb 10.13140/RG.2.2.34331.16168
-      \endverb
-      \verb{file}
-      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Poth - Unknown - Evaluierung von Augmented Reality Frameworks anhand einer AR-Anwendung im IoT-Bereich.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.researchgate.net/publication/319406434
-      \endverb
-      \verb{url}
-      \verb https://www.researchgate.net/publication/319406434
-      \endverb
+      \field{isbn}{978-1-4822-1694-3}
+      \field{title}{{Interaction Design for 3D User Interfaces}}
+      \field{year}{2016}
+      \field{pages}{763}
+      \range{pages}{1}
     \endentry
     \entry{MichaelRichter2016}{book}{}
       \name{author}{2}{}{%
@@ -1071,6 +1123,77 @@
       \verb{file}
       \verb :C\:/Users/alioi/OneDrive/Desktop/T{\"{o}}nnis_2010_Book_Einbilicke_in_Augmented_Reality.pdf:pdf
       \endverb
+    \endentry
+    \entry{Vincent2014}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=850ebc8912652e987de1605b3d6babb1}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{850ebc8912652e987de1605b3d6babb1}
+      \strng{fullhash}{850ebc8912652e987de1605b3d6babb1}
+      \strng{bibnamehash}{850ebc8912652e987de1605b3d6babb1}
+      \strng{authorbibnamehash}{850ebc8912652e987de1605b3d6babb1}
+      \strng{authornamehash}{850ebc8912652e987de1605b3d6babb1}
+      \strng{authorfullhash}{850ebc8912652e987de1605b3d6babb1}
+      \field{labelalpha}{Vin14}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Handheld Augmented Reality Interaction: Spatial Relations}}
+      \field{year}{2014}
+      \verb{file}
+      \verb :C\:/Users/alioi/OneDrive/Desktop/Handheld Augmented Reality_Doctor_Thesis_Vincent_Thomas_2014.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Vincent2013}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=850ebc8912652e987de1605b3d6babb1}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d7ca10f76eaecfd5457c2adb6c7a45e0}{%
+           family={Nigay},
+           familyi={N\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7c90996dbde1fc8ecf3d58c41be9a5d0}{%
+           family={Kurata},
+           familyi={K\bibinitperiod},
+           given={Takeshi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c873ffe5c77a9af5011ac716fd9cf65}
+      \strng{fullhash}{1c873ffe5c77a9af5011ac716fd9cf65}
+      \strng{bibnamehash}{1c873ffe5c77a9af5011ac716fd9cf65}
+      \strng{authorbibnamehash}{1c873ffe5c77a9af5011ac716fd9cf65}
+      \strng{authornamehash}{1c873ffe5c77a9af5011ac716fd9cf65}
+      \strng{authorfullhash}{1c873ffe5c77a9af5011ac716fd9cf65}
+      \field{labelalpha}{VNK13}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Figure 1. Handheld AR cursor-based pointing: (A) Pointing at digital marks on a physical wall map; (B) Screen-centered crosshair pointing; (C) Relative pointing with cursor stabilized in the physical object's (image) frame. (D) Spatial relations of the on-screen content in handheld AR. ABSTRACT Handheld Augmented Reality relies on the registration of digital content on physical objects. Yet, the accuracy of this registration depends on environmental conditions. It is therefore important to study the impact of registration jitter on interaction and in particular on pointing at augmented objects where precision may be required. We present an experiment that compares the effect of registration jitter on the following two pointing techniques: (1) screen-centered crosshair pointing; and (2) relative pointing with a cursor bound to the physical object's frame of reference and controlled by indirect relative touch strokes on the screen. The experiment considered both tablet and smartphone form factors. Results indicate that relative pointing in the frame of the physical object is less error prone and is less subject to registration jitter than screen-centered crosshair pointing.}
+      \field{title}{{Handheld Augmented Reality: Effect of registration jitter on cursor-based pointing techniques}}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1145/2534903.2534905
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Vincent, Nigay, Kurata - Unknown - Handheld Augmented Reality Effect of registration jitter on cursor-based pointing techniques.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/2534903.2534905
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/2534903.2534905
+      \endverb
+      \keyw{Handheld Augmented Reality,Jitter ACM Classification Keywords H52 Information,Pointing Technique,input devices and strategies}
     \endentry
     \entry{Willett2017}{unpublished}{}
       \name{author}{3}{}{%
