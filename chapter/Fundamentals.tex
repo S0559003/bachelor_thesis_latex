@@ -1,8 +1,8 @@
-\chapter{Grundlagen} \label{CapterFundamentals}
+\chapter{Grundlagen}\label{CapterFundamentals}
 
 Dieses Kapitel gibt einen Überblick über die in dieser Arbeit verwendeten Terminologien und führt Grundlagen zu Technologien und Techniken ein, welche die Basis für diese, Arbeit bilden. 
 
-Nach der Definition von Augmented Reality werden unterschiedliche Ansätze für die Objekterkennung und -erfolgung vorgestellt.  
+Nach der Definition von Augmented Reality werden unterschiedliche Ansätze für die Objekterkennung und -verfolgung vorgestellt.  
 Diese sind ein essenzieller Bestandteil der Augmented-Reality-Technologie. Es wird die Definition von Situated Visualization erläutert 
 und unterschiedliche Darstellungsformen für die Visualisierung von Daten im Kontext zur physischen Welt (z. B. Gegenstände, Person, Aufgabe) nahe gebracht. 
 Abschließend wird die Begriffsdefinition von Usability erläutert und ein Einblick in Usability Engineering gegeben, welches eine etablierte Vorgehensweise für die 
@@ -166,8 +166,8 @@ Situated Visualization befasst sich mit der richtigen Präsentation von computer
 Grafiken von physischen Gegenständen oder Personen in der realen Szene. \cite[S.~188]{Marriott2018} Die Bedeutungsbestimmung wird durch die Kombination von Visualisierung und deren 
 Beziehung zu der unmittelbaren Umgebung erreicht. \cite[S.~240]{DieterSchmalstieg2016} Abzugrenzen von Situated Visualization sind Visualisierungen, welche zwar im 3D Raum präsentiert werden, jedoch keinen Bezug zu einem im dreidimensionalen Raum befindlichen Objekt, Person oder Aufgabe haben.
 
-\cite[S.~192]{Marriott2018} \cite[S.~2]{Willett2017} stellen das in Abbildung \ref{img:situated_visualization_concept} dargestellte konzeptionelle Modell 
-zur Situated Visualization vor.
+\citeauthor{Willett2017} stellen das in Abbildung \ref{img:situated_visualization_concept} dargestellte konzeptionelle Modell 
+zur Situated Visualization vor\cite[S.~2]{Willett2017} \cite[S.~192]{Marriott2018}.
 
 \begin{figure}[H]
 	\centering
@@ -308,7 +308,7 @@ Registrierung zu verstehen, können die Umrisse des Referenzen dargestellt werde
 	\label{img:missallignement}
 \end{figure}
 
-SDKs bieten die Möglichkeit, Informationen zum aktuellen Zustand der Objekterkennung abzurufen (z. B. ob das Objekt aus der realen Welt gefunden wurde und die Objektverfolgung im Gange ist, ob das Objekt verloren wurde und daher nicht weiter verfolgt werden kann, ob zu wenig Bildmerkmale gefunden werden und die Objekterkennung bald verloren gehen kann). 
+AR Frameworks bieten die Möglichkeit, Informationen zum aktuellen Zustand der Objekterkennung abzurufen\footnote{Tracking Status Informationen der AR Framework Vuforia: https://library.vuforia.com/content/vuforia-library/en/articles/Solution/tracking-state.html [letzer Aufruf: 06.09.2019]} (z. B. ob das Objekt aus der realen Welt gefunden wurde und die Objektverfolgung im Gange ist, ob das Objekt verloren wurde und daher nicht weiter verfolgt werden kann, ob zu wenig Bildmerkmale gefunden werden und die Objekterkennung bald verloren gehen kann). 
 Diese Informationen können genutzt werden um auf Fehler zu reagieren und zum Beispiel dem Nutzer entsprechende Anleitungen zur weiteren Bedienung zu geben.
 
 \textbf{Visuelle Interferenz:}
@@ -327,30 +327,28 @@ mehreren Nutzern mit dem Produkt im Mittelpunkt ermöglichen und zum Ziel haben,
 damit verbundene Kundenzufriedenheit zu verbessern.     
 
 In der computerunterstützten, kooperativen Zusammenarbeit (en. Computer-Supported Cooperative Work (CSCW)) 
-ist eine von Rodden in \cite[S.~2]{Rodden1992} beschriebene Kategorisierung sehr verbreitet.  
+ist eine von \citeauthor{Rodden1992} in \cite[S.~2]{Rodden1992} beschriebene Kategorisierung sehr verbreitet.  
 
 
-Rodden betrachtet bei seiner Kategorisierung zwei Dimensionen der Kommunikation zwischen Nutzern: 
+\citeauthor{Rodden1992} betrachtet bei seiner Kategorisierung zwei Dimensionen der Kommunikation zwischen Nutzern: 
 Die räumliche Distanz sowie die zeitliche Differenz im Nachrichtenaustausch dabei erfolgt eine Unterteilung zwischen 
 Remote oder Co-Located sowie synchroner oder asynchroner Kommunikation.
 
 Die zeitliche Dimension definiert, ob mehrere Nutzer zur gleichen Zeit (synchron) miteinander kommunizieren 
 oder zu unterschiedlichen Zeitpunkten, also zeitlich unabhängig voneinander (asynchron) kommunizieren. Die räumliche Dimension trifft eine Aussage darüber, ob sich die Nutzer während der Kommunikation am gleichen Ort befinden (Co-located) oder räumlich getrennt voneinander sind (Remote). 
 
+\citeauthor{Marriott2018} beschreiben darüber hinaus eine Mischform von Remote und Co-located Kommunikation. 
+Bei dieser Form von Kollaboration kann sich eine Teilmenge der Nutzer am gleichen Ort befinden, während ein anderer Teil entfernt, 
+also Remote, mittels Telepräsenz an der Kommunikation teilnimmt.\cite[S.~188]{Marriott2018}
 
+\citeauthor{DieterSchmalstieg2016} beschreiben auf Grundlage dieser Unterteilungen mögliche 
+Anwendungsgebiete für AR Systeme (Siehe Tabelle \ref{tab:categorycscw}).\cite[S.~362]{DieterSchmalstieg2016}
 
-\cite[S.~188]{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015} beschreiben darüber hinaus eine Mischform von Remote und Co-located Kommunikation. 
-Bei dieser Form von Kollaboration kann sich eine Teilmenge der Nutzer sich am gleichen Ort befinden, während ein anderer Teil entfernt, 
-also Remote, mittels Telepräsenz an der Kommunikation teilnimmt. 
-
-Schmalstieg und Höllerer \cite[S.~362]{DieterSchmalstieg2016} beschreiben auf Grundlage dieser Unterteilungen mögliche 
-Anwendungsgebiete für AR Systeme (Siehe Tabelle \ref{tab:categorycscw}).
-
-\cite[S.~362]{DieterSchmalstieg2016} In Co-Located und synchronen Anwendungsszenarien (z. B. eine Besprechung in einem Besprechungsraum) können 
-Augmented Reality Anwendungen die Nutzer dabei unterstützen, Informationen im gemeinsamen Raum zu betrachten, zu manipulieren und zu diskutieren. 
+In Co-Located und synchronen Anwendungsszenarien (z. B. eine Besprechung in einem Besprechungsraum) können 
+Augmented Reality Anwendungen die Nutzer dabei unterstützen, Informationen im gemeinsamen Raum zu betrachten, zu manipulieren und zu diskutieren.\cite[S.~362]{DieterSchmalstieg2016}  
 
 In Remote und synchronen Szenarien können AR-Systeme es ermöglichen, dass ein Nutzer (Nutzer 1) einem anderen Nutzer (Nutzer 2, welcher räumlich getrennt von Nutzer 1 ist), 
-Informationen über dessen reale Umgebung zu zeigen kann (z. B. Installations- oder Reparatur-Anleitungen). \footnote{Ein AR App der Firma PTC, welches Nutzern über eine synchronen Kommunikation, Informationen in die Umgebung des jeweils anderen einzublenden: https://www.ptc.com/de/news/2017/vuforia-chalk [Zuletzt aufgerufen am 21.08.2019]} 
+Informationen über dessen reale Umgebung zu zeigen (z. B. Installations- oder Reparatur-Anleitungen). \footnote{Ein AR App der Firma PTC, welches Nutzern über eine synchronen Kommunikation, Informationen in die Umgebung des jeweils anderen einzublenden: https://www.ptc.com/de/news/2017/vuforia-chalk [Zuletzt aufgerufen am 21.08.2019]} 
 
 \begin{table}[htbp]
 \caption{Kategorisierung computerunterstützter Kooperationssysteme mit Bezug zu AR. \\Quelle: \cite[S.~362]{DieterSchmalstieg2016}}
@@ -410,14 +408,14 @@ die Gestaltung und Entwicklung von Systemen mit hohen Usability Anforderungen is
 % Begiffserklärung von Usability
 In der Normreihe ISO 9241, welches als ein internationaler Standard Richtlinien für die Gestaltung von Mensch-Computer-Interaktionen beschreibt, wird im ISO Norm 9241-11,  Usability (zu dt. Benutzbarkeit) wie folgt definiert:
 
-``\textit{Das Ausmaß, in dem ein Produkt durch bestimmte Benutzer in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen.}``
+\begin{quote}\textit{``Das Ausmaß, in dem ein Produkt durch bestimmte Benutzer in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen.``} (DIN EN ISO 9241-11, S. 4)\end{quote}
 
 %Die Benutzbarkeit eines Systems muss im Kontext seiner Verwendung beurteilt werden.[Michael Richter, Markus Flückiger]
-Dass die Usability eines Systems nach dessen Nutzungskontext zu bewerten ist, verdeutlichen \cite[S.~10]{MichaelRichter2016} an einem konkreten Beispiel für die Erfassung 
+Dass die Usability eines Systems nach dessen Nutzungskontext zu bewerten ist, verdeutlichen \citeauthor{MichaelRichter2016} an einem konkreten Beispiel für die Erfassung 
 von Kurznachrichten (SMS) mit dem Aufkommen von Mobiltelefonen. Bevor Smartphones mit Touch-Displays verbreitet waren, hatten Mobiltelefone oft rein numerische Tastaturen, sodass das Erfassen 
 von Textnachrichten über die Nutzung dieser Tasten erfolgen musste. Indem in kurzen Zeitabständen beispielsweise zwei mal auf die Taste ``2`` gedrückt wurde, wurde der Buchstabe 
 ``B`` eingegeben. Diese Eingabemethode wurde oftmals von vielen Nutzern als umständlich empfunden. Jedoch konnte auf diese Weise effizient und zufriedenstellend die Aufgabe, eine Kurznachricht 
-zu erfassen, erfüllt werden. Zudem war diese Methode einprägsam und einfach zu erlernen. Somit wies dieser Ansatz für den damaligen Stand der Technik eine hohe Usability auf. 
+zu erfassen, erfüllt werden. Zudem war diese Methode einprägsam und einfach zu erlernen. Somit wies dieser Ansatz für den damaligen Stand der Technik eine hohe Usability auf. \cite[S.~10]{MichaelRichter2016} 
 
 % Eine Teilmenge der Systemazeptanz 
 Nielsen stellt in \cite[S.~25]{Nielsen1994} Akzeptanzkriterien für Systeme vor und stellt Usability als ein Teil dieser Kriterien vor.
@@ -427,7 +425,7 @@ Soziale bzw. ethische Akzeptanzkriterien sind diejenigen, welche die Nutzer von 
 
 Um die gewünschte Funktionalität zu ermöglichen, werden mit Augmented Reality Anwendungen viele Informationen über die Umgebung des Nutzers erhoben.\cite[S.~3]{Roesner2013} Es wird auf die Kamera sowie verschiedene Sensoren zugegriffen. Dies birgt Risiken, dass diese Daten missbräuchlich genutzt, gestohlen und die Privatsphäre der Nutzern verletzt werden könnte. \footnote{Die Studie PlaceRaider \cite[S.~9]{Templeman2012} beweist, dass mithilfe von Kamera und den Sensordaten eines Smartphones die Umgebung des Nutzers detailliert genug rekonstruiert werden kann, um sensible Informationen wie Kontodaten auf einem Kontoauszug ablesen zu können. In \cite{Roesner2013,Lebeck2018} werden weitere Akzeptanzkriterien und Risiken vorgestellt welche bei der Gestaltung von Augmented Reality Systemen beachtet werden sollten.}
 
-In den praktischen Kriterien führt Nielsen unter Brauchbarkeit (engl. Usefullness) die Eigenschafen Gebrauchstauglichkeit (engl. Usability) und Nützlichkeit (engl. Utility) zusammen. 
+In den praktischen Kriterien gliedert Nielsen die Eigenschaft Brauchbarkeit (engl. Usefullness) die Eigenschafen Gebrauchstauglichkeit (engl. Usability) und Nützlichkeit (engl. Utility). 
 Mit Nützlichkeit ist dabei zu verstehen ob ein System mit den Funktionalitäten, die es bereitstellt, in der Lage ist, die Aufgabe zu erfüllen, zu dem es konzipiert wurde.
 
 Die Eigenschaft Benutzbarkeit gliedert Nielsen in folgende fünf Teileigenschaften: 
@@ -466,7 +464,7 @@ User centered Design (UCD), User Experience (UX) und Design Thinking) entwickelt
 Der Begriff Usability Engineering steht für die Konzeption, die Techniken für die Planung, Verifizierung und Abdeckung von Usability Zielen eines Systems. Das Ziel von Usability Engineering ist, 
 messbare Usability-Ziele in den frühen Phasen des Softwareentwicklungsprozesses zu definieren und einen Rahmen zu schaffen, diese Ziele im Laufe der Entwicklung stetig überprüfen zu können, damit die Erreichung dieser sichergestellt wird.
 
-Mayhew \cite{Mayhew1999} und Nielsen \cite{Nielsen1994} stellen Prozessmodelle für Usablity Engeneering Projekte vor und benennen diese als ``The Usability Engineering Lifecycle``. Mayhew macht in der von ihr vorgestellten Model eine Unterteilung in drei Phasen welche weitere Schritte beinhalten. Nielsen hingegen gliedert sein Model in elf Schritte. Im folgenden werden fünf 
+\citeauthor{Mayhew1999} in \cite{Mayhew1999} und Nielsen \citeauthor{Nielsen1994} in \cite{Nielsen1994} stellen Prozessmodelle für Usablity Engeneering Projekte vor und benennen diese als ``The Usability Engineering Lifecycle``. Mayhew macht in der von ihr vorgestellten Model eine Unterteilung in drei Phasen welche weitere Schritte beinhalten. Nielsen hingegen gliedert sein Model in elf Schritte. Im folgenden werden fünf 
 dieser Schritte, genauer betrachtet: 
 
 \vspace{5mm}
@@ -474,8 +472,6 @@ dieser Schritte, genauer betrachtet:
  
 \cite[S.~73]{Nielsen1994} In diesem Schritt werden alle Nutzer identifiziert, die mit dem zukünftigem System in Berührung kommen werden. Als Nutzer werden Personen verstanden welche mit dem System oder mit Artefakten, welche durch das System entstehen interagieren werden. Dieses Personenspektrum beinhaltet alle Personen von denjenigen, welche das
 System installieren, konfigurieren, warten, administrieren bis hin zu Endnutzern des Systems oder auch Personen, welche das System per se nicht nutzen, aber auf durch das System produzierte Ergebnisse zurückgreifen. In einigen Fällen ist es einfacher potenzielle Nutzer eines neuen Systems zu identifizieren und deren Charakteristiken zu analysieren. Besonders zutreffend ist das für Fälle, in denen ein Produkt für eine klar definierte Nutzergruppe vorgesehen ist.
-
-
 
 Zum Beispiel für Produkte welche in einer bestimmten Abteilung eines Unternehmens in Einsatz kommen sollen. Schwieriger hingegen ist die Analyse von Nutzern für ein Produkt, welches für eine breite Masse von Nutzern gestaltet werden soll.
 
@@ -503,7 +499,7 @@ benötigt, um das neue System flexibel genug und offen für neue Anforderungen g
 Da bestehende Systeme vollständig umgesetzte Funktionalitäten beinhalten, können diese einfach getestet werden.    
 Diese Systeme können heuristisch evaluiert werden, es können Nutzerstudien durchgeführt oder - falls mehrere Systeme zur Verfügung stehen - eine vergleichende Analyse gemacht werden. Auf Basis der Informationen welche, im Schritt ``Benutzerprofile`` zusammengetragen wurden, wird in diesem Schritt des Usablity Engineering Lifecycle, untersucht wie gut die Funktionalitäten und Interaktionstechniken 
 bestehender Systeme die Nutzer bei der Umsetzung ihrer Aufgaben unterstützen. Zusätzlich können technische Produktrezensionen, hilfreiche Informationen über bestehende Systeme geben. 
-Da nicht für alle Aufgaben bereits eine Softwarelösung existiert, schließt Nielsen die Betrachtung von Lösungen, welche nicht aus dem Software bzw. Computer Bereich, stammen mit ein. 
+Da nicht für alle Aufgaben bereits eine Softwarelösung existiert, schließt \citeauthor{Nielsen1994} die Betrachtung von Lösungen, welche nicht aus dem Software bzw. Computer Bereich, stammen mit ein. 
 
 \vspace{5mm} 
 \textbf{Usability-Ziele festlegen} 
@@ -550,9 +546,8 @@ Nutzer können nicht mit Daten interagieren (Einschränkung horizontaler Prototy
 
  \cite[S.~101]{Nielsen1994} Aus Szenarien können, wenn diese ausreichend detailliert gestaltet sind, für Nutzertests verwendet werden. Beispielsweise können auf Basis von Szenarien Papierprototypen erstellt und diese von Nutzern getestet, um Aufgaben zu lösen. 
 
-\subsection{Personas}
+%\subsection{Personas}
 
-\section{Zusammenfassung}
 
 % AR %Objekterkennung %Situated Visualization % Was zu beachten? %Computer unterstützte Kollaboration %Usability\Engineering 
 % Einleiten in Analyse: SDKs, Annotationen als Embeedded Darestellung + Zeigen und Auswählen. 

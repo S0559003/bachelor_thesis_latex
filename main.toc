@@ -29,78 +29,68 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Usability Engineering}{18}{subsection.2.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Personas}{21}{subsection.2.5.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Zusammenfassung}{21}{section.2.6}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Analyse}{22}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Augmented Reality Frameworks}{22}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Informationsdarstellung in virtuellen Umgebungen}{22}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Annotationen in AR}{22}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Zeigen und Ausw\IeC {\"a}hlen in AR Benutzeroberfl\IeC {\"a}chen}{24}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Zeigen und Ausw\IeC {\"a}hlen in AR Benutzeroberfl\IeC {\"a}chen}{22}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Immersive Product Improvement (IPI)}{27}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Kundenintegration}{23}{section.3.4}% 
+\contentsline {chapter}{\numberline {4}Konzeption}{31}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Zusammenfassung}{24}{section.3.5}% 
+\contentsline {section}{\numberline {4.1}Nutzungskontextanalyse}{31}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Konzeption}{25}{chapter.4}% 
+\contentsline {section}{\numberline {4.2}Anforderungsanalyse}{32}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Nutzungskontextanalyse}{25}{section.4.1}% 
+\contentsline {section}{\numberline {4.3}Entwurf}{36}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Anforderungsanalyse}{26}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.3.1}Low-Fidelity-Prototyp}{36}{subsection.4.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Entwurf}{30}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.2}Objektorientierter Entwurf}{40}{subsection.4.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Low-Fidelity-Prototyp}{30}{subsection.4.3.1}% 
+\contentsline {chapter}{\numberline {5}Implementierung}{45}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Konzeptioneller Entwurf}{32}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {5.1}Entwicklungsumgebung}{45}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Implementierung}{33}{chapter.5}% 
+\contentsline {subsection}{\numberline {5.1.1}Game Engine}{45}{subsection.5.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Entwicklungsumgebung}{33}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Tracking}{46}{subsection.5.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Game Engine}{33}{subsection.5.1.1}% 
+\contentsline {section}{\numberline {5.2}Verarbeitung der Eingabedaten}{47}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Tracking}{33}{subsection.5.1.2}% 
+\contentsline {section}{\numberline {5.3}Vorstellung des digitalen Prototypen}{50}{section.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Verarbeitung der Eingabedaten}{33}{section.5.2}% 
+\contentsline {section}{\numberline {5.4}Zeiterfassung f\IeC {\"u}r die Studie}{53}{section.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Zeiterfassung f\IeC {\"u}r die Studie}{33}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Nutzerstudie}{55}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Nutzerstudie}{34}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Aufbau der Studie}{55}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Planung}{34}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Erhebung}{58}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Erhebung}{34}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Diskussion}{60}{section.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Diskussion}{35}{section.6.3}% 
+\contentsline {chapter}{\numberline {7}Fazit}{61}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Fazit}{35}{section.6.4}% 
+\contentsline {section}{\numberline {7.1}Zusammenfassung}{61}{section.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Fazit}{36}{chapter.7}% 
+\contentsline {section}{\numberline {7.2}Kritischer R\IeC {\"u}ckblick}{61}{section.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Zusammenfassung}{36}{section.7.1}% 
+\contentsline {section}{\numberline {7.3}Ausblick}{62}{section.7.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Kritischer R\IeC {\"u}ckblick}{36}{section.7.2}% 
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{63}{chapter*.51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Ausblick}{36}{section.7.3}% 
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{65}{chapter*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{37}{chapter*.29}% 
+\contentsline {chapter}{Glossar}{66}{section*.53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{39}{chapter*.30}% 
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{67}{chapter*.55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Source Code Content}{40}{chapter*.31}% 
+\contentsline {chapter}{Anhang A}{69}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossar}{41}{section*.32}% 
+\contentsline {chapter}{Szenarien}{73}{figure.caption.56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{42}{chapter*.34}% 
+\contentsline {chapter}{Studie}{76}{figure.caption.56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anhang A}{44}{appendix.A}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anhang B}{48}{figure.caption.35}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anhang C}{51}{figure.caption.35}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Eigenst\IeC {\"a}ndigkeitserkl\IeC {\"a}rung}{54}{chapter*.36}% 
+\contentsline {chapter}{\nonumberline Eigenst\IeC {\"a}ndigkeitserkl\IeC {\"a}rung}{79}{chapter*.57}% 

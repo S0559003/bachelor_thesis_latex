@@ -1,17 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[22] biber-MSWIN64:315> INFO - === 
-[42] Biber.pm:371> INFO - Reading 'main.bcf'
-[128] Biber.pm:889> INFO - Found 31 citekeys in bib section 0
-[140] Biber.pm:4093> INFO - Processing section 0
-[151] Biber.pm:4254> INFO - Looking for bibtex format file 'references/references.bib' for section 0
-[156] bibtex.pm:1523> INFO - LaTeX decoding ...
-[223] bibtex.pm:1340> INFO - Found BibTeX data source 'references/references.bib'
-[225] Utils.pm:193> WARN - Duplicate entry key: 'RexHartson2012' in file 'references/references.bib', skipping ...
-[407] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[407] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[407] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
-[407] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
-[436] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[448] bbl.pm:739> INFO - Output to main.bbl
-[448] Biber.pm:110> INFO - WARNINGS: 1
+[25] biber-MSWIN64:315> INFO - === 
+[48] Biber.pm:371> INFO - Reading 'main.bcf'
+[138] Biber.pm:889> INFO - Found 36 citekeys in bib section 0
+[149] Biber.pm:4093> INFO - Processing section 0
+[160] Biber.pm:4254> INFO - Looking for bibtex format file 'references/references.bib' for section 0
+[166] bibtex.pm:1523> INFO - LaTeX decoding ...
+[232] bibtex.pm:1340> INFO - Found BibTeX data source 'references/references.bib'
+[236] Utils.pm:193> WARN - Duplicate entry key: 'RexHartson2012' in file 'references/references.bib', skipping ...
+[362] Utils.pm:193> WARN - ISBN '99-010037-17' in entry 'Bowman1999' is invalid - run biber with '--validate_datamodel' for details.
+[432] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[432] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[432] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[432] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[465] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[480] bbl.pm:739> INFO - Output to main.bbl
+[480] Biber.pm:110> INFO - WARNINGS: 2

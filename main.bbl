@@ -136,6 +136,49 @@
       \endverb
       \keyw{136 [Computer Graphics] Methodology and Techniques,137 [Computer Graphics] Three-Dimensional Graphics,CR Categories and Subject Descriptors: H51 [Inform,H52 [Information Interfaces and Presentation] User,Screen design,and virtual realities,annotation,augmented,augmented reality,environment management,labeling,virtual environments,wearable computing}
     \endentry
+    \entry{Bowman1999}{report}{}
+      \name{author}{2}{}{%
+        {{hash=d6d01578713510a28160c14a89006a6b}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Doug\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=51776143e43ebc78d1e25f8af48a6afb}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={Larry\bibnamedelima F},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{36b98e4701c4bfa1d723dfd5255a09f7}
+      \strng{fullhash}{36b98e4701c4bfa1d723dfd5255a09f7}
+      \strng{bibnamehash}{36b98e4701c4bfa1d723dfd5255a09f7}
+      \strng{authorbibnamehash}{36b98e4701c4bfa1d723dfd5255a09f7}
+      \strng{authornamehash}{36b98e4701c4bfa1d723dfd5255a09f7}
+      \strng{authorfullhash}{36b98e4701c4bfa1d723dfd5255a09f7}
+      \field{labelalpha}{BH99}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Immersive virtual environments (VEs) have potential in many application areas, but many complex VE systems exhibit usability and interaction problems. This is partly due to a lack of consideration or understanding of 3D interaction tasks and techniques. This paper proposes the systematic study of the design, evaluation, and application of VE interaction techniques. In this methodology, design and evaluation are based on a formal task analysis and categorization of techniques, using multiple performance measures. As a direct consequence of our use of this methodology, we also present a variety of novel designs and evaluation results with respect to interaction techniques for three common VE tasks.}
+      \field{booktitle}{Journal of Visual Languages and Computing}
+      \field{isbn}{99-010037-17}
+      \field{title}{{Formalizing the Design, Evaluation, and Application of Interaction Techniques for Immersive Virtual Environments}}
+      \field{type}{techreport}
+      \field{volume}{10}
+      \field{year}{1999}
+      \field{pages}{37\bibrangedash 53}
+      \range{pages}{17}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd/Mendeley Desktop/Downloaded/Bowman, Hodges - 1999 - Formalizing the Design, Evaluation, and Application.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.idealibrary.comon
+      \endverb
+      \verb{url}
+      \verb http://www.idealibrary.comon
+      \endverb
+    \endentry
     \entry{Bowman2011}{book}{}
       \name{author}{4}{}{%
         {{hash=d6d01578713510a28160c14a89006a6b}{%
@@ -668,50 +711,41 @@
       \field{title}{{The usability engineering lifecycle}}
       \field{year}{1999}
     \endentry
-    \entry{ElSayedNevenA.M.BruceH.ThomasRossT.Smith2015}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=023fa74c654030593abc273c77f8da51}{%
-           family={{Neven A. M.}},
-           familyi={N\bibinitperiod},
-           given={ElSayed},
-           giveni={E\bibinitperiod}}}%
-        {{hash=92cef3c8ee36e5ddd03f245c7c899cb0}{%
-           family={Thomas},
-           familyi={T\bibinitperiod},
-           given={Bruce\bibnamedelima H.},
-           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=156827eaee878b7f49cbb6a7e8d3b48c}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Ross\bibnamedelima T.},
-           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=b7b9c8a15ea42930441d87944068bfe8}{%
-           family={Marriott},
+    \entry{Minge2013}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=84c4ff5ee1cb47ba0b9428e90fc7213d}{%
+           family={Minge},
            familyi={M\bibinitperiod},
-           given={Kim},
-           giveni={K\bibinitperiod}}}%
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=74915f02e232a446905e9ce8502d65c8}{%
+           family={Riedel},
+           familyi={R\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=440a2c3c16ecd974308c6f94601fa8e5}{%
+           family={Th{ü}ring},
+           familyi={T\bibinitperiod},
+           given={und\bibnamedelima Manfred},
+           giveni={u\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{8db02ff192d1418ff1ba14f229657c16}
-      \strng{fullhash}{043c835baacae0ea172ddc64f7267973}
-      \strng{bibnamehash}{8db02ff192d1418ff1ba14f229657c16}
-      \strng{authorbibnamehash}{8db02ff192d1418ff1ba14f229657c16}
-      \strng{authornamehash}{8db02ff192d1418ff1ba14f229657c16}
-      \strng{authorfullhash}{043c835baacae0ea172ddc64f7267973}
-      \field{labelalpha}{Nev15}
-      \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \strng{namehash}{3065173810877f09e16dd8683cdb41be}
+      \strng{fullhash}{3065173810877f09e16dd8683cdb41be}
+      \strng{bibnamehash}{3065173810877f09e16dd8683cdb41be}
+      \strng{authorbibnamehash}{3065173810877f09e16dd8683cdb41be}
+      \strng{authornamehash}{3065173810877f09e16dd8683cdb41be}
+      \strng{authorfullhash}{3065173810877f09e16dd8683cdb41be}
+      \field{labelalpha}{MRT13}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{IEEE Virtual Reality Conference 2015}
-      \field{title}{{Using Augmented Reality to Support Situated Analytics}}
-      \field{year}{2015}
-      \field{pages}{2}
+      \field{title}{{Entwicklung, Modulare Evaluation interaktiver Technik. Experience., und Validierung des meCUE Fragebogens zur Messung der User}}
+      \field{year}{2013}
+      \field{pages}{8}
       \range{pages}{1}
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7223352&tag=1
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7223352&tag=1
+      \verb{file}
+      \verb :C\:/Users/alioi/OneDrive/Desktop/Modulare Evaluation interaktiver Technik. Entwicklung.pdf:pdf
       \endverb
     \endentry
     \entry{Nielsen1994}{book}{}
@@ -793,6 +827,75 @@
       \field{pages}{763}
       \range{pages}{1}
     \endentry
+    \entry{Polys2004}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=5b1c8a19202eb62c78991d510ada5046}{%
+           family={Polys},
+           familyi={P\bibinitperiod},
+           given={Nicholas\bibnamedelima F},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d6d01578713510a28160c14a89006a6b}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Doug\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e804330056b6a5bfc7477c3b4953a04}
+      \strng{fullhash}{7e804330056b6a5bfc7477c3b4953a04}
+      \strng{bibnamehash}{7e804330056b6a5bfc7477c3b4953a04}
+      \strng{authorbibnamehash}{7e804330056b6a5bfc7477c3b4953a04}
+      \strng{authornamehash}{7e804330056b6a5bfc7477c3b4953a04}
+      \strng{authorfullhash}{7e804330056b6a5bfc7477c3b4953a04}
+      \field{labelalpha}{PB04}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Information-Rich Virtual Environments (IRVEs) have been described as environments in which perceptual information is enhanced with abstract (or symbolic) information such as text, numbers, images, audio, video, or hyperlinked resources. Desktop VE applications present the same information design and layout challenges as immersive VEs, but in addition, they may also be integrated with external windows or frames commonly used in desktop interfaces. This paper enumerates design approaches for the display of enhancing information both internal and external to the virtual world's render volume. Using standard web-based software frameworks, we explore a number of implicit and explicit spatial layout methods for the display and linking of abstract information, especially text. Within the virtual environment view, we demonstrate both Heads-Up-Displays and encapsulated scenegraph behaviors we call Semantic Objects. For desktop displays, which support information display venues external to the scene, we demonstrate the linking and integration of the scene with web browsers and the Snap-Together visualization a system. Finally, we describe the application of these techniques in the PathSim Visualizer, an IRVE interface for the biomedical domain. These design techniques are relevant for instructional and informative interfaces for a wide variety of desktop VE applications.}
+      \field{title}{{Design and Display of Enhancing Information in Desktop Information-Rich Virtual Environments: Challenges and Techniques}}
+      \field{year}{2004}
+      \verb{file}
+      \verb :C\:/Users/alioi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Polys, Bowman - Unknown - Design and Display of Enhancing Information in Desktop Information-Rich Virtual Environments Challenges and Te.pdf:pdf
+      \endverb
+      \keyw{desktop virtual environments,information psychophysics,information-rich virtual environments,multiple view architectures,visualization design}
+    \endentry
+    \entry{Polys2007}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=5b1c8a19202eb62c78991d510ada5046}{%
+           family={Polys},
+           familyi={P\bibinitperiod},
+           given={Nicholas\bibnamedelima F.},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=8bf722bec9f4f7fdd2fd196d7b5dd448}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seonho},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d6d01578713510a28160c14a89006a6b}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Doug\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{079e9e569744cee1724add703e11eead}
+      \strng{fullhash}{079e9e569744cee1724add703e11eead}
+      \strng{bibnamehash}{079e9e569744cee1724add703e11eead}
+      \strng{authorbibnamehash}{079e9e569744cee1724add703e11eead}
+      \strng{authornamehash}{079e9e569744cee1724add703e11eead}
+      \strng{authorfullhash}{079e9e569744cee1724add703e11eead}
+      \field{labelalpha}{PKB07}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Effects of information layout, screen size,and field of view on user performance ininformation-rich virtual environments}}
+      \field{year}{2007}
+      \field{pages}{20}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C\:/Users/alioi/OneDrive/Desktop/Effects of information layout, screen size, and field of view on user performance in information-rich virtual environments.pdf:pdf
+      \endverb
+    \endentry
     \entry{MichaelRichter2016}{book}{}
       \name{author}{2}{}{%
         {{hash=f8cff4e30128871c15ca2cf674a7bd3b}{%
@@ -800,18 +903,21 @@
            familyi={R\bibinitperiod},
            given={Michael},
            giveni={M\bibinitperiod}}}%
-        {{hash=e9e79ad0308e6a707324c77fc71668e8}{%
-           family={Fl{ü}cker},
+        {{hash=d1ca2fcaa9ae710e263440ace9361481}{%
+           family={Fl{ü}ckiger},
            familyi={F\bibinitperiod},
            given={Markus},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{e1f86ad832e189ba27ccf417f922ed7d}
-      \strng{fullhash}{e1f86ad832e189ba27ccf417f922ed7d}
-      \strng{bibnamehash}{e1f86ad832e189ba27ccf417f922ed7d}
-      \strng{authorbibnamehash}{e1f86ad832e189ba27ccf417f922ed7d}
-      \strng{authornamehash}{e1f86ad832e189ba27ccf417f922ed7d}
-      \strng{authorfullhash}{e1f86ad832e189ba27ccf417f922ed7d}
+      \list{publisher}{1}{%
+        {Springer Vierweg}%
+      }
+      \strng{namehash}{04697645393e12a68ea12d367032df9f}
+      \strng{fullhash}{04697645393e12a68ea12d367032df9f}
+      \strng{bibnamehash}{04697645393e12a68ea12d367032df9f}
+      \strng{authorbibnamehash}{04697645393e12a68ea12d367032df9f}
+      \strng{authornamehash}{04697645393e12a68ea12d367032df9f}
+      \strng{authorfullhash}{04697645393e12a68ea12d367032df9f}
       \field{labelalpha}{RF16}
       \field{sortinit}{R}
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
@@ -1122,6 +1228,61 @@
       \range{pages}{1}
       \verb{file}
       \verb :C\:/Users/alioi/OneDrive/Desktop/T{\"{o}}nnis_2010_Book_Einbilicke_in_Augmented_Reality.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Unity}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=82dd98f1d663acc318e6a8ec4ab69b7a}{%
+           family={Unity},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{82dd98f1d663acc318e6a8ec4ab69b7a}
+      \strng{fullhash}{82dd98f1d663acc318e6a8ec4ab69b7a}
+      \strng{bibnamehash}{82dd98f1d663acc318e6a8ec4ab69b7a}
+      \strng{authorbibnamehash}{82dd98f1d663acc318e6a8ec4ab69b7a}
+      \strng{authornamehash}{82dd98f1d663acc318e6a8ec4ab69b7a}
+      \strng{authorfullhash}{82dd98f1d663acc318e6a8ec4ab69b7a}
+      \field{labelalpha}{Uni}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Programming in Unity: For programmers new to Unity - Unity}}
+      \verb{urlraw}
+      \verb https://unity3d.com/de/programming-in-unity
+      \endverb
+      \verb{url}
+      \verb https://unity3d.com/de/programming-in-unity
+      \endverb
+    \endentry
+    \entry{Valk2009}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=43cd36946f2473587e1a4c42e4dd038a}{%
+           family={Valk},
+           familyi={V\bibinitperiod},
+           given={Erwin},
+           giveni={E\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{43cd36946f2473587e1a4c42e4dd038a}
+      \strng{fullhash}{43cd36946f2473587e1a4c42e4dd038a}
+      \strng{bibnamehash}{43cd36946f2473587e1a4c42e4dd038a}
+      \strng{authorbibnamehash}{43cd36946f2473587e1a4c42e4dd038a}
+      \strng{authornamehash}{43cd36946f2473587e1a4c42e4dd038a}
+      \strng{authorfullhash}{43cd36946f2473587e1a4c42e4dd038a}
+      \field{labelalpha}{Val09}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{the difference between model-view-viewmodel and other separated presentation patterns – Erwin van der Valk's blog: Practicing patterns}}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://blogs.msdn.microsoft.com/erwinvandervalk/2009/08/14/the-difference-between-model-view-viewmodel-and-other-separated-presentation-patterns/
+      \endverb
+      \verb{url}
+      \verb https://blogs.msdn.microsoft.com/erwinvandervalk/2009/08/14/the-difference-between-model-view-viewmodel-and-other-separated-presentation-patterns/
       \endverb
     \endentry
     \entry{Vincent2014}{unpublished}{}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  3 SEP 2019 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.18)  9 SEP 2019 00:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -1764,6 +1764,9 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count526
 \AM@templatesizebox=\box107
 )
+(C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/latex/ltablex\ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+)
 \@input{titles/titleGraduation.aux}
 \openout2 = `titles/titleGraduation.aux'.
 
@@ -1797,32 +1800,41 @@ File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 ))
 (main.aux (chapter/Prologue.aux) (chapter/Abstract.aux)
 
-LaTeX Warning: Label `img:pointing_vergleich' multiply defined.
-
-
 LaTeX Warning: Label `img:sysstem_sketch' multiply defined.
 
 
-LaTeX Warning: Label `img:sysstem_sketch' multiply defined.
+LaTeX Warning: Label `tab:example' multiply defined.
+
+
+LaTeX Warning: Label `tab:example' multiply defined.
+
+
+LaTeX Warning: Label `tab:example' multiply defined.
+
+
+LaTeX Warning: Label `tab:example' multiply defined.
+
+
+LaTeX Warning: Label `img:mequeMoudul' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 33.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1872,7 +1884,7 @@ Package caption Info: subfigure package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 30.
+LaTeX Info: Redefining \microtypecontext on input line 33.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1888,7 +1900,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \c@lstlisting=\count527
-Package scrhack Info: undefining \float@addtolists on input line 30.
+Package scrhack Info: undefining \float@addtolists on input line 33.
 
 (C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1918,7 +1930,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box109
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 33.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1928,9 +1940,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count534
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (main.out) (main.out)
 \@outlinefile=\write6
@@ -1942,7 +1954,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           You can avoid loading `bookmark' with KOMA-Script option
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message with `\usepackage{bookmark}'
-(scrbook)           before \begin{document} on input line 30.
+(scrbook)           before \begin{document} on input line 33.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -1962,8 +1974,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 30.
-Package biblatex Info: Reference segment=0 on input line 30.
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -2017,37 +2029,37 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 <resources/htw/logo.jpg, id=6, 114.9093pt x 68.4156pt>
 File: resources/htw/logo.jpg Graphic file (type jpg)
 <use resources/htw/logo.jpg>
-Package pdftex.def Info: resources/htw/logo.jpg  used on input line 33.
+Package pdftex.def Info: resources/htw/logo.jpg  used on input line 36.
 (pdftex.def)             Requested size: 227.62206pt x 135.52591pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 33.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 36.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 33.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 36.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 36.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 33.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 36.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 33.
+(Font)              <10> on input line 36.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 33.
+(Font)              <7> on input line 36.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 33.
-LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+(Font)              <5> on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2055,7 +2067,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\alioi\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2080,28 +2092,27 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 /htw/logo.jpg>]
 \openout2 = `chapter/Prologue.aux'.
 
-
-No file chapter/Prologue.tex.
+ (chapter/Prologue.tex)
 \openout2 = `chapter/Abstract.aux'.
 
-(chapter/Abstract.tex
+ (chapter/Abstract.tex
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
-[1
+) [1
 
 
 
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 39
+Package tocbasic Info: character protrusion at toc deactivated on input line 42
 .
  (main.toc [2
 
@@ -2112,7 +2123,8 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 39
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [3] (chapter/Introduction.tex
+
+[3] (chapter/Introduction.tex
 chapter 1.
 [1
 
@@ -2128,7 +2140,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ]
-<resources/fundamentals/example_camera_screen_ar.jpeg, id=169, 1606.0pt x 1204.
+<resources/fundamentals/example_camera_screen_ar.jpeg, id=159, 1606.0pt x 1204.
 5pt>
 File: resources/fundamentals/example_camera_screen_ar.jpeg Graphic file (type j
 pg)
@@ -2143,7 +2155,7 @@ n&hash=6342841E1B6470C1F313295427398606 [letz-ter
  []
 
 [4] [5 <./resources/fundamentals/example_camera_screen_ar.jpeg>]
-<resources/fundamentals/Tracking.png, id=188, 814.04124pt x 793.96625pt>
+<resources/fundamentals/Tracking.png, id=178, 814.04124pt x 793.96625pt>
 File: resources/fundamentals/Tracking.png Graphic file (type png)
 <use resources/fundamentals/Tracking.png>
 Package pdftex.def Info: resources/fundamentals/Tracking.png  used on input lin
@@ -2160,7 +2172,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
  []
 
 [7]
-<resources/fundamentals/model_based_tracking_taxonomies.png, id=220, 757.32938p
+<resources/fundamentals/model_based_tracking_taxonomies.png, id=210, 757.32938p
 t x 424.58624pt>
 File: resources/fundamentals/model_based_tracking_taxonomies.png Graphic file (
 type png)
@@ -2168,7 +2180,7 @@ type png)
 Package pdftex.def Info: resources/fundamentals/model_based_tracking_taxonomies
 .png  used on input line 134.
 (pdftex.def)             Requested size: 273.14923pt x 153.13599pt.
-<resources/fundamentals/tracking_technicken.png, id=226, 653.44125pt x 546.5418
+<resources/fundamentals/tracking_technicken.png, id=216, 653.44125pt x 546.5418
 7pt>
 File: resources/fundamentals/tracking_technicken.png Graphic file (type png)
 <use resources/fundamentals/tracking_technicken.png>
@@ -2177,7 +2189,7 @@ n input line 149.
 (pdftex.def)             Requested size: 182.09486pt x 152.30513pt.
  [8 <./resources/fundamentals/model_based_tracking_taxonomies.png>]
 <resources/fundamentals/situated_visualization/spacially_situated_visualization
-_model.png, id=242, 355.3275pt x 314.67563pt>
+_model.png, id=232, 355.3275pt x 314.67563pt>
 File: resources/fundamentals/situated_visualization/spacially_situated_visualiz
 ation_model.png Graphic file (type png)
 <use resources/fundamentals/situated_visualization/spacially_situated_visualiza
@@ -2188,7 +2200,7 @@ y_situated_visualization_model.png  used on input line 174.
  [9 <./resources/fundamentals/tracking_technicken.png>] [10 <./resources/fundam
 entals/situated_visualization/spacially_situated_visualization_model.png>]
 <resources/fundamentals/situated_visualization/embedded_visualization.png, id=2
-72, 334.24875pt x 310.15875pt>
+62, 334.24875pt x 310.15875pt>
 File: resources/fundamentals/situated_visualization/embedded_visualization.png 
 Graphic file (type png)
 <use resources/fundamentals/situated_visualization/embedded_visualization.png>
@@ -2196,7 +2208,7 @@ Package pdftex.def Info: resources/fundamentals/situated_visualization/embedded
 _visualization.png  used on input line 207.
 (pdftex.def)             Requested size: 227.62206pt x 211.22224pt.
 <resources/fundamentals/situated_visualization/Illustration_situated_embedded_v
-isualization.png, id=280, 579.66562pt x 286.06876pt>
+isualization.png, id=270, 579.66562pt x 286.06876pt>
 File: resources/fundamentals/situated_visualization/Illustration_situated_embed
 ded_visualization.png Graphic file (type png)
 <use resources/fundamentals/situated_visualization/Illustration_situated_embedd
@@ -2215,14 +2227,14 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 264.
  [13]
-<resources/fundamentals/annotations_clutter.png, id=310, 805.50937pt x 229.6078
+<resources/fundamentals/annotations_clutter.png, id=300, 805.50937pt x 229.6078
 2pt>
 File: resources/fundamentals/annotations_clutter.png Graphic file (type png)
 <use resources/fundamentals/annotations_clutter.png>
 Package pdftex.def Info: resources/fundamentals/annotations_clutter.png  used o
 n input line 286.
 (pdftex.def)             Requested size: 455.24411pt x 129.76369pt.
-<resources/fundamentals/missallignement.png, id=316, 507.39563pt x 191.21437pt>
+<resources/fundamentals/missallignement.png, id=306, 507.39563pt x 191.21437pt>
 
 File: resources/fundamentals/missallignement.png Graphic file (type png)
 <use resources/fundamentals/missallignement.png>
@@ -2230,161 +2242,374 @@ Package pdftex.def Info: resources/fundamentals/missallignement.png  used on in
 put line 306.
 (pdftex.def)             Requested size: 318.66948pt x 120.09514pt.
 
-[14 <./resources/fundamentals/annotations_clutter.png>] [15 <./resources/fundam
-entals/missallignement.png>] [16] [17] [18] [19]
-<resources/fundamentals/hor_ver_prototypes.png, id=395, 683.55376pt x 286.06876
+[14 <./resources/fundamentals/annotations_clutter.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+  [][][]\T1/lmr/m/n/8 (+10) Tracking Sta-tus In-for-ma-tio-nen der AR Fra-me-wo
+rk Vu-fo-ria: https://library.vuforia.com/content/vuforia-
+ []
+
+[15 <./resources/fundamentals/missallignement.png>] [16] [17] [18] [19]
+<resources/fundamentals/hor_ver_prototypes.png, id=386, 683.55376pt x 286.06876
 pt>
 File: resources/fundamentals/hor_ver_prototypes.png Graphic file (type png)
 <use resources/fundamentals/hor_ver_prototypes.png>
 Package pdftex.def Info: resources/fundamentals/hor_ver_prototypes.png  used on
- input line 526.
+ input line 522.
 (pdftex.def)             Requested size: 364.19667pt x 152.41888pt.
- [20 <./resources/fundamentals/hor_ver_prototypes.png>]) [21] (chapter/Analysis
-.tex
+
+[20 <./resources/fundamentals/hor_ver_prototypes.png>]) [21]
+(chapter/Analysis.tex
 chapter 3.
-<resources/analyse/Pointing_techniken.png, id=415, 1142.76938pt x 271.0125pt>
-File: resources/analyse/Pointing_techniken.png Graphic file (type png)
-<use resources/analyse/Pointing_techniken.png>
-Package pdftex.def Info: resources/analyse/Pointing_techniken.png  used on inpu
-t line 49.
-(pdftex.def)             Requested size: 455.24411pt x 107.96059pt.
 [22
 
 
 
 ]
-<resources/analyse/pointing_3d.png, id=425, 597.73312pt x 255.95625pt>
+<resources/analyse/brandenburg_uv.png, id=419, 421.575pt x 234.8775pt>
+File: resources/analyse/brandenburg_uv.png Graphic file (type png)
+<use resources/analyse/brandenburg_uv.png>
+Package pdftex.def Info: resources/analyse/brandenburg_uv.png  used on input li
+ne 44.
+(pdftex.def)             Requested size: 273.14923pt x 152.18472pt.
+<resources/analyse/baumstruktur.png, id=422, 855.195pt x 281.55188pt>
+File: resources/analyse/baumstruktur.png Graphic file (type png)
+<use resources/analyse/baumstruktur.png>
+Package pdftex.def Info: resources/analyse/baumstruktur.png  used on input line
+ 58.
+(pdftex.def)             Requested size: 216.24025pt x 71.19116pt.
+<resources/analyse/annotation.png, id=423, 826.58812pt x 287.57437pt>
+File: resources/analyse/annotation.png Graphic file (type png)
+<use resources/analyse/annotation.png>
+Package pdftex.def Info: resources/analyse/annotation.png  used on input line 6
+3.
+(pdftex.def)             Requested size: 216.24025pt x 75.2283pt.
+<resources/analyse/brandenburg_aufgabentypen.png, id=429, 993.7125pt x 257.4618
+7pt>
+File: resources/analyse/brandenburg_aufgabentypen.png Graphic file (type png)
+<use resources/analyse/brandenburg_aufgabentypen.png>
+Package pdftex.def Info: resources/analyse/brandenburg_aufgabentypen.png  used 
+on input line 74.
+(pdftex.def)             Requested size: 273.14923pt x 70.76883pt.
+ [23 <./resources/analyse/brandenburg_uv.png> <./resources/analyse/baumstruktur
+.png> <./resources/analyse/annotation.png>]
+<resources/analyse/Selection_uebersicht.png, id=446, 1151.80313pt x 427.5975pt>
+
+File: resources/analyse/Selection_uebersicht.png Graphic file (type png)
+<use resources/analyse/Selection_uebersicht.png>
+Package pdftex.def Info: resources/analyse/Selection_uebersicht.png  used on in
+put line 108.
+(pdftex.def)             Requested size: 364.19667pt x 135.20284pt.
+ [24 <./resources/analyse/brandenburg_aufgabentypen.png>]
+<resources/analyse/Pointing_techniken.png, id=461, 1142.76938pt x 271.0125pt>
+File: resources/analyse/Pointing_techniken.png Graphic file (type png)
+<use resources/analyse/Pointing_techniken.png>
+Package pdftex.def Info: resources/analyse/Pointing_techniken.png  used on inpu
+t line 136.
+(pdftex.def)             Requested size: 318.66948pt x 75.57283pt.
+ [25 <./resources/analyse/Selection_uebersicht.png>]
+<resources/analyse/versuchsaufbau.png, id=469, 575.14874pt x 412.54124pt>
+File: resources/analyse/versuchsaufbau.png Graphic file (type png)
+<use resources/analyse/versuchsaufbau.png>
+Package pdftex.def Info: resources/analyse/versuchsaufbau.png  used on input li
+ne 146.
+(pdftex.def)             Requested size: 227.62206pt x 163.2699pt.
+<resources/analyse/pointing_3d.png, id=473, 597.73312pt x 255.95625pt>
 File: resources/analyse/pointing_3d.png Graphic file (type png)
 <use resources/analyse/pointing_3d.png>
 Package pdftex.def Info: resources/analyse/pointing_3d.png  used on input line 
-56.
-(pdftex.def)             Requested size: 455.24411pt x 194.94275pt.
-<resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png, id=428, 129
+163.
+(pdftex.def)             Requested size: 318.66948pt x 136.46071pt.
+
+[26 <./resources/analyse/Pointing_techniken.png> <./resources/analyse/versuchsa
+ufbau.png>]
+<resources/analyse/IPI_methode.png, id=488, 638.385pt x 469.755pt>
+File: resources/analyse/IPI_methode.png Graphic file (type png)
+<use resources/analyse/IPI_methode.png>
+Package pdftex.def Info: resources/analyse/IPI_methode.png  used on input line 
+187.
+(pdftex.def)             Requested size: 455.24411pt x 334.99063pt.
+ [27 <./resources/analyse/pointing_3d.png>] [28 <./resources/analyse/IPI_method
+e.png>]
+<resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png, id=507, 129
 3.33188pt x 545.03625pt>
 File: resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png Graphic
  file (type png)
 <use resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png>
 Package pdftex.def Info: resources/analyse/IPI_Vergleich_Listen_BildAnnotatione
-Ansicht.png  used on input line 67.
+Ansicht.png  used on input line 215.
 (pdftex.def)             Requested size: 455.24411pt x 191.8467pt.
-<resources/analyse/IPI_Objektzentriert.png, id=431, 1318.9275pt x 511.9125pt>
+<resources/analyse/results_list_picture_based.png, id=511, 868.74562pt x 207.77
+625pt>
+File: resources/analyse/results_list_picture_based.png Graphic file (type png)
+<use resources/analyse/results_list_picture_based.png>
+Package pdftex.def Info: resources/analyse/results_list_picture_based.png  used
+ on input line 225.
+(pdftex.def)             Requested size: 364.19667pt x 87.10373pt.
+ [29 <./resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png> <./r
+esources/analyse/results_list_picture_based.png>]
+<resources/analyse/IPI_Objektzentriert.png, id=522, 1318.9275pt x 511.9125pt>
 File: resources/analyse/IPI_Objektzentriert.png Graphic file (type png)
 <use resources/analyse/IPI_Objektzentriert.png>
 Package pdftex.def Info: resources/analyse/IPI_Objektzentriert.png  used on inp
-ut line 74.
+ut line 236.
 (pdftex.def)             Requested size: 455.24411pt x 176.68811pt.
- [23 <./resources/analyse/Pointing_techniken.png> <./resources/analyse/pointing
-_3d.png> <./resources/analyse/IPI_Vergleich_Listen_BildAnnotationeAnsicht.png>]
-) [24 <./resources/analyse/IPI_Objektzentriert.png>]
-(chapter/Conception.tex
+) [30 <./resources/analyse/IPI_Objektzentriert.png>] (chapter/Conception.tex
 chapter 4.
-<resources/conception/SystemSkizze.png, id=452, 1004.75375pt x 556.0775pt>
+<resources/conception/SystemSkizze.png, id=533, 1004.75375pt x 556.0775pt>
 File: resources/conception/SystemSkizze.png Graphic file (type png)
 <use resources/conception/SystemSkizze.png>
 Package pdftex.def Info: resources/conception/SystemSkizze.png  used on input l
 ine 27.
 (pdftex.def)             Requested size: 455.24411pt x 251.94653pt.
-[25
+[31
 
 
 
-] [26 <./resources/conception/SystemSkizze.png>] [27]
+] [32 <./resources/conception/SystemSkizze.png>] [33]
 Overfull \hbox (5.67026pt too wide) in paragraph at lines 97--113
 [][]
  []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 142--215
-[][]
- []
-
-[29]
-Overfull \hbox (0.32884pt too wide) in paragraph at lines 234--237
-[]\T1/lmr/m/n/10 (-10) Auf der linken oberen Ecke des Bildschirms befinden sich
- zwei Buttons mit den Aufschriften ``My Feedbacks``
- []
-
-<resources/conception/lowfi_startbildschirm.jpg, id=497, 3111.625pt x 1433.355p
+[34] [35]
+<resources/conception/lowfi_startbildschirm.jpg, id=578, 3111.625pt x 1433.355p
 t>
 File: resources/conception/lowfi_startbildschirm.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_startbildschirm.jpg>
 Package pdftex.def Info: resources/conception/lowfi_startbildschirm.jpg  used o
-n input line 240.
+n input line 245.
 (pdftex.def)             Requested size: 318.66948pt x 146.77768pt.
-<resources/conception/lowfi_browseOnProduct.jpg, id=498, 3553.275pt x 1606.0pt>
+ [36 <./resources/conception/lowfi_startbildschirm.jpg>]
+<resources/conception/lowfi_browseOnProduct.jpg, id=589, 3553.275pt x 1606.0pt>
 
 File: resources/conception/lowfi_browseOnProduct.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_browseOnProduct.jpg>
 Package pdftex.def Info: resources/conception/lowfi_browseOnProduct.jpg  used o
-n input line 247.
+n input line 258.
 (pdftex.def)             Requested size: 318.66948pt x 144.01915pt.
-[30 <./resources/conception/lowfi_startbildschirm.jpg>]
-<resources/conception/lowfi_create.jpg, id=507, 3420.78pt x 1618.045pt>
+ [37 <./resources/conception/lowfi_browseOnProduct.jpg>]
+<resources/conception/lowfi_create.jpg, id=602, 3420.78pt x 1618.045pt>
 File: resources/conception/lowfi_create.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_create.jpg>
 Package pdftex.def Info: resources/conception/lowfi_create.jpg  used on input l
-ine 254.
+ine 283.
 (pdftex.def)             Requested size: 318.66948pt x 150.72845pt.
-<resources/conception/lowfi_edit_delete.jpg, id=508, 3621.53pt x 1638.12pt>
+<resources/conception/lowfi_edit_delete.jpg, id=604, 3621.53pt x 1638.12pt>
 File: resources/conception/lowfi_edit_delete.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_edit_delete.jpg>
 Package pdftex.def Info: resources/conception/lowfi_edit_delete.jpg  used on in
-put line 261.
+put line 295.
 (pdftex.def)             Requested size: 318.66948pt x 144.125pt.
-
-
-Package caption Warning: \label without proper reference on input line 268.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:example' on page 31 undefined on input line 266.
-
-<resources/conception/lowfi_form.jpg, id=510, 1838.87pt x 3717.89pt>
+ [38 <./resources/conception/lowfi_create.jpg> <./resources/conception/lowfi_ed
+it_delete.jpg>]
+<resources/conception/lowfi_form.jpg, id=617, 1838.87pt x 3717.89pt>
 File: resources/conception/lowfi_form.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_form.jpg>
 Package pdftex.def Info: resources/conception/lowfi_form.jpg  used on input lin
-e 272.
+e 325.
 (pdftex.def)             Requested size: 182.09833pt x 368.1233pt.
-<resources/conception/lowfi_list.jpg, id=511, 1887.05pt x 3565.32pt>
+<resources/conception/lowfi_list.jpg, id=618, 1887.05pt x 3565.32pt>
 File: resources/conception/lowfi_list.jpg Graphic file (type jpg)
 <use resources/conception/lowfi_list.jpg>
 Package pdftex.def Info: resources/conception/lowfi_list.jpg  used on input lin
-e 278.
+e 331.
 (pdftex.def)             Requested size: 182.09833pt x 344.04036pt.
-[31 <./resources/conception/lowfi_browseOnProduct.jpg> <./resources/conception/
-lowfi_create.jpg> <./resources/conception/lowfi_edit_delete.jpg>]) [32 <./resou
-rces/conception/lowfi_form.jpg> <./resources/conception/lowfi_list.jpg>]
-(chapter/Implementation.tex
+ [39]
+<resources/conception/feedback_entitiy_type.png, id=628, 1137.24875pt x 689.576
+25pt>
+File: resources/conception/feedback_entitiy_type.png Graphic file (type png)
+<use resources/conception/feedback_entitiy_type.png>
+Package pdftex.def Info: resources/conception/feedback_entitiy_type.png  used o
+n input line 348.
+(pdftex.def)             Requested size: 386.96027pt x 234.63168pt.
+ [40 <./resources/conception/lowfi_form.jpg> <./resources/conception/lowfi_list
+.jpg>] [41 <./resources/conception/feedback_entitiy_type.png>]
+<resources/conception/mvp_pattern.png, id=640, 480.29437pt x 376.40625pt>
+File: resources/conception/mvp_pattern.png Graphic file (type png)
+<use resources/conception/mvp_pattern.png>
+Package pdftex.def Info: resources/conception/mvp_pattern.png  used on input li
+ne 374.
+(pdftex.def)             Requested size: 455.24411pt x 356.77982pt.
+ [42 <./resources/conception/mvp_pattern.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+
+ []
+
+<resources/conception/klassendiagramm.png, id=650, 794.97pt x 807.015pt>
+File: resources/conception/klassendiagramm.png Graphic file (type png)
+<use resources/conception/klassendiagramm.png>
+Package pdftex.def Info: resources/conception/klassendiagramm.png  used on inpu
+t line 394.
+(pdftex.def)             Requested size: 409.71692pt x 415.93138pt.
+[43 <./resources/conception/klassendiagramm.png>]pdfTeX warning (ext4): destina
+tion with the same identifier (name{page.43}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.413 \end{tabularx}
+                     [43]) [44] (chapter/Implementation.tex
 chapter 5.
-) [33
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[45
 
 
 
-] (chapter/Evaluation.tex
+] [46]
+<resources/implementation/crossfade_create.jpg, id=713, 813.0375pt x 1582.41188
+pt>
+File: resources/implementation/crossfade_create.jpg Graphic file (type jpg)
+<use resources/implementation/crossfade_create.jpg>
+Package pdftex.def Info: resources/implementation/crossfade_create.jpg  used on
+ input line 74.
+(pdftex.def)             Requested size: 118.36055pt x 230.3493pt.
+<resources/implementation/crossfade_edit.jpg, id=714, 813.0375pt x 1567.35562pt
+>
+File: resources/implementation/crossfade_edit.jpg Graphic file (type jpg)
+<use resources/implementation/crossfade_edit.jpg>
+Package pdftex.def Info: resources/implementation/crossfade_edit.jpg  used on i
+nput line 80.
+(pdftex.def)             Requested size: 118.36055pt x 228.1576pt.
+ [47 <./resources/implementation/crossfade_create.jpg> <./resources/implementat
+ion/crossfade_edit.jpg>] [48]
+<resources/implementation/flussdiagram_selection.png, id=732, 1177.39874pt x 12
+91.82625pt>
+File: resources/implementation/flussdiagram_selection.png Graphic file (type pn
+g)
+<use resources/implementation/flussdiagram_selection.png>
+Package pdftex.def Info: resources/implementation/flussdiagram_selection.png  u
+sed on input line 120.
+(pdftex.def)             Requested size: 455.24411pt x 499.49336pt.
+ [49] [50 <./resources/implementation/flussdiagram_selection.png>]
+<resources/implementation/ueberlagerung.png, id=748, 342.5297pt x 182.18062pt>
+File: resources/implementation/ueberlagerung.png Graphic file (type png)
+<use resources/implementation/ueberlagerung.png>
+Package pdftex.def Info: resources/implementation/ueberlagerung.png  used on in
+put line 142.
+(pdftex.def)             Requested size: 174.13094pt x 92.61621pt.
+<resources/implementation/annocreate.jpg, id=749, 1084.05pt x 2228.325pt>
+File: resources/implementation/annocreate.jpg Graphic file (type jpg)
+<use resources/implementation/annocreate.jpg>
+Package pdftex.def Info: resources/implementation/annocreate.jpg  used on input
+ line 148.
+(pdftex.def)             Requested size: 194.6149pt x 400.02715pt.
+<resources/implementation/listview.jpg, id=752, 1084.05pt x 2228.325pt>
+File: resources/implementation/listview.jpg Graphic file (type jpg)
+<use resources/implementation/listview.jpg>
+Package pdftex.def Info: resources/implementation/listview.jpg  used on input l
+ine 162.
+(pdftex.def)             Requested size: 194.6149pt x 400.02715pt.
+<resources/implementation/annotationview.jpg, id=753, 1084.05pt x 2228.325pt>
+File: resources/implementation/annotationview.jpg Graphic file (type jpg)
+<use resources/implementation/annotationview.jpg>
+Package pdftex.def Info: resources/implementation/annotationview.jpg  used on i
+nput line 168.
+(pdftex.def)             Requested size: 194.6149pt x 400.02715pt.
+ [51 <./resources/implementation/ueberlagerung.png> <./resources/implementation
+/annocreate.jpg>] [52 <./resources/implementation/listview.jpg> <./resources/im
+plementation/annotationview.jpg>]
+<resources/implementation/firstform.jpg, id=767, 813.0375pt x 1671.24374pt>
+File: resources/implementation/firstform.jpg Graphic file (type jpg)
+<use resources/implementation/firstform.jpg>
+Package pdftex.def Info: resources/implementation/firstform.jpg  used on input 
+line 191.
+(pdftex.def)             Requested size: 194.6149pt x 400.03564pt.
+<resources/implementation/secondform.jpg, id=768, 1084.05pt x 2228.325pt>
+File: resources/implementation/secondform.jpg Graphic file (type jpg)
+<use resources/implementation/secondform.jpg>
+Package pdftex.def Info: resources/implementation/secondform.jpg  used on input
+ line 197.
+(pdftex.def)             Requested size: 194.6149pt x 400.02715pt.
+ [53 <./resources/implementation/firstform.jpg> <./resources/implementation/sec
+ondform.jpg>])
+[54] (chapter/Evaluation.tex
 chapter 6.
-<resources/evaluation/diagrammittel_vergleich_liste_annotation.png, id=526, 591
-.71063pt x 310.91156pt>
-File: resources/evaluation/diagrammittel_vergleich_liste_annotation.png Graphic
- file (type png)
-<use resources/evaluation/diagrammittel_vergleich_liste_annotation.png>
-Package pdftex.def Info: resources/evaluation/diagrammittel_vergleich_liste_ann
-otation.png  used on input line 15.
-(pdftex.def)             Requested size: 455.24411pt x 239.21286pt.
-) [34
-
-
-
- <./resources/evaluation/diagrammittel_vergleich_liste_annotation.png>]
-[35] (chapter/Conclusion.tex
-chapter 7.
-) [36
+[55
 
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 51
+<resources/evaluation/SmartTripelec.png, id=788, 624.83438pt x 376.40625pt>
+File: resources/evaluation/SmartTripelec.png Graphic file (type png)
+<use resources/evaluation/SmartTripelec.png>
+Package pdftex.def Info: resources/evaluation/SmartTripelec.png  used on input 
+line 36.
+(pdftex.def)             Requested size: 273.14923pt x 164.55096pt.
+<resources/evaluation/meQueModul.png, id=790, 817.55438pt x 248.42813pt>
+File: resources/evaluation/meQueModul.png Graphic file (type png)
+<use resources/evaluation/meQueModul.png>
+Package pdftex.def Info: resources/evaluation/meQueModul.png  used on input lin
+e 49.
+(pdftex.def)             Requested size: 273.14923pt x 83.00122pt.
+ [56 <./resources/evaluation/SmartTripelec.png> <./resources/evaluation/meQueMo
+dul.png>]
+Package acronym Info: Label `acro:PTAM' newly defined as it shall be overridden
+
+although it is yet undefined on input line 100.
+ [57]
+<resources/evaluation/diagrammmittel_vergleich_liste_annotation.png, id=810, 50
+4.38437pt x 287.57437pt>
+File: resources/evaluation/diagrammmittel_vergleich_liste_annotation.png Graphi
+c file (type png)
+<use resources/evaluation/diagrammmittel_vergleich_liste_annotation.png>
+Package pdftex.def Info: resources/evaluation/diagrammmittel_vergleich_liste_an
+notation.png  used on input line 107.
+(pdftex.def)             Requested size: 455.24411pt x 259.5605pt.
+<resources/evaluation/pWerte.png, id=812, 1677.26625pt x 109.91063pt>
+File: resources/evaluation/pWerte.png Graphic file (type png)
+<use resources/evaluation/pWerte.png>
+Package pdftex.def Info: resources/evaluation/pWerte.png  used on input line 11
+6.
+(pdftex.def)             Requested size: 455.24411pt x 29.83055pt.
+<resources/evaluation/mittelwerte_liste_anno.png, id=814, 367.3725pt x 222.8325
+pt>
+File: resources/evaluation/mittelwerte_liste_anno.png Graphic file (type png)
+<use resources/evaluation/mittelwerte_liste_anno.png>
+Package pdftex.def Info: resources/evaluation/mittelwerte_liste_anno.png  used 
+on input line 125.
+(pdftex.def)             Requested size: 364.19667pt x 220.92107pt.
+ [58 <./resources/evaluation/diagrammmittel_vergleich_liste_annotation.png> <./
+resources/evaluation/pWerte.png>]
+<resources/evaluation/MittelWerteUsability.png, id=825, 368.1253pt x 222.07968p
+t>
+File: resources/evaluation/MittelWerteUsability.png Graphic file (type png)
+<use resources/evaluation/MittelWerteUsability.png>
+Package pdftex.def Info: resources/evaluation/MittelWerteUsability.png  used on
+ input line 137.
+(pdftex.def)             Requested size: 364.19667pt x 219.7274pt.
+<resources/evaluation/mittelwerte_alle_aktionen.png, id=826, 368.1253pt x 224.3
+3812pt>
+File: resources/evaluation/mittelwerte_alle_aktionen.png Graphic file (type png
+)
+<use resources/evaluation/mittelwerte_alle_aktionen.png>
+Package pdftex.def Info: resources/evaluation/mittelwerte_alle_aktionen.png  us
+ed on input line 144.
+(pdftex.def)             Requested size: 364.19667pt x 221.96191pt.
+ [59 <./resources/evaluation/mittelwerte_liste_anno.png> <./resources/evaluatio
+n/MittelWerteUsability.png>]) [60 <./resources/evaluation/mittelwerte_alle_akti
+onen.png>]
+(chapter/Conclusion.tex
+chapter 7.
+) [61
+
+
+
+] [62]
+Package tocbasic Info: character protrusion at lof deactivated on input line 54
 .
- (main.lof [37
+ (main.lof [63
 
 
 
@@ -2392,35 +2617,23 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 51
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [38]
-Package tocbasic Info: character protrusion at lot deactivated on input line 53
+ [64]
+Package tocbasic Info: character protrusion at lot deactivated on input line 56
 .
  (main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [39
-
-
-
-]
-Package tocbasic Info: character protrusion at lol deactivated on input line 55
-.
- (main.lol)
-\tf@lol=\write10
-\openout10 = `main.lol'.
-
- [40
+ [65
 
 
 
 ]
 runsystem(makeindex -s indexstyle.ist main.idx)...executed (allowed).
 
-
-No file main.ind.
+ (main.ind)
 Using TeX to sort glossary entries---this may take a while
-[41
+[66
 
 
 
@@ -2434,7 +2647,7 @@ chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 72.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 75.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2442,46 +2655,46 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [42
+ [67
 
 
 
 ]
-Overfull \hbox (7.45181pt too wide) in paragraph at lines 72--72
+Overfull \hbox (7.45181pt too wide) in paragraph at lines 75--75
 []\T1/lmr/m/n/10 (-10) Mary Beth Ros-son u.a. \T1/lmr/m/it/10 (-10) Usa-bi-li-t
 y En-gi-nee-ring: Scenario-Based De-ve-lop-ment of Human-Computer\T1/lmr/m/n/10
  (-10) .
  []
 
 
-Overfull \hbox (3.27019pt too wide) in paragraph at lines 72--72
+Overfull \hbox (3.27019pt too wide) in paragraph at lines 75--75
 \T1/lmr/m/n/10 (-10) za-ti-ons. 1996. \T1/lmr/m/sc/10 (-10) url\T1/lmr/m/n/10 
 (-10) : []$\T1/lmtt/m/n/10 https : / / www . cs . umd . edu / $ % 5Csim $ ben /
  papers / Shneiderman1996eyes .
  []
 
-[43]
+[68]
 
-Package biblatex Warning: Keyword 'online' not found on input line 73.
-
-
-LaTeX Warning: Empty bibliography on input line 73.
+Package biblatex Warning: Keyword 'online' not found on input line 76.
 
 
-Package biblatex Warning: Keyword 'image' not found on input line 74.
+LaTeX Warning: Empty bibliography on input line 76.
 
 
-LaTeX Warning: Empty bibliography on input line 74.
+Package biblatex Warning: Keyword 'image' not found on input line 77.
+
+
+LaTeX Warning: Empty bibliography on input line 77.
 
 (chapter/Anhang.tex
 chapter A.
-<resources/anhang/Affinitaetsdiagramm.png, id=648, 552.56438pt x 546.54187pt>
+<resources/anhang/Affinitaetsdiagramm.png, id=1008, 552.56438pt x 546.54187pt>
 File: resources/anhang/Affinitaetsdiagramm.png Graphic file (type png)
 <use resources/anhang/Affinitaetsdiagramm.png>
 Package pdftex.def Info: resources/anhang/Affinitaetsdiagramm.png  used on inpu
 t line 9.
 (pdftex.def)             Requested size: 227.62206pt x 225.1344pt.
-<resources/anhang/Personas.pdf, id=649, 598.235pt x 846.16125pt>
+<resources/anhang/Personas.pdf, id=1009, 598.235pt x 846.16125pt>
 File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf>
 Package pdftex.def Info: resources/anhang/Personas.pdf  used on input line 14.
@@ -2490,7 +2703,7 @@ File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf>
 Package pdftex.def Info: resources/anhang/Personas.pdf  used on input line 14.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
-<resources/anhang/Personas.pdf, id=652, page=1, 598.235pt x 846.16125pt>
+<resources/anhang/Personas.pdf, id=1012, page=1, 598.235pt x 846.16125pt>
 File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf, page 1>
 Package pdftex.def Info: resources/anhang/Personas.pdf , page1 used on input li
@@ -2501,7 +2714,7 @@ File: resources/anhang/Personas.pdf Graphic file (type pdf)
 Package pdftex.def Info: resources/anhang/Personas.pdf , page1 used on input li
 ne 14.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-[44
+[69
 
 
 
@@ -2523,8 +2736,8 @@ File: resources/anhang/Personas.pdf Graphic file (type pdf)
 Package pdftex.def Info: resources/anhang/Personas.pdf , page1 used on input li
 ne 14.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [45 <./resources/anhang/Personas.pdf>]
-<resources/anhang/Personas.pdf, id=681, page=2, 598.235pt x 846.16125pt>
+ [70 <./resources/anhang/Personas.pdf>]
+<resources/anhang/Personas.pdf, id=1040, page=2, 598.235pt x 846.16125pt>
 File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf, page 2>
 Package pdftex.def Info: resources/anhang/Personas.pdf , page2 used on input li
@@ -2540,8 +2753,8 @@ File: resources/anhang/Personas.pdf Graphic file (type pdf)
 Package pdftex.def Info: resources/anhang/Personas.pdf , page2 used on input li
 ne 14.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [46 <./resources/anhang/Personas.pdf>]
-<resources/anhang/Personas.pdf, id=694, page=3, 598.235pt x 846.16125pt>
+ [71 <./resources/anhang/Personas.pdf>]
+<resources/anhang/Personas.pdf, id=1053, page=3, 598.235pt x 846.16125pt>
 File: resources/anhang/Personas.pdf Graphic file (type pdf)
 <use resources/anhang/Personas.pdf, page 3>
 Package pdftex.def Info: resources/anhang/Personas.pdf , page3 used on input li
@@ -2557,12 +2770,13 @@ File: resources/anhang/Personas.pdf Graphic file (type pdf)
 Package pdftex.def Info: resources/anhang/Personas.pdf , page3 used on input li
 ne 14.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [47 <./resources/anhang/Personas.pdf>] [48] [49] [50]
+ [72 <./resources/anhang/Personas.pdf>] [73] [74] [75]
 
 pdfTeX warning: pdflatex.exe (file ./resources/anhang/Demografischer_Fragebogen
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<resources/anhang/Demografischer_Fragebogen.pdf, id=712, 614.295pt x 794.97pt>
+<resources/anhang/Demografischer_Fragebogen.pdf, id=1072, 614.295pt x 794.97pt>
+
 File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 <use resources/anhang/Demografischer_Fragebogen.pdf>
 Package pdftex.def Info: resources/anhang/Demografischer_Fragebogen.pdf  used o
@@ -2588,8 +2802,8 @@ d
 pdfTeX warning: pdflatex.exe (file ./resources/anhang/Demografischer_Fragebogen
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<resources/anhang/Demografischer_Fragebogen.pdf, id=715, page=1, 614.295pt x 79
-4.97pt>
+<resources/anhang/Demografischer_Fragebogen.pdf, id=1075, page=1, 614.295pt x 7
+94.97pt>
 File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 <use resources/anhang/Demografischer_Fragebogen.pdf, page 1>
 Package pdftex.def Info: resources/anhang/Demografischer_Fragebogen.pdf , page1
@@ -2600,7 +2814,7 @@ File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 Package pdftex.def Info: resources/anhang/Demografischer_Fragebogen.pdf , page1
  used on input line 227.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[51]
+[76]
 File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 <use resources/anhang/Demografischer_Fragebogen.pdf, page 1>
 Package pdftex.def Info: resources/anhang/Demografischer_Fragebogen.pdf , page1
@@ -2616,13 +2830,13 @@ File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 Package pdftex.def Info: resources/anhang/Demografischer_Fragebogen.pdf , page1
  used on input line 227.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [52 <./resources/anhang/Demografischer_Fragebogen.pdf>]
+ [77 <./resources/anhang/Demografischer_Fragebogen.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./resources/anhang/Demografischer_Fragebogen
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<resources/anhang/Demografischer_Fragebogen.pdf, id=750, page=2, 614.295pt x 79
-4.97pt>
+<resources/anhang/Demografischer_Fragebogen.pdf, id=1109, page=2, 614.295pt x 7
+94.97pt>
 File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 <use resources/anhang/Demografischer_Fragebogen.pdf, page 2>
 Package pdftex.def Info: resources/anhang/Demografischer_Fragebogen.pdf , page2
@@ -2638,23 +2852,20 @@ File: resources/anhang/Demografischer_Fragebogen.pdf Graphic file (type pdf)
 Package pdftex.def Info: resources/anhang/Demografischer_Fragebogen.pdf , page2
  used on input line 227.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[53 <./resources/anhang/Demografischer_Fragebogen.pdf>])
+[78 <./resources/anhang/Demografischer_Fragebogen.pdf>])
 (erklaerungen/Eigenstaendigkeitserklaerung_bachelorthesis.tex
 chapter without number
-) [54
+) [79
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
  (main.aux (chapter/Prologue.aux) (chapter/Abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2664,18 +2875,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51051 strings out of 492895
- 972618 string characters out of 3133479
- 1652327 words of memory out of 3000000
- 53829 multiletter control sequences out of 15000+200000
- 603199 words of font info for 110 fonts, out of 3000000 for 9000
+ 51344 strings out of 492895
+ 980438 string characters out of 3133479
+ 1662875 words of memory out of 3000000
+ 54007 multiletter control sequences out of 15000+200000
+ 608765 words of font info for 121 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 68i,21n,81p,9104b,3401s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{cite.0@Kirschner2012} has been referenced but doe
+ 68i,21n,81p,9104b,3402s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{cite.0@Kirschner2011} has been referenced but doe
 s not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.0@Kirschner2011} has been referenced but does 
+pdfTeX warning (dest): name{cite.0@Kirschner2012} has been referenced but does 
 not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@Bowman1999} has been referenced but does not
+ exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@Brandenburg2019} has been referenced but doe
 s not exist, replaced by a fixed one
@@ -2690,20 +2904,22 @@ pdfTeX warning (dest): name{cite.0@Grasset2012} has been referenced but does no
 t exist, replaced by a fixed one
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmro10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (58 pages, 12338296 bytes).
+TeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (84 pages, 19909270 bytes).
 PDF statistics:
- 1001 PDF objects out of 1200 (max. 8388607)
- 188 named destinations out of 1000 (max. 500000)
- 25180 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1366 PDF objects out of 1440 (max. 8388607)
+ 251 named destinations out of 1000 (max. 500000)
+ 27318 words of extra memory for PDF output out of 29859 (max. 10000000)
 
