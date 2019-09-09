@@ -17,13 +17,48 @@ ein Datentyp für ein Feedback definiert sowie ein Klassendiagramm erstellt.
 Im Kapitel \ref{implementation} wurden zunächst verschiedene zwei verschiedene Traking Framework und unterschiedliche Traking Methoden ausprobiert. 
 Nachdem das Tracking mit Verwendung eines 3D Model des physischen Produktes nicht funktioniert hat wurde beschlossen ein Image Target für das Tracking mit Nutzung
 des Vuforia Framework zu verwenden. 
-Es wurden zwei Methoden für das Zeigen und Auswählen implementiert, von Test Nutzern getestet für das entschieden welches 
+Es wurden zwei im Kapitel \ref{anlayse_capter} behandelte Methoden für das Zeigen und Auswählen implementiert, diese wurden von Test Nutzern getestet und anschließend 
+wurde die Methode welches hinsichtlich ihrer Usability besser geeignet war in den Prototypen aufgenommen. Abschließend wurde im Kapitel \ref{implementation} ein Eingabeformular
+gestaltet welches mit Berücksichtigung der im Kapitel \ref{conception_chapter} identifizierten Anforderungen die Erstellung eines Feedback ermöglicht.  
 
+Wie in der Ziersetzung vorgenommen wurde im Kapitel \ref{study} der im Kapitel zuvor implementierter Prototyp hinsichtlich seiner Usability für die Aktionen: Erstellung, Bearbeitung und Löschung eines
+Feedback, evaluiert. Dabei hat sich ergeben dass der entwickelt Prototyp für die Bearbeitung dieser Aufgaben eine hohe Usability aufweist jedoch in Eigenschaften welche in der Produktwahrnehmen eher 
+in den Bereich des Nutzungserlebens (engl. User Experience, kurz UX) zugeordnet werden deutliches Verbesserungspotenzial aufweist. 
 
+Zudem wurden in diesem Kapitel für die Bearbeitung von Feedback, zwei unterschiedliche Darstellungsformen verglichen und festgestellt werden dass ich 
+die Darstellung der Feedback als Annotation auf den Produkten im Vergleich zu einer Listenansicht, zu mehr Zufriedenheit bei der Bearbeitung der Aufgabe führt daher besser eignet. 
 
+Abschließend wird in diesem Kapitel die Arbeit hinsichtlich aufgetretenen Herausforderungen, mögliche Verbesserungen erläutert sowie in einem Ausblick Erweiterungsmöglichkeiten vorgestellt.  
 
 \section{Kritischer Rückblick}
-TODO (Reflexion und Bewertung der Zielsetzung gegenüber erreichtem Ergebnis)
+
+Reflektierend betrachtend kann hinsichtlich der Zielsetzung dieser Arbeit gesagt werden dass diese mit der durchgeführten Nutzerstudie erreicht wurden.
+Jedoch gab es einige Schwächen in der Umsetzung welche in zukünftigen Arbeiten verbessert werden können. 
+
+Zu diesen zählen organisatorische Schwächen die sich auf folgende Punkte ausgewirkt hat:  
+
+\begin{itemize}
+\item{Für die Erarbeitung eines besser geeigneteren Lösung für die Überlagerung des physischen Produktes blieb nicht ausreichend Zeit eingeplant, sodass auf eine Lösung zurückgegriffen werden musste womit 
+die Überlagerung nicht optimal funktionierte.} 
+
+\item{Das Physische Produkt konnte für die Nutzerstudie nicht bereitgestellt werden. Dies hatte zufolge dass die Darstellung als Annotation ohne eine Überlagerung des physischen Produktes und Listenansicht ohne die Anwesenheit des physischen Produktes getestet werden musste.}
+\item{Für die Zeiterfassung zum Erfassen der Zeiten für die Aufgabenbearbeitung, wurde eine Lösung gewählt die zwar getestet wurde und als sichere Methode empfunden wurde, jedoch 
+keine elegante Lösung darstellte. Mit dieser Zeiterfassungsmethode musste bei jeder Iteration der Aufgabenbearbeitung die Anwendung neugestartet werden damit die Zeit für die nächste Aufgabe zurückgesetzt wurde.} 
+\end{itemize}
+
 
 \section{Ausblick}
-TODO
+
+Der entwickelte Prototyp kann in unterschiedliche Richtungen erweitert werden. Zum Einen können weitere im Kapitel \ref{conception_chapter} Abbildung \ref{img:sysstem_sketch} dargestellten Anforderungen implementiert 
+weden. Wie zum Beispiel die Behandlung von Überdeckung, wichtiger Produktteile oder Annotationen. Eine Lösung für das Filtern und die in Clustern zusammengefasste Darstellung  von Annotationen (siehe Beispiel auf Abbildung \ref{img:annotation_clutter}) auf dem Produkt. Es kann mit Hilfe der 
+auf den Endgeräten verfügbaren Sensoren, den Feedback weitere Informationen wie zum Beispiel Luftfeuchtigkeit, Helligkeit oder Bilder von den auswählten Stellen hinzugefügt werden. Dies würde die Aussagekraft der Feedback mit der Stärke der Darstellungsform Embedded Visualization nämlich, Eigenschaften aus der unmittelbaren Umgebung wahrnehmen zu können bis zu einem bestimmten Grad stärken. 
+
+Zum Anderen kann der Prototyp wie auf dem von \citeauthor{Kirschner2012} auf Abbildung \ref{img:objekt_centered_ipi} vorgestellten Konzept der objektzentrierten Ansatz der IPI Umsetzung, erweitert werden.
+Die Grundlage für den Datenaustausch wurde mit der Erarbeitung eines Datentyp für Feedback und dessen Serialisierung und Deserialisierung erreicht. Im weiteren Schritt können diese Daten zwischen mehren
+Clients ausgetauscht und synchronisiert werden sodass wie auf Abbildung \ref{img:objekt_centered_ipi} vorgestellt eine Informationsausgleich stattfindet und eine asynchrone Kommunikation über Feedback ermöglicht wird. 
+
+Zudem kann eine Schnittstelle für erarbeitet werden womit Hersteller wie auf diese diese Daten in strukturierter und gewichteter Form zugreifen und Erkenntnisse für neue Produktgenerationen gewinnen können.  
+
+
+
+

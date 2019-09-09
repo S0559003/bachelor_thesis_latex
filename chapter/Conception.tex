@@ -257,7 +257,7 @@ In dieser Ansicht kann der Nutzer das Produkt durch das Bildschirm des Smartphon
 	\centering
 	\includegraphics[width=.7\textwidth]{resources/conception/lowfi_browseOnProduct.jpg}
 	\caption{Papierprototyp - Ansicht zum Suchen und Finden von Feedbacks auf dem Produkt. \\Quelle: Eigene Darstellung}
-	\label{img:sysstem_sketch}
+	\label{img:lowfibowseonproduct}
 \end{figure}
 
 In der auf Abbildung \ref{img:ppcreate} gezeigten Ansicht, befindet sich die Anwendung in einem Modus in welcher eine Stelle oder Produktteil für die Erstellung eines neuen Feedbacks ausgewählt werden kann. 
@@ -407,9 +407,7 @@ Nachfolgend werden die Klassen näher erläutert:
 	\vspace{1mm}\textbf{FeedbackObject}  & Diese Klasse wird als Skript an eine Annotation welches in Unity als ein Prefab angelegt wird hinzugefügt und hat zwei Aufgaben. Sie einhält eine Id über die ein Annotation auf dem Produkt (eine Instanz in der View) eindeutig identifizierbar gemacht wird. Diese Id wird mit der Id aus dem Datenmodel \ref{img:entitytype} übereinstimmen. Des weiteren wird dieses Skript Methoden für die Steuerung der Annotation verfügen (z. B. zum Nutzer rotieren, sich vom Produkt entfernen)\\
 	\vspace{1mm}\textbf{FeedListItem} & Diese Klasse wird als ein Skript an jede Listeneintrag welche ein Feedback in der Listenansicht (Abbildung \ref{fig:pplist}) repräsentieren angefügt. Diese Klasse verfügt über Methoden für die Enfernung des Listeneintrags aus der Listenansicht oder die Aktualisierung. \\
 	\vspace{1mm}\textbf{UIManager} & Enthält Methoden für die Entgegennahme von Ereignisse die von den Ansichten kommen (SelectionManager, FormManager) sowie die Logik um auf diese Ereignisse zu reagieren. Sie verfügt über Methoden wie das Anlegen eines neuen Feedbacks über die Nutzung von Methoden die der FeedbackStorageManager zur Verfügung stellt, sowie das Platzieren eines Feedbacks oder die Platzierung aller Feedbacks aus der Datenbank auf dem Produkt. \\
-	\vspace{1mm}\textbf{FeedbackStorageManager} & Diese Klasse stellt Methoden für den Zugriff auf die Datenbank (FeedbackDB) zur verfügung und enthält Methoden zum anlegen, verändern oder löschen von Feedback aus der Datenbank. Sie enthält zudem Methoden für die Serialisierung\footnote{Serialisierung beschreiben -.-)} und Deserialisierung\footnote{Deserialisierung beschreiben -.-} der Daten zum laden und lesen aus einer Datei zur Verfügung. \\
+	\vspace{1mm}\textbf{FeedbackStorageManager} & Diese Klasse stellt Methoden für den Zugriff auf die Datenbank (FeedbackDB) zur verfügung und enthält Methoden zum anlegen, verändern oder löschen von Feedback aus der Datenbank. Sie enthält zudem Methoden für die Serialisierung\footnote{Serialisierung  beschreibt die Umwandulung eines Objektes in eine Folge von Bytes. Quelle: https://www.it-visions.de/glossar/alle/3468/Deserialisierung.aspx [Letzter Zugriff: 09.09.2019]} und Deserialisierung\footnote{Deserialisierung beschreiben die den Vorgang bei welcher aus eienr Folge von Bystes ein bestimmtes Objekt aus der objektorientierten Programmierung erzeugt wird. Quelle: https://www.it-visions.de/glossar/alle/3468/Deserialisierung.aspx [Letzter Zugriff: 09.09.2019]} der Daten zum laden und lesen aus einer Datei zur Verfügung. \\
 	\vspace{1mm}\textbf{FeedbackDB} & Kapselt die Daten welche in Form einer Liste gespeichert werden. \\
 	\vspace{1mm}\textbf{Feedback} & Repräsentiert ein Feedback as Datenmodel im System.\\
 \end{tabularx}
-
-

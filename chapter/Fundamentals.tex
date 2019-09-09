@@ -70,18 +70,18 @@ dieser Technik, je nach Auflösung der Kamera die reale Welt, mit verringerter Q
 \section{Objekterkennung und -verfolgung}
 
 % Definition von Objekterkennung und Verfolgung
-\cite[S.~85]{DieterSchmalstieg2016}Objekterkennung und- Verfolgung beschreibt den Vorgang für die kontinuierliche Bestimmung der Lage und Ausrichtung einer Entität im drei dimensionalen Raum. 
-Entitäten können hierbei der Kopf des Nutzers, Augen, ein AR Gerät wie z. B. die Kamera oder ein physisches Objekt in der Umgebung des Nutzers sein. 
-Im folgenden werden drei Begriffe erläutert welche oft im Zusammenhang mit Objekterkennung und Verfolgung verwendet werden:
+\cite[S.~85]{DieterSchmalstieg2016}Objekterkennung und -verfolgung beschreibt den Vorgang für die kontinuierliche Bestimmung der Lage und Ausrichtung einer Entität im dreidimensionalen Raum. 
+Entitäten können hierbei der Kopf des Nutzers, Augen, ein AR Gerät wie z. B. eine Kamera oder ein physisches Objekt in der Umgebung des Nutzers sein. 
+Im Folgenden werden drei Begriffe erläutert welche oft im Zusammenhang mit Objekterkennung und Verfolgung verwendet werden:
  
-\textit{Kallibrierung (engl. Calibration):} Der Vorgang für den Vergleich von Messungen zweier Sensor Geräten wie z. B. eine Kamera. Wobei die Messungen eines Sensors einen Richtwert darstellen gegen die, die
-Messungen eines anderen (zu kalibrierenden) Gerätes überprüft und angepasst werden. Durch die Kalibrierung werden Parameter bestimmt durch welche Messwerte des zu kalibrierenden Gerätes einer bekannten 
+\textit{Kallibrierung (engl. Calibration):} Der Vorgang für den Vergleich von Messungen zweier Sensorgeräten wie z. B. Kameras. Wobei die Messungen eines Sensors einen Richtwert darstellen gegen die, die
+Messungen eines anderen (zu kalibrierenden) Gerätes überprüft und angepasst werden. Durch die Kalibrierung werden Parameter bestimmt, durch welche Messwerte des zu kalibrierenden Gerätes einer bekannten 
 Maßstab (en. Scale) angepasst werden. 
 
-\textit{Verfolgung (engl. Tracking)}: Beschreibt die kontinuierliche Abtastung bzw. Messung der Umgebung. Dies wird benötigt für die dynamische Registrierung von Objekten im drei dimensionalen Raum. 
+\textit{Verfolgung (engl. Tracking)}: Beschreibt die kontinuierliche Abtastung bzw. Messung der Umgebung. Dies wird benötigt für die dynamische Registrierung von Objekten im dreidimensionalen Raum. 
 
-\textit{Registrierung (engl. Registration:)} Anpassung der Koordinatensysteme der virtuellen und realen Objekte. Für die Schaffung eines gemeinsamen Koordinatensystems wird die Kalibrierung des AR Systems 
-ausgeführt. Dieser Vorgang wird als statische Registrierung bezeichnet (engl. Static registration) und geschieht zu einem Zeitpunkt wo sich der Nutzer bzw. die Kamera nicht bewegt. Bewegt sich der 
+\textit{Registrierung (engl. Registration):} Anpassung der Koordinatensysteme der virtuellen und realen Objekte. Für die Schaffung eines gemeinsamen Koordinatensystems wird die Kalibrierung des AR Systems 
+ausgeführt. Dieser Vorgang wird als statische Registrierung bezeichnet (engl. Static registration) und geschieht zu einem Zeitpunkt, wo sich der Nutzer bzw. die Kamera, nicht bewegt. Bewegt sich der 
 Nutzer bzw. die Kamera wird dynamisches Tracking eingesetzt. 
 
 Abbildung \ref{img:komponentsoftracking} veranschaulicht das Zusammenwirken dieser drei Komponente:
@@ -93,41 +93,41 @@ Abbildung \ref{img:komponentsoftracking} veranschaulicht das Zusammenwirken dies
 	\label{img:komponentsoftracking}
 \end{figure}
 
-In AR wird für das Tracking der Umgebung unterschiedliche Sensoren verwendet. Dabei wird zwischen nicht visuellen Sensoren sowie visuellen bzw. optischen Sensoren  unterschieden. 
+In AR werden für das Tracking der Umgebung unterschiedliche Sensoren verwendet. Dabei wird zwischen nicht visuellen Sensoren sowie visuellen bzw. optischen Sensoren  unterschieden. 
 
-\textit{Nicht visuelle Sensoren:}  
+\textit{Nicht-visuelle Sensoren:}  
 
-\textit{GPS (kurz für Global Positioning System):} Mit GPS wird die Positionsbestimmung ermittelt indem Signale an mehrere Satelliten übertragen werden. Die Position des mobilen Endgerätes durch Trilateration zu berechnen ist 
-möglich wenn Signale von vier oder mehr Satelliten deren aktuelle Postion im Erdumlaufbahn bekannt sind empfangen werden. Die Genauigkeit dieser Messung variiert stark zwischen 1m bis 100m je nach Anzahl verfügbarer Satelliten. 
-\cite[S.~2]{Arora2017}\cite[S.~100]{DieterSchmalstieg2016}Diese Messmethode eignet sich für Positionsbestimmung in Innenräumen nicht besonders gut, da Signale an den Wänden reflektiert werden. 
-Höhere Genauigkeit kann mit  DGPS ( kuzr für Differential Global Positioning System) erzielt werden. Die Messwerte werden durch die zusätzliche Übertragung eines Signales welches Korrekturwerte beinhalten, von den Satelliten an eine Basisstation auf der Erde verbessert. \\
+\textit{GPS (kurz für Global Positioning System):} Mit GPS wird die Positionsbestimmung ermittelt, indem Signale an mehrere Satelliten übertragen werden. Die Position des mobilen Endgerätes durch Trilateration zu berechnen ist 
+möglich, wenn Signale von vier oder mehr Satelliten und deren aktuelle Postionen in der Erdumlaufbahn bekannt sind, empfangen werden. Die Genauigkeit dieser Messung variiert stark von 1m bis 100m, je nach Anzahl verfügbarer Satelliten. 
+\cite[S.~2]{Arora2017}\cite[S.~100]{DieterSchmalstieg2016} Diese Messmethode eignet sich für Positionsbestimmung in Innenräumen nicht besonders gut, da Signale an den Wänden reflektiert werden. 
+Höhere Genauigkeit kann mit  DGPS ( kurz für Differential Global Positioning System) erzielt werden. Die Messwerte werden hierbei durch die zusätzliche Übertragung eines Signales welches Korrekturwerte beinhalten, von den Satelliten an eine Basisstation auf der Erde verbessert. \\
 
-\textit{Drahtlose Netze:}\cite[S.~101]{DieterSchmalstieg2016} Netzwerkinfrastrukturen wie WLAN (kurz für Wireless Local Area Network), Bluetooth und Beacons sowie Signale von Mobilfunksendemasten können genutzt werden um die Position des mobilen Endgerätes zu bestimmen. 
-Da GPS, WLAN sowie Mobilfunk auf mobilen Endgeräten in der Regel zur gleichen Zeit verfügbar sind, werden meist Informationen dieser drei Sensoren kombiniert eingesetzt um die Abdeckung, Geschwindigkeit sowie die
+\textit{Drahtlose Netze:}\cite[S.~101]{DieterSchmalstieg2016} Netzwerkinfrastrukturen wie WLAN (kurz für Wireless Local Area Network), Bluetooth und Beacons sowie Signale von Mobilfunksendemasten können genutzt werden, um die Position des mobilen Endgerätes zu bestimmen. 
+Da GPS, WLAN sowie Mobilfunk auf mobilen Endgeräten in der Regel zur gleichen Zeit verfügbar sind, werden meist Informationen dieser drei Sensoren kombiniert eingesetzt, um die Abdeckung, Geschwindigkeit sowie die
 Genauigkeit der Positionsbestimmung zu verbessern. 
 
 \textit{Magnetometer:}\cite[S.~102]{DieterSchmalstieg2016} Mit dem Magnetometer wird die Ausrichtung des mobilen Endgerätes relativ zum magnetischen Norden ermittelt. 
 
-\textit{Gyroskop: } Der Gyroskop liefert Informationen über die Rotation des mobilen Endgerätes. 
+\textit{Gyroskop: } Das Gyroskop liefert Informationen über die Rotation des mobilen Endgerätes. 
 
-\textit{Beschleunigungsmesser (engl. Linear Accelerometer)}:\cite[S.~104]{DieterSchmalstieg2016} Mit Hilfe des Accelerometer kann relativ zu einer Ausgangsposition die aktuelle Position ermittelt werden. Zudem kann in Kombination mit einem Magnetometer
+\textit{Beschleunigungsmesser (engl. Linear Accelerometer)}:\cite[S.~104]{DieterSchmalstieg2016} Mit Hilfe des Accelerometers kann, relativ zu einer Ausgangsposition, die aktuelle Position ermittelt werden. Zudem können in Kombination mit einem Magnetometer
 die Rotation sowie die Position ermittelt werden. 
 
-\textit{Optische\ Visuelle Sensoren:}\\
+\textit{Optische\ visuelle Sensoren:}\\
 
-Zu den visuellen Sensoren in mobilen Endgeräten zählt die Kamera. Dieses liefert Bildinformationen. Nach aktuellem Stand der Technik besitzen einige Smartphones auch bereits Kameras welche Informationen über die Tiefe liefern. Diese Informationen werden in Computer Vision Algorithmen für das Tracking und das Registrieren von virtuellen Objekten in die reale Welt genutzt. Mit mobilen Endgeräten wird eine Kombination aus nicht visuellen und visuellen Sensoren verwendet um ein optimales Tracking zu ermöglichen.
+Zu den visuellen Sensoren in mobilen Endgeräten zählt die Kamera. Diese liefert Bildinformationen. Nach aktuellem Stand der Technik besitzen einige Smartphones auch bereits Kameras, welche Informationen über die Tiefe liefern. Diese Informationen werden in Computer Vision Algorithmen für das Tracking und das Registrieren von virtuellen Objekten in die reale Welt genutzt. Mit mobilen Endgeräten wird eine Kombination aus visuellen und nicht visuellen Sensoren verwendet, um ein optimales Tracking zu ermöglichen.
 
 % Oft wird eine Kombination von nicht visuellen sowie visuellen Sensoren eingesetzt um optimale Ergebnisse zu erzielen. 
 
-Die optischen Trackingverfahren unterteilen sich in \textit{Modellbasierte} und \textit{Modellfreies} Trackingverfahren unterteilen. 
+Die optischen Trackingverfahren unterteilen sich in \textit{modellbasierte} und \textit{modellfreie} Trackingverfahren unterteilen. 
 
-Bei Modellbasierten Trackingverfahren wird vor dem Tracking für die Registrierung, ein Modell festgelegt welches erkannt werden soll um virtuelle Objekte relativ zum festgelegten Modell zu platzieren. 
-Hierbei kann ein Modell ein Marker oder ein Bild mit einzigartigen Bildmerkmalen aus der natürlichen Umgebung des Nutzers (engl. Natural Features) sein. 
+Bei modellbasierten Trackingverfahren wird vor dem Tracking für die Registrierung ein Modell festgelegt, welches erkannt werden soll, um virtuelle Objekte relativ zum festgelegten Modell zu platzieren. 
+Hierbei kann ein Modell, ein Marker oder ein Bild mit einzigartigen Bildmerkmalen aus der natürlichen Umgebung des Nutzers (\textit{engl. Natural Features}) sein. 
 
-Marker sind für das Tracking erstellte (quadratische oder kreisförmige) Bilder oder Barcodes. Diese sind mit besonders ausfälligen und kontrastreichen Mustern gestaltet. Alternativ zu Markern können Bilder aus der natürlichen Umgebung des Nutzers verwendet werden.\cite{Cukovic2015} Bei diesen Verfahren werden Algorithmen verwendet wie zum Beispiel SIFT \footnote{Scale-invariant feature transform}, SURF \footnote{(Scale Invariant Feature Transform} oder Ferns um einzigartige Bildmerkmale aus Video während dem Tracking und dem vorher festgelegten Bild zu vergleichen.
+Marker sind für das Tracking erstellte (quadratische oder kreisförmige) Bilder oder Barcodes. Diese sind mit besonders auffälligen und kontrastreichen Mustern gestaltet. Alternativ zu Markern können Bilder aus der natürlichen Umgebung des Nutzers verwendet werden.\cite{Cukovic2015} Bei diesen Verfahren werden Algorithmen wie SIFT \footnote{Scale-invariant feature transform}, SURF \footnote{(Scale Invariant Feature Transform} oder Ferns verwendet, um einzigartige Bildmerkmale aus dem Video während des Tracking und dem vorher festgelegten Bild zu vergleichen.
 
-Neben Bilder können bei modellbasierten Trackingverfahren auch dreidimensionale CAD Modelle von physischen Objekten verwendet werden. \cite{Lowney2016} Wie auf Abbildung \ref{img:modellbased_categories} zu sehen ist, lassen sich Methoden für das Tracking von 3D Modellen in zwei Kategorien unterteilen. In rekursives Tracking sowie in Tracking by Detection. Bei Recursiven Tracking Verfahren wird die vorherige Pose \footnote{Position und Ausrichtung des Modells} genutzt um die neue Pose abzuschätzen. Tracking bei Detection Verfahren sind in der Lage die neue Pose des Modells zu berechnen, ohne die vorherige Pose zu kennen. Aufgrund ihrer ihre rekursiven 
-Funktionsweise benötigen Recursive Tracking Methoden jedoch weniger Rechenleistung als Tracking by Detection Methoden. 
+Neben Bildern können bei modellbasierten Trackingverfahren auch dreidimensionale CAD Modelle von physischen Objekten verwendet werden. \cite{Lowney2016} Wie auf Abbildung \ref{img:modellbased_categories} zu sehen ist, lassen sich Methoden für das Tracking von 3D Modellen in zwei Kategorien unterteilen, nämlich in rekursives Tracking sowie in Tracking by Detection. Bei rekursiven Tracking-Verfahren wird die vorherige Pose\footnote{Position und Ausrichtung des Modells} genutzt, um die neue Pose abzuschätzen. Tracking bei Detection Verfahren sind in der Lage die neue Pose des Modells zu berechnen, ohne die vorherige Pose zu kennen. Aufgrund ihrer rekursiven 
+Funktionsweise benötigen rekursive Tracking-Methoden jedoch weniger Rechenleistung als Tracking by Detection Methoden. 
 
 \begin{figure}[H]
 	\centering
@@ -136,13 +136,13 @@ Funktionsweise benötigen Recursive Tracking Methoden jedoch weniger Rechenleist
 	\label{img:modellbased_categories}
 \end{figure} 
 
-Modellfreie Tracking Methoden benötigen keine vorher festgelegten Modelle zum platzieren der virtuellen Objekte in die reale Umgebung. \cite[S.~106]{DieterSchmalstieg2016} Das Modell wird während dem Trackingvorgang 
-erstellt. Dadurch dass im Voraus kein Modell für das Tracking erstellt werden muss, sind modellfreie Trackingmethoden flexibler in der Nutzung. Da die Modelle ausgehend vom Startpunkt während dem Trackinvorgang 
-erstellt werden, kann die zu realen Objekten in der Umgebung relative Ausrichtung der virtuelle Objekte nur spontan (zur Laufzeit) bestimmt werden. 
+Modellfreie Tracking-Methoden benötigen keine vorher festgelegten Modelle zum Platzieren der virtuellen Objekte in die reale Umgebung. \cite[S.~106]{DieterSchmalstieg2016} Das Modell wird während des Trackingvorgangs 
+erstellt. Durch die Tatsache dass im Voraus kein Modell für das Tracking erstellt werden muss, sind modellfreie Trackingmethoden flexibler in der Nutzung. Da die Modelle ausgehend vom Startpunkt während des Trackinvorganges 
+erstellt werden, kann die zu realen Objekten in der Umgebung relative Ausrichtung der virtuellen Objekte nur spontan (zur Laufzeit) bestimmt werden. 
 
-Mit einigen Frameworks können modellfreie wie modellbasierte Verfahren kombiniert werden. So kann mit einer modellbasierten Verfahren die Ausrichtung der virtuellen Objekte, relativ zu einer vorher festgelegten Modell festgelegt werden. Mithilfe von modellfreies Tracking kann das Tracking aufrecht erhalten werden auch wenn die Kamera, das Modell welches für das modellbasierte Verfahren festgelegt wurde, nicht oder nur teilweise im Sichtfeld hat. 
+Mit einigen Frameworks können modellfreie mit modellbasierten Verfahren kombiniert werden. So kann mit einem modellbasierten Verfahren die Ausrichtung der virtuellen Objekte, relativ zu einem vorher festgelegten Modell festgelegt werden. Mithilfe von modellfreiem Tracking kann das Tracking aufrecht erhalten werden, auch wenn die Kamera das Modell, welches für das modellbasierte Verfahren festgelegt wurde, nur teilweise oder auch gar nicht im Sichtfeld hat.
 
-Zu den modellfreien Methoden zählt das PTAM Verfahren (kurz für  Parallel Tracking and Mapping), welches an das aus der Robotik stammende Verfahren SLAM (kurz für Simultaneous Localization and Mapping) angelent ist. \cite{Klein2007} Mit PTAM wird während des Trackings eine Karte der Umgebung des Nutzers aus einzigartigen Bildpunkten erstellt. Bei diesem Verfahren werden zwei sepearte Threads \footnote{Leichtgewichtiges Prozess womit Programmteile parallel oder pseudoparallel nebenläufig ausgeführt werden können.} eingesetzt. Ein Thread übernimmt die Aufgabe des Trackings. Dieser läuft wird schnell ausgeführt (mit z. B. 30 Hz). Ein zweiter Thread wird für für das Mapping eingesetzt. Dieser wird langsamer ausgeführt und ist mit dem Tracking Thread über sogenannte Keyframes verbunden. Keyframes sind Bilder aus dem Video. Neue Keyframes werden aufgenommen wenn sich das aktuelle Videobild stark von den vorhandenen Keyframes unterscheidet. Ein weiter Kriterium für die Aufnahme eines neuen Keyrames ist, dass dieses eine bestimmte Qualität vorweisen muss (z. B. nicht durch zu starke Bewegung verschwommen ist). Diese Methode eignet sich besonders gut für natürliche bzw. schnelle Kamerabewegungen.
+Zu den modellfreien Methoden zählt das PTAM-Verfahren (kurz für  Parallel Tracking and Mapping), welches an das aus der Robotik stammende Verfahren SLAM (kurz für Simultaneous Localization and Mapping) angelehnt ist. \cite{Klein2007} Mit PTAM wird während des Trackings aus einzigartigen Bildpunkten eine Karte der Umgebung des Nutzers erstellt. Bei diesem Verfahren werden zwei seperate Threads \footnote{Leichtgewichtiger Prozess, womit Programmteile parallel oder pseudoparallel nebenläufig ausgeführt werden können.} eingesetzt. Ein Thread übernimmt die Aufgabe des Trackings. Dieser läuft und wird häufiger ausgeführt (mit z. B. 30 Hz). Ein zweiter Thread wird für für das Mapping eingesetzt. Dieser wird seltener ausgeführt und ist mit dem Tracking-Thread über sogenannte Keyframes verbunden. Keyframes sind Bilder aus dem Video. Neue Keyframes werden aufgenommen, wenn sich das aktuelle Videobild stark von den vorhandenen Keyframes unterscheidet. Ein weiteres Kriterium für die Aufnahme eines neuen Keyframes ist, dass dieses eine bestimmte Qualität vorweisen muss (z. B. keine Unschärfe durch zu starke Bewegung). Diese Methode eignet sich besonders gut für natürliche bzw. schnelle Kamerabewegungen.
 
 \begin{figure}[H]
 	\centering
@@ -151,7 +151,8 @@ Zu den modellfreien Methoden zählt das PTAM Verfahren (kurz für  Parallel Trac
 	\label{img:overviewTrackingMethods}
 \end{figure}
 
-Abbildung \ref{img:overviewTrackingMethods} zeigt ein Überblick über Trackingverfahren und macht eine grobe Einordnung für die Eignung hinsichtlich Innen und Außenbereichen.
+Abbildung \ref{img:overviewTrackingMethods} zeigt einen Überblick über Trackingverfahren und trifft eine grobe Einordnung für die Eignung hinsichtlich Innen-und Außenbereichen.
+Diese Abbildung muss mit der Anmerkung ergänzt werden dass interia bassierende Sensoren auch im innen-Bereichen eingesetzt werden. 
 
 \section{Situated Visualization}
 \subsection{Situated Visualization - Definition}
@@ -227,30 +228,30 @@ Embedded.
 	\label{img:Illustration_situated_embedded_visualization}
 \end{figure}
 
-Mit Hilfe der Illustration in Abbildung \ref{img:Illustration_situated_embedded_visualization} zeigen \cite{Willett2017} am Beispiel von Produkten, 
-welche in einem Supermarkt in einem Regalen platziert sind, die Eigenschaften unterschiedlicher Visualisierungen und die damit verbundenen Vor- und Nachteile der jeweiligen Visualisierungsform. 
+Mit Hilfe der Illustration in Abbildung \ref{img:Illustration_situated_embedded_visualization} zeigen \citeauthor{Willett2017} am Beispiel von Produkten, 
+welche in einem Supermarkt in einem Regal platziert sind, die Eigenschaften unterschiedlicher Visualisierungen und die damit verbundenen Vor- und Nachteile der jeweiligen Visualisierungsform. 
 
 Der Vorteil von Non-Situated Visualisierungen (Abbildung \ref{img:Illustration_situated_embedded_visualization} ganz links) ist, dass diese flexibler hinsichtlich Standort 
-der Nutzung und Hardwareanforderungen gestaltet werden können. Der Betrachter kann sich in dieser Form der Visualisierung räumlich getrennt von den Produkten befinden und die Visualisierung 
-auf einem beliebigen Display wie zum Beispiel einem Computerbildschirm, auf dem Display eines Smartphones oder Tablett ansehen. Der Nachteil dieser Art der Visualisierung ist jedoch dass kein 
+der Nutzung und Hardwareanforderungen gestaltet werden können. Der Betrachter kann sich bei dieser Form der Visualisierung räumlich getrennt von den Produkten befinden und die Visualisierung 
+auf einem beliebigen Display, wie zum Beispiel einem Computerbildschirm, auf dem Display eines Smartphones oder Tablet ansehen. Der Nachteil dieser Art der Visualisierung ist jedoch, dass kein 
 direkter Bezug zwischen den angezeigten Informationen und den physischen Produkten bzw. Produktteilen hergestellt werden kann. 
 
-Am Beispiel von (Abbildung \ref{img:Illustration_situated_embedded_visualization} ganz links), wäre dem Betrachter, ohne die Unterstützung einer Beschreibung der Lage wo sich die Produkte im 
-Supermarkt befinden oder mit Hilfe einer Karte, nicht möglich, eine Beziehung zwischen der, physischen Platzierung der Produkte im Verkaufsraum und deren Umsatz herzustellen.
+Am Beispiel von (Abbildung \ref{img:Illustration_situated_embedded_visualization} ganz links), wäre es dem Betrachter, ohne die Unterstützung durch eine Beschreibung oder Karte der Lage der genauen Position der Produkte im Supermarkt, nicht möglich, eine Beziehung zwischen der, physischen Platzierung der Produkte im Verkaufsraum und deren Umsatz herzustellen.
 
-Situated Visualization ermöglicht dem Betrachter, Produkte bzw. Produktteile und Visualisierungen zu diesen, zur gleichen Zeit betrachten zu können. Dies bring den Vorteil dass eine Beziehung 
+Situated Visualization ermöglicht dem Betrachter, Produkte bzw. Produktteile und Visualisierungen zu diesen zur gleichen Zeit betrachten zu können. Dies bringt den Vorteil, dass eine Beziehung 
 zwischen Lage und Ausrichtung der Produkte bzw. Produktteile und den visualisierten Informationen hergestellt werden kann. Diese Form der Visualisierung erfordert jedoch, dass sich 
-der Betrachter räumlich nahe am Produkt befindet und die Visualisierung auf einem mobilen Endgerät anzeigt wird.
+der Betrachter in der Nähe des Produktes befindet und die Visualisierung auf einem mobilen Endgerät anzeigt wird.
 
-Embedded Visualization ermöglichen dem Betrachter, die Visualisierung der Daten unmittelbar an den jeweiligen Produkten bzw. Produktteilen zu betrachten ohne den Blick von diesen abwenden zu müssen. 
-Dies bringt den Vorteil dass der Betrachter während er die Visualisierung betrachtet, seinen Blick nicht vom Produkt bzw. Produktteil abwenden muss und Informationen zur direkten Umgebung des Produktes bzw. Produktteiles wahrnehmen kann. Diese Form der Visualisierung erfordert dass sich der Betrachter vor den entsprechenden Produktteilen befindet und Ausgabetechniken verwendet werden, welche die Informationen unmittelbar in der Nähe der 
+Embedded Visualization ermöglicht dem Betrachter, die Visualisierung der Daten unmittelbar an den jeweiligen Produkten bzw. Produktteilen zu betrachten, ohne den Blick von diesen abwenden zu müssen. 
+Dies bringt den Vorteil, dass der Betrachter, während er die Visualisierung betrachtet, seinen Blick nicht vom Produkt bzw. Produktteil abwenden muss und Informationen zur direkten Umgebung des Produktes bzw. Produktteiles wahrnehmen kann. Diese Form der Visualisierung erfordert, dass sich der Betrachter vor den entsprechenden Produktteilen befindet und Ausgabetechniken verwendet werden, welche die Informationen unmittelbar in der Nähe der 
 Produktteile anzeigen (z. B. mit AR).
 
-Am Beispiel von (Abbildung \ref{img:Illustration_situated_embedded_visualization} zweite von rechts) wird dem Betrachter ermöglicht, Informationen zur unmittelbaren Umgebung der Produkte (zum Beispiel eine zu schwache Beleuchtung, einen unangenehm riechenden Geruch, ein Windzug, usw.) wahrzunehmen, während er die Visualisierung (welches ihm zum Beispiel zeigen könnte dass der Umsatz für diese Produkte während der vergangenen Monate zurück gegangen ist) zu diesen Produkten unmittelbar an den Produkten betrachtet.  
+Am Beispiel von (Abbildung \ref{img:Illustration_situated_embedded_visualization} zweite von rechts) wird dem Betrachter ermöglicht, Informationen zur unmittelbaren Umgebung der Produkte (zum Beispiel eine zu schwache Beleuchtung, einen unangenehmen Geruch, einen Windzug, usw.) wahrzunehmen, während er die Visualisierung (welche ihm beispielsweise eine Information über die rückläufigen Umsätze des Produktes in den vergangenen Monaten zeigt) zu diesen Produkten unmittelbar an den Produkten betrachtet.  
 
 %Facsimiles
-\cite{Willett2017}Eine Möglichkeit, um Daten im Kontext zu physischen Objekten zu visualisieren, ist auch über die Verwendung von so genannten Faksimiles möglich. Diese sind detailgetreue, skalierbare Nachbildungen von Objekten, oder eine Instanz eines Objektes, welche durch eine Klasse oder ein Modell klar definiert ist. Ein Faksimile wird für gewöhnlich verwendet, falls die Visualisierung am echten physischen Referenten schwierig bis unmöglich ist. Dies ist der Fall, wenn die physischen Referenten: Sehr klein (z.Bsp. Atome), sehr groß (z Bsp. ein Flussverlauf) zu weit entfernt (z. Bsp: auf einem anderen Planeten) oder sehr fragil bzw. wertvoll sind (z. B. ein Gemälde). 
-In solchen Begebenheiten kann die Nutzung von Faksimiles die räumliche Distanz zum betrachtenden Objekt reduzieren und es damit zugänglicher machen. Ein Faksimile kann wenn diese mit ausreichender detailgetreue nachgebildet ist wie der eigentlichen physische Referent betrachtet werden. Die Nutzung von Faksimiles verringert jedoch, die Möglichkeit für den Betrachter, den eigentlichen Referenten zu verändern oder wichtige Details zu betrachten. Dies kann durch den Einsatz von Telepräsenz \footnote{Telepräsenz ist eine Form von Videokonferenz und beschreibt die Möglichkeit, virtuell an entfernten Orten Präsent zu sein. Siehe: https://www.itwissen.info/Telepraesenz-telepresence.html [Zuletzt aufgerufen am: 28.06.2018]} kompensiert werden. 
+\cite{Willett2017}Eine Möglichkeit, um Daten im Kontext zu physischen Objekten zu visualisieren ist auch über die Verwendung von so genannten Faksimiles möglich. Diese sind detailgetreue, skalierbare Nachbildungen von Objekten oder eine Instanz eines Objektes, welche durch eine Klasse oder ein Modell klar definiert ist. Ein Faksimile wird für gewöhnlich in Fällen verwendet, in denen die Visualisierung am echten physischen Referenten
+schwierig bis unmöglich ist. Dies ist der Fall, wenn die physischen Referenten: Sehr klein (z.Bsp. Atome), sehr groß (z Bsp. ein Flussverlauf) zu weit entfernt (z. Bsp: auf einem anderen Planeten) oder sehr fragil bzw. wertvoll sind (z. B. ein Gemälde). 
+In solchen Begebenheiten kann die Nutzung von Faksimiles die räumliche Distanz zum betrachtenden Objekt reduzieren und es damit zugänglicher machen. Ein Faksimile kann wenn diese mit ausreichender Detailtreue nachgebildet ist gleichwertig zum eigentlichen physischen Referenten betrachtet werden.. Die Nutzung von Faksimiles verringert jedoch die Möglichkeit für den Betrachter, den eigentlichen Referenten zu verändern oder wichtige Details zu betrachteten. Dies kann durch den Einsatz von Telepräsenz \footnote{Telepräsenz ist eine Form von Videokonferenz und beschreibt die Möglichkeit, virtuell an entfernten Orten Präsent zu sein. Siehe: https://www.itwissen.info/Telepraesenz-telepresence.html [Zuletzt aufgerufen am: 28.06.2018]} kompensiert werden. 
 
 
 \subsection{Situated Visualization - Techniken und Herausforderungen}
