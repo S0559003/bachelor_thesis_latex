@@ -1,54 +1,38 @@
 \chapter{Analyse} \label{anlayse_capter}
 
-In diesem Kapitel wird der Stand der Forschung zu Themen welche für diese Arbeit eine hohe Relevanz darstellen behandelt. Dazu zählen wie Annotationen in virtuellen Umgebungen, das Zeigen und Auswählen in AR sowie die Kundeniteration mit immersiven Methoden.
-
-\begin{comment}
-\section{Augmented Reality Frameworks}
-
-In diesem Abschnitt wird eine Übersicht über Augmented Reality Framework nach aktuellem Stand der Technik gegeben.
-
-%ARKit ARCore SLAM!
-Zum aktuellen Stand der Technik 
-
-%Vuforia, Wikitude... Marker, Natural Feature, 3dObject
-
-%Visionlib 3D Objekt spezialisiert. 
-
-%Unterschide 3D Objekt basiert Vuforia und visionlib: Vuforia - keine Objekte mit geringer geometrischen eigenschaften. Vuforia, bewegungsempfindlich. 
-
-%Vuforia kann mit ARCore oder ARKit kombiniert werden!
-\end{comment}
+In diesem Kapitel wird der Stand der Forschung zu Themen, welche für diese Arbeit eine hohe Relevanz darstellen, behandelt. Dazu zählen Annotationen in virtuellen Umgebungen, das Zeigen und Auswählen in Augmented Reality sowie die Kundeniteration mit immersiven Methoden.
 
 \section{Informationsdarstellung in virtuellen Umgebungen}\label{brand_abschnitt}
 
 Mit Anwendung des digitalen Prototypen sollen Feedback in Form von Annotationen auf dem physischen Produkt dargestellt werden. 
-In diesem Abschnitt werden Forschungen zu Annotationen in Virtuellen Umgebungen insbesondere der Usability-Aspekte dieser Darstellungsform näher betrachtet. 
+In diesem Abschnitt werden Forschungen zu Annotationen in virtuellen Umgebungen, insbesondere der Usability-Aspekten dieser Darstellungsform, näher betrachtet. 
 
 \citeauthor{Brandenburg2019} befasst sich in ihrer Arbeit mit unterschiedlichen Informationsdarstellungsformen in virtuellen Umgebungen.
-Sie vergleicht hierbei in einer Studie zwei unterschiedliche Darstellungsformen in einer CAVE \footnote{CAVE kurz für \textit{Cave Automatic Virtual Environment}, bezeichnet einen Raum in welcher drei bis 6 Wände Projektionsflächen sind und dem Nutzer durch das Tragen von Schutterbrillen ein Eindruck des Eintauchens in die dargestellte Szene ermöglicht wird. } hinsichtlich Usability-Aspekte für virtuelle Design-Review Prozesse in der virtuellen Produktentstehung. Dabei wird ein besonderer Fokus auf die Art der Aufgabe der Review-Teilnehmer gelegt.
+Sie vergleicht hierbei in einer Studie zwei unterschiedliche Darstellungsformen in einer CAVE \footnote{CAVE kurz für \textit{Cave Automatic Virtual Environment}, bezeichnet einen Raum in welcher drei bis 6 Wände Projektionsflächen sind und dem Nutzer durch das Tragen von Shutterbrillen ein Eindruck des Eintauchens in die dargestellte Szene ermöglicht wird. } hinsichtlich Usability-Aspekte für virtuelle Design-Review Prozesse in der virtuellen Produktentstehung. Dabei wird ein besonderer Fokus auf die Art der Aufgabe der Review-Teilnehmer gelegt.
 \cite[S.~48]{Brandenburg2019}
 
-Bei einer virtuellen Design-Review wird das 3D-Modelle eines Produktes bzw. verschiedene Ausführungen davon von einem interdisziplinären Reviewteam betrachtet um Entscheidungen zu treffen. 
-Herbei werden neben dem 3D-Modell des Produktes Informationen zum Produkt bzw. zu den einzelnen Produktteilen betrachtet welche für die Entscheidungsfindung relevant sind. \cite[S.~32]{Brandenburg2019}
+Bei einer virtuellen Design-Review wird das 3D-Modell eines Produktes bzw. verschiedene Ausführungen dessen von einem interdisziplinären Reviewteam betrachtet, um Entscheidungen zu treffen. 
+Hierbei werden neben dem 3D-Modell des Produktes Informationen zum Produkt bzw. zu den einzelnen Produktteilen betrachtet welche für die Entscheidungsfindung relevant sind. \cite[S.~32]{Brandenburg2019}
  
-In Anlehnung an \cite{Polys2004} \cite{Polys2007} identifiziert \citeauthor{Brandenburg2019} zwei unterschiedliche Aufgabentypen welche einen Einfluss auf die jeweiligen Darstellungsformen haben: Such und Vergleichsaufgaben. 
-Eine Suchaufgabe kann dabei z. B. folgende Frage sein: ``Wo ist der Motor?`` eine Vergleichsaufgabe hingegen: ``Was befindet sich im Kofferraum und wie wird es bezeichnet?``. \cite[S.~52]{Brandenburg2019}
+In Anlehnung an \cite{Polys2004} \cite{Polys2007} identifiziert \citeauthor{Brandenburg2019} zwei unterschiedliche Aufgabentypen, welche einen Einfluss auf die jeweiligen Darstellungsformen haben: Such- und Vergleichsaufgaben. 
+Eine Suchaufgabe kann dabei beispielsweise die Frage: ``Wo ist der Motor? `` eine Vergleichsaufgabe hingegen: ``Was befindet sich im Kofferraum und wie wird es bezeichnet? ``. \cite[S.~52]{Brandenburg2019}
 
-Annotationen welche nicht direkt am betreffenden Produktteil dargestellt werden sondern um das Produkt herum auf einer eigenen Ebene, führen zu mehr Genauigkeit, weniger Bearbeitungszeit und erhöhter Zufriedenheit bei der Lösung einer Suchaufgaben. Dies begründet sich dadurch dass Annotationen in dieser Anordnung nicht überdecken. Wogegen Annotationen welche direkt an den betreffenden Produktteile dargestellt werden, sich besser für Vergleichsaufgaben eignen. Dies begründet sich dadurch dass bei diesen Aufgaben eine Übertragungsleistung von bildlichen zur textuellen Information nötig ist. \cite[S.~52]{Brandenburg2019} 
+Annotationen, welche nicht direkt am betreffenden Produktteil dargestellt werden sondern auf einer eigenen Ebene um das Produkt herum, führen zu mehr Genauigkeit, weniger Bearbeitungszeit und erhöhter Zufriedenheit bei der Lösung einer Suchaufgabe. Dies begründet sich dadurch dass Annotationen in dieser Anordnung sich gegenseitig oder Teile vom Produkt nicht überdecken. m Gegensatz dazu eignen sich Annotationen, welche direkt an den betroffenen Produktteilen dargestellt werden, für Vergleichsaufgaben besser. Die Ursache dessen liegt in der nötigen Übertragungsleistung von bildlichen zu textuellen Informationen. \cite[S.~52]{Brandenburg2019} 
 
-In der Studie wurde neben der getrennten Darstellung von Text und Produktteil, als eine weitere unabhängige Variable die Darstellung mit oder ohne Verbindungslinie welches Annotation mit dem Produktteil 
+In der Studie wurde neben der getrennten Darstellung von Text und Produktteil, als eine weitere unabhängige
+Variable die Darstellung mit oder ohne Verbindungslinie welches Annotation mit dem Produktteil
 verbindet betrachtet. Abbildung \ref{img:uv} zeigt die evaluierten Darstellungsformen.
 
 \begin{figure}[H]
 	\centering 
 	\includegraphics[width=.6\textwidth]{resources/analyse/brandenburg_uv.png}
-	\caption{Darstellungsformen welche in der Studie evaluiert wurden. Quelle: \cite[S.~127]{Brandenburg2019}}
+	\caption{In der Studie evaluierte Darstellungsformen. Quelle: \cite[S.~127]{Brandenburg2019}}
 	\label{img:uv}
 \end{figure}
 
-Auf Abbildung 3.2 linke Seite, ist die getrennte Darstellung als Baumstruktur zu sehen. Die einzelnen Bauteile sind mit Verbindungslinien an Elternknoten welche eine Baugruppe bilden verbunden dargestellt. In der Studie wurde jeweils ein Begriff aus der Baumstruktur sowie ein Produktteil am Auto farblich grün hervorgehoben. 
+Auf Abbildung 3.2 linke Seite ist die getrennte Darstellung als Baumstruktur zu sehen. Die einzelnen Bauteile sind mit Verbindungslinien an Elternknoten, welche eine Baugruppe bilden, verbunden dargestellt. In der Studie wurde jeweils ein Begriff aus der Baumstruktur sowie ein Produktteil am Auto farblich grün hervorgehoben. 
 
-Abbildung 3.2 rechte Seite, zeigt die Darstellung als Annotation. Hier wurde die Begriffe welche zu einer Baugruppe gehören durch eine grüne Einrahmung der jeweiligen Annotation von den anderen 
+Abbildung 3.2 rechte Seite zeigt die Darstellung als Annotation. Hier wurden die Begriffe, welche zu einer Baugruppe gehören, durch eine grüne Einrahmung der jeweiligen Annotation von den anderen 
 Annotationen farblich hervorgehoben.  
 
 \begin{figure}[H]
@@ -63,21 +47,21 @@ Annotationen farblich hervorgehoben.
 		\includegraphics[width=.95\linewidth]{resources/analyse/annotation.png}
 		\label{fig:annotation}
 	\end{minipage}
-\caption{Unterschiedliche Darstellungsformen - Links: Darstellung als Baumstruktur getrennt vom Produkt. Quelle: \cite[S.~127]{Brandenburg2019} Rechts: Darstellung als Annotation, am jeweiligen Produktteil. Quelle: \cite[S.~128]{Brandenburg2019}}
+\caption{Unterschiedliche Darstellungsformen - Links: Darstellung als Baumstruktur getrennt vom Produkt. Quelle: \cite[S.~127]{Brandenburg2019} Rechts: Darstellung als Annotation am jeweiligen Produktteil. Quelle: \cite[S.~128]{Brandenburg2019}}
 \label{img:versuchAbbildung}
 \end{figure}
 
-Abbildung \ref{img:aufgabenbeschreibung} zeigt die Aufgabenstellungen welche von den Versuchspersonen gelöst werden mussten:
+Abbildung \ref{img:aufgabenbeschreibung} zeigt die Aufgabenstellungen, welche von den Versuchspersonen gelöst werden mussten:
 
 \begin{figure}[H]
 	\centering 
 	\includegraphics[width=.6\textwidth]{resources/analyse/brandenburg_aufgabentypen.png}
-	\caption{Aufgabenbeschreibungen - Suche und Vergleichsaufgaben. Quelle: \cite[S.~132]{Brandenburg2019}}
+	\caption{Aufgabenbeschreibungen - Such- und Vergleichsaufgaben. Quelle: \cite[S.~132]{Brandenburg2019}}
 	\label{img:aufgabenbeschreibung}
 \end{figure}
 
 Im Ergebnis dieser Studie konnten die Effekte beider Darstellungsformen auf die jeweiligen Aufgabentypen haben, welche von \citeauthor{Polys2007} in \cite{Polys2007} beschreiben werden, bestätigt werden.
-Des weiteren hat sich in dieser Studie herausgestellt dass Annotationen welche mit einer Verbindungslinie dargestellt werden welches Text mit entsprechendem Produktteil verbindet 
+Desweiteren hat sich in dieser Studie herausgestellt, dass Annotationen, welche mit einer Verbindungslinie dargestellt werden, welche Text mit dem entsprechenden Produktteil verbindet, 
 zur effizienteren Lösung der Aufgabe beitragen.Quelle: \cite[S.~135]{Brandenburg2019}
 
 \section{Zeigen und Auswählen in AR Benutzeroberflächen} \label{pointer_section}
@@ -97,7 +81,7 @@ Diese Teilaufgaben werden in \cite[S.~12]{Bowman1999} \cite[S.~150]{Bowman2011} 
 
 \begin{itemize}
 \item \textit{Andeutung der Selektion eines Objektes (engl. Indication of object).} Dem Nutzer wird die Möglichkeit gegeben, auf ein Objekt oder auf einen Bereich zu zeigen, welcher ausgewählt werden soll.
-\item \textit{Bestätigen der Auswahl (engl. Confirmation of selection} bzw. \textit{Indication to select)}.} Es werden Techniken zur Verfügung gestellt, mit denen der Nutzer seine Auswahl bestätigen kann. 
+\item \textit{Bestätigen der Auswahl (engl. Confirmation of selection} bzw. \textit{Indication to select)}. Es werden Techniken zur Verfügung gestellt, mit denen der Nutzer seine Auswahl bestätigen kann. 
 \item \textit{Rückmeldung (engl. Feedback).} Die Bestätigung der Auswahl wird vom System bestätigt. 
 \end{itemize}
 
